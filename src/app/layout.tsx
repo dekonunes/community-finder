@@ -6,9 +6,20 @@ import { Footer } from "@/components/footer";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Community Finder — Find services from your community in Sydney",
+  title: {
+    default: "Community Finder — Find services from your community in Sydney",
+    template: "%s | Community Finder",
+  },
   description:
     "Find GPs, accountants, lawyers, migration agents, childcare, and restaurants from your cultural community in Sydney, Australia.",
+  openGraph: {
+    title: "Community Finder",
+    description: "Find services from your cultural community in Sydney",
+    url: "https://communityfinder.com.au",
+    siteName: "Community Finder",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
