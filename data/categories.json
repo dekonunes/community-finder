@@ -1,0 +1,8 @@
+[
+  { "slug": "gp", "name": "GPs / Doctors", "icon": "🏥" },
+  { "slug": "accountant", "name": "Accountants", "icon": "📊" },
+  { "slug": "lawyer", "name": "Lawyers", "icon": "⚖️" },
+  { "slug": "migration-agent", "name": "Migration Agents", "icon": "✈️" },
+  { "slug": "childcare", "name": "Childcare", "icon": "👶" },
+  { "slug": "restaurant", "name": "Restaurants", "icon": "🍽️" }
+]
