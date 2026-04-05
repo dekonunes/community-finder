@@ -49,8 +49,12 @@ export default async function ProviderPage({ params }: { params: Promise<{ slug:
             <p className="mt-2 text-zinc-300">📍 {provider.address}</p>
           </div>
           <div className="flex flex-wrap gap-3">
-            <a href={`tel:${provider.phone}`} className="flex-1 rounded-lg bg-blue-600 py-3 text-center font-medium hover:bg-blue-500">📞 {provider.phone}</a>
-            <a href={`mailto:${provider.email}`} className="flex-1 rounded-lg border border-zinc-700 bg-zinc-800 py-3 text-center text-blue-400 hover:bg-zinc-700">📧 Email</a>
+            {provider.phone && (
+              <a href={`tel:${provider.phone}`} className="flex-1 rounded-lg bg-blue-600 py-3 text-center font-medium hover:bg-blue-500">📞 {provider.phone}</a>
+            )}
+            {provider.email && (
+              <a href={`mailto:${provider.email}`} className="flex-1 rounded-lg border border-zinc-700 bg-zinc-800 py-3 text-center text-blue-400 hover:bg-zinc-700">📧 Email</a>
+            )}
             {provider.website && (
               <a href={provider.website} target="_blank" rel="noopener noreferrer" className="flex-1 rounded-lg border border-zinc-700 bg-zinc-800 py-3 text-center text-blue-400 hover:bg-zinc-700">🌐 Website</a>
             )}

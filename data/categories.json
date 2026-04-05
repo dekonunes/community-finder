@@ -1,8 +1,20 @@
 [
   { "slug": "gp", "name": "GPs / Doctors", "icon": "🏥" },
+  { "slug": "dentist", "name": "Dentists", "icon": "🦷" },
+  { "slug": "dermatologist", "name": "Dermatologists", "icon": "🧴" },
+  { "slug": "cardiologist", "name": "Cardiologists", "icon": "❤️" },
+  { "slug": "endocrinologist", "name": "Endocrinologists", "icon": "🔬" },
+  { "slug": "obstetrician-gynaecologist", "name": "Obstetricians / Gynaecologists", "icon": "🤰" },
+  { "slug": "ophthalmologist", "name": "Ophthalmologists", "icon": "👁️" },
+  { "slug": "paediatrician", "name": "Paediatricians", "icon": "👶" },
+  { "slug": "psychiatrist", "name": "Psychiatrists", "icon": "🧠" },
+  { "slug": "psychologist", "name": "Psychologists", "icon": "💬" },
+  { "slug": "rheumatologist", "name": "Rheumatologists", "icon": "🦴" },
+  { "slug": "surgeon", "name": "Surgeons", "icon": "🔪" },
+  { "slug": "ent-surgeon", "name": "ENT Surgeons", "icon": "👂" },
   { "slug": "accountant", "name": "Accountants", "icon": "📊" },
   { "slug": "lawyer", "name": "Lawyers", "icon": "⚖️" },
   { "slug": "migration-agent", "name": "Migration Agents", "icon": "✈️" },
-  { "slug": "childcare", "name": "Childcare", "icon": "👶" },
+  { "slug": "childcare", "name": "Childcare", "icon": "🧒" },
   { "slug": "restaurant", "name": "Restaurants", "icon": "🍽️" }
 ]

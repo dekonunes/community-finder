@@ -28,5 +28,21 @@
   { "slug": "newtown", "name": "Newtown" },
   { "slug": "mascot", "name": "Mascot" },
   { "slug": "kingsford", "name": "Kingsford" },
-  { "slug": "randwick", "name": "Randwick" }
+  { "slug": "randwick", "name": "Randwick" },
+  { "slug": "kogarah", "name": "Kogarah" },
+  { "slug": "newcastle", "name": "Newcastle" },
+  { "slug": "darlinghurst", "name": "Darlinghurst" },
+  { "slug": "freshwater", "name": "Freshwater" },
+  { "slug": "camperdown", "name": "Camperdown" },
+  { "slug": "northbridge", "name": "Northbridge" },
+  { "slug": "petersham", "name": "Petersham" },
+  { "slug": "south-west-rocks", "name": "South West Rocks" },
+  { "slug": "tahmoor", "name": "Tahmoor" },
+  { "slug": "barangaroo", "name": "Barangaroo" },
+  { "slug": "north-nowra", "name": "North Nowra" },
+  { "slug": "dee-why", "name": "Dee Why" },
+  { "slug": "quakers-hill", "name": "Quakers Hill" },
+  { "slug": "miranda", "name": "Miranda" },
+  { "slug": "bronte", "name": "Bronte" },
+  { "slug": "melbourne", "name": "Melbourne" }
 ]
