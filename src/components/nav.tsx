@@ -3,7 +3,7 @@ import Link from "next/link";
 export function Nav() {
   return (
     <header className="border-b border-zinc-800 bg-zinc-950">
-      <div className="mx-auto flex max-w-5xl items-center justify-between px-4 py-3">
+      <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3">
         <Link href="/" className="text-lg font-bold">
           🌏 Community Finder
         </Link>

@@ -51,7 +51,7 @@ export default async function CommunityPage({ params }: { params: Promise<{ slug
           return (
             <section key={serviceSlug} className="mb-8">
               <h2 className="mb-4 text-lg font-semibold">{category?.icon} {category?.name}</h2>
-              <div className="grid gap-4 sm:grid-cols-2">
+              <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
                 {serviceProviders.map((p) => (<ProviderCard key={p.slug} provider={p} />))}
               </div>
             </section>
@@ -62,7 +62,7 @@ export default async function CommunityPage({ params }: { params: Promise<{ slug
       {upcomingEvents.length > 0 && (
         <section className="mt-12">
           <h2 className="mb-4 text-lg font-semibold">Upcoming Events</h2>
-          <div className="grid gap-4 sm:grid-cols-2">
+          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {upcomingEvents.map((e) => (<EventCard key={e.slug} event={e} />))}
           </div>
         </section>

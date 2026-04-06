@@ -17,6 +17,7 @@ export type Provider = {
   bio: string;
   address: string;
   photo: string | null;
+  instagram: string | null;
 };
 
 export type Category = {

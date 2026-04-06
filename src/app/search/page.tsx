@@ -32,7 +32,7 @@ export default async function SearchPage({
             <Link href="/search" className="mt-4 inline-block text-blue-400 hover:underline">Clear all filters</Link>
           </div>
         ) : (
-          <div className="grid gap-4 sm:grid-cols-2">
+          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {filtered.map((p) => (<ProviderCard key={p.slug} provider={p} />))}
           </div>
         )}

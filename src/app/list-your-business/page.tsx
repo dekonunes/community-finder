@@ -5,8 +5,8 @@ export const metadata: Metadata = {
   description: "Get your business listed on Community Finder. Reach customers from your cultural community in Sydney.",
 };
 
-const WHATSAPP_NUMBER = "61400000000";
-const EMAIL = "hello@communityfinder.com.au";
+const WHATSAPP_NUMBER = "61468445803";
+const EMAIL = "dekonunesss@gmail.com";
 
 const TEMPLATE_MESSAGE = encodeURIComponent(
   "Hi! I'd like to list my business on Community Finder.\n\n" +

@@ -4,391 +4,521 @@
     "name": "Dr Ricardo Deveza",
     "service": "cardiologist",
     "country": "brazil",
-    "languages": ["portuguese", "english"],
+    "languages": [
+      "portuguese",
+      "english"
+    ],
     "suburb": "kogarah",
     "phone": null,
     "email": null,
     "website": "https://www.healthshare.com.au/profile/professional/387463-dr-leticia-deveza/",
     "bio": "Brazilian cardiologist practising in Kogarah and St Leonards.",
     "address": "Kogarah / St Leonards, NSW",
-    "photo": null
+    "photo": null,
+    "instagram": null
   },
   {
     "slug": "dr-maria-julia-corbetta-machado",
     "name": "Dr Maria Julia Corbetta Machado",
     "service": "surgeon",
     "country": "brazil",
-    "languages": ["portuguese", "english"],
+    "languages": [
+      "portuguese",
+      "english"
+    ],
     "suburb": "newcastle",
     "phone": null,
     "email": null,
     "website": "https://rocketreach.co/maria-julia-corbetta-machado-email_86975338",
     "bio": "Brazilian surgeon based in Newcastle, NSW.",
     "address": "Newcastle, NSW",
-    "photo": null
+    "photo": null,
+    "instagram": null
   },
   {
     "slug": "dr-marina-cavada",
     "name": "Dr Marina Cavada",
     "service": "ent-surgeon",
     "country": "brazil",
-    "languages": ["portuguese", "english"],
+    "languages": [
+      "portuguese",
+      "english"
+    ],
     "suburb": "kogarah",
     "phone": null,
     "email": null,
     "website": "https://www.drmarinacavada.com.au/",
     "bio": "Brazilian ENT surgeon (Otorhinolaryngologist) practising in Kogarah.",
     "address": "Kogarah, NSW",
-    "photo": null
+    "photo": null,
+    "instagram": null
   },
   {
     "slug": "dra-angela-rigo",
     "name": "Dra Angela Rigo",
     "service": "dentist",
     "country": "brazil",
-    "languages": ["portuguese", "english"],
+    "languages": [
+      "portuguese",
+      "english"
+    ],
     "suburb": "sydney-cbd",
     "phone": null,
     "email": null,
     "website": "https://www.cbddental.com.au/meet-the-team/dr-angela-rigo/",
     "bio": "Brazilian dentist at CBD Dental in Sydney CBD.",
     "address": "Sydney CBD, NSW",
-    "photo": null
+    "photo": null,
+    "instagram": null
   },
   {
     "slug": "dra-karyne-de-agapito",
     "name": "Dra Karyne de Agapito",
     "service": "dentist",
     "country": "brazil",
-    "languages": ["portuguese", "english"],
+    "languages": [
+      "portuguese",
+      "english"
+    ],
     "suburb": "newtown",
     "phone": null,
     "email": null,
     "website": "https://endentalstudio.com.au/dr-kayrne-de-agapito/",
     "bio": "Brazilian dentist at En Dental Studio in Newtown.",
     "address": "Newtown, NSW",
-    "photo": null
+    "photo": null,
+    "instagram": null
   },
   {
     "slug": "dra-thatiana-salomao",
     "name": "Dra Thatiana Salomao",
     "service": "dentist",
     "country": "brazil",
-    "languages": ["portuguese", "english"],
+    "languages": [
+      "portuguese",
+      "english"
+    ],
     "suburb": "darlinghurst",
     "phone": null,
     "email": null,
     "website": "https://darlinghurstdental.com.au/dr-thatiana-salomao-dentist/",
     "bio": "Brazilian dentist at Darlinghurst Dental in Darlinghurst.",
     "address": "Darlinghurst, NSW",
-    "photo": null
+    "photo": null,
+    "instagram": null
   },
   {
     "slug": "dra-adria-melo",
     "name": "Dra Adria Melo",
     "service": "dentist",
     "country": "brazil",
-    "languages": ["portuguese", "english"],
+    "languages": [
+      "portuguese",
+      "english"
+    ],
     "suburb": "freshwater",
     "phone": null,
     "email": null,
     "website": "https://freshwaterdental.com.au/profile/dr-adria-melo/",
     "bio": "Brazilian dentist at Freshwater Dental.",
     "address": "Freshwater, NSW",
-    "photo": null
+    "photo": null,
+    "instagram": null
   },
   {
     "slug": "little-smiles-family-dental",
     "name": "Little Smiles Family Dental",
     "service": "dentist",
     "country": "brazil",
-    "languages": ["portuguese", "english"],
+    "languages": [
+      "portuguese",
+      "english"
+    ],
     "suburb": "sydney-cbd",
     "phone": null,
     "email": null,
     "website": "https://www.lsfd.com.au/",
     "bio": "Family dental practice with multiple Brazilian dentists across various locations.",
     "address": "Various locations, NSW",
-    "photo": null
+    "photo": null,
+    "instagram": null
   },
   {
     "slug": "dra-amanda-glanz",
     "name": "Dra Amanda Glanz",
     "service": "dermatologist",
     "country": "brazil",
-    "languages": ["portuguese", "english"],
+    "languages": [
+      "portuguese",
+      "english"
+    ],
     "suburb": "camperdown",
     "phone": null,
     "email": null,
     "website": "https://www.healthshare.com.au/profile/professional/496360-dr-amanda-glanz/",
     "bio": "Brazilian dermatologist practising in Camperdown and Bondi Junction.",
     "address": "Camperdown / Bondi Junction, NSW",
-    "photo": null
+    "photo": null,
+    "instagram": null
   },
   {
     "slug": "dra-bruna-gouveia",
     "name": "Dra Bruna Gouveia",
     "service": "dermatologist",
     "country": "brazil",
-    "languages": ["portuguese", "english"],
+    "languages": [
+      "portuguese",
+      "english"
+    ],
     "suburb": "northbridge",
     "phone": null,
     "email": null,
     "website": "https://nsdermatology.com.au/team/dr-bruna-gouveia",
     "bio": "Brazilian dermatologist at NS Dermatology in Northbridge.",
     "address": "Northbridge, NSW",
-    "photo": null
+    "photo": null,
+    "instagram": null
   },
   {
     "slug": "dra-raquel-zanetti",
     "name": "Dra Raquel Zanetti",
     "service": "dermatologist",
     "country": "brazil",
-    "languages": ["portuguese", "english"],
+    "languages": [
+      "portuguese",
+      "english"
+    ],
     "suburb": "sydney-cbd",
     "phone": null,
     "email": null,
     "website": "https://allsaintclinic.com/pages/dr-raquel",
     "bio": "Brazilian dermatologist at All Saint Clinic in Sydney CBD.",
     "address": "Sydney CBD, NSW",
-    "photo": null
+    "photo": null,
+    "instagram": null
   },
   {
     "slug": "dra-flavia-bueno",
     "name": "Dra Flavia Bueno",
     "service": "endocrinologist",
     "country": "brazil",
-    "languages": ["portuguese", "english"],
+    "languages": [
+      "portuguese",
+      "english"
+    ],
     "suburb": "sydney-cbd",
     "phone": null,
     "email": null,
     "website": "https://www.sydneyendocrinology.com.au/dr-flavia-bueno",
     "bio": "Brazilian endocrinologist at Sydney Endocrinology, practising across various locations.",
     "address": "Various locations, NSW",
-    "photo": null
+    "photo": null,
+    "instagram": null
   },
   {
     "slug": "dra-luiza-peculis",
     "name": "Dra Luiza Peculis",
     "service": "obstetrician-gynaecologist",
     "country": "brazil",
-    "languages": ["portuguese", "english"],
+    "languages": [
+      "portuguese",
+      "english"
+    ],
     "suburb": "kogarah",
     "phone": null,
     "email": null,
     "website": "https://www.drluizapeculis.com.au/",
     "bio": "Brazilian obstetrician and gynaecologist practising in Kogarah.",
     "address": "Kogarah, NSW",
-    "photo": null
+    "photo": null,
+    "instagram": null
   },
   {
     "slug": "dr-ivone-grandjean",
     "name": "Dr Ivone L. Grandjean",
     "service": "gp",
     "country": "brazil",
-    "languages": ["portuguese", "english"],
+    "languages": [
+      "portuguese",
+      "english"
+    ],
     "suburb": "petersham",
     "phone": null,
     "email": null,
     "website": "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/petersham-2049-nsw/dr-yvonne-grandjean-thomsen/gp-general-practice/17e10439-4f95-4e21-81a0-3b17b4cfbad5",
     "bio": "Brazilian GP practising in Petersham.",
     "address": "Petersham, NSW 2049",
-    "photo": null
+    "photo": null,
+    "instagram": null
   },
   {
     "slug": "dr-marcelino-dalla-mariga",
     "name": "Dr Marcelino Dalla Mariga",
     "service": "gp",
     "country": "brazil",
-    "languages": ["portuguese", "english"],
+    "languages": [
+      "portuguese",
+      "english"
+    ],
     "suburb": "south-west-rocks",
     "phone": null,
     "email": null,
     "website": "https://www.halaxy.com/profile/dr-marcelino-dalla-mariga/gp-general-practitioner/322125?clinic=321528",
     "bio": "Brazilian GP practising in South West Rocks.",
     "address": "South West Rocks, NSW",
-    "photo": null
+    "photo": null,
+    "instagram": null
   },
   {
     "slug": "dra-elisa-paulino",
     "name": "Dra Elisa Paulino",
     "service": "gp",
     "country": "brazil",
-    "languages": ["portuguese", "english"],
+    "languages": [
+      "portuguese",
+      "english"
+    ],
     "suburb": "sydney-cbd",
     "phone": null,
     "email": null,
     "website": "https://www.keyhealth.com.au/team/dr-elisa-paulio-w9mj6",
     "bio": "Brazilian GP at Key Health in CBD South.",
     "address": "CBD South, NSW",
-    "photo": null
+    "photo": null,
+    "instagram": null
   },
   {
     "slug": "dra-liliane-fernandes-carchedi",
     "name": "Dra Liliane Fernandes Carchedi",
     "service": "gp",
     "country": "brazil",
-    "languages": ["portuguese", "english"],
+    "languages": [
+      "portuguese",
+      "english"
+    ],
     "suburb": "tahmoor",
     "phone": null,
     "email": null,
     "website": "https://www.healthshare.com.au/profile/professional/257823-dr-liliane-fernandes-carchedi/",
     "bio": "Brazilian GP practising in Tahmoor.",
     "address": "Tahmoor, NSW",
-    "photo": null
+    "photo": null,
+    "instagram": null
   },
   {
     "slug": "dra-ludmila-freitas",
     "name": "Dra Ludmila Freitas",
     "service": "gp",
     "country": "brazil",
-    "languages": ["portuguese", "english"],
+    "languages": [
+      "portuguese",
+      "english"
+    ],
     "suburb": "barangaroo",
     "phone": null,
     "email": null,
     "website": "https://www.myhealth.net.au/doctors/dr-ludmila-ferreira-de-freitas/",
     "bio": "Brazilian GP at MyHealth Barangaroo in Sydney.",
     "address": "Barangaroo, Sydney, NSW",
-    "photo": null
+    "photo": null,
+    "instagram": null
   },
   {
     "slug": "dra-mariana-spadini-dos-santos",
     "name": "Dra Mariana Spadini Dos Santos",
     "service": "gp",
     "country": "brazil",
-    "languages": ["portuguese", "english"],
+    "languages": [
+      "portuguese",
+      "english"
+    ],
     "suburb": "north-nowra",
     "phone": null,
     "email": null,
     "website": "https://www.hotdoc.com.au/medical-centres/north-nowra-NSW-2541/north-nowra-medical-practice/doctors/dr-mariana-spadini-dos-santos-1",
     "bio": "Brazilian GP at North Nowra Medical Practice.",
     "address": "North Nowra, NSW 2541",
-    "photo": null
+    "photo": null,
+    "instagram": null
   },
   {
     "slug": "dra-martiane-bersano",
     "name": "Dra Martiane Bersano",
     "service": "gp",
     "country": "brazil",
-    "languages": ["portuguese", "english"],
+    "languages": [
+      "portuguese",
+      "english"
+    ],
     "suburb": "kogarah",
     "phone": null,
     "email": null,
     "website": "https://www.kogarahfamilypractice.com.au/dr-martiane-bersano",
     "bio": "Brazilian GP at Kogarah Family Practice.",
     "address": "Kogarah, NSW",
-    "photo": null
+    "photo": null,
+    "instagram": null
   },
   {
     "slug": "dra-renata-medeiros-burttet",
     "name": "Dra Renata Medeiros Burttet",
     "service": "gp",
     "country": "brazil",
-    "languages": ["portuguese", "english"],
+    "languages": [
+      "portuguese",
+      "english"
+    ],
     "suburb": "dee-why",
     "phone": null,
     "email": null,
     "website": "https://www.ipn.com.au/gp/nsw-dee-why-dee-why-general-practice/our-doctors/dr-renata-medeiros-burttet/",
     "bio": "Brazilian GP at Dee Why General Practice.",
     "address": "Dee Why, NSW",
-    "photo": null
+    "photo": null,
+    "instagram": null
   },
   {
     "slug": "dra-silvana-sarmento-leite",
     "name": "Dra Silvana Sarmento-Leite",
     "service": "gp",
     "country": "brazil",
-    "languages": ["portuguese", "english"],
+    "languages": [
+      "portuguese",
+      "english"
+    ],
     "suburb": "quakers-hill",
     "phone": null,
     "email": null,
     "website": "https://www.ourfamilymed.com.au/",
     "bio": "Brazilian GP at Our Family Med in Quakers Hill.",
     "address": "Quakers Hill, NSW",
-    "photo": null
+    "photo": null,
+    "instagram": null
   },
   {
     "slug": "dra-laura-coelho",
     "name": "Dra Laura Coelho",
     "service": "ophthalmologist",
     "country": "brazil",
-    "languages": ["portuguese", "english"],
+    "languages": [
+      "portuguese",
+      "english"
+    ],
     "suburb": "sydney-cbd",
     "phone": null,
     "email": null,
     "website": null,
     "bio": "Brazilian ophthalmologist.",
     "address": "NSW",
-    "photo": null
+    "photo": null,
+    "instagram": null
   },
   {
     "slug": "dra-virginia-oliveira",
     "name": "Dra Virginia Oliveira",
     "service": "paediatrician",
     "country": "brazil",
-    "languages": ["portuguese", "english"],
+    "languages": [
+      "portuguese",
+      "english"
+    ],
     "suburb": "miranda",
     "phone": null,
     "email": null,
     "website": "https://www.kareenaprivate.com.au/Our-Doctors/Specialists/kareena-private-hospital/paediatrics/106072/dr-virginia-oliveira",
     "bio": "Brazilian paediatrician at Kareena Private Hospital in Miranda.",
     "address": "Miranda, NSW",
-    "photo": null
+    "photo": null,
+    "instagram": null
   },
   {
     "slug": "dr-dorgival-caetano",
     "name": "Dr Dorgival Caetano",
     "service": "psychiatrist",
     "country": "brazil",
-    "languages": ["portuguese", "english"],
+    "languages": [
+      "portuguese",
+      "english"
+    ],
     "suburb": "mascot",
     "phone": null,
     "email": null,
     "website": "https://www.yourhealthinmind.org/find-a-psychiatrist/profile/6425/dr-dorgival-caetano",
     "bio": "Brazilian psychiatrist practising in Mascot.",
     "address": "Mascot, NSW",
-    "photo": null
+    "photo": null,
+    "instagram": null
   },
   {
     "slug": "dr-katia-josua",
     "name": "Dr Katia Josua",
     "service": "psychiatrist",
     "country": "brazil",
-    "languages": ["portuguese", "english"],
+    "languages": [
+      "portuguese",
+      "english"
+    ],
     "suburb": "bronte",
     "phone": null,
     "email": null,
     "website": "https://specialists.healthscope.com.au/specialist/-katia-josua-med0001161994",
     "bio": "Brazilian psychiatrist practising in Bronte.",
     "address": "Bronte, NSW",
-    "photo": null
+    "photo": null,
+    "instagram": null
   },
   {
     "slug": "dra-mariana-fernandes-da-rosa",
     "name": "Dra Mariana Fernandes da Rosa",
     "service": "psychologist",
     "country": "brazil",
-    "languages": ["portuguese", "english"],
+    "languages": [
+      "portuguese",
+      "english"
+    ],
     "suburb": "melbourne",
     "phone": null,
     "email": null,
     "website": "https://www.healthshare.com.au/profile/professional/532810-mariana-fernandes-da-rosa/",
     "bio": "Brazilian psychologist based in Melbourne, VIC.",
     "address": "Melbourne, VIC",
-    "photo": null
+    "photo": null,
+    "instagram": null
   },
   {
     "slug": "dra-leticia-deveza",
     "name": "Dra Leticia Deveza",
     "service": "rheumatologist",
     "country": "brazil",
-    "languages": ["portuguese", "english"],
+    "languages": [
+      "portuguese",
+      "english"
+    ],
     "suburb": "sydney-cbd",
     "phone": null,
     "email": null,
     "website": "https://www.integratedspecialistmedicalcare.com.au/about/meet-our-doctors/dr-leticia-deveza/",
     "bio": "Brazilian rheumatologist at Integrated Specialist Medical Care, practising across various locations.",
     "address": "Various locations, NSW",
-    "photo": null
+    "photo": null,
+    "instagram": null
+  },
+  {
+    "slug": "mariana-rosa-psychologist",
+    "name": "Mariana Rosa",
+    "service": "psychologist",
+    "country": "brazil",
+    "languages": [
+      "portuguese",
+      "english"
+    ],
+    "suburb": "sydney-cbd",
+    "phone": null,
+    "email": null,
+    "website": "https://linktr.ee/mariana.rosa.psic?fbclid=IwY2xjawQ_CXxleHRuA2FlbQIxMABicmlkETF5WDVDVDIyNHZ5VlpnRnBNc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHtVtzKgjcjrTH2z3D2l9sawkQrf7m5va92D8xsU8nnnDFpdKT6EA3gBwBSzF_aem_fBLZShbNDAMuaD3Sedbx1Q",
+    "bio": "Registered Psychologist (PSY0002658651) offering psychological support to adolescents and adults.",
+    "address": "Sydney, NSW",
+    "photo": "/providers/mariana-rosa.webp",
+    "instagram": "https://www.instagram.com/mariana.rosa.psychologist"
   }
 ]
