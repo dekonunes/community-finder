@@ -13,5 +13,6 @@
   { "slug": "rheumatologist", "name": "Rheumatologists", "icon": "🦴" },
   { "slug": "surgeon", "name": "Surgeons", "icon": "🔪" },
   { "slug": "ent-surgeon", "name": "ENT Surgeons", "icon": "👂" },
-  { "slug": "lawyer", "name": "Lawyers", "icon": "⚖️" }
+  { "slug": "lawyer", "name": "Lawyers", "icon": "⚖️" },
+  { "slug": "mortgage-broker", "name": "Mortgage Brokers", "icon": "🏠" }
 ]

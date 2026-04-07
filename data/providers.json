@@ -589,5 +589,23 @@
     "address": "Various locations, NSW",
     "photo": null,
     "instagram": null
+  },
+  {
+    "slug": "may-oliveira",
+    "name": "May Oliveira",
+    "service": "mortgage-broker",
+    "country": "brazil",
+    "languages": [
+      "portuguese",
+      "english"
+    ],
+    "suburb": "sutherland",
+    "phone": null,
+    "email": null,
+    "website": null,
+    "bio": "Mortgage broker na @growwealthsolutions ajudando a comunidade Brasileira a conquistar o sonho da casa própria na Austrália. Para morar ou investir, bora! 🏘️",
+    "address": "Sutherland, NSW / Australia-wide",
+    "photo": null,
+    "instagram": "https://www.instagram.com/casapropriaaustralia"
   }
 ]
