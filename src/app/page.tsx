@@ -4,12 +4,12 @@ import { ProviderCard } from "@/components/provider-card";
 import { CommunityPill } from "@/components/community-pill";
 
 export default function HomePage() {
-  const featured = providers.slice(0, 3);
+  const featured = providers.slice(0, 6);
 
   return (
     <div>
       <section className="py-12 text-center">
-        <h1 className="text-3xl font-bold sm:text-4xl">Find services from your community</h1>
+        <h1 className="text-3xl font-bold sm:text-4xl">Services from your community</h1>
         <p className="mt-2 text-zinc-400">
           Connect with professionals who share your culture and language in Sydney
         </p>

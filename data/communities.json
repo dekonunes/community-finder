@@ -1,17 +1,3 @@
 [
-  { "slug": "brazil", "name": "Brazilian", "country": "Brazil", "flag": "🇧🇷", "languages": ["portuguese"] },
-  { "slug": "vietnam", "name": "Vietnamese", "country": "Vietnam", "flag": "🇻🇳", "languages": ["vietnamese"] },
-  { "slug": "india", "name": "Indian", "country": "India", "flag": "🇮🇳", "languages": ["hindi", "tamil", "telugu", "punjabi"] },
-  { "slug": "korea", "name": "Korean", "country": "South Korea", "flag": "🇰🇷", "languages": ["korean"] },
-  { "slug": "china", "name": "Chinese", "country": "China", "flag": "🇨🇳", "languages": ["mandarin", "cantonese"] },
-  { "slug": "philippines", "name": "Filipino", "country": "Philippines", "flag": "🇵🇭", "languages": ["tagalog", "filipino"] },
-  { "slug": "italy", "name": "Italian", "country": "Italy", "flag": "🇮🇹", "languages": ["italian"] },
-  { "slug": "greece", "name": "Greek", "country": "Greece", "flag": "🇬🇷", "languages": ["greek"] },
-  { "slug": "lebanon", "name": "Lebanese", "country": "Lebanon", "flag": "🇱🇧", "languages": ["arabic"] },
-  { "slug": "japan", "name": "Japanese", "country": "Japan", "flag": "🇯🇵", "languages": ["japanese"] },
-  { "slug": "spain", "name": "Spanish", "country": "Spain", "flag": "🇪🇸", "languages": ["spanish"] },
-  { "slug": "colombia", "name": "Colombian", "country": "Colombia", "flag": "🇨🇴", "languages": ["spanish"] },
-  { "slug": "thailand", "name": "Thai", "country": "Thailand", "flag": "🇹🇭", "languages": ["thai"] },
-  { "slug": "iran", "name": "Iranian", "country": "Iran", "flag": "🇮🇷", "languages": ["persian", "farsi"] },
-  { "slug": "pakistan", "name": "Pakistani", "country": "Pakistan", "flag": "🇵🇰", "languages": ["urdu", "punjabi"] }
+  { "slug": "brazil", "name": "Brazilian", "country": "Brazil", "flag": "🇧🇷", "languages": ["portuguese"] }
 ]

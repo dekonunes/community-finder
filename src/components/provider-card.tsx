@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { getCommunityBySlug, getCategoryBySlug, type Provider } from "@/lib/data";
+import { getCommunityBySlug, getCategoryBySlug, getProviderSuburbsDisplay, type Provider } from "@/lib/data";
 import { Badge } from "@/components/ui/badge";
 
 export function ProviderCard({ provider }: { provider: Provider }) {
@@ -39,10 +39,10 @@ export function ProviderCard({ provider }: { provider: Provider }) {
               </Badge>
             ))}
           </div>
-          <p className="mt-2 text-sm text-zinc-400">📍 {provider.suburb.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase())}</p>
+          <p className="mt-2 text-sm text-zinc-400">📍 {getProviderSuburbsDisplay(provider)}</p>
           <div className="mt-3 flex gap-4 text-sm">
             {provider.phone && (
-              <a href={`tel:${provider.phone}`} className="text-blue-400 hover:underline">📞 Call</a>
+              <a href={`tel:${provider.phone}`} className="text-blue-400 hover:underline">📞 {provider.phone}</a>
             )}
             {provider.email && (
               <a href={`mailto:${provider.email}`} className="text-blue-400 hover:underline">📧 Email</a>

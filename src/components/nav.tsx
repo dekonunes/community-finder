@@ -7,9 +7,9 @@ export function Nav() {
         <Link href="/" className="text-lg font-bold">
           🌏 Community Finder
         </Link>
-        <nav className="flex items-center gap-6 text-sm">
+        <nav className="flex items-center gap-2 text-sm">
           <Link href="/search" className="text-zinc-400 hover:text-white">
-            Find Services
+            Services
           </Link>
           <Link href="/events" className="text-zinc-400 hover:text-white">
             Events

@@ -7,32 +7,5 @@
     "location": "Darling Harbour, Sydney",
     "description": "Annual Brazilian culture festival with live music, food, and dance. Free entry.",
     "link": "https://example.com"
-  },
-  {
-    "slug": "lunar-new-year-2027",
-    "title": "Lunar New Year Festival",
-    "community": "china",
-    "date": "2027-02-06",
-    "location": "Chinatown, Sydney CBD",
-    "description": "Sydney's biggest Lunar New Year celebration. Dragon boat races, lion dances, and market stalls.",
-    "link": "https://example.com"
-  },
-  {
-    "slug": "diwali-fair-2026",
-    "title": "Diwali Fair Sydney",
-    "community": "india",
-    "date": "2026-10-20",
-    "location": "Parramatta Park, Parramatta",
-    "description": "Festival of lights celebration with traditional food, Bollywood performances, and fireworks.",
-    "link": "https://example.com"
-  },
-  {
-    "slug": "tet-festival-2027",
-    "title": "Tết Festival",
-    "community": "vietnam",
-    "date": "2027-01-29",
-    "location": "Cabramatta Freedom Plaza",
-    "description": "Vietnamese New Year celebration. Traditional food, performances, and dragon dances.",
-    "link": "https://example.com"
   }
 ]

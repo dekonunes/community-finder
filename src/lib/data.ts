@@ -12,7 +12,8 @@ export type Provider = {
   service: string;
   country: string;
   languages: string[];
-  suburb: string;
+  suburb?: string;
+  suburbs?: string[];
   phone: string | null;
   email: string | null;
   website: string | null;
@@ -118,4 +119,18 @@ export function getAllLanguages(): string[] {
   const langs = new Set<string>();
   providers.forEach((p) => p.languages.forEach((l) => langs.add(l)));
   return Array.from(langs).sort();
+}
+
+export function getProviderSuburbs(provider: Provider): string[] {
+  if (provider.suburbs && provider.suburbs.length > 0) {
+    return provider.suburbs;
+  }
+  return provider.suburb ? [provider.suburb] : [];
+}
+
+export function getProviderSuburbsDisplay(provider: Provider): string {
+  const suburbList = getProviderSuburbs(provider);
+  return suburbList
+    .map((s) => s.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase()))
+    .join(" / ");
 }

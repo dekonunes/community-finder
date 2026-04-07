@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-import { providers, getProviderBySlug, getCommunityBySlug, getCategoryBySlug } from "@/lib/data";
+import { providers, getProviderBySlug, getCommunityBySlug, getCategoryBySlug, getProviderSuburbsDisplay } from "@/lib/data";
 import { Badge } from "@/components/ui/badge";
 
 function InstagramIcon(props: React.ComponentProps<"svg">) {
@@ -23,7 +23,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const category = getCategoryBySlug(provider.service);
   return {
     title: `${provider.name} — ${category?.name} | Community Finder`,
-    description: `${community?.name} ${category?.name?.toLowerCase()} in ${provider.suburb}. ${provider.bio}`,
+    description: `${community?.name} ${category?.name?.toLowerCase()} in ${getProviderSuburbsDisplay(provider)}. ${provider.bio}`,
   };
 }
 

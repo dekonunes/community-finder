@@ -7,7 +7,7 @@ export function Footer() {
         <p>© {new Date().getFullYear()} Community Finder. Sydney, Australia.</p>
         <p className="mt-2">
           <Link href="/list-your-business" className="text-zinc-400 hover:text-white">
-            List Your Business
+            List Your Business (free)
           </Link>
         </p>
       </div>

@@ -39,7 +39,7 @@ export default function ListYourBusinessPage() {
       </div>
 
       <div className="mt-8">
-        <h2 className="text-lg font-semibold">What we need from you</h2>
+        <h2 className="text-lg font-semibold">What we recommend from you</h2>
         <ul className="mt-4 space-y-2 text-zinc-300">
           <li>✅ Your business name</li>
           <li>✅ Service type (GP, Accountant, Lawyer, Migration Agent, Childcare, Restaurant)</li>

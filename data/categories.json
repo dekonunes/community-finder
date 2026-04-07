@@ -1,6 +1,7 @@
 [
   { "slug": "gp", "name": "GPs / Doctors", "icon": "🏥" },
   { "slug": "dentist", "name": "Dentists", "icon": "🦷" },
+  { "slug": "orthodontist", "name": "Orthodontists", "icon": "😁" },
   { "slug": "dermatologist", "name": "Dermatologists", "icon": "🧴" },
   { "slug": "cardiologist", "name": "Cardiologists", "icon": "❤️" },
   { "slug": "endocrinologist", "name": "Endocrinologists", "icon": "🔬" },
@@ -12,9 +13,5 @@
   { "slug": "rheumatologist", "name": "Rheumatologists", "icon": "🦴" },
   { "slug": "surgeon", "name": "Surgeons", "icon": "🔪" },
   { "slug": "ent-surgeon", "name": "ENT Surgeons", "icon": "👂" },
-  { "slug": "accountant", "name": "Accountants", "icon": "📊" },
-  { "slug": "lawyer", "name": "Lawyers", "icon": "⚖️" },
-  { "slug": "migration-agent", "name": "Migration Agents", "icon": "✈️" },
-  { "slug": "childcare", "name": "Childcare", "icon": "🧒" },
-  { "slug": "restaurant", "name": "Restaurants", "icon": "🍽️" }
+  { "slug": "lawyer", "name": "Lawyers", "icon": "⚖️" }
 ]

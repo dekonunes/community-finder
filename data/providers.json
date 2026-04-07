@@ -1,5 +1,41 @@
 [
   {
+    "slug": "new-alliance-migration",
+    "name": "New Alliance Migration",
+    "service": "lawyer",
+    "country": "brazil",
+    "languages": [
+      "portuguese",
+      "english"
+    ],
+    "suburb": "sydney-cbd",
+    "phone": "+61 424 688 763",
+    "email": "isa.andrade@newalliancemigration.com",
+    "website": "https://newalliance-landpage.vercel.app/",
+    "bio": "New Alliance Migration is led by Isa Andrade, a dedicated and registered immigration law consultant with over 10 years of experience helping individuals and families navigate the complexities of Australian migration law. Isa combines deep legal expertise with a genuine passion for her clients' success - guiding them through every step of their visa journey with clarity, care, and determination.",
+    "address": "Sydney CBD, NSW",
+    "photo": null,
+    "instagram": null
+  },
+  {
+    "slug": "mariana-rosa-psychologist",
+    "name": "Mariana Rosa",
+    "service": "psychologist",
+    "country": "brazil",
+    "languages": [
+      "portuguese",
+      "english"
+    ],
+    "suburb": "sydney-cbd",
+    "phone": null,
+    "email": null,
+    "website": "https://linktr.ee/mariana.rosa.psic?fbclid=IwY2xjawQ_CXxleHRuA2FlbQIxMABicmlkETF5WDVDVDIyNHZ5VlpnRnBNc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHtVtzKgjcjrTH2z3D2l9sawkQrf7m5va92D8xsU8nnnDFpdKT6EA3gBwBSzF_aem_fBLZShbNDAMuaD3Sedbx1Q",
+    "bio": "Registered Psychologist (PSY0002658651) offering psychological support to adolescents and adults.",
+    "address": "Sydney, NSW",
+    "photo": "/providers/mariana-rosa.webp",
+    "instagram": "https://www.instagram.com/mariana.rosa.psychologist"
+  },
+  {
     "slug": "dr-ricardo-deveza",
     "name": "Dr Ricardo Deveza",
     "service": "cardiologist",
@@ -8,7 +44,7 @@
       "portuguese",
       "english"
     ],
-    "suburb": "kogarah",
+    "suburbs": ["kogarah", "st-leonards"],
     "phone": null,
     "email": null,
     "website": "https://www.healthshare.com.au/profile/professional/387463-dr-leticia-deveza/",
@@ -142,6 +178,57 @@
     "address": "Various locations, NSW",
     "photo": null,
     "instagram": null
+  },
+  {
+    "slug": "dr-patricia-vivaldi-smiles",
+    "name": "Dr Patricia",
+    "service": "dentist",
+    "country": "australia",
+    "languages": [
+      "english"
+    ],
+    "suburb": "sydney-cbd",
+    "phone": null,
+    "email": null,
+    "website": "https://vivaldismiles.com.au/",
+    "bio": "Our boutique dental practice in Sydney is built on this philosophy, crafting smiles that are as enduring and adaptable as Vivaldi's music. Drawing parallels between the mastery of Vivaldi's violin concertos and our expertise in dental techniques, we create unique smiles, each a masterpiece tailored to the individual. Just as each season brings a different melody in Vivaldi's concertos, each patient's journey with us evokes a different sentiment – hope in Spring, relaxation in Summer, fulfilment in Autumn, and comfort in Winter.",
+    "address": "Ground floor, 161 Clarence St, Skittle Lane, Sydney, Australia 2000",
+    "photo": null,
+    "instagram": "https://www.instagram.com/vivaldismiles"
+  },
+  {
+    "slug": "dr-barbara-general-dentist",
+    "name": "Dr Barbara",
+    "service": "dentist",
+    "country": "australia",
+    "languages": [
+      "english"
+    ],
+    "suburb": "sydney-cbd",
+    "phone": null,
+    "email": null,
+    "website": "https://vivaldismiles.com.au/",
+    "bio": "Our boutique dental practice in Sydney is built on this philosophy, crafting smiles that are as enduring and adaptable as Vivaldi's music. Drawing parallels between the mastery of Vivaldi's violin concertos and our expertise in dental techniques, we create unique smiles, each a masterpiece tailored to the individual. Just as each season brings a different melody in Vivaldi's concertos, each patient's journey with us evokes a different sentiment – hope in Spring, relaxation in Summer, fulfilment in Autumn, and comfort in Winter.",
+    "address": "Ground floor, 161 Clarence St, Skittle Lane, Sydney, Australia 2000",
+    "photo": null,
+    "instagram": "https://www.instagram.com/vivaldismiles"
+  },
+  {
+    "slug": "dr-gustavo-vivaldi-orthodontist",
+    "name": "Dr Gustavo Vivaldi",
+    "service": "orthodontist",
+    "country": "australia",
+    "languages": [
+      "english"
+    ],
+    "suburb": "sydney-cbd",
+    "phone": null,
+    "email": null,
+    "website": "https://vivaldismiles.com.au/",
+    "bio": "Our boutique dental practice in Sydney is built on this philosophy, crafting smiles that are as enduring and adaptable as Vivaldi's music. Drawing parallels between the mastery of Vivaldi's violin concertos and our expertise in dental techniques, we create unique smiles, each a masterpiece tailored to the individual. Just as each season brings a different melody in Vivaldi's concertos, each patient's journey with us evokes a different sentiment – hope in Spring, relaxation in Summer, fulfilment in Autumn, and comfort in Winter.",
+    "address": "Ground floor, 161 Clarence St, Skittle Lane, Sydney, Australia 2000",
+    "photo": null,
+    "instagram": "https://www.instagram.com/vivaldismiles"
   },
   {
     "slug": "dra-amanda-glanz",
@@ -502,23 +589,5 @@
     "address": "Various locations, NSW",
     "photo": null,
     "instagram": null
-  },
-  {
-    "slug": "mariana-rosa-psychologist",
-    "name": "Mariana Rosa",
-    "service": "psychologist",
-    "country": "brazil",
-    "languages": [
-      "portuguese",
-      "english"
-    ],
-    "suburb": "sydney-cbd",
-    "phone": null,
-    "email": null,
-    "website": "https://linktr.ee/mariana.rosa.psic?fbclid=IwY2xjawQ_CXxleHRuA2FlbQIxMABicmlkETF5WDVDVDIyNHZ5VlpnRnBNc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHtVtzKgjcjrTH2z3D2l9sawkQrf7m5va92D8xsU8nnnDFpdKT6EA3gBwBSzF_aem_fBLZShbNDAMuaD3Sedbx1Q",
-    "bio": "Registered Psychologist (PSY0002658651) offering psychological support to adolescents and adults.",
-    "address": "Sydney, NSW",
-    "photo": "/providers/mariana-rosa.webp",
-    "instagram": "https://www.instagram.com/mariana.rosa.psychologist"
   }
 ]

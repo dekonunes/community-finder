@@ -1,4 +1,4 @@
-import { providers } from "@/lib/data";
+import { providers, getProviderSuburbs } from "@/lib/data";
 import { ProviderCard } from "@/components/provider-card";
 import { SearchFilters } from "@/components/search-filters";
 import Link from "next/link";
@@ -15,7 +15,7 @@ export default async function SearchPage({
   if (params.service) filtered = filtered.filter((p) => p.service === params.service);
   if (params.country) filtered = filtered.filter((p) => p.country === params.country);
   if (params.language) filtered = filtered.filter((p) => p.languages.includes(params.language!));
-  if (params.suburb) filtered = filtered.filter((p) => p.suburb === params.suburb);
+  if (params.suburb) filtered = filtered.filter((p) => getProviderSuburbs(p).includes(params.suburb!));
 
   return (
     <div>
