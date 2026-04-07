@@ -10,7 +10,7 @@ export function ProductCard({ product }: { product: Product }) {
       {product.image && (
         <div className="relative aspect-[3/4] w-full bg-zinc-800">
           <Image
-            src={product.image}
+            src={`/community-finder${product.image}`}
             alt={product.name}
             fill
             className="object-cover"
