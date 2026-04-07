@@ -607,5 +607,23 @@
     "address": "Sutherland, NSW / Australia-wide",
     "photo": null,
     "instagram": "https://www.instagram.com/casapropriaaustralia"
+  },
+  {
+    "slug": "bianca-chiarelli-peixoto",
+    "name": "Bianca Chiarelli Peixoto",
+    "service": "psychologist",
+    "country": "brazil",
+    "languages": [
+      "portuguese",
+      "english"
+    ],
+    "suburb": "rockdale",
+    "phone": "+61 431 643 360",
+    "email": "bianca.chiarelli@hotmail.com",
+    "website": null,
+    "bio": "Oi! Eu sou a Bianca, psicóloga pós-graduada em TCC. Há quatro anos, ajudo pessoas no mundo todo a lidar com ansiedade, TOC, TDAH e os desafios de ser imigrante. Vamos marcar uma conversa gratuita?",
+    "address": "Rockdale, NSW",
+    "photo": "/providers/bianca-peixoto.jpeg",
+    "instagram": "https://www.instagram.com/psi.biancachiarelli"
   }
 ]
