@@ -1,7 +1,9 @@
 import type { MetadataRoute } from "next";
 import { providers, communities } from "@/lib/data";
 
-const BASE_URL = "https://communityfinder.com.au";
+export const dynamic = "force-static";
+
+const BASE_URL = "https://dekonunes.github.io/community-finder";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const providerUrls = providers.map((p) => ({

@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Community Finder",
     description: "Find services from your cultural community in Sydney",
-    url: "https://communityfinder.com.au",
+    url: "https://dekonunes.github.io/community-finder",
     siteName: "Community Finder",
     locale: "en_AU",
     type: "website",
