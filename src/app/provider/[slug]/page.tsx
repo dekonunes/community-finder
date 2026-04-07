@@ -41,7 +41,7 @@ export default async function ProviderPage({ params }: { params: Promise<{ slug:
       <div className="rounded-xl border border-zinc-800 bg-zinc-900 overflow-hidden">
         <div className="bg-gradient-to-br from-blue-600/20 to-purple-600/20 px-6 py-8 text-center">
           {provider.photo ? (
-            <img src={provider.photo} alt={provider.name} className="mx-auto h-20 w-20 rounded-full object-cover" />
+            <img src={`/community-finder${provider.photo}`} alt={provider.name} className="mx-auto h-20 w-20 rounded-full object-cover" />
           ) : (
             <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full bg-blue-600 text-2xl font-bold">{initials}</div>
           )}

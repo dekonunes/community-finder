@@ -16,7 +16,7 @@ export function ProviderCard({ provider }: { provider: Provider }) {
     <div className="rounded-lg border border-zinc-800 bg-zinc-900 p-4">
       <div className="flex gap-4">
         {provider.photo ? (
-          <img src={provider.photo} alt={provider.name} className="h-14 w-14 shrink-0 rounded-full object-cover" />
+          <img src={`/community-finder${provider.photo}`} alt={provider.name} className="h-14 w-14 shrink-0 rounded-full object-cover" />
         ) : (
           <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-full bg-blue-600 text-lg font-bold">
             {initials}
