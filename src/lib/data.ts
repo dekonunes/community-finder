@@ -3,6 +3,8 @@ import communitiesData from "../../data/communities.json";
 import suburbsData from "../../data/suburbs.json";
 import providersData from "../../data/providers.json";
 import eventsData from "../../data/events.json";
+import productsData from "../../data/products.json";
+import productCategoriesData from "../../data/product-categories.json";
 
 export type Provider = {
   slug: string;
@@ -49,11 +51,30 @@ export type CommunityEvent = {
   link: string;
 };
 
+export type Product = {
+  slug: string;
+  name: string;
+  category: string;
+  community: string;
+  description: string;
+  price: string | null;
+  link: string;
+  image: string | null;
+};
+
+export type ProductCategory = {
+  slug: string;
+  name: string;
+  icon: string;
+};
+
 export const categories: Category[] = categoriesData;
 export const communities: Community[] = communitiesData;
 export const suburbs: Suburb[] = suburbsData;
 export const providers: Provider[] = providersData;
 export const events: CommunityEvent[] = eventsData;
+export const products: Product[] = productsData;
+export const productCategories: ProductCategory[] = productCategoriesData;
 
 export function getProviderBySlug(slug: string): Provider | undefined {
   return providers.find((p) => p.slug === slug);
@@ -77,6 +98,20 @@ export function getUpcomingEvents(communitySlug?: string): CommunityEvent[] {
     .filter((e) => e.date >= today)
     .filter((e) => !communitySlug || e.community === communitySlug)
     .sort((a, b) => a.date.localeCompare(b.date));
+}
+
+export function getProductCategoryBySlug(slug: string): ProductCategory | undefined {
+  return productCategories.find((c) => c.slug === slug);
+}
+
+export function getProductsByCommunity(communitySlug: string): Product[] {
+  return products.filter((p) => p.community === communitySlug);
+}
+
+export function getProducts(communitySlug?: string, categorySlug?: string): Product[] {
+  return products
+    .filter((p) => !communitySlug || p.community === communitySlug)
+    .filter((p) => !categorySlug || p.category === categorySlug);
 }
 
 export function getAllLanguages(): string[] {

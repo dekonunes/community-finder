@@ -1,9 +1,10 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import type { Metadata } from "next";
-import { communities, getCommunityBySlug, getProvidersByCommunity, getUpcomingEvents, getCategoryBySlug } from "@/lib/data";
+import { communities, getCommunityBySlug, getProvidersByCommunity, getUpcomingEvents, getCategoryBySlug, getProductsByCommunity, getProductCategoryBySlug } from "@/lib/data";
 import { ProviderCard } from "@/components/provider-card";
 import { EventCard } from "@/components/event-card";
+import { ProductCard } from "@/components/product-card";
 
 export function generateStaticParams() {
   return communities.map((c) => ({ slug: c.slug }));
@@ -26,6 +27,7 @@ export default async function CommunityPage({ params }: { params: Promise<{ slug
 
   const communityProviders = getProvidersByCommunity(slug);
   const upcomingEvents = getUpcomingEvents(slug);
+  const communityProducts = getProductsByCommunity(slug);
 
   const grouped = communityProviders.reduce<Record<string, typeof communityProviders>>((acc, p) => {
     if (!acc[p.service]) acc[p.service] = [];
@@ -57,6 +59,15 @@ export default async function CommunityPage({ params }: { params: Promise<{ slug
             </section>
           );
         })
+      )}
+
+      {communityProducts.length > 0 && (
+        <section className="mt-12">
+          <h2 className="mb-4 text-lg font-semibold">Products</h2>
+          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {communityProducts.map((p) => (<ProductCard key={p.slug} product={p} />))}
+          </div>
+        </section>
       )}
 
       {upcomingEvents.length > 0 && (

@@ -19,6 +19,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/search`, lastModified: new Date() },
     { url: `${BASE_URL}/events`, lastModified: new Date() },
     { url: `${BASE_URL}/list-your-business`, lastModified: new Date() },
+    { url: `${BASE_URL}/products`, lastModified: new Date() },
     ...providerUrls,
     ...communityUrls,
   ];
