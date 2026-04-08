@@ -11,7 +11,7 @@ function EmailIcon(props: React.ComponentProps<"svg">) {
   );
 }
 
-export function EmailButton({ email, variant = "icon" }: { email: string; variant?: "icon" | "detail" }) {
+export function EmailButton({ email, variant = "icon" }: { email: string; variant?: "icon" | "detail" | "icon-button" }) {
   const handleClick = useCallback(() => {
     window.open(
       `https://mail.google.com/mail/?view=cm&to=${encodeURIComponent(email)}`,
@@ -28,6 +28,19 @@ export function EmailButton({ email, variant = "icon" }: { email: string; varian
         className="flex-1 cursor-pointer rounded-lg border border-zinc-700 bg-zinc-800 py-3 text-center text-blue-400 hover:bg-zinc-700"
       >
         📧 {email}
+      </button>
+    );
+  }
+
+  if (variant === "icon-button") {
+    return (
+      <button
+        type="button"
+        onClick={handleClick}
+        title={email}
+        className="flex cursor-pointer items-center justify-center rounded-lg border border-zinc-700 bg-zinc-800 p-3 text-blue-400 hover:bg-zinc-700"
+      >
+        <EmailIcon className="h-5 w-5" />
       </button>
     );
   }
