@@ -3,7 +3,10 @@ import { GeistSans } from "geist/font/sans";
 import { GeistMono } from "geist/font/mono";
 import { Nav } from "@/components/nav";
 import { Footer } from "@/components/footer";
+import { getSiteConfig } from "@/lib/site-config.mjs";
 import "./globals.css";
+
+const { siteUrl } = getSiteConfig(process.env);
 
 export const metadata: Metadata = {
   title: {
@@ -15,7 +18,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Brazuca Hubz",
     description: "Find services from your cultural community across Australia",
-    url: "https://dekonunes.github.io/community-finder",
+    url: siteUrl,
     siteName: "Brazuca Hubz",
     locale: "en_AU",
     type: "website",

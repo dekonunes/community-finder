@@ -1,9 +1,10 @@
 import type { MetadataRoute } from "next";
 import { providers, communities } from "@/lib/data";
+import { getSiteConfig } from "@/lib/site-config.mjs";
 
 export const dynamic = "force-static";
 
-const BASE_URL = "https://dekonunes.github.io/community-finder";
+const { siteUrl: BASE_URL } = getSiteConfig(process.env);
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const providerUrls = providers.map((p) => ({

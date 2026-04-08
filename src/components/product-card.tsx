@@ -1,5 +1,8 @@
 import Image from "next/image";
 import { getCommunityBySlug, getProductCategoryBySlug, type Product } from "@/lib/data";
+import { getSiteConfig, withBasePath } from "@/lib/site-config.mjs";
+
+const { basePath } = getSiteConfig(process.env);
 
 export function ProductCard({ product }: { product: Product }) {
   const community = getCommunityBySlug(product.community);
@@ -10,7 +13,7 @@ export function ProductCard({ product }: { product: Product }) {
       {product.image && (
         <div className="relative aspect-[3/4] w-full bg-zinc-800">
           <Image
-            src={`/community-finder${product.image}`}
+            src={withBasePath(product.image, basePath)}
             alt={product.name}
             fill
             className="object-cover"

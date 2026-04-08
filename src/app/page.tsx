@@ -2,6 +2,9 @@ import Link from "next/link";
 import { categories, communities, providers } from "@/lib/data";
 import { ProviderCard } from "@/components/provider-card";
 import { CommunityPill } from "@/components/community-pill";
+import { getSiteConfig, withBasePath } from "@/lib/site-config.mjs";
+
+const { basePath } = getSiteConfig(process.env);
 
 export default function HomePage() {
   const featured = providers.slice(0, 6);
@@ -16,7 +19,7 @@ export default function HomePage() {
       </section>
 
       <section className="mx-auto max-w-2xl">
-        <form action="/search" className="flex gap-2">
+        <form action={withBasePath("/search", basePath)} className="flex gap-2">
           <select name="service" defaultValue="" className="flex-1 rounded-md border border-zinc-700 bg-zinc-800 px-3 py-2 text-sm text-white">
             <option value="">All Services</option>
             {categories.map((c) => (

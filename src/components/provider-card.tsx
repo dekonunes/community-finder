@@ -1,6 +1,9 @@
 import Link from "next/link";
 import { getCommunityBySlug, getCategoryBySlug, getProviderSuburbsDisplay, type Provider } from "@/lib/data";
+import { getSiteConfig, withBasePath } from "@/lib/site-config.mjs";
 import { Badge } from "@/components/ui/badge";
+
+const { basePath } = getSiteConfig(process.env);
 
 export function ProviderCard({ provider }: { provider: Provider }) {
   const community = getCommunityBySlug(provider.country);
@@ -16,7 +19,7 @@ export function ProviderCard({ provider }: { provider: Provider }) {
     <div className="rounded-lg border border-zinc-800 bg-zinc-900 p-4">
       <div className="flex gap-4">
         {provider.photo ? (
-          <img src={`/community-finder${provider.photo}`} alt={provider.name} className="h-14 w-14 shrink-0 rounded-full object-cover" />
+          <img src={withBasePath(provider.photo, basePath)} alt={provider.name} className="h-14 w-14 shrink-0 rounded-full object-cover" />
         ) : (
           <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-full bg-blue-600 text-lg font-bold">
             {initials}
