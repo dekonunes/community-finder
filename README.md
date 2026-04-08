@@ -1,6 +1,6 @@
-# Community Finder
+# Brazuca Hubz
 
-A community-focused service directory for Sydney, Australia. Helps residents discover culturally-relevant services, events, and products from professional providers who share their language and cultural background.
+A community-focused service directory for Australia. Helps residents discover culturally-relevant services, events, and products from professional providers who share their language and cultural background.
 
 ## Features
 

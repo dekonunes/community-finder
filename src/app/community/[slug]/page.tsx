@@ -15,8 +15,8 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const community = getCommunityBySlug(slug);
   if (!community) return {};
   return {
-    title: `${community.name} Community Sydney — Services & Events | Community Finder`,
-    description: `Find ${community.name} GPs, accountants, lawyers, migration agents, childcare, and restaurants in Sydney.`,
+    title: `${community.name} Community in Australia — Services & Events`,
+    description: `Find ${community.name} GPs, accountants, lawyers, migration agents, childcare, and restaurants across Australia.`,
   };
 }
 
@@ -38,8 +38,8 @@ export default async function CommunityPage({ params }: { params: Promise<{ slug
   return (
     <div>
       <div className="mb-8">
-        <h1 className="text-3xl font-bold">{community.flag} {community.name} Community Sydney</h1>
-        <p className="mt-2 text-zinc-400">Find {community.name} services and events in Sydney</p>
+        <h1 className="text-3xl font-bold">{community.flag} {community.name} Community in Australia</h1>
+        <p className="mt-2 text-zinc-400">Find {community.name} services and events across Australia</p>
       </div>
 
       {communityProviders.length === 0 ? (

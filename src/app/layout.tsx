@@ -7,16 +7,16 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: {
-    default: "Community Finder — Find services from your community in Sydney",
-    template: "%s | Community Finder",
+    default: "Brazuca Hubz — Find services from your community in Australia",
+    template: "%s | Brazuca Hubz",
   },
   description:
-    "Find GPs, accountants, lawyers, migration agents, childcare, and restaurants from your cultural community in Sydney, Australia.",
+    "Find GPs, accountants, lawyers, migration agents, childcare, and restaurants from your cultural community across Australia.",
   openGraph: {
-    title: "Community Finder",
-    description: "Find services from your cultural community in Sydney",
+    title: "Brazuca Hubz",
+    description: "Find services from your cultural community across Australia",
     url: "https://dekonunes.github.io/community-finder",
-    siteName: "Community Finder",
+    siteName: "Brazuca Hubz",
     locale: "en_AU",
     type: "website",
   },

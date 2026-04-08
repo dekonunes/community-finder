@@ -13,7 +13,7 @@ export function EventsClient() {
   return (
     <div>
       <h1 className="mb-2 text-2xl font-bold">Community Events</h1>
-      <p className="mb-6 text-zinc-400">Upcoming festivals, meetups, and celebrations in Sydney</p>
+      <p className="mb-6 text-zinc-400">Upcoming festivals, meetups, and celebrations across Australia</p>
       <div className="mb-6">
         <select
           value={community ?? ""}

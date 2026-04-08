@@ -1,16 +1,16 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "List Your Business | Community Finder",
+  title: "List Your Business",
   description:
-    "Get your business listed on Community Finder. Reach customers from your cultural community in Sydney.",
+    "Get your business listed on Brazuca Hubz. Reach customers from your cultural community across Australia.",
 };
 
 const WHATSAPP_NUMBER = "61468445803";
 const EMAIL = "dekonunesss@gmail.com";
 
 const TEMPLATE_MESSAGE = encodeURIComponent(
-  "Hi! I'd like to list my business on Community Finder.\n\n" +
+  "Hi! I'd like to list my business on Brazuca Hubz.\n\n" +
     "Name:\nService:\n" +
     "Country of origin:\nLanguages spoken:\nPhone:\nEmail:\nWebsite:\nSuburb:\nShort bio:",
 );
@@ -20,7 +20,7 @@ export default function ListYourBusinessPage() {
     <div className="mx-auto max-w-2xl">
       <h1 className="text-2xl font-bold">List Your Business</h1>
       <p className="mt-2 text-zinc-400">
-        Get found by customers from your cultural community in Sydney. Listing
+        Get found by customers from your cultural community across Australia. Listing
         is free.
       </p>
 
@@ -29,7 +29,7 @@ export default function ListYourBusinessPage() {
         <ol className="list-inside list-decimal space-y-2 text-zinc-300">
           <li>Send us your business details via WhatsApp or email</li>
           <li>We review your listing (usually within 24-48 hours)</li>
-          <li>Your profile goes live on Community Finder</li>
+          <li>Your profile goes live on Brazuca Hubz</li>
         </ol>
       </div>
 
@@ -43,7 +43,7 @@ export default function ListYourBusinessPage() {
           💬 WhatsApp Us
         </a>
         <a
-          href={`mailto:${EMAIL}?subject=${encodeURIComponent("List my business on Community Finder")}&body=${TEMPLATE_MESSAGE}`}
+          href={`mailto:${EMAIL}?subject=${encodeURIComponent("List my business on Brazuca Hubz")}&body=${TEMPLATE_MESSAGE}`}
           className="flex-1 rounded-lg border border-zinc-700 bg-zinc-800 py-4 text-center text-lg font-medium text-blue-400 hover:bg-zinc-700"
         >
           📧 Email Us

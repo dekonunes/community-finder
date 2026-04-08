@@ -11,7 +11,7 @@ export default function HomePage() {
       <section className="py-12 text-center">
         <h1 className="text-3xl font-bold sm:text-4xl">Services from your community</h1>
         <p className="mt-2 text-zinc-400">
-          Connect with professionals who share your culture and language in Sydney
+          Connect with professionals who share your culture and language across Australia
         </p>
       </section>
 

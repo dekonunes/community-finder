@@ -22,7 +22,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const community = getCommunityBySlug(provider.country);
   const category = getCategoryBySlug(provider.service);
   return {
-    title: `${provider.name} — ${category?.name} | Community Finder`,
+    title: `${provider.name} — ${category?.name}`,
     description: `${community?.name} ${category?.name?.toLowerCase()} in ${getProviderSuburbsDisplay(provider)}. ${provider.bio}`,
   };
 }

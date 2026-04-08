@@ -3,8 +3,8 @@ import { Suspense } from "react";
 import { ProductsClient } from "@/components/products-client";
 
 export const metadata: Metadata = {
-  title: "Community Products | Community Finder",
-  description: "Discover books, music, food, art, and more from multicultural communities in Sydney.",
+  title: "Community Products",
+  description: "Discover books, music, food, art, and more from multicultural communities across Australia.",
 };
 
 export default function ProductsPage() {
