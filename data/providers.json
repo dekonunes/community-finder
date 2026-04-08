@@ -746,5 +746,59 @@
     "address": "Sunshine Coast, QLD",
     "photo": null,
     "instagram": "https://www.instagram.com/fernanda.alves_psychoanalyst?igsh=bHNjZnU4ZjEwZzhp&utm_source=qr"
+  },
+  {
+    "slug": "felipe-baccan",
+    "name": "Felipe Baccan",
+    "service": "chiropractor",
+    "country": "brazil",
+    "languages": [
+      "portuguese",
+      "english"
+    ],
+    "suburb": "wolli-creek",
+    "phone": "0493 510 968",
+    "email": "reception@chirofix.com.au",
+    "website": "https://chirofix.com.au",
+    "bio": "Felipe Baccan is a chiropractor at Chirofix in Wolli Creek, offering appointments in Portuguese and English.",
+    "address": "Wolli Creek, NSW",
+    "photo": null,
+    "instagram": "https://instagram.com/chirofix"
+  },
+  {
+    "slug": "lidane-barros",
+    "name": "Lidane Barros",
+    "service": "chiropractor",
+    "country": "brazil",
+    "languages": [
+      "portuguese",
+      "english"
+    ],
+    "suburb": "wolli-creek",
+    "phone": "0493 510 968",
+    "email": "reception@chirofix.com.au",
+    "website": "https://chirofix.com.au",
+    "bio": "Lidane Barros is a chiropractor at Chirofix in Wolli Creek, offering appointments in Portuguese and English.",
+    "address": "Wolli Creek, NSW",
+    "photo": null,
+    "instagram": "https://instagram.com/chirofix"
+  },
+  {
+    "slug": "tainan-marchiori",
+    "name": "Tainan Marchiori",
+    "service": "chiropractor",
+    "country": "brazil",
+    "languages": [
+      "portuguese",
+      "english"
+    ],
+    "suburb": "wolli-creek",
+    "phone": "0493 510 968",
+    "email": "reception@chirofix.com.au",
+    "website": "https://chirofix.com.au",
+    "bio": "Tainan Marchiori is a chiropractor at Chirofix in Wolli Creek, offering appointments in Portuguese and English.",
+    "address": "Wolli Creek, NSW",
+    "photo": null,
+    "instagram": "https://instagram.com/chirofix"
   }
 ]
