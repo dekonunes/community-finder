@@ -44,7 +44,10 @@
       "portuguese",
       "english"
     ],
-    "suburbs": ["kogarah", "st-leonards"],
+    "suburbs": [
+      "kogarah",
+      "st-leonards"
+    ],
     "phone": null,
     "email": null,
     "website": "https://www.healthshare.com.au/profile/professional/387463-dr-leticia-deveza/",
@@ -618,7 +621,7 @@
       "english"
     ],
     "suburb": "rockdale",
-    "phone": "+61 431 643 360",
+    "phone": "0431 643 360",
     "email": "bianca.chiarelli@hotmail.com",
     "website": null,
     "bio": "Oi! Eu sou a Bianca, psicóloga pós-graduada em TCC. Há quatro anos, ajudo pessoas no mundo todo a lidar com ansiedade, TOC, TDAH e os desafios de ser imigrante. Vamos marcar uma conversa gratuita?",
@@ -680,5 +683,28 @@
     "address": "Beverly Hills, NSW",
     "photo": null,
     "instagram": "https://www.instagram.com/shlomo.com.au"
+  },
+  {
+    "slug": "cristina-wildt",
+    "name": "Cristina Wildt",
+    "service": "counsellor",
+    "country": "brazil",
+    "languages": [
+      "portuguese",
+      "english",
+      "spanish"
+    ],
+    "suburbs": [
+      "mona-vale",
+      "dee-why",
+      "sydney-cbd"
+    ],
+    "phone": "0449 829 931",
+    "email": "cristina@cristinawildt.com",
+    "website": null,
+    "bio": "Cristina Wildt is an ACA-registered counsellor with qualifications in Counselling and Psychology, currently undertaking a postgraduate specialisation in ADHD. She supports individuals and couples navigating life transitions, grief, anxiety, relationship difficulties, and cross-cultural challenges, offering a safe and compassionate space for emotional reconnection. Her clinical focus includes adult ADHD, identity development, self-acceptance, and couples therapy helping partners to improve communication, rebuild trust, and deepen emotional connection. Cristina has a particular interest in working with adults diagnosed with ADHD later in life, helping them process feelings of inadequacy and develop a more integrated and empowered sense of self. Her approach integrates empathy, emotional validation, and neuroscience-informed practices to foster resilience, clarity, healthier relationships, and overall wellbeing.",
+    "address": "Mona Vale / Dee Why / Sydney CBD, NSW",
+    "photo": null,
+    "instagram": "https://www.instagram.com/cristina.counselling?igsh=Z3NtaHYwb2lkZzAx"
   }
 ]
