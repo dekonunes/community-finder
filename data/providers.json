@@ -643,5 +643,42 @@
     "address": "Mosman, NSW",
     "photo": null,
     "instagram": "https://www.instagram.com/nomadeprimetravel"
+  },
+  {
+    "slug": "grape-digital",
+    "name": "Grape Digital",
+    "service": "marketing-service",
+    "country": "brazil",
+    "languages": [
+      "portuguese",
+      "english"
+    ],
+    "suburb": "sydney-cbd",
+    "phone": "0424 861 552",
+    "email": "contact@thegrapedigital.com",
+    "website": "https://thegrapedigital.com",
+    "bio": "We are a marketing agency that builds fully connected, high-performance ecosystems for brands of any size or industry. Looking forward to talking to you!",
+    "address": "Sydney CBD, NSW",
+    "photo": null,
+    "instagram": null
+  },
+  {
+    "slug": "thiago-shlomo",
+    "name": "Thiago Shlomo",
+    "service": "psychologist",
+    "country": "brazil",
+    "languages": [
+      "portuguese",
+      "english",
+      "spanish"
+    ],
+    "suburb": "beverly-hills",
+    "phone": "0466224417",
+    "email": "thiago.shlomo@gmail.com",
+    "website": "https://www.shlomo.com.br",
+    "bio": "My name is Thiago Shlomo, and I've been working in psychology since 2015. I see adults, couples, and businesspeople. Before my clinical practice, I worked in the forensic (criminal), social, business, and school settings. I have graduation as a psychologist, psychoanalyst, and public administrator. I also have two postgraduate degrees and several continuing education courses. But my greatest calling is being the father of 10-year-old Valentina.",
+    "address": "Beverly Hills, NSW",
+    "photo": null,
+    "instagram": "https://www.instagram.com/shlomo.com.au"
   }
 ]
