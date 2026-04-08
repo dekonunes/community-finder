@@ -1,10 +1,16 @@
 "use client";
 
-import { useRouter, useSearchParams } from "next/navigation";
+import { useSearchParams } from "next/navigation";
+import { useTranslations } from "next-intl";
 import { categories, suburbs, getAllLanguages } from "@/lib/data";
+import { usePathname, useRouter } from "@/i18n/navigation";
 
 export function SearchFilters() {
+  const t = useTranslations("search.filters");
+  const categoriesT = useTranslations("categories");
+  const languagesT = useTranslations("languages");
   const router = useRouter();
+  const pathname = usePathname();
   const searchParams = useSearchParams();
 
   function updateFilter(key: string, value: string) {
@@ -14,22 +20,31 @@ export function SearchFilters() {
     } else {
       params.delete(key);
     }
-    router.push(`/search?${params.toString()}`);
+    const nextQuery = params.toString();
+    router.push(nextQuery ? `${pathname}?${nextQuery}` : pathname);
   }
 
   return (
     <div className="flex flex-wrap gap-3">
       <select value={searchParams.get("service") ?? ""} onChange={(e) => updateFilter("service", e.target.value)} className="rounded-md border border-zinc-700 bg-zinc-800 px-3 py-2 text-sm text-white">
-        <option value="">All Services</option>
-        {categories.map((c) => (<option key={c.slug} value={c.slug}>{c.icon} {c.name}</option>))}
+        <option value="">{t("service")}</option>
+        {categories.map((category) => (
+          <option key={category.slug} value={category.slug}>
+            {category.icon} {categoriesT(category.slug as never)}
+          </option>
+        ))}
       </select>
       <select value={searchParams.get("language") ?? ""} onChange={(e) => updateFilter("language", e.target.value)} className="rounded-md border border-zinc-700 bg-zinc-800 px-3 py-2 text-sm text-white">
-        <option value="">All Languages</option>
-        {getAllLanguages().map((lang) => (<option key={lang} value={lang} className="capitalize">{lang}</option>))}
+        <option value="">{t("language")}</option>
+        {getAllLanguages().map((language) => (
+          <option key={language} value={language} className="capitalize">
+            {languagesT(language as never)}
+          </option>
+        ))}
       </select>
       <select value={searchParams.get("suburb") ?? ""} onChange={(e) => updateFilter("suburb", e.target.value)} className="rounded-md border border-zinc-700 bg-zinc-800 px-3 py-2 text-sm text-white">
-        <option value="">All Suburbs</option>
-        {suburbs.map((s) => (<option key={s.slug} value={s.slug}>{s.name}</option>))}
+        <option value="">{t("suburb")}</option>
+        {suburbs.map((suburb) => <option key={suburb.slug} value={suburb.slug}>{suburb.name}</option>)}
       </select>
     </div>
   );

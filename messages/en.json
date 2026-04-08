@@ -1,0 +1,159 @@
+{
+  "metadata": {
+    "siteTitle": "Brazuca Hubz",
+    "titleTemplate": "%s | Brazuca Hubz",
+    "description": "Find Brazilian doctors, lawyers, accountants, events, and products across Australia.",
+    "openGraphDescription": "Find Brazilian services, events, and products across Australia."
+  },
+  "localeSwitcher": {
+    "label": "Language",
+    "pt-BR": "Portuguese",
+    "en": "English",
+    "es": "Spanish"
+  },
+  "nav": {
+    "brand": "Brazuca Hubz",
+    "services": "Services",
+    "events": "Events",
+    "products": "Products",
+    "listBusiness": "List Your Business"
+  },
+  "home": {
+    "title": "Brazilian services in Australia",
+    "subtitle": "Connect with Brazilian professionals across Australia",
+    "allServices": "All Services",
+    "search": "Search",
+    "featured": "Featured Providers",
+    "browseAll": "Browse all providers →"
+  },
+  "search": {
+    "title": "Search Providers",
+    "results": "{count, plural, one {# provider found} other {# providers found}}",
+    "emptyTitle": "No providers found matching your filters.",
+    "emptyDescription": "Try broadening your search or browse all providers.",
+    "clear": "Clear all filters",
+    "metadataTitle": "Search Brazilian providers in Australia",
+    "metadataDescription": "Browse Brazilian professionals across Australia by service, language, and suburb.",
+    "filters": {
+      "service": "All Services",
+      "language": "All Languages",
+      "suburb": "All Suburbs"
+    }
+  },
+  "events": {
+    "title": "Brazilian Events",
+    "subtitle": "Upcoming festivals, meetups, and celebrations for Brazilians across Australia",
+    "empty": "No upcoming events found.",
+    "metadataTitle": "Brazilian Events in Australia",
+    "metadataDescription": "Upcoming Brazilian community events, festivals, and celebrations across Australia.",
+    "filterAllCommunities": "All Communities"
+  },
+  "products": {
+    "title": "Brazilian Products",
+    "subtitle": "Books, music, food, art, and more from the Brazilian community",
+    "empty": "No products found.",
+    "viewProduct": "View Product →",
+    "metadataTitle": "Brazilian Products",
+    "metadataDescription": "Discover books, music, food, art, and more from the Brazilian community across Australia.",
+    "allCategories": "All Categories"
+  },
+  "all": {
+    "title": "All Providers",
+    "subtitle": "Browse all Brazilian service providers across Australia",
+    "metadataTitle": "All Providers",
+    "metadataDescription": "Browse all Brazilian service providers across Australia, organised by category."
+  },
+  "listBusiness": {
+    "title": "List Your Business",
+    "subtitle": "Get found by Brazilians across Australia. Listing is free.",
+    "howItWorks": "How it works",
+    "step1": "Send us your business details via WhatsApp or email",
+    "step2": "We review your listing (usually within 24-48 hours)",
+    "step3": "Your profile goes live on Brazuca Hubz",
+    "whatsApp": "WhatsApp Us",
+    "email": "Email Us",
+    "recommendations": "What we recommend from you",
+    "recommendation1": "Your business name",
+    "recommendation2": "Service type (GP, Accountant, Lawyer, Migration Agent, Childcare, Restaurant)",
+    "recommendation3": "Country of origin",
+    "recommendation4": "Languages you speak",
+    "recommendation5": "Phone number",
+    "recommendation6": "Email address",
+    "recommendation7": "Website (optional)",
+    "recommendation8": "Suburb and address",
+    "recommendation9": "A short bio (2-3 sentences about your practice)",
+    "metadataTitle": "List Your Business",
+    "metadataDescription": "Get your business listed on Brazuca Hubz and reach Brazilian customers across Australia.",
+    "emailSubject": "List my business on Brazuca Hubz",
+    "templateMessage": "Hi! I'd like to list my business on Brazuca Hubz.\n\nName:\nService:\nLanguages spoken:\nPhone:\nEmail:\nInstagram:\nWebsite:\nSuburb:\nShort bio:"
+  },
+  "provider": {
+    "about": "About",
+    "location": "Location",
+    "metadataDescription": "{community} {category} in {suburb}. {bio}"
+  },
+  "community": {
+    "title": "{name} Community in Australia",
+    "subtitle": "Find {name} services and events across Australia",
+    "empty": "No providers listed yet for the {name} community.",
+    "cta": "Be the first to list your business →",
+    "products": "Products",
+    "upcomingEvents": "Upcoming Events",
+    "metadataTitle": "{name} Community in Australia",
+    "metadataDescription": "Find doctors, accountants, lawyers, migration agents, childcare, and restaurants from the {name} community across Australia."
+  },
+  "footer": {
+    "copyright": "© {year} Brazuca Hubz. Australia.",
+    "cta": "List Your Business (free)"
+  },
+  "notFound": {
+    "description": "Page not found",
+    "back": "Back to home"
+  },
+  "common": {
+    "instagram": "Instagram",
+    "website": "Website",
+    "email": "Email",
+    "moreInfo": "More info →"
+  },
+  "categories": {
+    "gp": "GPs / Doctors",
+    "dentist": "Dentists",
+    "orthodontist": "Orthodontists",
+    "dermatologist": "Dermatologists",
+    "cardiologist": "Cardiologists",
+    "endocrinologist": "Endocrinologists",
+    "obstetrician-gynaecologist": "Obstetricians / Gynaecologists",
+    "ophthalmologist": "Ophthalmologists",
+    "paediatrician": "Paediatricians",
+    "psychiatrist": "Psychiatrists",
+    "psychoanalyst": "Psychoanalysts",
+    "psychologist": "Psychologists",
+    "rheumatologist": "Rheumatologists",
+    "surgeon": "Surgeons",
+    "ent-surgeon": "ENT Surgeons",
+    "lawyer": "Lawyers",
+    "mortgage-broker": "Mortgage Brokers",
+    "travel-agent": "Travel Agents",
+    "marketing-service": "Marketing Services",
+    "counsellor": "Counsellors"
+  },
+  "productCategories": {
+    "books": "Books",
+    "music": "Music",
+    "fashion": "Fashion & Clothing",
+    "food-drinks": "Food & Drinks",
+    "art-crafts": "Art & Crafts",
+    "beauty-wellness": "Beauty & Wellness",
+    "home-decor": "Home & Decor",
+    "kids-toys": "Kids & Toys"
+  },
+  "languages": {
+    "english": "English",
+    "portuguese": "Portuguese",
+    "spanish": "Spanish"
+  },
+  "communities": {
+    "brazil": "Brazilian"
+  }
+}

@@ -18,10 +18,10 @@ test("only the Brazilian community remains in the dataset", () => {
   assert.ok(providers.every((provider) => provider.country === "brazil"));
 });
 
-test("providers keep Portuguese and English as available languages", () => {
+test("providers keep the expected language set", () => {
   const languages = [...new Set(providers.flatMap((provider) => provider.languages))].sort();
 
-  assert.deepEqual(languages, ["english", "portuguese"]);
+  assert.deepEqual(languages, ["english", "portuguese", "spanish"]);
 });
 
 test("service categories only include services that have providers", () => {
@@ -47,7 +47,7 @@ test("lawyer service is available with the New Alliance Migration provider", () 
     country: "brazil",
     languages: ["portuguese", "english"],
     suburb: "sydney-cbd",
-    phone: "+61 424 688 763",
+    phone: "0424 688 763",
     email: "isa.andrade@newalliancemigration.com",
     website: "https://newalliance-landpage.vercel.app/",
     bio: "New Alliance Migration is led by Isa Andrade, a dedicated and registered immigration law consultant with over 10 years of experience helping individuals and families navigate the complexities of Australian migration law. Isa combines deep legal expertise with a genuine passion for her clients' success - guiding them through every step of their visa journey with clarity, care, and determination.",

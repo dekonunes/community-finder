@@ -1,6 +1,10 @@
-import { notFound } from "next/navigation";
-import type { Metadata } from "next";
-import { providers, getProviderBySlug, getCommunityBySlug, getCategoryBySlug, getProviderSuburbsDisplay } from "@/lib/data";
+import Image from "next/image";
+import { getTranslations } from "next-intl/server";
+import {
+  type Community,
+  type Provider,
+  getProviderSuburbsDisplay,
+} from "@/lib/data";
 import { getSiteConfig, withBasePath } from "@/lib/site-config.mjs";
 import { Badge } from "@/components/ui/badge";
 import { EmailButton } from "@/components/copy-email-button";
@@ -32,54 +36,56 @@ function PhoneIcon(props: React.ComponentProps<"svg">) {
   );
 }
 
-export function generateStaticParams() {
-  return providers.map((p) => ({ slug: p.slug }));
-}
-
-export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
-  const { slug } = await params;
-  const provider = getProviderBySlug(slug);
-  if (!provider) return {};
-  const community = getCommunityBySlug(provider.country);
-  const category = getCategoryBySlug(provider.service);
-  return {
-    title: `${provider.name} — ${category?.name}`,
-    description: `${community?.name} ${category?.name?.toLowerCase()} in ${getProviderSuburbsDisplay(provider)}. ${provider.bio}`,
-  };
-}
-
-export default async function ProviderPage({ params }: { params: Promise<{ slug: string }> }) {
-  const { slug } = await params;
-  const provider = getProviderBySlug(slug);
-  if (!provider) notFound();
-
-  const community = getCommunityBySlug(provider.country);
-  const category = getCategoryBySlug(provider.service);
-  const initials = provider.name.split(" ").map((w) => w[0]).join("").slice(0, 2).toUpperCase();
+export async function ProviderDetail({
+  provider,
+  community,
+}: {
+  provider: Provider;
+  community: Community | undefined;
+}) {
+  const t = await getTranslations("provider");
+  const categoriesT = await getTranslations("categories");
+  const communitiesT = await getTranslations("communities");
+  const languagesT = await getTranslations("languages");
+  const commonT = await getTranslations("common");
+  const initials = provider.name.split(" ").map((word) => word[0]).join("").slice(0, 2).toUpperCase();
 
   return (
     <div className="mx-auto max-w-2xl">
-      <div className="rounded-xl border border-zinc-800 bg-zinc-900 overflow-hidden">
+      <div className="overflow-hidden rounded-xl border border-zinc-800 bg-zinc-900">
         <div className="bg-gradient-to-br from-blue-600/20 to-purple-600/20 px-6 py-8 text-center">
           {provider.photo ? (
-            <img src={withBasePath(provider.photo, basePath)} alt={provider.name} className="mx-auto h-20 w-20 rounded-full object-cover" />
+            <Image
+              src={withBasePath(provider.photo, basePath)}
+              alt={provider.name}
+              width={80}
+              height={80}
+              className="mx-auto h-20 w-20 rounded-full object-cover"
+            />
           ) : (
             <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full bg-blue-600 text-2xl font-bold">{initials}</div>
           )}
           <h1 className="mt-4 text-2xl font-bold">{provider.name}</h1>
-          <p className="mt-1 text-zinc-400">{category?.name} · {community?.flag} {community?.name}</p>
+          <p className="mt-1 text-zinc-400">
+            {categoriesT(provider.service as never)} · {community?.flag} {community ? communitiesT(community.slug as never) : null}
+          </p>
           <div className="mt-3 flex flex-wrap justify-center gap-2">
-            {provider.languages.map((lang) => (<Badge key={lang} variant="secondary" className="capitalize">{lang}</Badge>))}
+            {provider.languages.map((language) => (
+              <Badge key={language} variant="secondary" className="capitalize">
+                {languagesT(language as never)}
+              </Badge>
+            ))}
           </div>
         </div>
         <div className="space-y-6 p-6">
           <div>
-            <h2 className="text-xs font-medium uppercase tracking-wider text-zinc-500">About</h2>
-            <p className="mt-2 text-zinc-300 leading-relaxed">{provider.bio}</p>
+            <h2 className="text-xs font-medium uppercase tracking-wider text-zinc-500">{t("about")}</h2>
+            <p className="mt-2 leading-relaxed text-zinc-300">{provider.bio}</p>
           </div>
           <div>
-            <h2 className="text-xs font-medium uppercase tracking-wider text-zinc-500">Location</h2>
+            <h2 className="text-xs font-medium uppercase tracking-wider text-zinc-500">{t("location")}</h2>
             <p className="mt-2 text-zinc-300">📍 {provider.address}</p>
+            <p className="mt-1 text-sm text-zinc-500">{getProviderSuburbsDisplay(provider)}</p>
           </div>
           <div className="space-y-3">
             {provider.phone && (
@@ -89,16 +95,14 @@ export default async function ProviderPage({ params }: { params: Promise<{ slug:
             )}
             {(provider.email || provider.website || provider.instagram) && (
               <div className="flex gap-3">
-                {provider.email && (
-                  <EmailButton email={provider.email} variant="icon-button" />
-                )}
+                {provider.email && <EmailButton email={provider.email} variant="icon-button" />}
                 {provider.website && (
-                  <a href={provider.website} target="_blank" rel="noopener noreferrer" title="Website" className="flex items-center justify-center rounded-lg border border-zinc-700 bg-zinc-800 p-3 text-blue-400 hover:bg-zinc-700">
+                  <a href={provider.website} target="_blank" rel="noopener noreferrer" title={commonT("website")} className="flex items-center justify-center rounded-lg border border-zinc-700 bg-zinc-800 p-3 text-blue-400 hover:bg-zinc-700">
                     <GlobeIcon className="h-5 w-5" />
                   </a>
                 )}
                 {provider.instagram && (
-                  <a href={provider.instagram} target="_blank" rel="noopener noreferrer" title="Instagram" className="flex items-center justify-center rounded-lg border border-zinc-700 bg-zinc-800 p-3 text-pink-400 hover:bg-zinc-700">
+                  <a href={provider.instagram} target="_blank" rel="noopener noreferrer" title={commonT("instagram")} className="flex items-center justify-center rounded-lg border border-zinc-700 bg-zinc-800 p-3 text-pink-400 hover:bg-zinc-700">
                     <InstagramIcon className="h-5 w-5" />
                   </a>
                 )}

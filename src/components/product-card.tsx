@@ -4,7 +4,15 @@ import { getSiteConfig, withBasePath } from "@/lib/site-config.mjs";
 
 const { basePath } = getSiteConfig(process.env);
 
-export function ProductCard({ product }: { product: Product }) {
+export function ProductCard({
+  product,
+  categoryLabel,
+  viewProductLabel,
+}: {
+  product: Product;
+  categoryLabel?: string | null;
+  viewProductLabel: string;
+}) {
   const community = getCommunityBySlug(product.community);
   const category = getProductCategoryBySlug(product.category);
 
@@ -26,7 +34,7 @@ export function ProductCard({ product }: { product: Product }) {
           <div className="min-w-0">
             <h3 className="font-semibold">{product.name}</h3>
             <p className="mt-1 text-sm text-zinc-400">
-              {category?.icon} {category?.name}
+              {category?.icon} {categoryLabel ?? null}
             </p>
           </div>
           {community && <span className="shrink-0 text-xl">{community.flag}</span>}
@@ -41,7 +49,7 @@ export function ProductCard({ product }: { product: Product }) {
           rel="noopener noreferrer"
           className="mt-3 inline-block rounded-md bg-blue-600 px-3 py-1.5 text-sm font-medium text-white hover:bg-blue-500"
         >
-          View Product →
+          {viewProductLabel}
         </a>
       </div>
     </div>

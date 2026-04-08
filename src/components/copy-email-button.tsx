@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback } from "react";
+import { useTranslations } from "next-intl";
 
 function EmailIcon(props: React.ComponentProps<"svg">) {
   return (
@@ -12,19 +12,22 @@ function EmailIcon(props: React.ComponentProps<"svg">) {
 }
 
 export function EmailButton({ email, variant = "icon" }: { email: string; variant?: "icon" | "detail" | "icon-button" }) {
-  const handleClick = useCallback(() => {
+  const t = useTranslations("common");
+
+  function handleClick() {
     window.open(
       `https://mail.google.com/mail/?view=cm&to=${encodeURIComponent(email)}`,
       "_blank",
       "noopener,noreferrer"
     );
-  }, [email]);
+  }
 
   if (variant === "detail") {
     return (
       <button
         type="button"
         onClick={handleClick}
+        aria-label={`${t("email")}: ${email}`}
         className="flex-1 cursor-pointer rounded-lg border border-zinc-700 bg-zinc-800 py-3 text-center text-blue-400 hover:bg-zinc-700"
       >
         📧 {email}
@@ -37,7 +40,8 @@ export function EmailButton({ email, variant = "icon" }: { email: string; varian
       <button
         type="button"
         onClick={handleClick}
-        title={email}
+        title={`${t("email")}: ${email}`}
+        aria-label={`${t("email")}: ${email}`}
         className="flex cursor-pointer items-center justify-center rounded-lg border border-zinc-700 bg-zinc-800 p-3 text-blue-400 hover:bg-zinc-700"
       >
         <EmailIcon className="h-5 w-5" />
@@ -49,7 +53,8 @@ export function EmailButton({ email, variant = "icon" }: { email: string; varian
     <button
       type="button"
       onClick={handleClick}
-      title={email}
+      title={`${t("email")}: ${email}`}
+      aria-label={`${t("email")}: ${email}`}
       className="cursor-pointer text-blue-400 hover:text-blue-300"
     >
       <EmailIcon className="h-4 w-4" />

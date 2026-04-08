@@ -1,12 +1,17 @@
 "use client";
 
 import { useSearchParams } from "next/navigation";
-import Link from "next/link";
-import { providers, getProviderSuburbs } from "@/lib/data";
+import { useTranslations } from "next-intl";
+import { getProviderSuburbs, providers } from "@/lib/data";
 import { ProviderCard } from "@/components/provider-card";
 import { SearchFilters } from "@/components/search-filters";
+import { Link } from "@/i18n/navigation";
 
 export function SearchClient() {
+  const t = useTranslations("search");
+  const categoriesT = useTranslations("categories");
+  const languagesT = useTranslations("languages");
+  const commonT = useTranslations("common");
   const searchParams = useSearchParams();
   let filtered = providers;
 
@@ -20,19 +25,30 @@ export function SearchClient() {
 
   return (
     <div>
-      <h1 className="mb-6 text-2xl font-bold">Search Providers</h1>
+      <h1 className="mb-6 text-2xl font-bold">{t("title")}</h1>
       <SearchFilters />
       <div className="mt-6">
-        <p className="mb-4 text-sm text-zinc-400">{filtered.length} provider{filtered.length !== 1 ? "s" : ""} found</p>
+        <p className="mb-4 text-sm text-zinc-400">{t("results", { count: filtered.length })}</p>
         {filtered.length === 0 ? (
           <div className="py-12 text-center">
-            <p className="text-zinc-400">No providers found matching your filters.</p>
-            <p className="mt-2 text-sm text-zinc-500">Try broadening your search or browse all providers.</p>
-            <Link href="/search" className="mt-4 inline-block text-blue-400 hover:underline">Clear all filters</Link>
+            <p className="text-zinc-400">{t("emptyTitle")}</p>
+            <p className="mt-2 text-sm text-zinc-500">{t("emptyDescription")}</p>
+            <Link href="/search" className="mt-4 inline-block text-blue-400 hover:underline">
+              {t("clear")}
+            </Link>
           </div>
         ) : (
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-            {filtered.map((p) => (<ProviderCard key={p.slug} provider={p} />))}
+            {filtered.map((provider) => (
+              <ProviderCard
+                key={provider.slug}
+                provider={provider}
+                categoryLabel={categoriesT(provider.service as never)}
+                languageLabels={provider.languages.map((language) => languagesT(language as never))}
+                websiteLabel={commonT("website")}
+                instagramLabel={commonT("instagram")}
+              />
+            ))}
           </div>
         )}
       </div>

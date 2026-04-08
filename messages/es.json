@@ -1,0 +1,159 @@
+{
+  "metadata": {
+    "siteTitle": "Brazuca Hubz",
+    "titleTemplate": "%s | Brazuca Hubz",
+    "description": "Encuentra medicos, abogados, contadores, eventos y productos brasileños en toda Australia.",
+    "openGraphDescription": "Encuentra servicios, eventos y productos brasileños en toda Australia."
+  },
+  "localeSwitcher": {
+    "label": "Idioma",
+    "pt-BR": "Portugues",
+    "en": "Ingles",
+    "es": "Español"
+  },
+  "nav": {
+    "brand": "Brazuca Hubz",
+    "services": "Servicios",
+    "events": "Eventos",
+    "products": "Productos",
+    "listBusiness": "Anuncia tu negocio"
+  },
+  "home": {
+    "title": "Servicios brasileños en Australia",
+    "subtitle": "Conectate con profesionales brasileños en toda Australia",
+    "allServices": "Todos los servicios",
+    "search": "Buscar",
+    "featured": "Proveedores destacados",
+    "browseAll": "Ver todos los proveedores →"
+  },
+  "search": {
+    "title": "Buscar proveedores",
+    "results": "{count, plural, one {# proveedor encontrado} other {# proveedores encontrados}}",
+    "emptyTitle": "No se encontraron proveedores con esos filtros.",
+    "emptyDescription": "Prueba ampliar tu busqueda o ver todos los proveedores.",
+    "clear": "Limpiar filtros",
+    "metadataTitle": "Buscar proveedores brasileños en Australia",
+    "metadataDescription": "Encuentra profesionales brasileños en Australia por servicio, idioma y suburbio.",
+    "filters": {
+      "service": "Todos los servicios",
+      "language": "Todos los idiomas",
+      "suburb": "Todos los suburbios"
+    }
+  },
+  "events": {
+    "title": "Eventos brasileños",
+    "subtitle": "Proximos festivales, encuentros y celebraciones para brasileños en Australia",
+    "empty": "No se encontraron proximos eventos.",
+    "metadataTitle": "Eventos brasileños en Australia",
+    "metadataDescription": "Proximos eventos, festivales y celebraciones de la comunidad brasileña en Australia.",
+    "filterAllCommunities": "Todas las comunidades"
+  },
+  "products": {
+    "title": "Productos brasileños",
+    "subtitle": "Libros, musica, comida, arte y mas de la comunidad brasileña",
+    "empty": "No se encontraron productos.",
+    "viewProduct": "Ver producto →",
+    "metadataTitle": "Productos brasileños",
+    "metadataDescription": "Descubre libros, musica, comida, arte y mas de la comunidad brasileña en Australia.",
+    "allCategories": "Todas las categorias"
+  },
+  "all": {
+    "title": "Todos los proveedores",
+    "subtitle": "Explora todos los proveedores brasileños en Australia",
+    "metadataTitle": "Todos los proveedores",
+    "metadataDescription": "Explora todos los proveedores brasileños en Australia, organizados por categoria."
+  },
+  "listBusiness": {
+    "title": "Anuncia tu negocio",
+    "subtitle": "Haz que los brasileños en toda Australia encuentren tu negocio. El anuncio es gratis.",
+    "howItWorks": "Como funciona",
+    "step1": "Envianos los datos de tu negocio por WhatsApp o email",
+    "step2": "Revisamos tu anuncio (normalmente dentro de 24-48 horas)",
+    "step3": "Tu perfil se publica en Brazuca Hubz",
+    "whatsApp": "Hablanos por WhatsApp",
+    "email": "Enviar email",
+    "recommendations": "Lo que te recomendamos enviar",
+    "recommendation1": "Nombre de tu negocio",
+    "recommendation2": "Tipo de servicio (medico general, contador, abogado, agente migratorio, childcare, restaurante)",
+    "recommendation3": "Pais de origen",
+    "recommendation4": "Idiomas que hablas",
+    "recommendation5": "Numero de telefono",
+    "recommendation6": "Direccion de email",
+    "recommendation7": "Website (opcional)",
+    "recommendation8": "Suburbio y direccion",
+    "recommendation9": "Una biografia corta (2-3 frases sobre tu negocio)",
+    "metadataTitle": "Anuncia tu negocio",
+    "metadataDescription": "Publica tu negocio en Brazuca Hubz y llega a clientes brasileños en toda Australia.",
+    "emailSubject": "Quiero anunciar mi negocio en Brazuca Hubz",
+    "templateMessage": "Hola! Quiero anunciar mi negocio en Brazuca Hubz.\n\nNombre:\nServicio:\nIdiomas:\nTelefono:\nEmail:\nInstagram:\nWebsite:\nSuburbio:\nBiografia corta:"
+  },
+  "provider": {
+    "about": "Sobre",
+    "location": "Ubicacion",
+    "metadataDescription": "{community} {category} en {suburb}. {bio}"
+  },
+  "community": {
+    "title": "Comunidad {name} en Australia",
+    "subtitle": "Encuentra servicios y eventos de la comunidad {name} en toda Australia",
+    "empty": "Todavia no hay proveedores registrados para la comunidad {name}.",
+    "cta": "Se el primero en anunciar tu negocio →",
+    "products": "Productos",
+    "upcomingEvents": "Proximos eventos",
+    "metadataTitle": "Comunidad {name} en Australia",
+    "metadataDescription": "Encuentra medicos, contadores, abogados, agentes migratorios, childcare y restaurantes de la comunidad {name} en toda Australia."
+  },
+  "footer": {
+    "copyright": "© {year} Brazuca Hubz. Australia.",
+    "cta": "Anuncia tu negocio (gratis)"
+  },
+  "notFound": {
+    "description": "Pagina no encontrada",
+    "back": "Volver al inicio"
+  },
+  "common": {
+    "instagram": "Instagram",
+    "website": "Website",
+    "email": "Email",
+    "moreInfo": "Mas informacion →"
+  },
+  "categories": {
+    "gp": "Medicos generales",
+    "dentist": "Dentistas",
+    "orthodontist": "Ortodoncistas",
+    "dermatologist": "Dermatologos",
+    "cardiologist": "Cardiologos",
+    "endocrinologist": "Endocrinologos",
+    "obstetrician-gynaecologist": "Obstetras / ginecologos",
+    "ophthalmologist": "Oftalmologos",
+    "paediatrician": "Pediatras",
+    "psychiatrist": "Psiquiatras",
+    "psychoanalyst": "Psicoanalistas",
+    "psychologist": "Psicologos",
+    "rheumatologist": "Reumatologos",
+    "surgeon": "Cirujanos",
+    "ent-surgeon": "Otorrinolaringologos",
+    "lawyer": "Abogados",
+    "mortgage-broker": "Asesores hipotecarios",
+    "travel-agent": "Agentes de viaje",
+    "marketing-service": "Servicios de marketing",
+    "counsellor": "Consejeros"
+  },
+  "productCategories": {
+    "books": "Libros",
+    "music": "Musica",
+    "fashion": "Moda y ropa",
+    "food-drinks": "Comida y bebidas",
+    "art-crafts": "Arte y artesanias",
+    "beauty-wellness": "Belleza y bienestar",
+    "home-decor": "Hogar y decoracion",
+    "kids-toys": "Niños y juguetes"
+  },
+  "languages": {
+    "english": "Ingles",
+    "portuguese": "Portugues",
+    "spanish": "Español"
+  },
+  "communities": {
+    "brazil": "brasileña"
+  }
+}

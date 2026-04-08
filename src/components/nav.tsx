@@ -1,6 +1,11 @@
-import Link from "next/link";
+import { Suspense } from "react";
+import { getTranslations } from "next-intl/server";
+import { Link } from "@/i18n/navigation";
+import { LocaleSwitcher } from "@/components/locale-switcher";
 
-export function Nav() {
+export async function Nav() {
+  const t = await getTranslations("nav");
+
   return (
     <header className="border-b border-zinc-800 bg-zinc-950">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3">
@@ -8,20 +13,25 @@ export function Nav() {
           🇧🇷 Brazuca Hubz
         </Link>
         <nav className="flex items-center gap-2 text-sm">
+          <Suspense
+            fallback={<div aria-hidden="true" className="h-8 w-24 rounded-md border border-zinc-700 bg-zinc-900" />}
+          >
+            <LocaleSwitcher />
+          </Suspense>
           <Link href="/search" className="text-zinc-400 hover:text-white">
-            Services
+            {t("services")}
           </Link>
           <Link href="/events" className="text-zinc-400 hover:text-white">
-            Events
+            {t("events")}
           </Link>
           <Link href="/products" className="text-zinc-400 hover:text-white">
-            Products
+            {t("products")}
           </Link>
           <Link
             href="/list-your-business"
             className="rounded-md bg-amber-500 px-3 py-1.5 text-sm font-medium text-black hover:bg-amber-400"
           >
-            List Your Business
+            {t("listBusiness")}
           </Link>
         </nav>
       </div>

@@ -1,16 +1,20 @@
 "use client";
 
-import { useRouter, useSearchParams } from "next/navigation";
+import { useSearchParams } from "next/navigation";
+import { useTranslations } from "next-intl";
 import { productCategories } from "@/lib/data";
+import { usePathname, useRouter } from "@/i18n/navigation";
 
 export function ProductCommunityFilter({
-  currentCommunity,
   currentCategory,
 }: {
   currentCommunity?: string;
   currentCategory?: string;
 }) {
+  const t = useTranslations("products");
+  const categoriesT = useTranslations("productCategories");
   const router = useRouter();
+  const pathname = usePathname();
   const searchParams = useSearchParams();
 
   function update(key: string, value: string) {
@@ -20,7 +24,8 @@ export function ProductCommunityFilter({
     } else {
       params.delete(key);
     }
-    router.push(`/products?${params.toString()}`);
+    const nextQuery = params.toString();
+    router.push(nextQuery ? `${pathname}?${nextQuery}` : pathname);
   }
 
   return (
@@ -30,10 +35,10 @@ export function ProductCommunityFilter({
         onChange={(e) => update("category", e.target.value)}
         className="rounded-md border border-zinc-700 bg-zinc-800 px-3 py-2 text-sm text-zinc-200"
       >
-        <option value="">All Categories</option>
+        <option value="">{t("allCategories")}</option>
         {productCategories.map((c) => (
           <option key={c.slug} value={c.slug}>
-            {c.icon} {c.name}
+            {c.icon} {categoriesT(c.slug as never)}
           </option>
         ))}
       </select>

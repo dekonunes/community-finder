@@ -1,8 +1,9 @@
-import Link from "next/link";
+import Image from "next/image";
 import { getCommunityBySlug, getCategoryBySlug, getProviderSuburbsDisplay, type Provider } from "@/lib/data";
 import { getSiteConfig, withBasePath } from "@/lib/site-config.mjs";
 import { Badge } from "@/components/ui/badge";
 import { EmailButton } from "@/components/copy-email-button";
+import { Link } from "@/i18n/navigation";
 
 const { basePath } = getSiteConfig(process.env);
 
@@ -31,7 +32,19 @@ function InstagramIcon(props: React.ComponentProps<"svg">) {
   );
 }
 
-export function ProviderCard({ provider }: { provider: Provider }) {
+export function ProviderCard({
+  provider,
+  categoryLabel,
+  languageLabels,
+  websiteLabel,
+  instagramLabel,
+}: {
+  provider: Provider;
+  categoryLabel?: string | null;
+  languageLabels: string[];
+  websiteLabel: string;
+  instagramLabel: string;
+}) {
   const community = getCommunityBySlug(provider.country);
   const category = getCategoryBySlug(provider.service);
   const initials = provider.name
@@ -45,7 +58,13 @@ export function ProviderCard({ provider }: { provider: Provider }) {
     <div className="rounded-lg border border-zinc-800 bg-zinc-900 p-4">
       <div className="flex gap-4">
         {provider.photo ? (
-          <img src={withBasePath(provider.photo, basePath)} alt={provider.name} className="h-14 w-14 shrink-0 rounded-full object-cover" />
+          <Image
+            src={withBasePath(provider.photo, basePath)}
+            alt={provider.name}
+            width={56}
+            height={56}
+            className="h-14 w-14 shrink-0 rounded-full object-cover"
+          />
         ) : (
           <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-full bg-blue-600 text-lg font-bold">
             {initials}
@@ -57,14 +76,14 @@ export function ProviderCard({ provider }: { provider: Provider }) {
               <Link href={`/provider/${provider.slug}`} className="font-semibold hover:text-blue-400">
                 {provider.name}
               </Link>
-              <p className="text-sm text-zinc-400">{category?.name}</p>
+              <p className="text-sm text-zinc-400">{category ? categoryLabel ?? null : null}</p>
             </div>
             {community && <span className="text-xl">{community.flag}</span>}
           </div>
           <div className="mt-2 flex flex-wrap gap-1.5">
-            {provider.languages.map((lang) => (
-              <Badge key={lang} variant="secondary" className="text-xs capitalize">
-                {lang}
+            {provider.languages.map((language, index) => (
+              <Badge key={language} variant="secondary" className="text-xs capitalize">
+                {languageLabels[index]}
               </Badge>
             ))}
           </div>
@@ -80,12 +99,12 @@ export function ProviderCard({ provider }: { provider: Provider }) {
               <EmailButton email={provider.email} />
             )}
             {provider.website && (
-              <a href={provider.website} target="_blank" rel="noopener noreferrer" title={provider.website} className="text-blue-400 hover:text-blue-300">
+              <a href={provider.website} target="_blank" rel="noopener noreferrer" title={websiteLabel} className="text-blue-400 hover:text-blue-300">
                 <WebsiteIcon className="h-4 w-4" />
               </a>
             )}
             {provider.instagram && (
-              <a href={provider.instagram} target="_blank" rel="noopener noreferrer" title="Instagram" className="text-pink-400 hover:text-pink-300">
+              <a href={provider.instagram} target="_blank" rel="noopener noreferrer" title={instagramLabel} className="text-pink-400 hover:text-pink-300">
                 <InstagramIcon className="h-4 w-4" />
               </a>
             )}
