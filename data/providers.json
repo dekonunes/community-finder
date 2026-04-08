@@ -625,5 +625,23 @@
     "address": "Rockdale, NSW",
     "photo": "/providers/bianca-peixoto.jpeg",
     "instagram": "https://www.instagram.com/psi.biancachiarelli"
+  },
+  {
+    "slug": "nomade-prime-travel",
+    "name": "Nômade Prime Travel",
+    "service": "travel-agent",
+    "country": "brazil",
+    "languages": [
+      "portuguese",
+      "english"
+    ],
+    "suburb": "mosman",
+    "phone": "0414976233",
+    "email": "contato@nomadeprimetravel.com.br",
+    "website": "https://www.nomadeprimetravel.com.br",
+    "bio": "Nomade is a travel agency focused on the Brazilian community, offering flights, hotels, travel insurance, and flexible payment options in Brazilian cards.",
+    "address": "Mosman, NSW",
+    "photo": null,
+    "instagram": "https://www.instagram.com/nomadeprimetravel"
   }
 ]

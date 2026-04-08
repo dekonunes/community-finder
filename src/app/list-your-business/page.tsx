@@ -12,7 +12,7 @@ const EMAIL = "dekonunesss@gmail.com";
 const TEMPLATE_MESSAGE = encodeURIComponent(
   "Hi! I'd like to list my business on Brazuca Hubz.\n\n" +
     "Name:\nService:\n" +
-    "Country of origin:\nLanguages spoken:\nPhone:\nEmail:\nWebsite:\nSuburb:\nShort bio:",
+    "Languages spoken:\nPhone:\nEmail:\nInstagram:\nWebsite:\nSuburb:\nShort bio:",
 );
 
 export default function ListYourBusinessPage() {
@@ -20,8 +20,8 @@ export default function ListYourBusinessPage() {
     <div className="mx-auto max-w-2xl">
       <h1 className="text-2xl font-bold">List Your Business</h1>
       <p className="mt-2 text-zinc-400">
-        Get found by customers from your cultural community across Australia. Listing
-        is free.
+        Get found by customers from your cultural community across Australia.
+        Listing is free.
       </p>
 
       <div className="mt-8 space-y-4">

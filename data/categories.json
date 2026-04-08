@@ -14,5 +14,6 @@
   { "slug": "surgeon", "name": "Surgeons", "icon": "🔪" },
   { "slug": "ent-surgeon", "name": "ENT Surgeons", "icon": "👂" },
   { "slug": "lawyer", "name": "Lawyers", "icon": "⚖️" },
-  { "slug": "mortgage-broker", "name": "Mortgage Brokers", "icon": "🏠" }
+  { "slug": "mortgage-broker", "name": "Mortgage Brokers", "icon": "🏠" },
+  { "slug": "travel-agent", "name": "Travel Agents", "icon": "✈️" }
 ]
