@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { providers, getProviderBySlug, getCommunityBySlug, getCategoryBySlug, getProviderSuburbsDisplay } from "@/lib/data";
 import { getSiteConfig, withBasePath } from "@/lib/site-config.mjs";
 import { Badge } from "@/components/ui/badge";
+import { EmailButton } from "@/components/copy-email-button";
 
 const { basePath } = getSiteConfig(process.env);
 
@@ -68,7 +69,7 @@ export default async function ProviderPage({ params }: { params: Promise<{ slug:
               <a href={`tel:${provider.phone}`} className="flex-1 rounded-lg bg-blue-600 py-3 text-center font-medium hover:bg-blue-500">📞 {provider.phone}</a>
             )}
             {provider.email && (
-              <a href={`mailto:${provider.email}`} className="flex-1 rounded-lg border border-zinc-700 bg-zinc-800 py-3 text-center text-blue-400 hover:bg-zinc-700">📧 Email</a>
+              <EmailButton email={provider.email} variant="detail" />
             )}
             {provider.website && (
               <a href={provider.website} target="_blank" rel="noopener noreferrer" className="flex-1 rounded-lg border border-zinc-700 bg-zinc-800 py-3 text-center text-blue-400 hover:bg-zinc-700">🌐 Website</a>

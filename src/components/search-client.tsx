@@ -11,12 +11,10 @@ export function SearchClient() {
   let filtered = providers;
 
   const service = searchParams.get("service");
-  const country = searchParams.get("country");
   const language = searchParams.get("language");
   const suburb = searchParams.get("suburb");
 
   if (service) filtered = filtered.filter((p) => p.service === service);
-  if (country) filtered = filtered.filter((p) => p.country === country);
   if (language) filtered = filtered.filter((p) => p.languages.includes(language));
   if (suburb) filtered = filtered.filter((p) => getProviderSuburbs(p).includes(suburb));
 

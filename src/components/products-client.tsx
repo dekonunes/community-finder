@@ -7,16 +7,15 @@ import { ProductCommunityFilter } from "@/components/product-community-filter";
 
 export function ProductsClient() {
   const searchParams = useSearchParams();
-  const community = searchParams.get("community") ?? undefined;
   const category = searchParams.get("category") ?? undefined;
-  const filteredProducts = getProducts(community, category);
+  const filteredProducts = getProducts(undefined, category);
 
   return (
     <div>
-      <h1 className="mb-2 text-2xl font-bold">Community Products</h1>
-      <p className="mb-6 text-zinc-400">Books, music, food, art, and more from our communities</p>
+      <h1 className="mb-2 text-2xl font-bold">Brazilian Products</h1>
+      <p className="mb-6 text-zinc-400">Books, music, food, art, and more from the Brazilian community</p>
       <div className="mb-6">
-        <ProductCommunityFilter currentCommunity={community} currentCategory={category} />
+        <ProductCommunityFilter currentCommunity={undefined} currentCategory={category} />
       </div>
       {filteredProducts.length === 0 ? (
         <div className="py-12 text-center">

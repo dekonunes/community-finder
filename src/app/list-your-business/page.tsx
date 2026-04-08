@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "List Your Business",
   description:
-    "Get your business listed on Brazuca Hubz. Reach customers from your cultural community across Australia.",
+    "Get your business listed on Brazuca Hubz. Reach Brazilian customers across Australia.",
 };
 
 const WHATSAPP_NUMBER = "61468445803";
@@ -20,7 +20,7 @@ export default function ListYourBusinessPage() {
     <div className="mx-auto max-w-2xl">
       <h1 className="text-2xl font-bold">List Your Business</h1>
       <p className="mt-2 text-zinc-400">
-        Get found by customers from your cultural community across Australia.
+        Get found by Brazilians across Australia.
         Listing is free.
       </p>
 

@@ -10,14 +10,14 @@ const { siteUrl } = getSiteConfig(process.env);
 
 export const metadata: Metadata = {
   title: {
-    default: "Brazuca Hubz — Find services from your community in Australia",
+    default: "Brazuca Hubz — Brazilian services in Australia",
     template: "%s | Brazuca Hubz",
   },
   description:
-    "Find GPs, accountants, lawyers, migration agents, childcare, and restaurants from your cultural community across Australia.",
+    "Find GPs, accountants, lawyers, migration agents, childcare, and restaurants from the Brazilian community across Australia.",
   openGraph: {
     title: "Brazuca Hubz",
-    description: "Find services from your cultural community across Australia",
+    description: "Find Brazilian services across Australia",
     url: siteUrl,
     siteName: "Brazuca Hubz",
     locale: "en_AU",

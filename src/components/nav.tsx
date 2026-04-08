@@ -5,7 +5,7 @@ export function Nav() {
     <header className="border-b border-zinc-800 bg-zinc-950">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3">
         <Link href="/" className="text-lg font-bold">
-          🌏 Brazuca Hubz
+          🇧🇷 Brazuca Hubz
         </Link>
         <nav className="flex items-center gap-2 text-sm">
           <Link href="/search" className="text-zinc-400 hover:text-white">

@@ -1,7 +1,7 @@
 "use client";
 
 import { useRouter, useSearchParams } from "next/navigation";
-import { categories, communities, suburbs, getAllLanguages } from "@/lib/data";
+import { categories, suburbs, getAllLanguages } from "@/lib/data";
 
 export function SearchFilters() {
   const router = useRouter();
@@ -22,10 +22,6 @@ export function SearchFilters() {
       <select value={searchParams.get("service") ?? ""} onChange={(e) => updateFilter("service", e.target.value)} className="rounded-md border border-zinc-700 bg-zinc-800 px-3 py-2 text-sm text-white">
         <option value="">All Services</option>
         {categories.map((c) => (<option key={c.slug} value={c.slug}>{c.icon} {c.name}</option>))}
-      </select>
-      <select value={searchParams.get("country") ?? ""} onChange={(e) => updateFilter("country", e.target.value)} className="rounded-md border border-zinc-700 bg-zinc-800 px-3 py-2 text-sm text-white">
-        <option value="">All Communities</option>
-        {communities.map((c) => (<option key={c.slug} value={c.slug}>{c.flag} {c.name}</option>))}
       </select>
       <select value={searchParams.get("language") ?? ""} onChange={(e) => updateFilter("language", e.target.value)} className="rounded-md border border-zinc-700 bg-zinc-800 px-3 py-2 text-sm text-white">
         <option value="">All Languages</option>

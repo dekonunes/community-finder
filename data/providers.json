@@ -9,13 +9,31 @@
       "english"
     ],
     "suburb": "sydney-cbd",
-    "phone": "+61 424 688 763",
+    "phone": "0424 688 763",
     "email": "isa.andrade@newalliancemigration.com",
     "website": "https://newalliance-landpage.vercel.app/",
     "bio": "New Alliance Migration is led by Isa Andrade, a dedicated and registered immigration law consultant with over 10 years of experience helping individuals and families navigate the complexities of Australian migration law. Isa combines deep legal expertise with a genuine passion for her clients' success - guiding them through every step of their visa journey with clarity, care, and determination.",
     "address": "Sydney CBD, NSW",
     "photo": null,
     "instagram": null
+  },
+  {
+    "slug": "bianca-chiarelli-peixoto",
+    "name": "Bianca Chiarelli Peixoto",
+    "service": "psychologist",
+    "country": "brazil",
+    "languages": [
+      "portuguese",
+      "english"
+    ],
+    "suburb": "rockdale",
+    "phone": "0431 643 360",
+    "email": "bianca.chiarelli@hotmail.com",
+    "website": null,
+    "bio": "Oi! Eu sou a Bianca, psicóloga pós-graduada em TCC. Há quatro anos, ajudo pessoas no mundo todo a lidar com ansiedade, TOC, TDAH e os desafios de ser imigrante. Vamos marcar uma conversa gratuita?",
+    "address": "Rockdale, NSW",
+    "photo": "/providers/bianca-peixoto.jpeg",
+    "instagram": "https://www.instagram.com/psi.biancachiarelli"
   },
   {
     "slug": "mariana-rosa-psychologist",
@@ -186,9 +204,10 @@
     "slug": "dr-patricia-vivaldi-smiles",
     "name": "Dr Patricia",
     "service": "dentist",
-    "country": "australia",
+    "country": "brazil",
     "languages": [
-      "english"
+      "english",
+      "portuguese"
     ],
     "suburb": "sydney-cbd",
     "phone": null,
@@ -203,9 +222,10 @@
     "slug": "dr-barbara-general-dentist",
     "name": "Dr Barbara",
     "service": "dentist",
-    "country": "australia",
+    "country": "brazil",
     "languages": [
-      "english"
+      "english",
+      "portuguese"
     ],
     "suburb": "sydney-cbd",
     "phone": null,
@@ -220,9 +240,10 @@
     "slug": "dr-gustavo-vivaldi-orthodontist",
     "name": "Dr Gustavo Vivaldi",
     "service": "orthodontist",
-    "country": "australia",
+    "country": "brazil",
     "languages": [
-      "english"
+      "english",
+      "portuguese"
     ],
     "suburb": "sydney-cbd",
     "phone": null,
@@ -612,24 +633,6 @@
     "instagram": "https://www.instagram.com/casapropriaaustralia"
   },
   {
-    "slug": "bianca-chiarelli-peixoto",
-    "name": "Bianca Chiarelli Peixoto",
-    "service": "psychologist",
-    "country": "brazil",
-    "languages": [
-      "portuguese",
-      "english"
-    ],
-    "suburb": "rockdale",
-    "phone": "0431 643 360",
-    "email": "bianca.chiarelli@hotmail.com",
-    "website": null,
-    "bio": "Oi! Eu sou a Bianca, psicóloga pós-graduada em TCC. Há quatro anos, ajudo pessoas no mundo todo a lidar com ansiedade, TOC, TDAH e os desafios de ser imigrante. Vamos marcar uma conversa gratuita?",
-    "address": "Rockdale, NSW",
-    "photo": "/providers/bianca-peixoto.jpeg",
-    "instagram": "https://www.instagram.com/psi.biancachiarelli"
-  },
-  {
     "slug": "nomade-prime-travel",
     "name": "Nômade Prime Travel",
     "service": "travel-agent",
@@ -639,7 +642,7 @@
       "english"
     ],
     "suburb": "mosman",
-    "phone": "0414976233",
+    "phone": "0414 976 233",
     "email": "contato@nomadeprimetravel.com.br",
     "website": "https://www.nomadeprimetravel.com.br",
     "bio": "Nomade is a travel agency focused on the Brazilian community, offering flights, hotels, travel insurance, and flexible payment options in Brazilian cards.",
@@ -676,7 +679,7 @@
       "spanish"
     ],
     "suburb": "beverly-hills",
-    "phone": "0466224417",
+    "phone": "0466 224 417",
     "email": "thiago.shlomo@gmail.com",
     "website": "https://www.shlomo.com.br",
     "bio": "My name is Thiago Shlomo, and I've been working in psychology since 2015. I see adults, couples, and businesspeople. Before my clinical practice, I worked in the forensic (criminal), social, business, and school settings. I have graduation as a psychologist, psychoanalyst, and public administrator. I also have two postgraduate degrees and several continuing education courses. But my greatest calling is being the father of 10-year-old Valentina.",
@@ -706,5 +709,24 @@
     "address": "Mona Vale / Dee Why / Sydney CBD, NSW",
     "photo": null,
     "instagram": "https://www.instagram.com/cristina.counselling?igsh=Z3NtaHYwb2lkZzAx"
+  },
+  {
+    "slug": "paula-sarcinella",
+    "name": "Paula Sarcinella - Holistic Therapist, Reiki, Counselling",
+    "service": "counsellor",
+    "country": "brazil",
+    "languages": [
+      "portuguese",
+      "english",
+      "spanish"
+    ],
+    "suburb": "dee-why",
+    "phone": null,
+    "email": "PaulaSarcinella@gmail.com",
+    "website": "https://sacredhealing.com.au",
+    "bio": "Paula Sarcinella offers holistic counselling and mind-body-soul healing in Dee Why, combining emotional healing, Reiki, Family Constellations, mindfulness, somatic release, therapeutic breathwork, integrative massage, and sound bath sessions.",
+    "address": "Dee Why, NSW",
+    "photo": null,
+    "instagram": "https://www.instagram.com/paula.sacred.healing"
   }
 ]
