@@ -728,5 +728,23 @@
     "address": "Dee Why, NSW",
     "photo": null,
     "instagram": "https://www.instagram.com/paula.sacred.healing"
+  },
+  {
+    "slug": "fernanda-alves",
+    "name": "Fernanda Alves",
+    "service": "psychoanalyst",
+    "country": "brazil",
+    "languages": [
+      "portuguese",
+      "english"
+    ],
+    "suburb": "sunshine-coast",
+    "phone": "0422 402 038",
+    "email": "fernandaalves@gmail.com",
+    "website": "https://www.fernandacounselling.com.au",
+    "bio": "Fernanda Alves is a psychotherapist and psychoanalyst with an Honours Degree in Psychology, offering therapy sessions in English and Portuguese for individuals, couples, and adolescents.",
+    "address": "Sunshine Coast, QLD",
+    "photo": null,
+    "instagram": "https://www.instagram.com/fernanda.alves_psychoanalyst?igsh=bHNjZnU4ZjEwZzhp&utm_source=qr"
   }
 ]

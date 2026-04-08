@@ -9,6 +9,7 @@
   { "slug": "ophthalmologist", "name": "Ophthalmologists", "icon": "👁️" },
   { "slug": "paediatrician", "name": "Paediatricians", "icon": "👶" },
   { "slug": "psychiatrist", "name": "Psychiatrists", "icon": "🧠" },
+  { "slug": "psychoanalyst", "name": "Psychoanalysts", "icon": "🛋️" },
   { "slug": "psychologist", "name": "Psychologists", "icon": "💬" },
   { "slug": "rheumatologist", "name": "Rheumatologists", "icon": "🦴" },
   { "slug": "surgeon", "name": "Surgeons", "icon": "🔪" },
