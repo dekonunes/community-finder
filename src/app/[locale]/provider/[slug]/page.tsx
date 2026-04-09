@@ -9,6 +9,7 @@ import {
 } from "@/lib/data";
 import { getPageAlternates, getPageOpenGraph } from "@/i18n/metadata";
 import { isValidLocale, routing } from "@/i18n/routing";
+import { getSiteConfig, withBasePath } from "@/lib/site-config.mjs";
 import { ProviderDetail } from "@/components/provider-detail";
 
 export function generateStaticParams() {
@@ -79,6 +80,47 @@ export default async function ProviderPage({
   }
 
   const community = getCommunityBySlug(provider.country);
+  const categoriesT = await getTranslations({ locale, namespace: "categories" });
 
-  return <ProviderDetail provider={provider} community={community} />;
+  const { siteUrl, basePath } = getSiteConfig(process.env);
+  const pageUrl = `${siteUrl}/${locale}/provider/${slug}`;
+
+  const jsonLd: Record<string, unknown> = {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    name: provider.name,
+    description: provider.bio,
+    url: pageUrl,
+    address: {
+      "@type": "PostalAddress",
+      addressLocality: provider.address,
+    },
+    additionalType: categoriesT(provider.service as never),
+  };
+
+  if (provider.photo) {
+    jsonLd.image = `${siteUrl}${withBasePath(provider.photo, basePath)}`;
+  }
+
+  if (provider.phone) {
+    jsonLd.telephone = provider.phone;
+  }
+
+  if (provider.email) {
+    jsonLd.email = provider.email;
+  }
+
+  if (provider.website) {
+    jsonLd.sameAs = provider.website;
+  }
+
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <ProviderDetail provider={provider} community={community} />
+    </>
+  );
 }

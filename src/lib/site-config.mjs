@@ -1,4 +1,4 @@
-const DEFAULT_SITE_URL = "https://dekonunes.github.io";
+const DEFAULT_SITE_URL = "https://brazucahubz.com";
 
 export function normalizeBasePath(basePath = "") {
   const trimmed = basePath.trim();

@@ -21,6 +21,7 @@ export async function generateMetadata({
   return {
     title: t("metadataTitle"),
     description: t("metadataDescription"),
+    robots: { index: false, follow: true },
     alternates: getPageAlternates(locale, "/search"),
     openGraph: getPageOpenGraph(locale, {
       title: t("metadataTitle"),

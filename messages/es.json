@@ -100,7 +100,7 @@
   "provider": {
     "about": "Sobre",
     "location": "Ubicacion",
-    "metadataDescription": "{community} {category} en {suburb}. {bio}"
+    "metadataDescription": "{community} {category} en {suburb}, Australia. Perfil profesional, ubicación y contacto. {bio}"
   },
   "community": {
     "title": "Comunidad {name} en Australia",

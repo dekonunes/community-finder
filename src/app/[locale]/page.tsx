@@ -25,7 +25,7 @@ export async function generateMetadata({
   const t = await getTranslations({ locale, namespace: "home" });
 
   return {
-    title: t("title"),
+    title: `${t("title")} | Brazuca Hubz`,
     description: t("subtitle"),
     alternates: getPageAlternates(locale),
     openGraph: getPageOpenGraph(locale, {
@@ -55,8 +55,43 @@ export default async function HomePage({
   const featured = providers.slice(0, 6);
   const searchPath = withBasePath(getPathname({ href: "/search", locale }), basePath);
 
+  const { siteUrl } = getSiteConfig(process.env);
+  const pageUrl = `${siteUrl}/${locale}`;
+
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": `${siteUrl}/#organization`,
+        name: "Brazuca Hubz",
+        url: siteUrl,
+        description: t("subtitle"),
+      },
+      {
+        "@type": "WebSite",
+        "@id": `${siteUrl}/#website`,
+        name: "Brazuca Hubz",
+        url: pageUrl,
+        publisher: { "@id": `${siteUrl}/#organization` },
+        potentialAction: {
+          "@type": "SearchAction",
+          target: {
+            "@type": "EntryPoint",
+            urlTemplate: `${siteUrl}/${locale}/search?q={search_term}`,
+          },
+          "query-input": "required name=search_term",
+        },
+      },
+    ],
+  };
+
   return (
     <div>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <section className="py-4 text-center">
         <div className="mb-4 flex justify-center">
           <Image src="/flag.png" alt="Brazilian flag" width={128} height={90} priority />

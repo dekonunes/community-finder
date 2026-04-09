@@ -11,6 +11,7 @@ import {
   parentCategories,
   getCategoriesByParent,
 } from "@/lib/data";
+import { getSiteConfig } from "@/lib/site-config.mjs";
 import { EventCard } from "@/components/event-card";
 import { ProductCard } from "@/components/product-card";
 import { ProviderCard } from "@/components/provider-card";
@@ -90,6 +91,23 @@ export default async function CommunityPage({
   const upcomingEvents = getUpcomingEvents(slug);
   const communityProducts = getProductsByCommunity(slug);
 
+  const { siteUrl } = getSiteConfig(process.env);
+
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: t("metadataTitle", { name: communityName }),
+    description: t("metadataDescription", { name: communityName }),
+    url: `${siteUrl}/${locale}/community/${slug}`,
+    numberOfItems: communityProviders.length,
+    itemListElement: communityProviders.map((provider, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      name: provider.name,
+      url: `${siteUrl}/${locale}/provider/${provider.slug}`,
+    })),
+  };
+
   const grouped = communityProviders.reduce<Record<string, typeof communityProviders>>(
     (accumulator, provider) => {
       if (!accumulator[provider.service]) {
@@ -108,6 +126,10 @@ export default async function CommunityPage({
 
   return (
     <div>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <div className="mb-8">
         <h1 className="text-3xl font-bold">
           {community.flag} {t("title", { name: communityName })}

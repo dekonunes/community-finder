@@ -35,9 +35,12 @@ export function getLocalizedUrl(locale: AppLocale, pathname = "") {
 }
 
 export function getLanguageAlternates(pathname = "") {
-  return Object.fromEntries(
-    routing.locales.map((locale) => [locale, getLocalizedUrl(locale, pathname)]),
-  );
+  return {
+    ...Object.fromEntries(
+      routing.locales.map((locale) => [locale, getLocalizedUrl(locale, pathname)]),
+    ),
+    "x-default": getLocalizedUrl("pt-BR", pathname),
+  };
 }
 
 export function getPageAlternates(locale: AppLocale, pathname = ""): Metadata["alternates"] {
@@ -59,6 +62,15 @@ export function getPageOpenGraph(
     locale: openGraphLocales[locale],
     alternateLocale: getOpenGraphAlternateLocales(locale),
     type: overrides.type ?? "website",
+    images: [
+      {
+        url: `${siteUrl}/og-image.png`,
+        width: 1200,
+        height: 630,
+        type: "image/png",
+        alt: "Brazuca Hubz",
+      },
+    ],
   };
 }
 
@@ -67,7 +79,7 @@ export async function getBaseMetadata(locale: AppLocale): Promise<Metadata> {
 
   return {
     title: {
-      default: t("siteTitle"),
+      default: `${t("description")} | ${t("siteTitle")}`,
       template: t("titleTemplate"),
     },
     description: t("description"),
@@ -76,5 +88,11 @@ export async function getBaseMetadata(locale: AppLocale): Promise<Metadata> {
       title: t("siteTitle"),
       description: t("openGraphDescription"),
     }),
+    twitter: {
+      card: "summary_large_image",
+      title: t("siteTitle"),
+      description: t("openGraphDescription"),
+      images: [`${siteUrl}/og-image.png`],
+    },
   };
 }

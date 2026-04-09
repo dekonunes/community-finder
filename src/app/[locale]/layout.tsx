@@ -49,6 +49,9 @@ export default async function LocaleLayout({
   return (
     <html lang={locale} className="dark">
       <head>
+        <link rel="preconnect" href="https://www.googletagmanager.com" />
+        <link rel="preconnect" href="https://www.google-analytics.com" />
+        <link rel="manifest" href="/manifest.json" />
         {process.env.NODE_ENV === "development" && (
           <Script
             src="//unpkg.com/react-grab/dist/index.global.js"
