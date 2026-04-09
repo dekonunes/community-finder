@@ -21,7 +21,8 @@
   "home": {
     "title": "Brazilian services in Australia",
     "subtitle": "Connect with Brazilian professionals across Australia",
-    "allServices": "All Services",
+    "allCategories": "Select category",
+    "allServices": "Select service",
     "search": "Search",
     "featured": "Featured Providers",
     "browseAll": "Browse all providers →"
@@ -44,9 +45,9 @@
       "page": "Page {current} of {total}"
     },
     "filters": {
-      "service": "All Services",
-      "language": "All Languages",
-      "suburb": "All Suburbs"
+      "service": "Select service",
+      "language": "Select language",
+      "suburb": "Select suburb"
     }
   },
   "events": {
@@ -55,7 +56,7 @@
     "empty": "No upcoming events found.",
     "metadataTitle": "Brazilian Events in Australia",
     "metadataDescription": "Upcoming Brazilian community events, festivals, and celebrations across Australia.",
-    "filterAllCommunities": "All Communities"
+    "filterAllCommunities": "Select community"
   },
   "products": {
     "title": "Brazilian Products",
@@ -64,7 +65,7 @@
     "viewProduct": "View Product →",
     "metadataTitle": "Brazilian Products",
     "metadataDescription": "Discover books, music, food, art, and more from the Brazilian community across Australia.",
-    "allCategories": "All Categories"
+    "allCategories": "Select category"
   },
   "all": {
     "title": "All Providers",
@@ -151,6 +152,12 @@
     "marketing-service": "Marketing Services",
     "counsellor": "Counsellors",
     "pet-grooming": "Pet Grooming"
+  },
+  "parentCategories": {
+    "health-medical": "Health & Medical",
+    "mental-health": "Mental Health",
+    "body-wellness": "Body & Wellness",
+    "professional-services": "Professional Services"
   },
   "productCategories": {
     "books": "Books",

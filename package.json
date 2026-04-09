@@ -7,6 +7,7 @@
     "build": "node scripts/optimize-images.mjs && next build --webpack && npx pagefind --site out",
     "build:images": "node scripts/optimize-images.mjs",
     "start": "next start",
+    "serve": "npm run build && npx serve out",
     "lint": "eslint"
   },
   "dependencies": {

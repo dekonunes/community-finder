@@ -2,26 +2,27 @@
   "metadata": {
     "siteTitle": "Brazuca Hubz",
     "titleTemplate": "%s | Brazuca Hubz",
-    "description": "Encontre medicos, advogados, contadores, eventos e produtos brasileiros em toda a Australia.",
-    "openGraphDescription": "Encontre servicos, eventos e produtos brasileiros em toda a Australia."
+    "description": "Encontre médicos, advogados, contadores, eventos e produtos brasileiros em toda a Austrália.",
+    "openGraphDescription": "Encontre serviços, eventos e produtos brasileiros em toda a Austrália."
   },
   "localeSwitcher": {
     "label": "Idioma",
-    "pt-BR": "Portugues",
-    "en": "Ingles",
+    "pt-BR": "Português",
+    "en": "Inglês",
     "es": "Espanhol"
   },
   "nav": {
     "brand": "Brazuca Hubz",
-    "services": "Servicos",
+    "services": "Serviços",
     "events": "Eventos",
     "products": "Produtos",
     "listBusiness": "Divulgue Aqui"
   },
   "home": {
-    "title": "Servicos brasileiros na Australia",
-    "subtitle": "Conecte-se com profissionais brasileiros em toda a Australia",
-    "allServices": "Todos os servicos",
+    "title": "Serviços brasileiros na Austrália",
+    "subtitle": "Conecte-se com profissionais brasileiros em toda a Austrália",
+    "allCategories": "Selecione a categoria",
+    "allServices": "Selecione o serviço",
     "search": "Buscar",
     "featured": "Profissionais em destaque",
     "browseAll": "Ver todos os provedores →"
@@ -32,102 +33,102 @@
     "emptyTitle": "Nenhum provedor encontrado com esses filtros.",
     "emptyDescription": "Tente ampliar sua busca ou veja todos os provedores.",
     "clear": "Limpar filtros",
-    "metadataTitle": "Buscar provedores brasileiros na Australia",
-    "metadataDescription": "Encontre profissionais brasileiros na Australia por servico, idioma e bairro.",
-    "textSearchPlaceholder": "Buscar por nome, servico, bairro...",
+    "metadataTitle": "Buscar provedores brasileiros na Austrália",
+    "metadataDescription": "Encontre profissionais brasileiros na Austrália por serviço, idioma e bairro.",
+    "textSearchPlaceholder": "Buscar por nome, serviço, bairro...",
     "searching": "Buscando...",
     "textResults": "{count, plural, one {# resultado encontrado} other {# resultados encontrados}}",
     "textNoResults": "Nenhum resultado encontrado para sua busca.",
     "pagination": {
       "previous": "Anterior",
-      "next": "Proximo",
-      "page": "Pagina {current} de {total}"
+      "next": "Próximo",
+      "page": "Página {current} de {total}"
     },
     "filters": {
-      "service": "Todos os servicos",
-      "language": "Todos os idiomas",
-      "suburb": "Todos os bairros"
+      "service": "Selecione o serviço",
+      "language": "Selecione o idioma",
+      "suburb": "Selecione o bairro"
     }
   },
   "events": {
     "title": "Eventos brasileiros",
-    "subtitle": "Proximos festivais, encontros e celebracoes da comunidade brasileira na Australia",
+    "subtitle": "Próximos festivais, encontros e celebrações da comunidade brasileira na Austrália",
     "empty": "Nenhum evento futuro encontrado.",
-    "metadataTitle": "Eventos brasileiros na Australia",
-    "metadataDescription": "Proximos eventos, festivais e celebracoes da comunidade brasileira na Australia.",
-    "filterAllCommunities": "Todas as comunidades"
+    "metadataTitle": "Eventos brasileiros na Austrália",
+    "metadataDescription": "Próximos eventos, festivais e celebrações da comunidade brasileira na Austrália.",
+    "filterAllCommunities": "Selecione a comunidade"
   },
   "products": {
     "title": "Produtos brasileiros",
-    "subtitle": "Livros, musica, comidas, arte e mais da comunidade brasileira",
+    "subtitle": "Livros, música, comidas, arte e mais da comunidade brasileira",
     "empty": "Nenhum produto encontrado.",
     "viewProduct": "Ver produto →",
     "metadataTitle": "Produtos brasileiros",
-    "metadataDescription": "Descubra livros, musica, comidas, arte e mais da comunidade brasileira na Australia.",
-    "allCategories": "Todas as categorias"
+    "metadataDescription": "Descubra livros, música, comidas, arte e mais da comunidade brasileira na Austrália.",
+    "allCategories": "Selecione a categoria"
   },
   "all": {
     "title": "Todos os provedores",
-    "subtitle": "Veja todos os provedores brasileiros na Australia",
+    "subtitle": "Veja todos os provedores brasileiros na Austrália",
     "metadataTitle": "Todos os provedores",
-    "metadataDescription": "Veja todos os provedores brasileiros na Australia, organizados por categoria."
+    "metadataDescription": "Veja todos os provedores brasileiros na Austrália, organizados por categoria."
   },
   "listBusiness": {
-    "title": "Anuncie seu negocio",
-    "subtitle": "Seja encontrado por brasileiros em toda a Australia. O cadastro e gratis.",
+    "title": "Anuncie seu negócio",
+    "subtitle": "Seja encontrado por brasileiros em toda a Austrália. O cadastro é grátis.",
     "howItWorks": "Como funciona",
-    "step1": "Envie os dados do seu negocio por WhatsApp ou email",
-    "step2": "Nos revisamos seu anuncio (normalmente em 24-48 horas)",
+    "step1": "Envie os dados do seu negócio por WhatsApp ou e-mail",
+    "step2": "Nós revisamos seu anúncio (normalmente em 24-48 horas)",
     "step3": "Seu perfil entra no ar no Brazuca Hubz",
     "whatsApp": "Fale no WhatsApp",
-    "email": "Enviar email",
+    "email": "Enviar e-mail",
     "recommendations": "O que recomendamos enviar",
-    "recommendation1": "Nome do seu negocio",
-    "recommendation2": "Tipo de servico (clinico geral, contador, advogado, agente de migracao, childcare, restaurante)",
-    "recommendation3": "Pais de origem",
-    "recommendation4": "Idiomas que voce fala",
-    "recommendation5": "Numero de telefone",
-    "recommendation6": "Endereco de email",
+    "recommendation1": "Nome do seu negócio",
+    "recommendation2": "Tipo de serviço (clínico geral, contador, advogado, agente de migração, childcare, restaurante)",
+    "recommendation3": "País de origem",
+    "recommendation4": "Idiomas que você fala",
+    "recommendation5": "Número de telefone",
+    "recommendation6": "Endereço de e-mail",
     "recommendation7": "Website (opcional)",
-    "recommendation8": "Bairro e endereco",
-    "recommendation9": "Uma bio curta (2-3 frases sobre o seu negocio)",
-    "metadataTitle": "Anuncie seu negocio",
-    "metadataDescription": "Cadastre seu negocio no Brazuca Hubz e alcance clientes brasileiros em toda a Australia.",
-    "emailSubject": "Quero anunciar meu negocio no Brazuca Hubz",
-    "templateMessage": "Oi! Gostaria de anunciar meu negocio no Brazuca Hubz.\n\nNome:\nServico:\nIdiomas falados:\nTelefone:\nEmail:\nInstagram:\nWebsite:\nBairro:\nBio curta:"
+    "recommendation8": "Bairro e endereço",
+    "recommendation9": "Uma bio curta (2-3 frases sobre o seu negócio)",
+    "metadataTitle": "Anuncie seu negócio",
+    "metadataDescription": "Cadastre seu negócio no Brazuca Hubz e alcance clientes brasileiros em toda a Austrália.",
+    "emailSubject": "Quero anunciar meu negócio no Brazuca Hubz",
+    "templateMessage": "Oi! Gostaria de anunciar meu negócio no Brazuca Hubz.\n\nNome:\nServiço:\nIdiomas falados:\nTelefone:\nE-mail:\nInstagram:\nWebsite:\nBairro:\nBio curta:"
   },
   "provider": {
     "about": "Sobre",
-    "location": "Localizacao",
+    "location": "Localização",
     "metadataDescription": "{community} {category} em {suburb}. {bio}"
   },
   "community": {
-    "title": "Comunidade {name} na Australia",
-    "subtitle": "Encontre servicos e eventos da comunidade {name} em toda a Australia",
-    "empty": "Ainda nao ha provedores cadastrados para a comunidade {name}.",
-    "cta": "Seja o primeiro a anunciar seu negocio →",
+    "title": "Comunidade {name} na Austrália",
+    "subtitle": "Encontre serviços e eventos da comunidade {name} em toda a Austrália",
+    "empty": "Ainda não há provedores cadastrados para a comunidade {name}.",
+    "cta": "Seja o primeiro a anunciar seu negócio →",
     "products": "Produtos",
-    "upcomingEvents": "Proximos eventos",
-    "metadataTitle": "Comunidade {name} na Australia",
-    "metadataDescription": "Encontre medicos, contadores, advogados, agentes de migracao, childcare e restaurantes da comunidade {name} em toda a Australia."
+    "upcomingEvents": "Próximos eventos",
+    "metadataTitle": "Comunidade {name} na Austrália",
+    "metadataDescription": "Encontre médicos, contadores, advogados, agentes de migração, childcare e restaurantes da comunidade {name} em toda a Austrália."
   },
   "footer": {
-    "copyright": "© {year} Brazuca Hubz. Australia.",
-    "cta": "Anuncie seu negocio (gratis)",
+    "copyright": "© {year} Brazuca Hubz. Austrália.",
+    "cta": "Anuncie seu negócio (grátis)",
     "buyMeACoffee": "Buy me a coffee"
   },
   "notFound": {
-    "description": "Pagina nao encontrada",
-    "back": "Voltar para o inicio"
+    "description": "Página não encontrada",
+    "back": "Voltar para o início"
   },
   "common": {
     "instagram": "Instagram",
     "website": "Website",
-    "email": "Email",
-    "moreInfo": "Mais informacoes →"
+    "email": "E-mail",
+    "moreInfo": "Mais informações →"
   },
   "categories": {
-    "gp": "Clinicos gerais / medicos",
+    "gp": "Clínicos gerais / médicos",
     "dentist": "Dentistas",
     "orthodontist": "Ortodontistas",
     "dermatologist": "Dermatologistas",
@@ -138,33 +139,39 @@
     "paediatrician": "Pediatras",
     "psychiatrist": "Psiquiatras",
     "psychoanalyst": "Psicanalistas",
-    "psychologist": "Psicologos",
+    "psychologist": "Psicólogos",
     "rheumatologist": "Reumatologistas",
     "chiropractor": "Quiropraxistas",
     "physiotherapist": "Fisioterapeutas",
     "pilates-instructor": "Professoras de pilates",
-    "surgeon": "Cirurgioes",
+    "surgeon": "Cirurgiões",
     "ent-surgeon": "Otorrinolaringologistas",
     "lawyer": "Advogados",
     "mortgage-broker": "Corretores de financiamento",
     "travel-agent": "Agentes de viagem",
-    "marketing-service": "Servicos de marketing",
+    "marketing-service": "Serviços de marketing",
     "counsellor": "Conselheiros",
     "pet-grooming": "Pet grooming"
   },
+  "parentCategories": {
+    "health-medical": "Saúde e Medicina",
+    "mental-health": "Saúde Mental",
+    "body-wellness": "Corpo e Bem-estar",
+    "professional-services": "Serviços Profissionais"
+  },
   "productCategories": {
     "books": "Livros",
-    "music": "Musica",
+    "music": "Música",
     "fashion": "Moda e roupas",
     "food-drinks": "Comidas e bebidas",
     "art-crafts": "Arte e artesanato",
     "beauty-wellness": "Beleza e bem-estar",
-    "home-decor": "Casa e decoracao",
-    "kids-toys": "Criancas e brinquedos"
+    "home-decor": "Casa e decoração",
+    "kids-toys": "Crianças e brinquedos"
   },
   "languages": {
-    "english": "Ingles",
-    "portuguese": "Portugues",
+    "english": "Inglês",
+    "portuguese": "Português",
     "spanish": "Espanhol"
   },
   "communities": {

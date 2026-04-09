@@ -8,6 +8,7 @@ import {
 import { getSiteConfig, withBasePath } from "@/lib/site-config.mjs";
 import { Badge } from "@/components/ui/badge";
 import { EmailButton } from "@/components/copy-email-button";
+import { CloseButton } from "@/components/close-button";
 
 const { basePath } = getSiteConfig(process.env);
 
@@ -52,7 +53,8 @@ export async function ProviderDetail({
 
   return (
     <div className="mx-auto max-w-2xl" data-pagefind-body>
-      <div className="overflow-hidden rounded-xl border border-zinc-800 bg-zinc-900">
+      <div className="relative overflow-hidden rounded-xl border border-zinc-800 bg-zinc-900">
+        <CloseButton />
         <div className="bg-gradient-to-br from-blue-600/20 to-purple-600/20 px-6 py-8 text-center">
           {provider.photo ? (
             <Image
@@ -67,7 +69,7 @@ export async function ProviderDetail({
           )}
           <h1 className="mt-4 text-2xl font-bold" data-pagefind-meta="title">{provider.name}</h1>
           <p className="mt-1 text-zinc-400">
-            {categoriesT(provider.service as never)} · {community?.flag} {community ? communitiesT(community.slug as never) : null}
+            {categoriesT(provider.service as never)}
           </p>
           <div className="mt-3 flex flex-wrap justify-center gap-2">
             {provider.languages.map((language) => (
@@ -85,7 +87,6 @@ export async function ProviderDetail({
           <div>
             <h2 className="text-xs font-medium uppercase tracking-wider text-zinc-500">{t("location")}</h2>
             <p className="mt-2 text-zinc-300">📍 {provider.address}</p>
-            <p className="mt-1 text-sm text-zinc-500">{getProviderSuburbsDisplay(provider)}</p>
           </div>
           <div className="space-y-3">
             {provider.phone && (

@@ -21,7 +21,8 @@
   "home": {
     "title": "Servicios brasileños en Australia",
     "subtitle": "Conectate con profesionales brasileños en toda Australia",
-    "allServices": "Todos los servicios",
+    "allCategories": "Seleccione la categoría",
+    "allServices": "Seleccione el servicio",
     "search": "Buscar",
     "featured": "Proveedores destacados",
     "browseAll": "Ver todos los proveedores →"
@@ -44,9 +45,9 @@
       "page": "Pagina {current} de {total}"
     },
     "filters": {
-      "service": "Todos los servicios",
-      "language": "Todos los idiomas",
-      "suburb": "Todos los suburbios"
+      "service": "Seleccione el servicio",
+      "language": "Seleccione el idioma",
+      "suburb": "Seleccione el suburbio"
     }
   },
   "events": {
@@ -55,7 +56,7 @@
     "empty": "No se encontraron proximos eventos.",
     "metadataTitle": "Eventos brasileños en Australia",
     "metadataDescription": "Proximos eventos, festivales y celebraciones de la comunidad brasileña en Australia.",
-    "filterAllCommunities": "Todas las comunidades"
+    "filterAllCommunities": "Seleccione la comunidad"
   },
   "products": {
     "title": "Productos brasileños",
@@ -64,7 +65,7 @@
     "viewProduct": "Ver producto →",
     "metadataTitle": "Productos brasileños",
     "metadataDescription": "Descubre libros, musica, comida, arte y mas de la comunidad brasileña en Australia.",
-    "allCategories": "Todas las categorias"
+    "allCategories": "Seleccione la categoría"
   },
   "all": {
     "title": "Todos los proveedores",
@@ -151,6 +152,12 @@
     "marketing-service": "Servicios de marketing",
     "counsellor": "Consejeros",
     "pet-grooming": "Peluqueria canina"
+  },
+  "parentCategories": {
+    "health-medical": "Salud y Medicina",
+    "mental-health": "Salud Mental",
+    "body-wellness": "Cuerpo y Bienestar",
+    "professional-services": "Servicios Profesionales"
   },
   "productCategories": {
     "books": "Libros",

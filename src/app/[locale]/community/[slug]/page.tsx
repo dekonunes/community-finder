@@ -8,6 +8,8 @@ import {
   getProvidersByCommunity,
   getUpcomingEvents,
   getProductsByCommunity,
+  parentCategories,
+  getCategoriesByParent,
 } from "@/lib/data";
 import { EventCard } from "@/components/event-card";
 import { ProductCard } from "@/components/product-card";
@@ -77,6 +79,7 @@ export default async function CommunityPage({
   const t = await getTranslations({ locale, namespace: "community" });
   const communitiesT = await getTranslations({ locale, namespace: "communities" });
   const categoriesT = await getTranslations({ locale, namespace: "categories" });
+  const parentCategoriesT = await getTranslations({ locale, namespace: "parentCategories" });
   const languagesT = await getTranslations({ locale, namespace: "languages" });
   const commonT = await getTranslations({ locale, namespace: "common" });
   const productCategoriesT = await getTranslations({ locale, namespace: "productCategories" });
@@ -99,6 +102,10 @@ export default async function CommunityPage({
     {},
   );
 
+  const activeParentCategories = parentCategories.filter((parent) =>
+    getCategoriesByParent(parent.slug).some((cat) => grouped[cat.slug]),
+  );
+
   return (
     <div>
       <div className="mb-8">
@@ -116,25 +123,35 @@ export default async function CommunityPage({
           </Link>
         </div>
       ) : (
-        Object.entries(grouped).map(([serviceSlug, serviceProviders]) => (
-          <section key={serviceSlug} className="mb-8">
-            <h2 className="mb-4 text-lg font-semibold">
-              {getCategoryBySlug(serviceSlug)?.icon} {categoriesT(serviceSlug as never)}
-            </h2>
-            <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-              {serviceProviders.map((provider) => (
-                <ProviderCard
-                  key={provider.slug}
-                  provider={provider}
-                  categoryLabel={categoriesT(provider.service as never)}
-                  languageLabels={provider.languages.map((language) => languagesT(language as never))}
-                  websiteLabel={commonT("website")}
-                  instagramLabel={commonT("instagram")}
-                />
+        activeParentCategories.map((parent) => {
+          const subcategories = getCategoriesByParent(parent.slug).filter((cat) => grouped[cat.slug]);
+          return (
+            <section key={parent.slug} className="mb-10">
+              <h2 className="mb-4 text-xl font-semibold">
+                {parent.icon} {parentCategoriesT(parent.slug as never)}
+              </h2>
+              {subcategories.map((subcategory) => (
+                <div key={subcategory.slug} className="mb-6 ml-2">
+                  <h3 className="mb-3 text-lg font-medium text-zinc-300">
+                    {subcategory.icon} {categoriesT(subcategory.slug as never)}
+                  </h3>
+                  <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+                    {grouped[subcategory.slug].map((provider) => (
+                      <ProviderCard
+                        key={provider.slug}
+                        provider={provider}
+                        categoryLabel={categoriesT(provider.service as never)}
+                        languageLabels={provider.languages.map((language) => languagesT(language as never))}
+                        websiteLabel={commonT("website")}
+                        instagramLabel={commonT("instagram")}
+                      />
+                    ))}
+                  </div>
+                </div>
               ))}
-            </div>
-          </section>
-        ))
+            </section>
+          );
+        })
       )}
 
       {communityProducts.length > 0 && (

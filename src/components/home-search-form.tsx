@@ -1,0 +1,57 @@
+"use client";
+
+import { useState } from "react";
+import { useRouter } from "next/navigation";
+import { useTranslations } from "next-intl";
+import { parentCategories, getCategoriesByParent } from "@/lib/data";
+
+export function HomeSearchForm({ searchPath }: { searchPath: string }) {
+  const t = useTranslations("home");
+  const categoriesT = useTranslations("categories");
+  const parentCategoriesT = useTranslations("parentCategories");
+  const router = useRouter();
+
+  const [selectedParent, setSelectedParent] = useState("");
+  const [selectedService, setSelectedService] = useState("");
+
+  const subcategories = selectedParent ? getCategoriesByParent(selectedParent) : [];
+
+  return (
+    <div className="flex flex-wrap justify-center gap-2">
+      <select
+        value={selectedParent}
+        onChange={(e) => {
+          setSelectedParent(e.target.value);
+          setSelectedService("");
+        }}
+        className="flex-1 basis-40 rounded-md border border-zinc-700 bg-zinc-800 px-3 py-2 text-sm text-white"
+      >
+        <option value="">{t("allCategories")}</option>
+        {parentCategories.map((parent) => (
+          <option key={parent.slug} value={parent.slug}>
+            {parent.icon} {parentCategoriesT(parent.slug as never)}
+          </option>
+        ))}
+      </select>
+      <select
+        value={selectedService}
+        onChange={(e) => {
+          const service = e.target.value;
+          setSelectedService(service);
+          if (service) {
+            router.push(`${searchPath}?service=${encodeURIComponent(service)}`);
+          }
+        }}
+        disabled={!selectedParent}
+        className="flex-1 basis-40 rounded-md border border-zinc-700 bg-zinc-800 px-3 py-2 text-sm text-white disabled:opacity-50"
+      >
+        <option value="">{t("allServices")}</option>
+        {subcategories.map((category) => (
+          <option key={category.slug} value={category.slug}>
+            {category.icon} {categoriesT(category.slug as never)}
+          </option>
+        ))}
+      </select>
+    </div>
+  );
+}

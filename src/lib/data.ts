@@ -27,7 +27,35 @@ export type Category = {
   slug: string;
   name: string;
   icon: string;
+  parentCategory: string;
 };
+
+export type ParentCategory = {
+  slug: string;
+  name: string;
+  icon: string;
+};
+
+export const parentCategories: ParentCategory[] = [
+  { slug: "health-medical", name: "Health & Medical", icon: "🏥" },
+  { slug: "mental-health", name: "Mental Health", icon: "🧠" },
+  { slug: "body-wellness", name: "Body & Wellness", icon: "🧘" },
+  { slug: "professional-services", name: "Professional Services", icon: "💼" },
+];
+
+export function getCategoriesByParent(parentSlug: string): Category[] {
+  return categories.filter((c) => c.parentCategory === parentSlug);
+}
+
+export function getParentCategoryBySlug(slug: string): ParentCategory | undefined {
+  return parentCategories.find((c) => c.slug === slug);
+}
+
+export function getParentCategoryForService(serviceSlug: string): ParentCategory | undefined {
+  const category = getCategoryBySlug(serviceSlug);
+  if (!category) return undefined;
+  return getParentCategoryBySlug(category.parentCategory);
+}
 
 export type Community = {
   slug: string;

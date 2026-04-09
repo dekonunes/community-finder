@@ -1,6 +1,6 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
-import { categories, providers } from "@/lib/data";
+import { categories, providers, parentCategories, getCategoriesByParent } from "@/lib/data";
 import { ProviderCard } from "@/components/provider-card";
 import { getPageAlternates, getPageOpenGraph } from "@/i18n/metadata";
 import { isValidLocale } from "@/i18n/routing";
@@ -45,6 +45,7 @@ export default async function AllProvidersPage({
 
   const t = await getTranslations({ locale, namespace: "all" });
   const categoriesT = await getTranslations({ locale, namespace: "categories" });
+  const parentCategoriesT = await getTranslations({ locale, namespace: "parentCategories" });
   const languagesT = await getTranslations({ locale, namespace: "languages" });
   const commonT = await getTranslations({ locale, namespace: "common" });
 
@@ -57,7 +58,9 @@ export default async function AllProvidersPage({
     return accumulator;
   }, {});
 
-  const orderedCategories = categories.filter((category) => grouped[category.slug]);
+  const activeParentCategories = parentCategories.filter((parent) =>
+    getCategoriesByParent(parent.slug).some((cat) => grouped[cat.slug]),
+  );
 
   return (
     <div>
@@ -66,25 +69,35 @@ export default async function AllProvidersPage({
         <p className="mt-2 text-zinc-400">{t("subtitle")}</p>
       </div>
 
-      {orderedCategories.map((category) => (
-        <section key={category.slug} className="mb-10">
-          <h2 className="mb-4 text-lg font-semibold">
-            {category.icon} {categoriesT(category.slug as never)}
-          </h2>
-          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-            {grouped[category.slug].map((provider) => (
-              <ProviderCard
-                key={provider.slug}
-                provider={provider}
-                categoryLabel={categoriesT(provider.service as never)}
-                languageLabels={provider.languages.map((language) => languagesT(language as never))}
-                websiteLabel={commonT("website")}
-                instagramLabel={commonT("instagram")}
-              />
+      {activeParentCategories.map((parent) => {
+        const subcategories = getCategoriesByParent(parent.slug).filter((cat) => grouped[cat.slug]);
+        return (
+          <section key={parent.slug} className="mb-10">
+            <h2 className="mb-4 text-xl font-semibold">
+              {parent.icon} {parentCategoriesT(parent.slug as never)}
+            </h2>
+            {subcategories.map((subcategory) => (
+              <div key={subcategory.slug} className="mb-6 ml-2">
+                <h3 className="mb-3 text-lg font-medium text-zinc-300">
+                  {subcategory.icon} {categoriesT(subcategory.slug as never)}
+                </h3>
+                <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+                  {grouped[subcategory.slug].map((provider) => (
+                    <ProviderCard
+                      key={provider.slug}
+                      provider={provider}
+                      categoryLabel={categoriesT(provider.service as never)}
+                      languageLabels={provider.languages.map((language) => languagesT(language as never))}
+                      websiteLabel={commonT("website")}
+                      instagramLabel={commonT("instagram")}
+                    />
+                  ))}
+                </div>
+              </div>
             ))}
-          </div>
-        </section>
-      ))}
+          </section>
+        );
+      })}
     </div>
   );
 }

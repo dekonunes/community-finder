@@ -1,10 +1,12 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
-import { categories, providers } from "@/lib/data";
+import { providers } from "@/lib/data";
 import { getPathname, Link } from "@/i18n/navigation";
 import { getPageAlternates, getPageOpenGraph } from "@/i18n/metadata";
 import { isValidLocale } from "@/i18n/routing";
 import { getSiteConfig, withBasePath } from "@/lib/site-config.mjs";
+import Image from "next/image";
 import { ProviderCard } from "@/components/provider-card";
+import { HomeSearchForm } from "@/components/home-search-form";
 import { notFound } from "next/navigation";
 
 const { basePath } = getSiteConfig(process.env);
@@ -55,32 +57,16 @@ export default async function HomePage({
 
   return (
     <div>
-      <section className="py-12 text-center">
-        <h1 className="text-3xl font-bold sm:text-4xl">🇧🇷 {t("title")}</h1>
+      <section className="py-4 text-center">
+        <div className="mb-4 flex justify-center">
+          <Image src="/flag.png" alt="Brazilian flag" width={128} height={90} priority />
+        </div>
+        <h1 className="text-3xl font-bold sm:text-4xl">{t("title")}</h1>
         <p className="mt-2 text-zinc-400">{t("subtitle")}</p>
       </section>
 
       <section className="mx-auto max-w-2xl">
-        <form action={searchPath} className="flex gap-2">
-          <select
-            name="service"
-            defaultValue=""
-            className="flex-1 rounded-md border border-zinc-700 bg-zinc-800 px-3 py-2 text-sm text-white"
-          >
-            <option value="">{t("allServices")}</option>
-            {categories.map((category) => (
-              <option key={category.slug} value={category.slug}>
-                {category.icon} {categoriesT(category.slug as never)}
-              </option>
-            ))}
-          </select>
-          <button
-            type="submit"
-            className="rounded-md bg-blue-600 px-6 py-2 text-sm font-medium hover:bg-blue-500"
-          >
-            {t("search")}
-          </button>
-        </form>
+        <HomeSearchForm searchPath={searchPath} />
       </section>
 
       <section className="mt-12">

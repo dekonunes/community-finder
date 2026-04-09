@@ -1,4 +1,5 @@
 import { Suspense } from "react";
+import Image from "next/image";
 import { getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { LocaleSwitcher } from "@/components/locale-switcher";
@@ -9,8 +10,9 @@ export async function Nav() {
   return (
     <header className="border-b border-zinc-800 bg-zinc-950">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3">
-        <Link href="/" className="text-lg font-bold">
-          <span className="hidden md:inline">🇧🇷 </span>Brazuca Hubz
+        <Link href="/" className="flex items-center gap-1.5 text-lg font-bold">
+          <Image src="/flag-32.webp" alt="" width={24} height={24} className="hidden md:inline-block" />
+          Brazuca Hubz
         </Link>
         <nav className="flex items-center gap-2 text-sm">
           <Suspense
