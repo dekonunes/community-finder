@@ -13,6 +13,8 @@
   { "slug": "psychologist", "name": "Psychologists", "icon": "💬" },
   { "slug": "rheumatologist", "name": "Rheumatologists", "icon": "🦴" },
   { "slug": "chiropractor", "name": "Chiropractors", "icon": "🦴" },
+  { "slug": "physiotherapist", "name": "Physiotherapists", "icon": "🦵" },
+  { "slug": "pilates-instructor", "name": "Pilates Instructors", "icon": "🧘" },
   { "slug": "surgeon", "name": "Surgeons", "icon": "🔪" },
   { "slug": "ent-surgeon", "name": "ENT Surgeons", "icon": "👂" },
   { "slug": "lawyer", "name": "Lawyers", "icon": "⚖️" },

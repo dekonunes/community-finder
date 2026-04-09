@@ -14,7 +14,7 @@
     "website": "https://newalliance-landpage.vercel.app/",
     "bio": "New Alliance Migration is led by Isa Andrade, a dedicated and registered immigration law consultant with over 10 years of experience helping individuals and families navigate the complexities of Australian migration law. Isa combines deep legal expertise with a genuine passion for her clients' success - guiding them through every step of their visa journey with clarity, care, and determination.",
     "address": "Sydney CBD, NSW",
-    "photo": null,
+    "photo": "/providers/new-alliance.webp",
     "instagram": null
   },
   {
@@ -800,5 +800,66 @@
     "address": "Wolli Creek, NSW",
     "photo": null,
     "instagram": "https://instagram.com/chirofix"
+  },
+  {
+    "slug": "bianca-moreno",
+    "name": "Bianca Moreno",
+    "service": "physiotherapist",
+    "country": "brazil",
+    "languages": [
+      "portuguese",
+      "english"
+    ],
+    "suburb": "dee-why",
+    "phone": "0451 025 055",
+    "email": "bianca@freemotionphysio.com.au",
+    "website": "https://freemotionphysio.com.au/",
+    "bio": "Fisioterapeuta muito experiente, extremamente profissional e um ser humano incrivel. Atende em cima do Deewhy Hotel, acesso pelo Deewhy Grand. Atende works compensation.",
+    "address": "Dee Why / Northern Beaches, NSW",
+    "photo": null,
+    "instagram": null
+  },
+  {
+    "slug": "bruno-gragnani",
+    "name": "Bruno Gragnani",
+    "service": "physiotherapist",
+    "country": "brazil",
+    "languages": [
+      "portuguese",
+      "english"
+    ],
+    "suburbs": [
+      "warriewood",
+      "northern-beaches"
+    ],
+    "phone": "0415 875 470",
+    "email": null,
+    "website": "https://bgphysio.com.au/",
+    "bio": "Profissional e muito bem recomendado na comunidade brasileira.",
+    "address": "Warriewood / Northern Beaches, NSW",
+    "photo": null,
+    "instagram": "https://www.instagram.com/bg.physiotherapy"
+  },
+  {
+    "slug": "mariane-dias",
+    "name": "Mariane Dias",
+    "service": "pilates-instructor",
+    "country": "brazil",
+    "languages": [
+      "portuguese",
+      "english"
+    ],
+    "suburbs": [
+      "collaroy",
+      "central-coast",
+      "northern-beaches"
+    ],
+    "phone": "0481 901 872",
+    "email": null,
+    "website": "https://www.valleyflows.com",
+    "bio": "Atende em um studio em Collaroy e tambem tem seu proprio studio localizado em Central Coast, um lugar muito bonito e rodeado de natureza e paz.",
+    "address": "Collaroy / Central Coast, NSW",
+    "photo": null,
+    "instagram": "https://www.instagram.com/valleyflows"
   }
 ]

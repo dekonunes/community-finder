@@ -16,7 +16,7 @@
     "services": "Services",
     "events": "Events",
     "products": "Products",
-    "listBusiness": "List Your Business"
+    "listBusiness": "List Here"
   },
   "home": {
     "title": "Brazilian services in Australia",
@@ -34,6 +34,15 @@
     "clear": "Clear all filters",
     "metadataTitle": "Search Brazilian providers in Australia",
     "metadataDescription": "Browse Brazilian professionals across Australia by service, language, and suburb.",
+    "textSearchPlaceholder": "Search by name, service, suburb...",
+    "searching": "Searching...",
+    "textResults": "{count, plural, one {# result found} other {# results found}}",
+    "textNoResults": "No results found for your search.",
+    "pagination": {
+      "previous": "Previous",
+      "next": "Next",
+      "page": "Page {current} of {total}"
+    },
     "filters": {
       "service": "All Services",
       "language": "All Languages",
@@ -131,6 +140,7 @@
     "psychologist": "Psychologists",
     "rheumatologist": "Rheumatologists",
     "chiropractor": "Chiropractors",
+    "physiotherapist": "Physiotherapists",
     "surgeon": "Surgeons",
     "ent-surgeon": "ENT Surgeons",
     "lawyer": "Lawyers",

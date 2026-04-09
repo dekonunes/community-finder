@@ -16,7 +16,7 @@
     "services": "Servicios",
     "events": "Eventos",
     "products": "Productos",
-    "listBusiness": "Anuncia tu negocio"
+    "listBusiness": "Publica Aquí"
   },
   "home": {
     "title": "Servicios brasileños en Australia",
@@ -34,6 +34,15 @@
     "clear": "Limpiar filtros",
     "metadataTitle": "Buscar proveedores brasileños en Australia",
     "metadataDescription": "Encuentra profesionales brasileños en Australia por servicio, idioma y suburbio.",
+    "textSearchPlaceholder": "Buscar por nombre, servicio, suburbio...",
+    "searching": "Buscando...",
+    "textResults": "{count, plural, one {# resultado encontrado} other {# resultados encontrados}}",
+    "textNoResults": "No se encontraron resultados para tu busqueda.",
+    "pagination": {
+      "previous": "Anterior",
+      "next": "Siguiente",
+      "page": "Pagina {current} de {total}"
+    },
     "filters": {
       "service": "Todos los servicios",
       "language": "Todos los idiomas",
@@ -131,6 +140,7 @@
     "psychologist": "Psicologos",
     "rheumatologist": "Reumatologos",
     "chiropractor": "Quiropracticos",
+    "physiotherapist": "Fisioterapeutas",
     "surgeon": "Cirujanos",
     "ent-surgeon": "Otorrinolaringologos",
     "lawyer": "Abogados",

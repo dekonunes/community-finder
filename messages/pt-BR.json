@@ -16,7 +16,7 @@
     "services": "Servicos",
     "events": "Eventos",
     "products": "Produtos",
-    "listBusiness": "Divulgue Seu Negocio"
+    "listBusiness": "Divulgue Aqui"
   },
   "home": {
     "title": "Servicos brasileiros na Australia",
@@ -34,6 +34,15 @@
     "clear": "Limpar filtros",
     "metadataTitle": "Buscar provedores brasileiros na Australia",
     "metadataDescription": "Encontre profissionais brasileiros na Australia por servico, idioma e bairro.",
+    "textSearchPlaceholder": "Buscar por nome, servico, bairro...",
+    "searching": "Buscando...",
+    "textResults": "{count, plural, one {# resultado encontrado} other {# resultados encontrados}}",
+    "textNoResults": "Nenhum resultado encontrado para sua busca.",
+    "pagination": {
+      "previous": "Anterior",
+      "next": "Proximo",
+      "page": "Pagina {current} de {total}"
+    },
     "filters": {
       "service": "Todos os servicos",
       "language": "Todos os idiomas",
@@ -131,6 +140,7 @@
     "psychologist": "Psicologos",
     "rheumatologist": "Reumatologistas",
     "chiropractor": "Quiropraxistas",
+    "physiotherapist": "Fisioterapeutas",
     "surgeon": "Cirurgioes",
     "ent-surgeon": "Otorrinolaringologistas",
     "lawyer": "Advogados",
