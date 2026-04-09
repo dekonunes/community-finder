@@ -1,10 +1,3 @@
 [
-  { "slug": "books", "name": "Books", "icon": "📚" },
-  { "slug": "music", "name": "Music", "icon": "🎵" },
-  { "slug": "fashion", "name": "Fashion & Clothing", "icon": "👗" },
-  { "slug": "food-drinks", "name": "Food & Drinks", "icon": "🍶" },
-  { "slug": "art-crafts", "name": "Art & Crafts", "icon": "🎨" },
-  { "slug": "beauty-wellness", "name": "Beauty & Wellness", "icon": "💄" },
-  { "slug": "home-decor", "name": "Home & Decor", "icon": "🏠" },
-  { "slug": "kids-toys", "name": "Kids & Toys", "icon": "🧸" }
+  { "slug": "books", "name": "Books", "icon": "📚" }
 ]

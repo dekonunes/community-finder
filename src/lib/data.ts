@@ -105,6 +105,16 @@ export function getProductCategoryBySlug(slug: string): ProductCategory | undefi
   return productCategories.find((c) => c.slug === slug);
 }
 
+export function getAvailableProductCategories(communitySlug?: string): ProductCategory[] {
+  const usedCategories = new Set(
+    products
+      .filter((product) => !communitySlug || product.community === communitySlug)
+      .map((product) => product.category),
+  );
+
+  return productCategories.filter((category) => usedCategories.has(category.slug));
+}
+
 export function getProductsByCommunity(communitySlug: string): Product[] {
   return products.filter((p) => p.community === communitySlug);
 }
