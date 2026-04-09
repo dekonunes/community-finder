@@ -861,5 +861,23 @@
     "address": "Collaroy / Central Coast, NSW",
     "photo": null,
     "instagram": "https://www.instagram.com/valleyflows"
+  },
+  {
+    "slug": "monise-sbrissa",
+    "name": "Monise Sbrissa",
+    "service": "pet-grooming",
+    "country": "brazil",
+    "languages": [
+      "portuguese",
+      "english"
+    ],
+    "suburb": "ryde",
+    "phone": null,
+    "email": null,
+    "website": null,
+    "bio": "Pet Grooming Domiciliar",
+    "address": "Ryde, NSW",
+    "photo": null,
+    "instagram": "https://www.instagram.com/mon.petgroomer"
   }
 ]

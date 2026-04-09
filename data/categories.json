@@ -21,5 +21,6 @@
   { "slug": "mortgage-broker", "name": "Mortgage Brokers", "icon": "🏠" },
   { "slug": "travel-agent", "name": "Travel Agents", "icon": "✈️" },
   { "slug": "marketing-service", "name": "Marketing Services", "icon": "📣" },
-  { "slug": "counsellor", "name": "Counsellors", "icon": "🤝" }
+  { "slug": "counsellor", "name": "Counsellors", "icon": "🤝" },
+  { "slug": "pet-grooming", "name": "Pet Grooming", "icon": "🐶" }
 ]
