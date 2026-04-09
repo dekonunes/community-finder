@@ -32,11 +32,30 @@ export function LocaleSwitcher() {
       <label className="sr-only" htmlFor="locale-switcher">
         {t("label")}
       </label>
+      {/* Mobile: bare flag, no chrome */}
+      <div className="relative md:hidden">
+        <span className="pointer-events-none text-lg" aria-hidden="true">
+          {localeFlags[locale]}
+        </span>
+        <select
+          id="locale-switcher"
+          value={locale}
+          onChange={(event) => onChange(event.target.value as AppLocale)}
+          className="absolute inset-0 cursor-pointer opacity-0"
+        >
+          {routing.locales.map((option) => (
+            <option key={option} value={option}>
+              {localeFlags[option]}
+            </option>
+          ))}
+        </select>
+      </div>
+      {/* Desktop: flags + labels */}
       <select
-        id="locale-switcher"
+        aria-labelledby="locale-switcher"
         value={locale}
         onChange={(event) => onChange(event.target.value as AppLocale)}
-        className="rounded-md border border-zinc-700 bg-zinc-900 px-2 py-1 text-sm text-zinc-300"
+        className="hidden rounded-md border border-zinc-700 bg-zinc-900 px-2 py-1 text-sm text-zinc-300 md:block"
       >
         {routing.locales.map((option) => (
           <option key={option} value={option}>

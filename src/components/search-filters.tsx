@@ -25,7 +25,7 @@ export function SearchFilters() {
   }
 
   return (
-    <div className="flex flex-wrap gap-3">
+    <div className="flex flex-wrap justify-center gap-3 sm:justify-start">
       <select value={searchParams.get("service") ?? ""} onChange={(e) => updateFilter("service", e.target.value)} className="rounded-md border border-zinc-700 bg-zinc-800 px-3 py-2 text-sm text-white">
         <option value="">{t("service")}</option>
         {categories.map((category) => (

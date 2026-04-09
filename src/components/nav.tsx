@@ -10,7 +10,7 @@ export async function Nav() {
     <header className="border-b border-zinc-800 bg-zinc-950">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3">
         <Link href="/" className="text-lg font-bold">
-          🇧🇷 Brazuca Hubz
+          <span className="hidden md:inline">🇧🇷 </span>Brazuca Hubz
         </Link>
         <nav className="flex items-center gap-2 text-sm">
           <Suspense
@@ -29,7 +29,7 @@ export async function Nav() {
           </Link>
           <Link
             href="/list-your-business"
-            className="rounded-md bg-amber-500 px-3 py-1.5 text-sm font-medium text-black hover:bg-amber-400"
+            className="rounded-md bg-amber-500 px-3 py-1.5 text-center text-sm font-medium text-black hover:bg-amber-400"
           >
             {t("listBusiness")}
           </Link>

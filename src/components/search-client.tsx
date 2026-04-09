@@ -5,6 +5,7 @@ import { useTranslations } from "next-intl";
 import { getProviderSuburbs, providers } from "@/lib/data";
 import { ProviderCard } from "@/components/provider-card";
 import { SearchFilters } from "@/components/search-filters";
+import { PagefindSearch } from "@/components/pagefind-search";
 import { Link } from "@/i18n/navigation";
 
 export function SearchClient() {
@@ -26,6 +27,7 @@ export function SearchClient() {
   return (
     <div>
       <h1 className="mb-6 text-2xl font-bold">{t("title")}</h1>
+      <PagefindSearch />
       <SearchFilters />
       <div className="mt-6">
         <p className="mb-4 text-sm text-zinc-400">{t("results", { count: filtered.length })}</p>

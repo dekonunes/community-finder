@@ -113,7 +113,8 @@
   },
   "footer": {
     "copyright": "© {year} Brazuca Hubz. Australia.",
-    "cta": "Anuncia tu negocio (gratis)"
+    "cta": "Anuncia tu negocio (gratis)",
+    "buyMeACoffee": "Invítame un café"
   },
   "notFound": {
     "description": "Pagina no encontrada",
@@ -141,6 +142,7 @@
     "rheumatologist": "Reumatologos",
     "chiropractor": "Quiropracticos",
     "physiotherapist": "Fisioterapeutas",
+    "pilates-instructor": "Instructoras de pilates",
     "surgeon": "Cirujanos",
     "ent-surgeon": "Otorrinolaringologos",
     "lawyer": "Abogados",

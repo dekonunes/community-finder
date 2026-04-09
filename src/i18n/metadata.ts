@@ -11,6 +11,12 @@ const openGraphLocales: Record<AppLocale, string> = {
   es: "es_ES",
 };
 
+function getOpenGraphAlternateLocales(currentLocale: AppLocale): string[] {
+  return routing.locales
+    .filter((locale) => locale !== currentLocale)
+    .map((locale) => openGraphLocales[locale]);
+}
+
 function normalizePathname(pathname = "") {
   if (!pathname) {
     return "";
@@ -41,6 +47,21 @@ export function getPageAlternates(locale: AppLocale, pathname = ""): Metadata["a
   };
 }
 
+export function getPageOpenGraph(
+  locale: AppLocale,
+  overrides: { title: string; description: string; pathname?: string; type?: "website" | "profile" },
+): Metadata["openGraph"] {
+  return {
+    title: overrides.title,
+    description: overrides.description,
+    url: getLocalizedUrl(locale, overrides.pathname),
+    siteName: "Brazuca Hubz",
+    locale: openGraphLocales[locale],
+    alternateLocale: getOpenGraphAlternateLocales(locale),
+    type: overrides.type ?? "website",
+  };
+}
+
 export async function getBaseMetadata(locale: AppLocale): Promise<Metadata> {
   const t = await getTranslations({ locale, namespace: "metadata" });
 
@@ -51,13 +72,9 @@ export async function getBaseMetadata(locale: AppLocale): Promise<Metadata> {
     },
     description: t("description"),
     alternates: getPageAlternates(locale),
-    openGraph: {
+    openGraph: getPageOpenGraph(locale, {
       title: t("siteTitle"),
       description: t("openGraphDescription"),
-      url: getLocalizedUrl(locale),
-      siteName: t("siteTitle"),
-      locale: openGraphLocales[locale],
-      type: "website",
-    },
+    }),
   };
 }

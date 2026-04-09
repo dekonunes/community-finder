@@ -2,7 +2,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { categories, providers } from "@/lib/data";
 import { ProviderCard } from "@/components/provider-card";
-import { getPageAlternates } from "@/i18n/metadata";
+import { getPageAlternates, getPageOpenGraph } from "@/i18n/metadata";
 import { isValidLocale } from "@/i18n/routing";
 
 export async function generateMetadata({
@@ -22,6 +22,11 @@ export async function generateMetadata({
     title: t("metadataTitle"),
     description: t("metadataDescription"),
     alternates: getPageAlternates(locale, "/all"),
+    openGraph: getPageOpenGraph(locale, {
+      title: t("metadataTitle"),
+      description: t("metadataDescription"),
+      pathname: "/all",
+    }),
   };
 }
 

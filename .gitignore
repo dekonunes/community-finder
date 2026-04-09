@@ -36,6 +36,9 @@ yarn-error.log*
 # vercel
 .vercel
 
+# optimized images (generated at build time)
+/public/optimized/
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts

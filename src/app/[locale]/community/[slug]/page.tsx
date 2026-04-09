@@ -12,7 +12,7 @@ import {
 import { EventCard } from "@/components/event-card";
 import { ProductCard } from "@/components/product-card";
 import { ProviderCard } from "@/components/provider-card";
-import { getPageAlternates } from "@/i18n/metadata";
+import { getPageAlternates, getPageOpenGraph } from "@/i18n/metadata";
 import { Link } from "@/i18n/navigation";
 import { isValidLocale, routing } from "@/i18n/routing";
 
@@ -47,6 +47,11 @@ export async function generateMetadata({
     title: t("metadataTitle", { name: communityName }),
     description: t("metadataDescription", { name: communityName }),
     alternates: getPageAlternates(locale, `/community/${slug}`),
+    openGraph: getPageOpenGraph(locale, {
+      title: t("metadataTitle", { name: communityName }),
+      description: t("metadataDescription", { name: communityName }),
+      pathname: `/community/${slug}`,
+    }),
   };
 }
 

@@ -7,7 +7,7 @@ import {
   getProviderSuburbsDisplay,
   providers,
 } from "@/lib/data";
-import { getPageAlternates } from "@/i18n/metadata";
+import { getPageAlternates, getPageOpenGraph } from "@/i18n/metadata";
 import { isValidLocale, routing } from "@/i18n/routing";
 import { ProviderDetail } from "@/components/provider-detail";
 
@@ -38,15 +38,24 @@ export async function generateMetadata({
   const categoriesT = await getTranslations({ locale, namespace: "categories" });
   const t = await getTranslations({ locale, namespace: "provider" });
 
+  const title = `${provider.name} — ${categoriesT(provider.service as never)}`;
+  const description = t("metadataDescription", {
+    community: communitiesT(provider.country as never),
+    category: categoriesT(provider.service as never).toLowerCase(),
+    suburb: getProviderSuburbsDisplay(provider),
+    bio: provider.bio,
+  });
+
   return {
-    title: `${provider.name} — ${categoriesT(provider.service as never)}`,
-    description: t("metadataDescription", {
-      community: communitiesT(provider.country as never),
-      category: categoriesT(provider.service as never).toLowerCase(),
-      suburb: getProviderSuburbsDisplay(provider),
-      bio: provider.bio,
-    }),
+    title,
+    description,
     alternates: getPageAlternates(locale, `/provider/${slug}`),
+    openGraph: getPageOpenGraph(locale, {
+      title,
+      description,
+      pathname: `/provider/${slug}`,
+      type: "profile",
+    }),
   };
 }
 

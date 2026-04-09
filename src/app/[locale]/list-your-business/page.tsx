@@ -1,6 +1,6 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
-import { getPageAlternates } from "@/i18n/metadata";
+import { getPageAlternates, getPageOpenGraph } from "@/i18n/metadata";
 import { isValidLocale } from "@/i18n/routing";
 
 const WHATSAPP_NUMBER = "61468445803";
@@ -23,6 +23,11 @@ export async function generateMetadata({
     title: t("metadataTitle"),
     description: t("metadataDescription"),
     alternates: getPageAlternates(locale, "/list-your-business"),
+    openGraph: getPageOpenGraph(locale, {
+      title: t("metadataTitle"),
+      description: t("metadataDescription"),
+      pathname: "/list-your-business",
+    }),
   };
 }
 

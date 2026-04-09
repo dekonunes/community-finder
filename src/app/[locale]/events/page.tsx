@@ -2,7 +2,7 @@ import { Suspense } from "react";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { EventsClient } from "@/components/events-client";
-import { getPageAlternates } from "@/i18n/metadata";
+import { getPageAlternates, getPageOpenGraph } from "@/i18n/metadata";
 import { isValidLocale } from "@/i18n/routing";
 
 export async function generateMetadata({
@@ -22,6 +22,11 @@ export async function generateMetadata({
     title: t("metadataTitle"),
     description: t("metadataDescription"),
     alternates: getPageAlternates(locale, "/events"),
+    openGraph: getPageOpenGraph(locale, {
+      title: t("metadataTitle"),
+      description: t("metadataDescription"),
+      pathname: "/events",
+    }),
   };
 }
 

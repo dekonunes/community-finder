@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "rm -rf .next && next dev",
-    "build": "next build --webpack",
+    "build": "node scripts/optimize-images.mjs && next build --webpack && npx pagefind --site out",
+    "build:images": "node scripts/optimize-images.mjs",
     "start": "next start",
     "lint": "eslint"
   },
@@ -29,6 +30,8 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.2.2",
+    "pagefind": "^1.5.0",
+    "sharp": "^0.34.5",
     "tailwindcss": "^4",
     "typescript": "^5"
   }

@@ -51,7 +51,7 @@ export async function ProviderDetail({
   const initials = provider.name.split(" ").map((word) => word[0]).join("").slice(0, 2).toUpperCase();
 
   return (
-    <div className="mx-auto max-w-2xl">
+    <div className="mx-auto max-w-2xl" data-pagefind-body>
       <div className="overflow-hidden rounded-xl border border-zinc-800 bg-zinc-900">
         <div className="bg-gradient-to-br from-blue-600/20 to-purple-600/20 px-6 py-8 text-center">
           {provider.photo ? (
@@ -65,7 +65,7 @@ export async function ProviderDetail({
           ) : (
             <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full bg-blue-600 text-2xl font-bold">{initials}</div>
           )}
-          <h1 className="mt-4 text-2xl font-bold">{provider.name}</h1>
+          <h1 className="mt-4 text-2xl font-bold" data-pagefind-meta="title">{provider.name}</h1>
           <p className="mt-1 text-zinc-400">
             {categoriesT(provider.service as never)} · {community?.flag} {community ? communitiesT(community.slug as never) : null}
           </p>
