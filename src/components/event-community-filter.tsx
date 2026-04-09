@@ -4,6 +4,7 @@ import { useSearchParams } from "next/navigation";
 import { useTranslations } from "next-intl";
 import { communities } from "@/lib/data";
 import { usePathname, useRouter } from "@/i18n/navigation";
+import { trackFilter } from "@/lib/analytics";
 
 export function EventCommunityFilter({ current }: { current?: string }) {
   const t = useTranslations("events");
@@ -17,6 +18,7 @@ export function EventCommunityFilter({ current }: { current?: string }) {
 
     if (value) {
       params.set("community", value);
+      trackFilter("community", value);
     } else {
       params.delete("community");
     }

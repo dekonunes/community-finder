@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState, useCallback, useMemo } from "react";
 import { useTranslations } from "next-intl";
+import { trackSearch } from "@/lib/analytics";
 
 const PAGE_SIZE = 5;
 
@@ -79,7 +80,10 @@ export function PagefindSearch() {
     const value = e.target.value;
     setQuery(value);
     clearTimeout(debounceRef.current);
-    debounceRef.current = setTimeout(() => performSearch(value), 200);
+    debounceRef.current = setTimeout(() => {
+      performSearch(value);
+      if (value.trim()) trackSearch(value.trim());
+    }, 200);
   }
 
   return (

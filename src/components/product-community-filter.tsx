@@ -4,6 +4,7 @@ import { useSearchParams } from "next/navigation";
 import { useTranslations } from "next-intl";
 import { getAvailableProductCategories } from "@/lib/data";
 import { usePathname, useRouter } from "@/i18n/navigation";
+import { trackFilter } from "@/lib/analytics";
 
 export function ProductCommunityFilter({
   currentCommunity,
@@ -23,6 +24,7 @@ export function ProductCommunityFilter({
     const params = new URLSearchParams(searchParams.toString());
     if (value) {
       params.set(key, value);
+      trackFilter(key, value);
     } else {
       params.delete(key);
     }

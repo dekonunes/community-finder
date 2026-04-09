@@ -5,6 +5,7 @@ import { useLocale, useTranslations } from "next-intl";
 import { startTransition } from "react";
 import { routing, type AppLocale } from "@/i18n/routing";
 import { usePathname, useRouter } from "@/i18n/navigation";
+import { trackClick } from "@/lib/analytics";
 
 const localeFlags: Record<AppLocale, string> = {
   "pt-BR": "🇧🇷",
@@ -20,6 +21,7 @@ export function LocaleSwitcher() {
   const searchParams = useSearchParams();
 
   function onChange(nextLocale: AppLocale) {
+    trackClick("locale", nextLocale);
     const query = Object.fromEntries(searchParams.entries());
 
     startTransition(() => {

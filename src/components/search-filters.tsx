@@ -4,6 +4,7 @@ import { useSearchParams } from "next/navigation";
 import { useTranslations } from "next-intl";
 import { categories, suburbs, getAllLanguages } from "@/lib/data";
 import { usePathname, useRouter } from "@/i18n/navigation";
+import { trackFilter } from "@/lib/analytics";
 
 export function SearchFilters() {
   const t = useTranslations("search.filters");
@@ -17,6 +18,7 @@ export function SearchFilters() {
     const params = new URLSearchParams(searchParams.toString());
     if (value) {
       params.set(key, value);
+      trackFilter(key, value);
     } else {
       params.delete(key);
     }

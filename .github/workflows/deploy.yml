@@ -28,6 +28,7 @@ jobs:
         env:
           NEXT_PUBLIC_BASE_PATH: ""
           NEXT_PUBLIC_SITE_URL: "https://brazucahubz.com"
+          NEXT_PUBLIC_GA_MEASUREMENT_ID: "G-RYVP5NF4LB"
       - uses: actions/upload-pages-artifact@v3
         with:
           path: out

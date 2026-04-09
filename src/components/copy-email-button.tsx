@@ -1,6 +1,7 @@
 "use client";
 
 import { useTranslations } from "next-intl";
+import { trackClick } from "@/lib/analytics";
 
 function EmailIcon(props: React.ComponentProps<"svg">) {
   return (
@@ -15,6 +16,7 @@ export function EmailButton({ email, variant = "icon" }: { email: string; varian
   const t = useTranslations("common");
 
   function handleClick() {
+    trackClick("contact", `email:${email}`);
     window.open(
       `https://mail.google.com/mail/?view=cm&to=${encodeURIComponent(email)}`,
       "_blank",
