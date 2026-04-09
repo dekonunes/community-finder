@@ -22,5 +22,6 @@
   { "slug": "mortgage-broker", "name": "Mortgage Brokers", "icon": "🏠", "parentCategory": "professional-services" },
   { "slug": "travel-agent", "name": "Travel Agents", "icon": "✈️", "parentCategory": "professional-services" },
   { "slug": "marketing-service", "name": "Marketing Services", "icon": "📣", "parentCategory": "professional-services" },
+  { "slug": "hr-consulting", "name": "HR Consulting", "icon": "👥", "parentCategory": "professional-services" },
   { "slug": "pet-grooming", "name": "Pet Grooming", "icon": "🐶", "parentCategory": "professional-services" }
 ]

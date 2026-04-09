@@ -879,5 +879,23 @@
     "address": "Ryde, NSW",
     "photo": null,
     "instagram": "https://www.instagram.com/mon.petgroomer"
+  },
+  {
+    "slug": "fay-theiss",
+    "name": "Fay Theiss",
+    "service": "hr-consulting",
+    "country": "brazil",
+    "languages": [
+      "portuguese",
+      "english"
+    ],
+    "suburb": "sydney-cbd",
+    "phone": "0451 050 624",
+    "email": "info@hrseekers.com",
+    "website": "https://hrseekers.com",
+    "bio": "A HR Seekers é uma consultoria de Recursos Humanos sediada em Sydney, Austrália, que apoia pequenas e médias empresas com soluções práticas e estratégicas. Com uma abordagem não tradicional, foca em cultura, desenvolvimento de lideranças e estruturas eficientes, ajudando negócios a crescer de forma sustentável, sem burocracia desnecessária.",
+    "address": "Sydney, NSW",
+    "photo": null,
+    "instagram": "https://www.instagram.com/hr_seekers"
   }
 ]
