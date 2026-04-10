@@ -897,5 +897,23 @@
     "address": "Sydney, NSW",
     "photo": null,
     "instagram": "https://www.instagram.com/hr_seekers"
+  },
+  {
+    "slug": "carol-de-luca",
+    "name": "Carol de Luca",
+    "service": "travel-agent",
+    "country": "brazil",
+    "languages": [
+      "portuguese",
+      "english"
+    ],
+    "suburb": "sydney-cbd",
+    "phone": "0477 417 557",
+    "email": "anacarolina.luca@hotmail.com",
+    "website": null,
+    "bio": "Eu sou agente de viagem que trabalha para uma companhia brasileira, residente na Austrália e ajudo muitos brasileiros com buscas e valores de passagens. Vai ser um prazer ajudar.",
+    "address": "Sydney, Australia",
+    "photo": null,
+    "instagram": null
   }
 ]
