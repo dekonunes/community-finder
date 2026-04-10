@@ -915,5 +915,23 @@
     "address": "Sydney, Australia",
     "photo": null,
     "instagram": null
+  },
+  {
+    "slug": "lilian-de-medeiros-araujo",
+    "name": "Lilian de Medeiros Araujo",
+    "service": "aesthetic-treatment",
+    "country": "brazil",
+    "languages": [
+      "portuguese",
+      "english"
+    ],
+    "suburb": "dee-why",
+    "phone": "0404 203 800",
+    "email": "hello@nbskinrejuvenation.com.au",
+    "website": "https://www.nbskinrejuvenation.com.au",
+    "bio": "Tenho 17 anos de experiência, também dou treinamento de estética e lasers para clínicas na Austrália. Tenho tratamentos de anti-aging, pigmentação, face lift, Skintag removal, laser para fungus e microneedling para crescimento capilar e muito mais =)",
+    "address": "Dee Why, Northern Beaches, NSW",
+    "photo": null,
+    "instagram": "https://www.instagram.com/nb_skin_rejuv"
   }
 ]
