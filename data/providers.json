@@ -54,6 +54,24 @@
     "instagram": "https://www.instagram.com/mariana.rosa.psychologist"
   },
   {
+    "slug": "lymphatics-australia",
+    "name": "Lymphatics Australia",
+    "service": "lymphatic-drainage",
+    "country": "brazil",
+    "languages": [
+      "portuguese",
+      "english"
+    ],
+    "suburb": "st-leonards",
+    "phone": "0413 523 040",
+    "email": "info@lymphaticsaustralia.com.au",
+    "website": null,
+    "bio": "Meet Nat Peres, founder and therapist at Lymphatics Australia. She specialises in clinical lymphatic therapy and drainage massage to reduce fluid retention, systemic inflammation and support lymphatic flow. Nat also works closely with women living with Lipedema as part of their conservative treatment journey.",
+    "address": "St Leonards, Sydney, NSW",
+    "photo": "/providers/lymphatics.png",
+    "instagram": "https://www.instagram.com/lymphaticsaustralia"
+  },
+  {
     "slug": "dr-ricardo-deveza",
     "name": "Dr Ricardo Deveza",
     "service": "cardiologist",

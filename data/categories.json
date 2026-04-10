@@ -24,5 +24,6 @@
   { "slug": "marketing-service", "name": "Marketing Services", "icon": "📣", "parentCategory": "professional-services" },
   { "slug": "hr-consulting", "name": "HR Consulting", "icon": "👥", "parentCategory": "professional-services" },
   { "slug": "pet-grooming", "name": "Pet Grooming", "icon": "🐶", "parentCategory": "professional-services" },
-  { "slug": "aesthetic-treatment", "name": "Tratamentos Estéticos", "icon": "✨", "parentCategory": "body-wellness" }
+  { "slug": "aesthetic-treatment", "name": "Tratamentos Estéticos", "icon": "✨", "parentCategory": "body-wellness" },
+  { "slug": "lymphatic-drainage", "name": "Drenagem Linfática", "icon": "💧", "parentCategory": "body-wellness" }
 ]

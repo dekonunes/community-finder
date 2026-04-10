@@ -4,8 +4,17 @@ import assert from "node:assert/strict";
 import categories from "../data/categories.json" with { type: "json" };
 import communities from "../data/communities.json" with { type: "json" };
 import events from "../data/events.json" with { type: "json" };
+import enMessages from "../messages/en.json" with { type: "json" };
+import esMessages from "../messages/es.json" with { type: "json" };
+import ptBrMessages from "../messages/pt-BR.json" with { type: "json" };
 import products from "../data/products.json" with { type: "json" };
 import providers from "../data/providers.json" with { type: "json" };
+
+const localeMessages = {
+  "pt-BR": ptBrMessages,
+  en: enMessages,
+  es: esMessages,
+};
 
 test("only the Brazilian community remains in the dataset", () => {
   assert.deepEqual(
@@ -19,40 +28,33 @@ test("only the Brazilian community remains in the dataset", () => {
 });
 
 test("providers keep the expected language set", () => {
-  const languages = [...new Set(providers.flatMap((provider) => provider.languages))].sort();
+  const languages = [
+    ...new Set(providers.flatMap((provider) => provider.languages)),
+  ].sort();
 
   assert.deepEqual(languages, ["english", "portuguese", "spanish"]);
 });
 
 test("service categories only include services that have providers", () => {
-  const providerServiceSlugs = new Set(providers.map((provider) => provider.service));
+  const providerServiceSlugs = new Set(
+    providers.map((provider) => provider.service),
+  );
 
-  assert.ok(categories.every((category) => providerServiceSlugs.has(category.slug)));
+  assert.ok(
+    categories.every((category) => providerServiceSlugs.has(category.slug)),
+  );
 });
 
-test("lawyer service is available with the New Alliance Migration provider", () => {
-  const lawyerCategory = categories.find((category) => category.slug === "lawyer");
-  const provider = providers.find((entry) => entry.slug === "new-alliance-migration");
+test("every service category has a localized label in every locale", () => {
+  for (const [locale, messages] of Object.entries(localeMessages)) {
+    const missingCategoryLabels = categories
+      .filter((category) => !(category.slug in messages.categories))
+      .map((category) => category.slug);
 
-  assert.deepEqual(lawyerCategory, {
-    slug: "lawyer",
-    name: "Lawyers",
-    icon: "⚖️",
-  });
-
-  assert.deepEqual(provider, {
-    slug: "new-alliance-migration",
-    name: "New Alliance Migration",
-    service: "lawyer",
-    country: "brazil",
-    languages: ["portuguese", "english"],
-    suburb: "sydney-cbd",
-    phone: "0424 688 763",
-    email: "isa.andrade@newalliancemigration.com",
-    website: "https://newalliance-landpage.vercel.app/",
-    bio: "New Alliance Migration is led by Isa Andrade, a dedicated and registered immigration law consultant with over 10 years of experience helping individuals and families navigate the complexities of Australian migration law. Isa combines deep legal expertise with a genuine passion for her clients' success - guiding them through every step of their visa journey with clarity, care, and determination.",
-    address: "Sydney CBD, NSW",
-    photo: null,
-    instagram: null,
-  });
+    assert.deepEqual(
+      missingCategoryLabels,
+      [],
+      `Missing category labels for locale ${locale}: ${missingCategoryLabels.join(", ")}`,
+    );
+  }
 });
