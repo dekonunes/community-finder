@@ -1,4 +1,4 @@
-import { getCommunityBySlug, type CommunityEvent } from "@/lib/data";
+import type { CommunityEvent } from "@/lib/data";
 
 export function EventCard({
   event,
@@ -9,16 +9,11 @@ export function EventCard({
   formattedDate: string;
   moreInfoLabel: string;
 }) {
-  const community = getCommunityBySlug(event.community);
-
   return (
     <div className="rounded-lg border border-zinc-800 bg-zinc-900 p-4">
-      <div className="flex items-start justify-between gap-2">
-        <div>
-          <h3 className="font-semibold">{event.title}</h3>
-          <p className="mt-1 text-sm text-zinc-400">{formattedDate}</p>
-        </div>
-        {community && <span className="text-xl">{community.flag}</span>}
+      <div>
+        <h3 className="font-semibold">{event.title}</h3>
+        <p className="mt-1 text-sm text-zinc-400">{formattedDate}</p>
       </div>
       <p className="mt-2 text-sm text-zinc-300">{event.description}</p>
       <p className="mt-2 text-sm text-zinc-400">📍 {event.location}</p>

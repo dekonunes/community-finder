@@ -8,12 +8,12 @@
       "portuguese",
       "english"
     ],
-    "suburb": "sydney-cbd",
+    "suburb": "australia-wide",
     "phone": "0424 688 763",
     "email": "isa.andrade@newalliancemigration.com",
     "website": "https://newalliance-landpage.vercel.app/",
     "bio": "A New Alliance Migration é liderada por Isa Andrade, uma consultora de leis de imigração dedicada e registrada, com mais de 10 anos de experiência ajudando indivíduos e famílias a navegar pelas complexidades da lei de migração australiana. Isa combina profunda experiência jurídica com uma paixão genuína pelo sucesso de seus clientes - guiando-os em cada etapa de sua jornada de visto com clareza, cuidado e determinação.",
-    "address": "Sydney CBD, NSW",
+    "address": "Australia (all states)",
     "photo": "/providers/new-alliance.webp",
     "instagram": null
   },
@@ -951,5 +951,20 @@
     "address": "Dee Why, Northern Beaches, NSW",
     "photo": null,
     "instagram": "https://www.instagram.com/nb_skin_rejuv"
+  },
+  {
+    "slug": "daniel-zeolla",
+    "name": "Daniel Zeolla",
+    "service": "lawyer",
+    "country": "brazil",
+    "languages": ["portuguese"],
+    "suburb": "australia-wide",
+    "phone": null,
+    "email": "contact@zeollalaw.com",
+    "website": "https://www.zeollalaw.com",
+    "bio": "Daniel Zeolla é o principal lawyer at Zeolla Law. Zeolla é advogado na Austrália, Brasil e Portugal.",
+    "address": "Australia (all states)",
+    "photo": null,
+    "instagram": "https://www.instagram.com/zeollalaw"
   }
 ]

@@ -23,11 +23,11 @@ export async function Nav() {
           <Link href="/search" className="text-zinc-400 hover:text-white">
             {t("services")}
           </Link>
-          <Link href="/events" className="text-zinc-400 hover:text-white">
-            {t("events")}
-          </Link>
           <Link href="/products" className="text-zinc-400 hover:text-white">
             {t("products")}
+          </Link>
+          <Link href="/events" className="text-zinc-400 hover:text-white">
+            {t("events")}
           </Link>
           <Link
             href="/list-your-business"

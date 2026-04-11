@@ -25,7 +25,14 @@
     "allServices": "Seleccione el servicio",
     "search": "Buscar",
     "featured": "Proveedores destacados",
-    "browseAll": "Ver todos los proveedores →"
+    "browseAll": "Ver todos los proveedores →",
+    "tabProviders": "Profesionales",
+    "tabProducts": "Productos",
+    "tabEvents": "Eventos",
+    "featuredProducts": "Productos destacados",
+    "featuredEvents": "Próximos eventos",
+    "browseAllProducts": "Ver todos los productos →",
+    "browseAllEvents": "Ver todos los eventos →"
   },
   "search": {
     "title": "Buscar proveedores",

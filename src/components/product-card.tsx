@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { getCommunityBySlug, getProductCategoryBySlug, type Product } from "@/lib/data";
+import { getProductCategoryBySlug, type Product } from "@/lib/data";
 import { getSiteConfig, withBasePath } from "@/lib/site-config.mjs";
 
 const { basePath } = getSiteConfig(process.env);
@@ -13,7 +13,6 @@ export function ProductCard({
   categoryLabel?: string | null;
   viewProductLabel: string;
 }) {
-  const community = getCommunityBySlug(product.community);
   const category = getProductCategoryBySlug(product.category);
 
   return (
@@ -30,14 +29,11 @@ export function ProductCard({
         </div>
       )}
       <div className="p-4">
-        <div className="flex items-start justify-between gap-2">
-          <div className="min-w-0">
-            <h3 className="font-semibold">{product.name}</h3>
-            <p className="mt-1 text-sm text-zinc-400">
-              {category?.icon} {categoryLabel ?? null}
-            </p>
-          </div>
-          {community && <span className="shrink-0 text-xl">{community.flag}</span>}
+        <div className="min-w-0">
+          <h3 className="font-semibold">{product.name}</h3>
+          <p className="mt-1 text-sm text-zinc-400">
+            {category?.icon} {categoryLabel ?? null}
+          </p>
         </div>
         <p className="mt-2 text-sm text-zinc-300">{product.description}</p>
         {product.price && (

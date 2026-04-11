@@ -166,9 +166,13 @@ export function getProviderSuburbs(provider: Provider): string[] {
   return provider.suburb ? [provider.suburb] : [];
 }
 
+function getSuburbLabel(slug: string): string {
+  const match = suburbs.find((s) => s.slug === slug);
+  if (match) return match.name;
+  return slug.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
+}
+
 export function getProviderSuburbsDisplay(provider: Provider): string {
   const suburbList = getProviderSuburbs(provider);
-  return suburbList
-    .map((s) => s.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase()))
-    .join(" / ");
+  return suburbList.map(getSuburbLabel).join(" / ");
 }

@@ -25,7 +25,14 @@
     "allServices": "Select service",
     "search": "Search",
     "featured": "Featured Providers",
-    "browseAll": "Browse all providers →"
+    "browseAll": "Browse all providers →",
+    "tabProviders": "Providers",
+    "tabProducts": "Products",
+    "tabEvents": "Events",
+    "featuredProducts": "Featured Products",
+    "featuredEvents": "Upcoming Events",
+    "browseAllProducts": "Browse all products →",
+    "browseAllEvents": "Browse all events →"
   },
   "search": {
     "title": "Search Providers",
