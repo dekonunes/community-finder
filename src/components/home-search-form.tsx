@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useTransition } from "react";
 import { useRouter } from "next/navigation";
 import { useTranslations } from "next-intl";
 import { parentCategories, getCategoriesByParent } from "@/lib/data";
@@ -10,6 +10,7 @@ export function HomeSearchForm({ searchPath }: { searchPath: string }) {
   const categoriesT = useTranslations("categories");
   const parentCategoriesT = useTranslations("parentCategories");
   const router = useRouter();
+  const [isPending, startTransition] = useTransition();
 
   const [selectedParent, setSelectedParent] = useState("");
   const [selectedService, setSelectedService] = useState("");
@@ -17,7 +18,8 @@ export function HomeSearchForm({ searchPath }: { searchPath: string }) {
   const subcategories = selectedParent ? getCategoriesByParent(selectedParent) : [];
 
   return (
-    <div className="flex flex-wrap justify-center gap-2">
+    <div className="flex flex-col items-center gap-3">
+      <div className="flex flex-wrap justify-center gap-2 w-full">
       <select
         value={selectedParent}
         onChange={(e) => {
@@ -39,7 +41,9 @@ export function HomeSearchForm({ searchPath }: { searchPath: string }) {
           const service = e.target.value;
           setSelectedService(service);
           if (service) {
-            router.push(`${searchPath}?service=${encodeURIComponent(service)}`);
+            startTransition(() => {
+              router.push(`${searchPath}?service=${encodeURIComponent(service)}`);
+            });
           }
         }}
         disabled={!selectedParent}
@@ -52,6 +56,13 @@ export function HomeSearchForm({ searchPath }: { searchPath: string }) {
           </option>
         ))}
       </select>
+      </div>
+      {isPending && (
+        <div className="flex items-center gap-2 text-sm text-zinc-400">
+          <span className="inline-block animate-bounce text-lg">⚽</span>
+          {t("loading")}
+        </div>
+      )}
     </div>
   );
 }

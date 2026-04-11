@@ -1,5 +1,6 @@
 "use client";
 
+import { useCallback, useState } from "react";
 import { useSearchParams } from "next/navigation";
 import { useTranslations } from "next-intl";
 import { getProviderSuburbs, providers } from "@/lib/data";
@@ -14,6 +15,8 @@ export function SearchClient() {
   const languagesT = useTranslations("languages");
   const commonT = useTranslations("common");
   const searchParams = useSearchParams();
+  const [isFiltering, setIsFiltering] = useState(false);
+  const handlePendingChange = useCallback((pending: boolean) => setIsFiltering(pending), []);
   let filtered = providers;
 
   const service = searchParams.get("service");
@@ -28,10 +31,17 @@ export function SearchClient() {
     <div>
       <h1 className="mb-6 text-2xl font-bold">{t("title")}</h1>
       <PagefindSearch />
-      <SearchFilters />
+      <SearchFilters onPendingChange={handlePendingChange} />
       <div className="mt-6">
-        <p className="mb-4 text-sm text-zinc-400">{t("results", { count: filtered.length })}</p>
-        {filtered.length === 0 ? (
+        {isFiltering ? (
+          <div className="flex items-center justify-center gap-2 py-12 text-sm text-zinc-400">
+            <span className="inline-block animate-bounce text-lg">⚽</span>
+            {t("loading")}
+          </div>
+        ) : (
+          <>
+          <p className="mb-4 text-sm text-zinc-400">{t("results", { count: filtered.length })}</p>
+          {filtered.length === 0 ? (
           <div className="py-12 text-center">
             <p className="text-zinc-400">{t("emptyTitle")}</p>
             <p className="mt-2 text-sm text-zinc-500">{t("emptyDescription")}</p>
@@ -52,6 +62,8 @@ export function SearchClient() {
               />
             ))}
           </div>
+        )}
+          </>
         )}
       </div>
     </div>

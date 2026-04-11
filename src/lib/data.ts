@@ -159,6 +159,14 @@ export function getAllLanguages(): string[] {
   return Array.from(langs).sort();
 }
 
+export function getSuburbsForService(serviceSlug: string): Suburb[] {
+  const suburbSlugs = new Set<string>();
+  providers
+    .filter((p) => p.service === serviceSlug)
+    .forEach((p) => getProviderSuburbs(p).forEach((s) => suburbSlugs.add(s)));
+  return suburbs.filter((s) => suburbSlugs.has(s.slug));
+}
+
 export function getProviderSuburbs(provider: Provider): string[] {
   if (provider.suburbs && provider.suburbs.length > 0) {
     return provider.suburbs;

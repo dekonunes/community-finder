@@ -24,6 +24,7 @@
     "allCategories": "Seleccione la categoría",
     "allServices": "Seleccione el servicio",
     "search": "Buscar",
+    "loading": "Buscando tu delantero…",
     "featured": "Proveedores destacados",
     "browseAll": "Ver todos los proveedores →",
     "tabProviders": "Profesionales",
@@ -44,6 +45,7 @@
     "metadataDescription": "Encuentra profesionales brasileños en Australia por servicio, idioma y suburbio.",
     "textSearchPlaceholder": "Buscar por nombre, servicio, suburbio...",
     "searching": "Buscando...",
+    "loading": "Buscando tu delantero…",
     "textResults": "{count, plural, one {# resultado encontrado} other {# resultados encontrados}}",
     "textNoResults": "No se encontraron resultados para tu busqueda.",
     "pagination": {

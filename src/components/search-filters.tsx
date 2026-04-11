@@ -1,12 +1,13 @@
 "use client";
 
+import { useEffect, useTransition } from "react";
 import { useSearchParams } from "next/navigation";
 import { useTranslations } from "next-intl";
-import { categories, suburbs, getAllLanguages, parentCategories, getCategoriesByParent } from "@/lib/data";
+import { categories, suburbs, getAllLanguages, parentCategories, getCategoriesByParent, getSuburbsForService } from "@/lib/data";
 import { usePathname, useRouter } from "@/i18n/navigation";
 import { trackFilter } from "@/lib/analytics";
 
-export function SearchFilters() {
+export function SearchFilters({ onPendingChange }: { onPendingChange?: (pending: boolean) => void }) {
   const t = useTranslations("search.filters");
   const categoriesT = useTranslations("categories");
   const parentCategoriesT = useTranslations("parentCategories");
@@ -14,6 +15,11 @@ export function SearchFilters() {
   const router = useRouter();
   const pathname = usePathname();
   const searchParams = useSearchParams();
+  const [isPending, startTransition] = useTransition();
+
+  useEffect(() => {
+    onPendingChange?.(isPending);
+  }, [isPending, onPendingChange]);
 
   function updateFilter(key: string, value: string) {
     const params = new URLSearchParams(searchParams.toString());
@@ -24,12 +30,26 @@ export function SearchFilters() {
       params.delete(key);
     }
     const nextQuery = params.toString();
-    router.push(nextQuery ? `${pathname}?${nextQuery}` : pathname);
+    startTransition(() => {
+      router.push(nextQuery ? `${pathname}?${nextQuery}` : pathname);
+    });
   }
+
+  const selectedService = searchParams.get("service") ?? "";
+  const availableSuburbs = selectedService ? getSuburbsForService(selectedService) : suburbs;
+
+  const selectedSuburb = searchParams.get("suburb") ?? "";
+
+  // Clear suburb filter if it's no longer in the available list
+  useEffect(() => {
+    if (selectedSuburb && !availableSuburbs.some((s) => s.slug === selectedSuburb)) {
+      updateFilter("suburb", "");
+    }
+  }, [selectedService]);
 
   return (
     <div className="flex flex-wrap justify-center gap-3 sm:justify-start">
-      <select value={searchParams.get("service") ?? ""} onChange={(e) => updateFilter("service", e.target.value)} className="rounded-md border border-zinc-700 bg-zinc-800 px-3 py-2 text-sm text-white">
+      <select value={selectedService} onChange={(e) => updateFilter("service", e.target.value)} className="rounded-md border border-zinc-700 bg-zinc-800 px-3 py-2 text-sm text-white">
         <option value="">{t("service")}</option>
         {parentCategories.map((parent) => (
           <optgroup key={parent.slug} label={`${parent.icon} ${parentCategoriesT(parent.slug as never)}`}>
@@ -49,9 +69,9 @@ export function SearchFilters() {
           </option>
         ))}
       </select>
-      <select value={searchParams.get("suburb") ?? ""} onChange={(e) => updateFilter("suburb", e.target.value)} className="rounded-md border border-zinc-700 bg-zinc-800 px-3 py-2 text-sm text-white">
+      <select value={selectedSuburb} onChange={(e) => updateFilter("suburb", e.target.value)} className="rounded-md border border-zinc-700 bg-zinc-800 px-3 py-2 text-sm text-white">
         <option value="">{t("suburb")}</option>
-        {suburbs.map((suburb) => <option key={suburb.slug} value={suburb.slug}>{suburb.name}</option>)}
+        {availableSuburbs.map((suburb) => <option key={suburb.slug} value={suburb.slug}>{suburb.name}</option>)}
       </select>
     </div>
   );

@@ -24,6 +24,7 @@
     "allCategories": "Select category",
     "allServices": "Select service",
     "search": "Search",
+    "loading": "Finding your striker…",
     "featured": "Featured Providers",
     "browseAll": "Browse all providers →",
     "tabProviders": "Providers",
@@ -44,6 +45,7 @@
     "metadataDescription": "Browse Brazilian professionals across Australia by service, language, and suburb.",
     "textSearchPlaceholder": "Search by name, service, suburb...",
     "searching": "Searching...",
+    "loading": "Finding your striker…",
     "textResults": "{count, plural, one {# result found} other {# results found}}",
     "textNoResults": "No results found for your search.",
     "pagination": {
