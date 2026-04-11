@@ -19,14 +19,14 @@ export function HomeSearchForm({ searchPath }: { searchPath: string }) {
 
   return (
     <div className="flex flex-col items-center gap-3">
-      <div className="flex flex-wrap justify-center gap-2 w-full">
+      <div className="flex w-full flex-col gap-2 sm:flex-row sm:flex-wrap sm:justify-center">
       <select
         value={selectedParent}
         onChange={(e) => {
           setSelectedParent(e.target.value);
           setSelectedService("");
         }}
-        className="flex-1 basis-40 rounded-md border border-zinc-700 bg-zinc-800 px-3 py-2 text-sm text-white"
+        className="w-full min-w-0 rounded-md border border-zinc-700 bg-zinc-800 px-3 py-2 text-sm text-white sm:flex-1 sm:basis-40"
       >
         <option value="">{t("allCategories")}</option>
         {parentCategories.map((parent) => (
@@ -47,7 +47,7 @@ export function HomeSearchForm({ searchPath }: { searchPath: string }) {
           }
         }}
         disabled={!selectedParent}
-        className="flex-1 basis-40 rounded-md border border-zinc-700 bg-zinc-800 px-3 py-2 text-sm text-white disabled:opacity-50"
+        className="w-full min-w-0 rounded-md border border-zinc-700 bg-zinc-800 px-3 py-2 text-sm text-white disabled:opacity-50 sm:flex-1 sm:basis-40"
       >
         <option value="">{t("allServices")}</option>
         {subcategories.map((category) => (

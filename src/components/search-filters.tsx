@@ -48,8 +48,12 @@ export function SearchFilters({ onPendingChange }: { onPendingChange?: (pending:
   }, [selectedService]);
 
   return (
-    <div className="flex flex-wrap justify-center gap-3 sm:justify-start">
-      <select value={selectedService} onChange={(e) => updateFilter("service", e.target.value)} className="rounded-md border border-zinc-700 bg-zinc-800 px-3 py-2 text-sm text-white">
+    <div className="grid w-full grid-cols-12 gap-3 sm:flex sm:flex-wrap sm:justify-start">
+      <select
+        value={selectedService}
+        onChange={(e) => updateFilter("service", e.target.value)}
+        className="col-span-12 w-full min-w-0 rounded-md border border-zinc-700 bg-zinc-800 px-3 py-2 text-sm text-white sm:col-auto sm:w-auto"
+      >
         <option value="">{t("service")}</option>
         {parentCategories.map((parent) => (
           <optgroup key={parent.slug} label={`${parent.icon} ${parentCategoriesT(parent.slug as never)}`}>
@@ -61,7 +65,11 @@ export function SearchFilters({ onPendingChange }: { onPendingChange?: (pending:
           </optgroup>
         ))}
       </select>
-      <select value={searchParams.get("language") ?? ""} onChange={(e) => updateFilter("language", e.target.value)} className="rounded-md border border-zinc-700 bg-zinc-800 px-3 py-2 text-sm text-white">
+      <select
+        value={searchParams.get("language") ?? ""}
+        onChange={(e) => updateFilter("language", e.target.value)}
+        className="col-span-6 w-full min-w-0 rounded-md border border-zinc-700 bg-zinc-800 px-3 py-2 text-sm text-white sm:col-auto sm:w-auto"
+      >
         <option value="">{t("language")}</option>
         {getAllLanguages().map((language) => (
           <option key={language} value={language} className="capitalize">
@@ -69,7 +77,11 @@ export function SearchFilters({ onPendingChange }: { onPendingChange?: (pending:
           </option>
         ))}
       </select>
-      <select value={selectedSuburb} onChange={(e) => updateFilter("suburb", e.target.value)} className="rounded-md border border-zinc-700 bg-zinc-800 px-3 py-2 text-sm text-white">
+      <select
+        value={selectedSuburb}
+        onChange={(e) => updateFilter("suburb", e.target.value)}
+        className="col-span-6 w-full min-w-0 rounded-md border border-zinc-700 bg-zinc-800 px-3 py-2 text-sm text-white sm:col-auto sm:w-auto"
+      >
         <option value="">{t("suburb")}</option>
         {availableSuburbs.map((suburb) => <option key={suburb.slug} value={suburb.slug}>{suburb.name}</option>)}
       </select>
