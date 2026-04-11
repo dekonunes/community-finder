@@ -38,6 +38,16 @@ yarn-error.log*
 
 # optimized images (generated at build time)
 /public/optimized/
+*.tmp.webp
+
+# python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+scripts/remove_flag_background.py
+tests/test_remove_flag_background.py
 
 # typescript
 *.tsbuildinfo
