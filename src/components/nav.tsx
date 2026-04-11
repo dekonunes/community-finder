@@ -10,7 +10,7 @@ export async function Nav() {
   return (
     <header className="border-b border-zinc-800 bg-zinc-950">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3">
-        <Link href="/" className="flex items-center gap-1.5 text-lg font-bold">
+        <Link href="/" className="flex items-center gap-2 text-lg font-bold">
           <Image src="/flag-32.webp" alt="Brazilian flag" width={24} height={24} className="hidden md:inline-block" />
           Brazuca Hubz
         </Link>
@@ -31,7 +31,7 @@ export async function Nav() {
           </Link>
           <Link
             href="/list-your-business"
-            className="rounded-md bg-amber-500 px-3 py-1.5 text-center text-sm font-medium text-black hover:bg-amber-400"
+            className="rounded-md bg-[#FFDF00] px-3 py-2 text-center text-sm font-medium text-black hover:bg-[#FFE833]"
           >
             {t("listBusiness")}
           </Link>

@@ -78,7 +78,7 @@ export function ProviderCard({
             </h3>
             <p className="text-sm text-zinc-400">{category ? categoryLabel ?? null : null}</p>
           </div>
-          <div className="mt-2 flex flex-wrap gap-1.5">
+          <div className="mt-2 flex flex-wrap gap-2">
             {provider.languages.map((language, index) => (
               <Badge key={language} variant="secondary" className="text-xs capitalize">
                 {languageLabels[index]}
@@ -88,7 +88,7 @@ export function ProviderCard({
           <p className="mt-2 text-sm text-zinc-400">📍 {getProviderSuburbsDisplay(provider)}</p>
           <div className="mt-3 flex items-center gap-3 text-sm">
             {provider.phone && (
-              <a href={`tel:${provider.phone}`} className="flex items-center gap-1.5 text-blue-400 hover:underline">
+              <a href={`tel:${provider.phone}`} className="flex items-center gap-2 text-blue-400 hover:underline">
                 <PhoneIcon className="h-4 w-4 shrink-0" />
                 {provider.phone}
               </a>
