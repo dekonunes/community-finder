@@ -16,19 +16,21 @@ export function ProductCard({
   const category = getProductCategoryBySlug(product.category);
 
   return (
-    <div className="overflow-hidden rounded-lg border border-zinc-800 bg-zinc-900">
-      {product.image && (
-        <div className="relative aspect-[3/4] w-full bg-zinc-800">
-          <Image
-            src={withBasePath(product.image, basePath)}
-            alt={product.name}
-            fill
-            className="object-cover"
-            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-          />
+    <div className="relative ml-14 transition-transform duration-300 ease-out hover:-translate-y-2">
+      {product.image ? (
+        <Image
+          src={withBasePath(product.image, basePath)}
+          alt={product.name}
+          width={96}
+          height={96}
+          className="absolute -left-12 top-5 h-24 w-24 rounded-xl object-cover ring-2 ring-zinc-700 shadow-lg"
+        />
+      ) : (
+        <div className="absolute -left-12 top-5 flex h-24 w-24 items-center justify-center rounded-xl bg-zinc-800 text-3xl ring-2 ring-zinc-700 shadow-lg">
+          {category?.icon ?? "📦"}
         </div>
       )}
-      <div className="p-4">
+      <div className="rounded-xl border border-zinc-800 bg-zinc-900 py-5 pr-5 pl-16">
         <div className="min-w-0">
           <h3 className="font-semibold">{product.name}</h3>
           <p className="mt-1 text-sm text-zinc-400">
@@ -37,7 +39,9 @@ export function ProductCard({
         </div>
         <p className="mt-2 text-sm text-zinc-300">{product.description}</p>
         {product.price && (
-          <p className="mt-2 text-sm font-medium text-emerald-400">{product.price}</p>
+          <p className="mt-2 text-sm font-medium text-emerald-400">
+            {product.price}
+          </p>
         )}
         <a
           href={product.link}

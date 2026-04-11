@@ -93,6 +93,24 @@
     "instagram": null
   },
   {
+    "slug": "dra-thatiana-salomao",
+    "name": "Dra Thatiana Salomao",
+    "service": "dentist",
+    "country": "brazil",
+    "languages": [
+      "portuguese",
+      "english"
+    ],
+    "suburb": "darlinghurst",
+    "phone": null,
+    "email": null,
+    "website": "https://darlinghurstdental.com.au/dr-thatiana-salomao-dentist/",
+    "bio": "Dentista brasileira na Darlinghurst Dental em Darlinghurst.",
+    "address": "Darlinghurst, NSW",
+    "photo": null,
+    "instagram": null
+  },
+  {
     "slug": "dr-maria-julia-corbetta-machado",
     "name": "Dr Maria Julia Corbetta Machado",
     "service": "surgeon",
@@ -161,24 +179,6 @@
     "website": "https://endentalstudio.com.au/dr-kayrne-de-agapito/",
     "bio": "Dentista brasileira na En Dental Studio em Newtown.",
     "address": "Newtown, NSW",
-    "photo": null,
-    "instagram": null
-  },
-  {
-    "slug": "dra-thatiana-salomao",
-    "name": "Dra Thatiana Salomao",
-    "service": "dentist",
-    "country": "brazil",
-    "languages": [
-      "portuguese",
-      "english"
-    ],
-    "suburb": "darlinghurst",
-    "phone": null,
-    "email": null,
-    "website": "https://darlinghurstdental.com.au/dr-thatiana-salomao-dentist/",
-    "bio": "Dentista brasileira na Darlinghurst Dental em Darlinghurst.",
-    "address": "Darlinghurst, NSW",
     "photo": null,
     "instagram": null
   },
@@ -957,7 +957,9 @@
     "name": "Daniel Zeolla",
     "service": "lawyer",
     "country": "brazil",
-    "languages": ["portuguese"],
+    "languages": [
+      "portuguese"
+    ],
     "suburb": "australia-wide",
     "phone": null,
     "email": "contact@zeollalaw.com",

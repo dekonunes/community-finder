@@ -135,8 +135,8 @@ export default async function HomePage({
         tabEvents={t("tabEvents")}
         providersContent={
           <>
-            <h2 className="mb-4 text-xl font-semibold">{t("featured")}</h2>
-            <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            <h2 className="mb-4 text-base font-semibold">{t("featured")}</h2>
+            <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
               {featuredProviders.map((provider) => (
                 <ProviderCard
                   key={provider.slug}
@@ -159,11 +159,11 @@ export default async function HomePage({
         }
         productsContent={
           <>
-            <h2 className="mb-4 text-xl font-semibold">
+            <h2 className="mb-4 text-base font-semibold">
               {t("featuredProducts")}
             </h2>
             {featuredProducts.length > 0 ? (
-              <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+              <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
                 {featuredProducts.map((product) => (
                   <ProductCard
                     key={product.slug}
@@ -187,11 +187,11 @@ export default async function HomePage({
         }
         eventsContent={
           <>
-            <h2 className="mb-4 text-xl font-semibold">
+            <h2 className="mb-4 text-base font-semibold">
               {t("featuredEvents")}
             </h2>
             {upcomingEvents.length > 0 ? (
-              <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+              <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
                 {upcomingEvents.map((event) => (
                   <EventCard
                     key={event.slug}

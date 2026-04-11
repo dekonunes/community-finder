@@ -82,8 +82,8 @@ export function HomeTabs({
   };
 
   return (
-    <section className="mt-12">
-      <div ref={containerRef} className="relative mb-6 flex gap-2 border-b border-[#002776]">
+    <section className="mx-auto mt-12 max-w-6xl">
+      <div ref={containerRef} className="relative mb-6 flex gap-1 border-b border-[#002776]">
         {/* Sliding indicator */}
         <div
           className="pointer-events-none absolute bottom-0 top-0 rounded-t-md bg-[#002776]"
@@ -102,7 +102,7 @@ export function HomeTabs({
               if (el) btnRefs.current.set(tab.key, el);
             }}
             onClick={() => handleClickWrapped(tab.key)}
-            className={`relative z-10 rounded-t-md px-4 py-2 text-sm font-medium transition-colors ${
+            className={`relative z-10 rounded-t-md px-3 py-1.5 text-xs font-medium transition-colors ${
               active === tab.key ? "text-white" : "text-zinc-400 hover:text-zinc-200"
             }`}
           >
