@@ -25,5 +25,6 @@
   { "slug": "hr-consulting", "name": "HR Consulting", "icon": "👥", "parentCategory": "professional-services" },
   { "slug": "pet-grooming", "name": "Pet Grooming", "icon": "🐶", "parentCategory": "professional-services" },
   { "slug": "aesthetic-treatment", "name": "Tratamentos Estéticos", "icon": "✨", "parentCategory": "body-wellness" },
-  { "slug": "lymphatic-drainage", "name": "Drenagem Linfática", "icon": "💧", "parentCategory": "body-wellness" }
+  { "slug": "lymphatic-drainage", "name": "Drenagem Linfática", "icon": "💧", "parentCategory": "body-wellness" },
+  { "slug": "hairstylist", "name": "Hairstylists", "icon": "💇", "parentCategory": "body-wellness" }
 ]

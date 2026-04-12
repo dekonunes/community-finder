@@ -163,7 +163,8 @@
     "marketing-service": "Marketing Services",
     "hr-consulting": "HR Consulting",
     "counsellor": "Counsellors",
-    "pet-grooming": "Pet Grooming"
+    "pet-grooming": "Pet Grooming",
+    "hairstylist": "Hairstylists"
   },
   "parentCategories": {
     "health-medical": "Health & Medical",

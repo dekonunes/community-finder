@@ -72,6 +72,24 @@
     "instagram": "https://www.instagram.com/lymphaticsaustralia"
   },
   {
+    "slug": "rogerio-cosmo",
+    "name": "Rogério Cosmo",
+    "service": "hairstylist",
+    "country": "brazil",
+    "languages": [
+      "portuguese",
+      "english"
+    ],
+    "suburb": "potts-point",
+    "phone": "040534139",
+    "email": "rogerio.cosmo@outlook.com",
+    "website": "https://rogeriocosmo1.gettimely.com/?rwg_token=AFd1xnFjm3woiMeKHEIuwThAPBB1HU1us3p30wAR_PGiFghKGrZMivUScnAM5TyynSCci3PM4iOHSmS4CJhqSrkxJUjWbS6iqg%3D%3D",
+    "bio": "Brazilian hairstylist, colourist for blondes & balayage, kids haircut, ladies haircut & men's haircut, curly hair specialist",
+    "address": "Potts Point, NSW",
+    "photo": "/providers/rogerio-cosmo.webp",
+    "instagram": "https://www.instagram.com/rogerio.cosmo/"
+  },
+  {
     "slug": "dr-ricardo-deveza",
     "name": "Dr Ricardo Deveza",
     "service": "cardiologist",
