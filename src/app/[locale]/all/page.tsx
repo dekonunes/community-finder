@@ -90,6 +90,8 @@ export default async function AllProvidersPage({
                       languageLabels={provider.languages.map((language) => languagesT(language as never))}
                       websiteLabel={commonT("website")}
                       instagramLabel={commonT("instagram")}
+                      shareLabel={commonT("share")}
+                      copiedLabel={commonT("copied")}
                     />
                   ))}
                 </div>

@@ -147,6 +147,8 @@ export default async function HomePage({
                   )}
                   websiteLabel={commonT("website")}
                   instagramLabel={commonT("instagram")}
+                  shareLabel={commonT("share")}
+                  copiedLabel={commonT("copied")}
                 />
               ))}
             </div>

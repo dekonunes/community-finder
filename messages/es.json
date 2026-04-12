@@ -134,7 +134,9 @@
     "instagram": "Instagram",
     "website": "Website",
     "email": "Email",
-    "moreInfo": "Mas informacion →"
+    "moreInfo": "Mas informacion →",
+    "share": "Compartir",
+    "copied": "¡Enlace copiado!"
   },
   "categories": {
     "gp": "Medicos generales",

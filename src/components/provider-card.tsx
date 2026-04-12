@@ -7,6 +7,7 @@ import {
 import { getSiteConfig, withBasePath } from "@/lib/site-config.mjs";
 import { Badge } from "@/components/ui/badge";
 import { EmailButton } from "@/components/copy-email-button";
+import { ShareButton } from "@/components/share-button";
 import { Link } from "@/i18n/navigation";
 
 const { basePath } = getSiteConfig(process.env);
@@ -60,12 +61,16 @@ export function ProviderCard({
   languageLabels,
   websiteLabel,
   instagramLabel,
+  shareLabel,
+  copiedLabel,
 }: {
   provider: Provider;
   categoryLabel?: string | null;
   languageLabels: string[];
   websiteLabel: string;
   instagramLabel: string;
+  shareLabel: string;
+  copiedLabel: string;
 }) {
   const category = getCategoryBySlug(provider.service);
   const initials = provider.name
@@ -151,6 +156,7 @@ export function ProviderCard({
               <InstagramIcon className="h-4 w-4" />
             </a>
           )}
+          <ShareButton title={provider.name} shareLabel={shareLabel} copiedLabel={copiedLabel} />
         </div>
       </div>
     </div>

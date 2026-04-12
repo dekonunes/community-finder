@@ -134,7 +134,9 @@
     "instagram": "Instagram",
     "website": "Website",
     "email": "Email",
-    "moreInfo": "More info →"
+    "moreInfo": "More info →",
+    "share": "Share",
+    "copied": "Link copied!"
   },
   "categories": {
     "gp": "GPs / Doctors",

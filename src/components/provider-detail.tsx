@@ -8,6 +8,7 @@ import {
 import { getSiteConfig, withBasePath } from "@/lib/site-config.mjs";
 import { Badge } from "@/components/ui/badge";
 import { EmailButton } from "@/components/copy-email-button";
+import { ShareButton } from "@/components/share-button";
 import { CloseButton } from "@/components/close-button";
 
 const { basePath } = getSiteConfig(process.env);
@@ -94,21 +95,20 @@ export async function ProviderDetail({
                 <PhoneIcon className="h-5 w-5" /> {provider.phone}
               </a>
             )}
-            {(provider.email || provider.website || provider.instagram) && (
-              <div className="flex gap-3">
-                {provider.email && <EmailButton email={provider.email} variant="icon-button" />}
-                {provider.website && (
-                  <a href={provider.website} target="_blank" rel="noopener noreferrer" title={commonT("website")} className="flex items-center justify-center rounded-lg border border-zinc-700 bg-zinc-800 p-3 text-blue-400 hover:bg-zinc-700">
-                    <GlobeIcon className="h-5 w-5" />
-                  </a>
-                )}
-                {provider.instagram && (
-                  <a href={provider.instagram} target="_blank" rel="noopener noreferrer" title={commonT("instagram")} className="flex items-center justify-center rounded-lg border border-zinc-700 bg-zinc-800 p-3 text-pink-400 hover:bg-zinc-700">
-                    <InstagramIcon className="h-5 w-5" />
-                  </a>
-                )}
-              </div>
-            )}
+            <div className="flex gap-3">
+              {provider.email && <EmailButton email={provider.email} variant="icon-button" />}
+              {provider.website && (
+                <a href={provider.website} target="_blank" rel="noopener noreferrer" title={commonT("website")} className="flex items-center justify-center rounded-lg border border-zinc-700 bg-zinc-800 p-3 text-blue-400 hover:bg-zinc-700">
+                  <GlobeIcon className="h-5 w-5" />
+                </a>
+              )}
+              {provider.instagram && (
+                <a href={provider.instagram} target="_blank" rel="noopener noreferrer" title={commonT("instagram")} className="flex items-center justify-center rounded-lg border border-zinc-700 bg-zinc-800 p-3 text-pink-400 hover:bg-zinc-700">
+                  <InstagramIcon className="h-5 w-5" />
+                </a>
+              )}
+              <ShareButton title={provider.name} variant="icon-button" shareLabel={commonT("share")} copiedLabel={commonT("copied")} />
+            </div>
           </div>
         </div>
       </div>

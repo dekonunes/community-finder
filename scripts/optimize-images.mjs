@@ -1,24 +1,19 @@
 import sharp from "sharp";
-import { readdir, stat, mkdir } from "node:fs/promises";
+import { readdir, stat, rename, unlink } from "node:fs/promises";
 import { join, extname, basename } from "node:path";
 
 const QUALITY = 80;
 const MAX_WIDTH = 400;
 const INPUT_DIRS = ["public/providers", "public/products"];
-const OUTPUT_DIR = "public/optimized";
 
-async function ensureDir(dir) {
-  try {
-    await mkdir(dir, { recursive: true });
-  } catch {}
-}
-
-async function optimizeImage(inputPath, outputDir) {
+async function optimizeImage(inputPath) {
   const ext = extname(inputPath).toLowerCase();
-  if (![".jpg", ".jpeg", ".png", ".webp"].includes(ext)) return;
+  if (![".jpg", ".jpeg", ".png"].includes(ext)) return;
 
+  const dir = join(inputPath, "..");
   const name = basename(inputPath, ext);
-  const outputPath = join(outputDir, `${name}.webp`);
+  const tmpPath = join(dir, `${name}.tmp.webp`);
+  const outputPath = join(dir, `${name}.webp`);
 
   try {
     const info = await sharp(inputPath).metadata();
@@ -27,11 +22,15 @@ async function optimizeImage(inputPath, outputDir) {
     await sharp(inputPath)
       .resize({ width, withoutEnlargement: true })
       .webp({ quality: QUALITY })
-      .toFile(outputPath);
+      .toFile(tmpPath);
 
     const inputStat = await stat(inputPath);
-    const outputStat = await stat(outputPath);
+    const outputStat = await stat(tmpPath);
     const saved = ((1 - outputStat.size / inputStat.size) * 100).toFixed(0);
+
+    await unlink(inputPath);
+    await rename(tmpPath, outputPath);
+
     console.log(
       `  ${basename(inputPath)} → ${basename(outputPath)} (${saved}% smaller)`
     );
@@ -41,10 +40,6 @@ async function optimizeImage(inputPath, outputDir) {
 }
 
 async function processDir(inputDir) {
-  const subDir = inputDir.replace("public/", "");
-  const outputDir = join(OUTPUT_DIR, subDir);
-  await ensureDir(outputDir);
-
   let files;
   try {
     files = await readdir(inputDir);
@@ -52,9 +47,19 @@ async function processDir(inputDir) {
     return;
   }
 
+  const toConvert = files.filter((f) => {
+    const ext = extname(f).toLowerCase();
+    return [".jpg", ".jpeg", ".png"].includes(ext);
+  });
+
+  if (toConvert.length === 0) {
+    console.log(`\n${inputDir}/ — all images already webp`);
+    return;
+  }
+
   console.log(`\nProcessing ${inputDir}/`);
-  for (const file of files) {
-    await optimizeImage(join(inputDir, file), outputDir);
+  for (const file of toConvert) {
+    await optimizeImage(join(inputDir, file));
   }
 }
 
@@ -62,4 +67,4 @@ console.log("Optimizing images...");
 for (const dir of INPUT_DIRS) {
   await processDir(dir);
 }
-console.log("\nDone! Optimized images saved to public/optimized/");
+console.log("\nDone!");
