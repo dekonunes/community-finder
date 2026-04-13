@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { EmailIcon, InstagramIcon, PhoneIcon } from "@/components/contact-icons";
 import { getProductCategoryBySlug, suburbs, type Product } from "@/lib/data";
 import { getSiteConfig, withBasePath } from "@/lib/site-config.mjs";
 
@@ -34,7 +35,7 @@ export function ProductCard({
           alt={product.name}
           width={96}
           height={96}
-          className="absolute -left-12 top-5 h-24 w-24 rounded-xl object-cover ring-2 ring-zinc-700 shadow-lg"
+          className="absolute -left-12 top-5 h-24 w-24 rounded-xl object-fill ring-2 ring-zinc-700 shadow-lg"
         />
       ) : (
         <div className="absolute -left-12 top-5 flex h-24 w-24 items-center justify-center rounded-xl bg-zinc-800 text-3xl ring-2 ring-zinc-700 shadow-lg">
@@ -54,36 +55,44 @@ export function ProductCard({
             {product.price}
           </p>
         )}
-        {(product.suburb || product.phone || product.instagram) && (
-          <ul className="mt-3 space-y-1 text-sm text-zinc-300">
-            {product.suburb && (
-              <li>📍 {getSuburbName(product.suburb)}</li>
-            )}
+        {product.suburb && (
+          <p className="mt-3 text-sm text-zinc-400">
+            📍 {getSuburbName(product.suburb)}
+          </p>
+        )}
+        {(product.phone || product.email || product.instagram) && (
+          <div className="mt-3 flex flex-wrap items-center gap-3 text-sm">
             {product.phone && (
-              <li>
-                📞{" "}
-                <a
-                  href={`tel:${product.phone.replace(/\s+/g, "")}`}
-                  className="text-zinc-200 hover:text-white"
-                >
-                  {product.phone}
-                </a>
-              </li>
+              <a
+                href={`tel:${product.phone.replace(/\s+/g, "")}`}
+                className="flex items-center gap-2 text-blue-400 hover:underline"
+              >
+                <PhoneIcon className="h-4 w-4 shrink-0" />
+                {product.phone}
+              </a>
+            )}
+            {product.email && (
+              <a
+                href={`mailto:${product.email}`}
+                className="flex min-w-0 items-center gap-2 text-blue-400 hover:underline"
+              >
+                <EmailIcon className="h-4 w-4 shrink-0" />
+                <span className="truncate">{product.email}</span>
+              </a>
             )}
             {product.instagram && (
-              <li>
-                📷{" "}
-                <a
-                  href={product.instagram}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-zinc-200 hover:text-white"
-                >
-                  {instagramHandle(product.instagram)}
-                </a>
-              </li>
+              <a
+                href={product.instagram}
+                target="_blank"
+                rel="noopener noreferrer"
+                title={instagramHandle(product.instagram)}
+                aria-label={instagramHandle(product.instagram)}
+                className="text-pink-400 hover:text-pink-300"
+              >
+                <InstagramIcon className="h-4 w-4" />
+              </a>
             )}
-          </ul>
+          </div>
         )}
         {product.link && (
           <a

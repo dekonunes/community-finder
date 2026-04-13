@@ -98,6 +98,7 @@ export type Product = {
   link: string | null;
   image: string | null;
   phone?: string | null;
+  email?: string | null;
   instagram?: string | null;
   suburb?: string | null;
 };

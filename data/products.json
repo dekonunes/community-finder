@@ -21,5 +21,18 @@
     "phone": "0426 508 664",
     "instagram": "https://www.instagram.com/divinino_sabor",
     "suburb": "monterey"
+  },
+  {
+    "slug": "gift2u",
+    "name": "Gift2U",
+    "category": "gifts",
+    "community": "brazil",
+    "description": "Gift2U cria presentes e cestas personalizados de luxo, com produtos cuidadosamente selecionados, acabamento premium e atenção a cada detalhe. Criamos experiências únicas para aniversários, nascimento de bebé, agradecimentos, corporate gifting e momentos especiais, com personalização exclusiva, apresentação impecável e um toque sofisticado que torna cada presente inesquecível.",
+    "price": null,
+    "link": "https://gift2u.com.au",
+    "image": "/products/gift2u.webp",
+    "email": "hello@gift2u.com.au",
+    "instagram": "https://www.instagram.com/gift2u.au",
+    "suburb": "australia-wide"
   }
 ]
