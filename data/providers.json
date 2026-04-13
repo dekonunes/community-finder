@@ -1304,5 +1304,51 @@
     "states": [
       "all"
     ]
+  },
+  {
+    "slug": "link-study",
+    "name": "Link Study",
+    "service": "exchange-agency",
+    "country": "brazil",
+    "languages": [
+      "portuguese",
+      "english"
+    ],
+    "suburbs": [
+      "surfers-paradise",
+      "sydney-cbd"
+    ],
+    "phone": "0424 210 551",
+    "email": "study@linkstudy.com.au",
+    "website": "https://www.linkstudy.com.br",
+    "bio": "A Link Study é uma agência especializada em intercâmbio e educação internacional, há 19 anos no mercado, com agências no Brasil e na Austrália e suporte completo para quem deseja estudar na Austrália e em outros destinos.",
+    "address": "Surfers Paradise, QLD / Sydney CBD, NSW",
+    "photo": null,
+    "instagram": "https://www.instagram.com/linkstudy_intercambio/",
+    "states": [
+      "qld",
+      "nsw"
+    ]
+  },
+  {
+    "slug": "cabral-accounting-services",
+    "name": "Cabral Accounting Services PTY",
+    "service": "accountant",
+    "country": "brazil",
+    "languages": [
+      "portuguese",
+      "english"
+    ],
+    "suburb": "dee-why",
+    "phone": "0412 906 766 · 02 8529 1909",
+    "email": "tax@cabraltax.com.au",
+    "website": null,
+    "bio": "A Cabral Accounting é uma empresa de contabilidade online fundada pela Suyan Cabral, criada para lhe proporcionar liberdade geográfica.",
+    "address": "Dee Why, NSW",
+    "photo": null,
+    "instagram": "https://www.instagram.com/cabralaccountingservices",
+    "states": [
+      "nsw"
+    ]
   }
 ]

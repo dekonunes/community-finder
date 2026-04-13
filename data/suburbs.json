@@ -60,6 +60,7 @@
   { "slug": "bronte", "name": "Bronte", "state": "nsw" },
   { "slug": "sunshine-coast", "name": "Sunshine Coast", "state": "qld" },
   { "slug": "southport", "name": "Southport", "state": "qld" },
+  { "slug": "surfers-paradise", "name": "Surfers Paradise", "state": "qld" },
   { "slug": "redcliffe", "name": "Redcliffe (North Brisbane)", "state": "qld" },
   { "slug": "melbourne", "name": "Melbourne", "state": "vic" },
   { "slug": "australia-wide", "name": "Australia (all states)", "state": "all" }
