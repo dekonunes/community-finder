@@ -3,11 +3,21 @@
 import { useEffect, useTransition } from "react";
 import { useSearchParams } from "next/navigation";
 import { useTranslations } from "next-intl";
-import { categories, suburbs, getAllLanguages, parentCategories, getCategoriesByParent, getSuburbsForServiceAndState, getStatesWithProviders } from "@/lib/data";
+import {
+  states,
+  getAllLanguages,
+  parentCategories,
+  getCategoriesByParent,
+  getSuburbsForServiceAndState,
+} from "@/lib/data";
 import { usePathname, useRouter } from "@/i18n/navigation";
 import { trackFilter } from "@/lib/analytics";
 
-export function SearchFilters({ onPendingChange }: { onPendingChange?: (pending: boolean) => void }) {
+export function SearchFilters({
+  onPendingChange,
+}: {
+  onPendingChange?: (pending: boolean) => void;
+}) {
   const t = useTranslations("search.filters");
   const categoriesT = useTranslations("categories");
   const parentCategoriesT = useTranslations("parentCategories");
@@ -47,7 +57,10 @@ export function SearchFilters({ onPendingChange }: { onPendingChange?: (pending:
 
   // Clear suburb filter if it's no longer in the available list
   useEffect(() => {
-    if (selectedSuburb && !availableSuburbs.some((s) => s.slug === selectedSuburb)) {
+    if (
+      selectedSuburb &&
+      !availableSuburbs.some((s) => s.slug === selectedSuburb)
+    ) {
       updateFilter("suburb", "");
     }
   }, [selectedService, selectedState]);
@@ -61,7 +74,10 @@ export function SearchFilters({ onPendingChange }: { onPendingChange?: (pending:
       >
         <option value="">{t("service")}</option>
         {parentCategories.map((parent) => (
-          <optgroup key={parent.slug} label={`${parent.icon} ${parentCategoriesT(parent.slug as never)}`}>
+          <optgroup
+            key={parent.slug}
+            label={`${parent.icon} ${parentCategoriesT(parent.slug as never)}`}
+          >
             {getCategoriesByParent(parent.slug).map((category) => (
               <option key={category.slug} value={category.slug}>
                 {category.icon} {categoriesT(category.slug as never)}
@@ -88,7 +104,7 @@ export function SearchFilters({ onPendingChange }: { onPendingChange?: (pending:
         className="col-span-6 w-full min-w-0 rounded-md border border-zinc-700 bg-zinc-800 px-3 py-2 text-sm text-white sm:col-auto sm:w-auto"
       >
         <option value="">{t("state")}</option>
-        {getStatesWithProviders().map((state) => (
+        {states.map((state) => (
           <option key={state.slug} value={state.slug}>
             {statesT(state.slug as never)}
           </option>
@@ -100,7 +116,11 @@ export function SearchFilters({ onPendingChange }: { onPendingChange?: (pending:
         className="col-span-6 w-full min-w-0 rounded-md border border-zinc-700 bg-zinc-800 px-3 py-2 text-sm text-white sm:col-auto sm:w-auto"
       >
         <option value="">{t("suburb")}</option>
-        {availableSuburbs.map((suburb) => <option key={suburb.slug} value={suburb.slug}>{suburb.name}</option>)}
+        {availableSuburbs.map((suburb) => (
+          <option key={suburb.slug} value={suburb.slug}>
+            {suburb.name}
+          </option>
+        ))}
       </select>
     </div>
   );

@@ -1259,5 +1259,50 @@
     "states": [
       "qld"
     ]
+  },
+  {
+    "slug": "daiana-scherer",
+    "name": "Daiana Scherer",
+    "service": "aesthetic-treatment",
+    "country": "brazil",
+    "languages": [
+      "portuguese",
+      "english"
+    ],
+    "suburbs": [
+      "zetland",
+      "maroubra"
+    ],
+    "phone": "0424 499 995",
+    "email": "daiana_scherer@hotmail.com",
+    "website": null,
+    "bio": "Beauty & Massage Therapist com mais de 13 anos de experiência na área estética e terapêutica. Especializada em massagens corporais e tratamentos estéticos avançados, incluindo pós-operatório. Profissional registrada na Austrália, dedicada a promover bem-estar, recuperação e resultados personalizados para cada cliente.",
+    "address": "Zetland / Maroubra, NSW",
+    "photo": null,
+    "instagram": "https://www.instagram.com/masdagebydai/",
+    "states": [
+      "nsw"
+    ]
+  },
+  {
+    "slug": "gabriela-marques",
+    "name": "Gabriela Marques",
+    "service": "counsellor",
+    "country": "brazil",
+    "languages": [
+      "portuguese",
+      "english"
+    ],
+    "suburb": "australia-wide",
+    "phone": "0420 958 817",
+    "email": "psigabrielam@outlook.com",
+    "website": "https://www.gabrielamarquespsicoterapia.com/",
+    "bio": "Psicoterapeuta registrada na ACA (Member No. 19917) e Counsellor credenciada pelo Victims Services NSW (Provider No. A2909). Oferece apoio a vítimas de violência, trauma e a imigrantes que enfrentam desafios emocionais.",
+    "address": "Online (Australia-wide)",
+    "photo": null,
+    "instagram": "https://www.instagram.com/psigabrielamarques/",
+    "states": [
+      "all"
+    ]
   }
 ]

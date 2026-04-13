@@ -31,6 +31,8 @@
   { "slug": "wolli-creek", "name": "Wolli Creek", "state": "nsw" },
   { "slug": "kingsford", "name": "Kingsford", "state": "nsw" },
   { "slug": "randwick", "name": "Randwick", "state": "nsw" },
+  { "slug": "zetland", "name": "Zetland", "state": "nsw" },
+  { "slug": "maroubra", "name": "Maroubra", "state": "nsw" },
   { "slug": "kogarah", "name": "Kogarah", "state": "nsw" },
   { "slug": "st-leonards", "name": "St Leonards", "state": "nsw" },
   { "slug": "newcastle", "name": "Newcastle", "state": "nsw" },
