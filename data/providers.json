@@ -986,5 +986,81 @@
     "address": "Australia (all states)",
     "photo": null,
     "instagram": "https://www.instagram.com/zeollalaw"
+  },
+  {
+    "slug": "lilaine-manganaro",
+    "name": "Lilaine Manganaro",
+    "service": "nutritionist",
+    "country": "brazil",
+    "languages": [
+      "portuguese",
+      "english"
+    ],
+    "suburb": "dee-why",
+    "phone": "0416 231 005",
+    "email": "lila_manganaro@hotmail.com",
+    "website": null,
+    "bio": "Te ensino a se alimentar de acordo com seu objetivo.\n🎓 Nutrição Esportiva, Clínica e Exames laboratoriais\n🎓 Tentantes e Gestantes\nAtendimento: Presencial ou Online",
+    "address": "Dee Why, NSW",
+    "photo": null,
+    "instagram": "https://www.instagram.com/lilainemanganaronutri/"
+  },
+  {
+    "slug": "inout-signage",
+    "name": "Inout Signage",
+    "service": "signage",
+    "country": "brazil",
+    "languages": [
+      "portuguese",
+      "english"
+    ],
+    "suburb": "rockdale",
+    "phone": "02 9161 4145 / 0424 757 900",
+    "email": "sales@inoutsignage.com",
+    "website": "https://www.inoutsignage.com",
+    "bio": "A InOut Signage é uma empresa brasileira que atende toda Sydney, especializada em soluções completas de comunicação visual. Com mais de 20 anos de experiência, oferecemos desde fachadas comerciais e envelopamento de veículos até letreiros iluminados e adesivos personalizados. Trabalhamos com materiais de alta qualidade e tecnologia avançada para transformar a identidade da sua marca em resultados visuais impactantes.",
+    "address": "Rockdale, NSW",
+    "photo": null,
+    "instagram": "https://www.instagram.com/inoutsignage/"
+  },
+  {
+    "slug": "aline-proeti-beauty-care",
+    "name": "Aline Proeti Beauty Care",
+    "service": "lymphatic-drainage",
+    "country": "brazil",
+    "languages": [
+      "portuguese",
+      "english"
+    ],
+    "suburb": "southport",
+    "phone": "0416 802 182",
+    "email": "aproeti@gmail.com",
+    "website": null,
+    "bio": "Método Renata França, tratamentos faciais e corporais and specialist in Lymphatic Drainage, Drenomodeling, skin cleansing.",
+    "address": "Southport, QLD",
+    "photo": null,
+    "instagram": "https://www.instagram.com/aproeti.beautycare"
+  },
+  {
+    "slug": "cristina-wulfhorst",
+    "name": "Cristina Wulfhorst, PhD",
+    "service": "psychologist",
+    "country": "brazil",
+    "languages": [
+      "portuguese",
+      "english",
+      "german"
+    ],
+    "suburbs": [
+      "randwick",
+      "bondi-junction"
+    ],
+    "phone": "0430 461 514",
+    "email": "cristina.wulfhorst@hotmail.com",
+    "website": "https://www.thehartcentre.com.au/psychologist/cristina/",
+    "bio": "Moro em Sydney desde 2006, onde tive uma bolsa integral de doutorado sobre adaptação, integração e casamentos interculturais de brasileiros na Austrália. Professora na USYD e ACAP em migração e psicologia. Desde 1999 trabalho com pesquisa, clínica e empresas com o tema da migração e saúde mental, incluindo projetos de pesquisa na UAB em Barcelona na Espanha e pós-graduação em Munique na Alemanha.",
+    "address": "Randwick / Bondi Junction, NSW",
+    "photo": null,
+    "instagram": null
   }
 ]

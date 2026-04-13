@@ -145,6 +145,7 @@
     "dermatologist": "Dermatologistas",
     "cardiologist": "Cardiologistas",
     "endocrinologist": "Endocrinologistas",
+    "nutritionist": "Nutricionistas",
     "obstetrician-gynaecologist": "Obstetras / ginecologistas",
     "ophthalmologist": "Oftalmologistas",
     "paediatrician": "Pediatras",
@@ -163,6 +164,7 @@
     "mortgage-broker": "Corretores(as) de financiamento",
     "travel-agent": "Agentes de viagem",
     "marketing-service": "Serviços de marketing",
+    "signage": "Comunicação visual e impressão",
     "hr-consulting": "Consultoria de RH",
     "counsellor": "Conselheiros(as)",
     "pet-grooming": "Pet grooming",
@@ -187,7 +189,8 @@
   "languages": {
     "english": "Inglês",
     "portuguese": "Português",
-    "spanish": "Espanhol"
+    "spanish": "Espanhol",
+    "german": "Alemão"
   },
   "communities": {
     "brazil": "brasileira"

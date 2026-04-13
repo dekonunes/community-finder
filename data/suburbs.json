@@ -14,6 +14,7 @@
   { "slug": "penrith", "name": "Penrith" },
   { "slug": "hornsby", "name": "Hornsby" },
   { "slug": "bondi", "name": "Bondi" },
+  { "slug": "bondi-junction", "name": "Bondi Junction" },
   { "slug": "marrickville", "name": "Marrickville" },
   { "slug": "ashfield", "name": "Ashfield" },
   { "slug": "lakemba", "name": "Lakemba" },
@@ -56,6 +57,7 @@
   { "slug": "beverly-hills", "name": "Beverly Hills" },
   { "slug": "bronte", "name": "Bronte" },
   { "slug": "sunshine-coast", "name": "Sunshine Coast" },
+  { "slug": "southport", "name": "Southport" },
   { "slug": "melbourne", "name": "Melbourne" },
   { "slug": "australia-wide", "name": "Australia (all states)" }
 ]
