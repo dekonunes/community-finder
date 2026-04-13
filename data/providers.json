@@ -1568,5 +1568,51 @@
     "states": [
       "nsw"
     ]
+  },
+  {
+    "slug": "dr-mauricio-barbosa",
+    "name": "Dr Mauricio Barbosa",
+    "service": "dentist",
+    "country": "brazil",
+    "languages": [
+      "portuguese",
+      "english"
+    ],
+    "suburb": "annandale",
+    "phone": [
+      "02 9552 2768"
+    ],
+    "email": "relax@boothtooth.com.au",
+    "website": "https://www.boothtooth.com.au",
+    "bio": "Dentista brasileiro na Booth Tooth Dental em Annandale.",
+    "address": "Annandale, NSW",
+    "photo": null,
+    "instagram": "https://www.instagram.com/boothtoothdental",
+    "states": [
+      "nsw"
+    ]
+  },
+  {
+    "slug": "mariana-sharpe",
+    "name": "Mariana Sharpe",
+    "service": "lawyer",
+    "country": "brazil",
+    "languages": [
+      "portuguese",
+      "english"
+    ],
+    "suburb": "sydney-cbd",
+    "phone": [
+      "0432 311 352"
+    ],
+    "email": "mariana.sharpe@longtonlaw.au",
+    "website": null,
+    "bio": "Olá! Sou advogada qualificada no Brasil e na Austrália, atuando em Sydney com Personal Injury, ajudando pessoas a buscarem indenização por lesões físicas ou psicológicas decorrentes de acidentes de carro e de trabalho. Ofereço um atendimento próximo e focado em resultados, com o modelo 'no win, no fee', você só paga se ganharmos o seu caso.",
+    "address": "Sydney, NSW",
+    "photo": null,
+    "instagram": null,
+    "states": [
+      "nsw"
+    ]
   }
 ]
