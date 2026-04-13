@@ -158,6 +158,7 @@
     "pilates-instructor": "Pilates Instructors",
     "aesthetic-treatment": "Aesthetic Treatments",
     "lymphatic-drainage": "Lymphatic Drainage",
+    "holistic-therapist": "Holistic Therapists",
     "surgeon": "Surgeons",
     "ent-surgeon": "ENT Surgeons",
     "lawyer": "Lawyers",
@@ -190,7 +191,8 @@
     "english": "English",
     "portuguese": "Portuguese",
     "spanish": "Spanish",
-    "german": "German"
+    "german": "German",
+    "italian": "Italian"
   },
   "communities": {
     "brazil": "Brazilian"

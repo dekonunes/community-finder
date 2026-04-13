@@ -58,6 +58,7 @@
   { "slug": "bronte", "name": "Bronte" },
   { "slug": "sunshine-coast", "name": "Sunshine Coast" },
   { "slug": "southport", "name": "Southport" },
+  { "slug": "redcliffe", "name": "Redcliffe (North Brisbane)" },
   { "slug": "melbourne", "name": "Melbourne" },
   { "slug": "australia-wide", "name": "Australia (all states)" }
 ]

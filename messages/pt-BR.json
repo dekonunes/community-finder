@@ -158,6 +158,7 @@
     "pilates-instructor": "Professores(as) de pilates",
     "aesthetic-treatment": "Tratamentos estéticos",
     "lymphatic-drainage": "Drenagem linfática",
+    "holistic-therapist": "Terapeutas holísticos(as)",
     "surgeon": "Cirurgiões(ãs)",
     "ent-surgeon": "Otorrinolaringologistas",
     "lawyer": "Advogados(as)",
@@ -190,7 +191,8 @@
     "english": "Inglês",
     "portuguese": "Português",
     "spanish": "Espanhol",
-    "german": "Alemão"
+    "german": "Alemão",
+    "italian": "Italiano"
   },
   "communities": {
     "brazil": "brasileira"
