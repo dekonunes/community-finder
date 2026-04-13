@@ -1614,5 +1614,51 @@
     "states": [
       "nsw"
     ]
+  },
+  {
+    "slug": "ale-lasas",
+    "name": "Ale Lasas",
+    "service": "counsellor",
+    "country": "brazil",
+    "languages": [
+      "portuguese",
+      "english"
+    ],
+    "suburb": "maroubra",
+    "phone": [
+      "0414 582 980"
+    ],
+    "email": "contact@alelasas.com",
+    "website": "https://www.alelasas.com",
+    "bio": "Neuroscience-Informed Mentor | Mental Health Advocate | Trauma-Informed Healing | Nervous System Regulation",
+    "address": "Maroubra, NSW",
+    "photo": "/providers/ale.webp",
+    "instagram": "https://www.instagram.com/ale.lasas/",
+    "states": [
+      "nsw"
+    ]
+  },
+  {
+    "slug": "protax-returns",
+    "name": "Protax Returns",
+    "service": "accountant",
+    "country": "brazil",
+    "languages": [
+      "english",
+      "portuguese"
+    ],
+    "suburb": "north-sydney",
+    "phone": [
+      "0436 928 017"
+    ],
+    "email": "marketingprotax@gmail.com",
+    "website": "https://protaxreturns.com.au",
+    "bio": "Contabilidade especializada para brasileiros na Austrália, com atendimento em português e inglês.",
+    "address": "North Sydney, NSW",
+    "photo": null,
+    "instagram": "https://www.instagram.com/protax_returns",
+    "states": [
+      "nsw"
+    ]
   }
 ]

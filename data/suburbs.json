@@ -44,6 +44,7 @@
   { "slug": "sutherland", "name": "Sutherland", "state": "nsw" },
   { "slug": "camperdown", "name": "Camperdown", "state": "nsw" },
   { "slug": "northbridge", "name": "Northbridge", "state": "nsw" },
+  { "slug": "north-sydney", "name": "North Sydney", "state": "nsw" },
   { "slug": "petersham", "name": "Petersham", "state": "nsw" },
   { "slug": "potts-point", "name": "Potts Point", "state": "nsw" },
   { "slug": "south-west-rocks", "name": "South West Rocks", "state": "nsw" },
