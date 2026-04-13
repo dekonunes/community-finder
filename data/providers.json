@@ -15,7 +15,10 @@
     "bio": "A New Alliance Migration é liderada por Isa Andrade, uma consultora de leis de imigração dedicada e registrada, com mais de 10 anos de experiência ajudando indivíduos e famílias a navegar pelas complexidades da lei de migração australiana. Isa combina profunda experiência jurídica com uma paixão genuína pelo sucesso de seus clientes - guiando-os em cada etapa de sua jornada de visto com clareza, cuidado e determinação.",
     "address": "Australia (all states)",
     "photo": "/providers/new-alliance.webp",
-    "instagram": null
+    "instagram": null,
+    "states": [
+      "all"
+    ]
   },
   {
     "slug": "bianca-chiarelli-peixoto",
@@ -33,7 +36,10 @@
     "bio": "Oi! Eu sou a Bianca, psicóloga pós-graduada em TCC. Há quatro anos, ajudo pessoas no mundo todo a lidar com ansiedade, TOC, TDAH e os desafios de ser imigrante. Vamos marcar uma conversa gratuita?",
     "address": "Rockdale, NSW",
     "photo": "/providers/bianca-peixoto.webp",
-    "instagram": "https://www.instagram.com/psi.biancachiarelli"
+    "instagram": "https://www.instagram.com/psi.biancachiarelli",
+    "states": [
+      "nsw"
+    ]
   },
   {
     "slug": "mariana-rosa-psychologist",
@@ -51,7 +57,10 @@
     "bio": "Psicóloga registrada (PSY0002658651) oferecendo suporte psicológico a adolescentes e adultos.",
     "address": "Sydney, NSW",
     "photo": "/providers/mariana-rosa.webp",
-    "instagram": "https://www.instagram.com/mariana.rosa.psychologist"
+    "instagram": "https://www.instagram.com/mariana.rosa.psychologist",
+    "states": [
+      "nsw"
+    ]
   },
   {
     "slug": "lymphatics-australia",
@@ -69,7 +78,10 @@
     "bio": "Meet Nat Peres, founder and therapist at Lymphatics Australia. She specialises in clinical lymphatic therapy and drainage massage to reduce fluid retention, systemic inflammation and support lymphatic flow. Nat also works closely with women living with Lipedema as part of their conservative treatment journey.",
     "address": "St Leonards, Sydney, NSW",
     "photo": "/providers/lymphatics.webp",
-    "instagram": "https://www.instagram.com/lymphaticsaustralia"
+    "instagram": "https://www.instagram.com/lymphaticsaustralia",
+    "states": [
+      "nsw"
+    ]
   },
   {
     "slug": "rogerio-cosmo",
@@ -87,7 +99,10 @@
     "bio": "Brazilian hairstylist, colourist for blondes & balayage, kids haircut, ladies haircut & men's haircut, curly hair specialist",
     "address": "Potts Point, NSW",
     "photo": "/providers/rogerio-cosmo.webp",
-    "instagram": "https://www.instagram.com/rogerio.cosmo/"
+    "instagram": "https://www.instagram.com/rogerio.cosmo/",
+    "states": [
+      "nsw"
+    ]
   },
   {
     "slug": "dr-ricardo-deveza",
@@ -108,7 +123,10 @@
     "bio": "Cardiologista brasileiro atuando em Kogarah e St Leonards.",
     "address": "Kogarah / St Leonards, NSW",
     "photo": null,
-    "instagram": null
+    "instagram": null,
+    "states": [
+      "nsw"
+    ]
   },
   {
     "slug": "dra-thatiana-salomao",
@@ -126,7 +144,10 @@
     "bio": "Dentista brasileira na Darlinghurst Dental em Darlinghurst.",
     "address": "Darlinghurst, NSW",
     "photo": null,
-    "instagram": null
+    "instagram": null,
+    "states": [
+      "nsw"
+    ]
   },
   {
     "slug": "dr-maria-julia-corbetta-machado",
@@ -144,7 +165,10 @@
     "bio": "Cirurgiã brasileira baseada em Newcastle, NSW.",
     "address": "Newcastle, NSW",
     "photo": null,
-    "instagram": null
+    "instagram": null,
+    "states": [
+      "nsw"
+    ]
   },
   {
     "slug": "dr-marina-cavada",
@@ -162,7 +186,10 @@
     "bio": "Cirurgiã de cabeça e pescoço (Otorrinolaringologista) brasileira atuando em Kogarah.",
     "address": "Kogarah, NSW",
     "photo": null,
-    "instagram": null
+    "instagram": null,
+    "states": [
+      "nsw"
+    ]
   },
   {
     "slug": "dra-angela-rigo",
@@ -180,7 +207,10 @@
     "bio": "Dentista brasileira na CBD Dental em Sydney CBD.",
     "address": "Sydney CBD, NSW",
     "photo": null,
-    "instagram": null
+    "instagram": null,
+    "states": [
+      "nsw"
+    ]
   },
   {
     "slug": "dra-karyne-de-agapito",
@@ -198,7 +228,10 @@
     "bio": "Dentista brasileira na En Dental Studio em Newtown.",
     "address": "Newtown, NSW",
     "photo": null,
-    "instagram": null
+    "instagram": null,
+    "states": [
+      "nsw"
+    ]
   },
   {
     "slug": "dra-adria-melo",
@@ -216,7 +249,10 @@
     "bio": "Dentista brasileira na Freshwater Dental.",
     "address": "Freshwater, NSW",
     "photo": null,
-    "instagram": null
+    "instagram": null,
+    "states": [
+      "nsw"
+    ]
   },
   {
     "slug": "little-smiles-family-dental",
@@ -234,7 +270,10 @@
     "bio": "Consultório odontológico familiar com vários dentistas brasileiros em diversos locais.",
     "address": "Vários locais, NSW",
     "photo": null,
-    "instagram": null
+    "instagram": null,
+    "states": [
+      "nsw"
+    ]
   },
   {
     "slug": "dr-patricia-vivaldi-smiles",
@@ -252,7 +291,10 @@
     "bio": "Nosso consultório odontológico boutique em Sydney foi construído sobre essa filosofia, criando sorrisos que são tão duradouros e adaptáveis quanto a música de Vivaldi. Traçando paralelos entre o domínio dos concertos de violino de Vivaldi e nossa experiência em técnicas odontológicas, criamos sorrisos únicos, cada um uma obra-prima adaptada ao indivíduo. Assim como cada estação traz uma melodia diferente nos concertos de Vivaldi, a jornada de cada paciente conosco evoca um sentimento diferente – esperança na Primavera, relaxamento no Verão, realização no Outono e conforto no Inverno.",
     "address": "Ground floor, 161 Clarence St, Skittle Lane, Sydney, Australia 2000",
     "photo": null,
-    "instagram": "https://www.instagram.com/vivaldismiles"
+    "instagram": "https://www.instagram.com/vivaldismiles",
+    "states": [
+      "nsw"
+    ]
   },
   {
     "slug": "dr-barbara-general-dentist",
@@ -270,7 +312,10 @@
     "bio": "Nosso consultório odontológico boutique em Sydney foi construído sobre essa filosofia, criando sorrisos que são tão duradouros e adaptáveis quanto a música de Vivaldi. Traçando paralelos entre o domínio dos concertos de violino de Vivaldi e nossa experiência em técnicas odontológicas, criamos sorrisos únicos, cada um uma obra-prima adaptada ao indivíduo. Assim como cada estação traz uma melodia diferente nos concertos de Vivaldi, a jornada de cada paciente conosco evoca um sentimento diferente – esperança na Primavera, relaxamento no Verão, realização no Outono e conforto no Inverno.",
     "address": "Ground floor, 161 Clarence St, Skittle Lane, Sydney, Australia 2000",
     "photo": null,
-    "instagram": "https://www.instagram.com/vivaldismiles"
+    "instagram": "https://www.instagram.com/vivaldismiles",
+    "states": [
+      "nsw"
+    ]
   },
   {
     "slug": "dr-gustavo-vivaldi-orthodontist",
@@ -288,7 +333,10 @@
     "bio": "Nosso consultório odontológico boutique em Sydney foi construído sobre essa filosofia, criando sorrisos que são tão duradouros e adaptáveis quanto a música de Vivaldi. Traçando paralelos entre o domínio dos concertos de violino de Vivaldi e nossa experiência em técnicas odontológicas, criamos sorrisos únicos, cada um uma obra-prima adaptada ao indivíduo. Assim como cada estação traz uma melodia diferente nos concertos de Vivaldi, a jornada de cada paciente conosco evoca um sentimento diferente – esperança na Primavera, relaxamento no Verão, realização no Outono e conforto no Inverno.",
     "address": "Ground floor, 161 Clarence St, Skittle Lane, Sydney, Australia 2000",
     "photo": null,
-    "instagram": "https://www.instagram.com/vivaldismiles"
+    "instagram": "https://www.instagram.com/vivaldismiles",
+    "states": [
+      "nsw"
+    ]
   },
   {
     "slug": "dra-amanda-glanz",
@@ -306,7 +354,10 @@
     "bio": "Dermatologista brasileira atuando em Camperdown e Bondi Junction.",
     "address": "Camperdown / Bondi Junction, NSW",
     "photo": null,
-    "instagram": null
+    "instagram": null,
+    "states": [
+      "nsw"
+    ]
   },
   {
     "slug": "dra-bruna-gouveia",
@@ -324,7 +375,10 @@
     "bio": "Dermatologista brasileira na NS Dermatology em Northbridge.",
     "address": "Northbridge, NSW",
     "photo": null,
-    "instagram": null
+    "instagram": null,
+    "states": [
+      "nsw"
+    ]
   },
   {
     "slug": "dra-raquel-zanetti",
@@ -342,7 +396,10 @@
     "bio": "Dermatologista brasileira na All Saint Clinic em Sydney CBD.",
     "address": "Sydney CBD, NSW",
     "photo": null,
-    "instagram": null
+    "instagram": null,
+    "states": [
+      "nsw"
+    ]
   },
   {
     "slug": "dra-flavia-bueno",
@@ -360,7 +417,10 @@
     "bio": "Endocrinologista brasileira na Sydney Endocrinology, atuando em diversos locais.",
     "address": "Vários locais, NSW",
     "photo": null,
-    "instagram": null
+    "instagram": null,
+    "states": [
+      "nsw"
+    ]
   },
   {
     "slug": "dra-luiza-peculis",
@@ -378,7 +438,10 @@
     "bio": "Obstetra e ginecologista brasileira atuando em Kogarah.",
     "address": "Kogarah, NSW",
     "photo": null,
-    "instagram": null
+    "instagram": null,
+    "states": [
+      "nsw"
+    ]
   },
   {
     "slug": "dr-ivone-grandjean",
@@ -396,7 +459,10 @@
     "bio": "Clínica geral brasileira atuando em Petersham.",
     "address": "Petersham, NSW 2049",
     "photo": null,
-    "instagram": null
+    "instagram": null,
+    "states": [
+      "nsw"
+    ]
   },
   {
     "slug": "dr-marcelino-dalla-mariga",
@@ -414,7 +480,10 @@
     "bio": "Clínico geral brasileiro atuando em South West Rocks.",
     "address": "South West Rocks, NSW",
     "photo": null,
-    "instagram": null
+    "instagram": null,
+    "states": [
+      "nsw"
+    ]
   },
   {
     "slug": "dra-elisa-paulino",
@@ -432,7 +501,10 @@
     "bio": "Clínica geral brasileira na Key Health em CBD South.",
     "address": "CBD South, NSW",
     "photo": null,
-    "instagram": null
+    "instagram": null,
+    "states": [
+      "nsw"
+    ]
   },
   {
     "slug": "dra-liliane-fernandes-carchedi",
@@ -450,7 +522,10 @@
     "bio": "Clínica geral brasileira atuando em Tahmoor.",
     "address": "Tahmoor, NSW",
     "photo": null,
-    "instagram": null
+    "instagram": null,
+    "states": [
+      "nsw"
+    ]
   },
   {
     "slug": "dra-ludmila-freitas",
@@ -468,7 +543,10 @@
     "bio": "Clínica geral brasileira na MyHealth Barangaroo em Sydney.",
     "address": "Barangaroo, Sydney, NSW",
     "photo": null,
-    "instagram": null
+    "instagram": null,
+    "states": [
+      "nsw"
+    ]
   },
   {
     "slug": "dra-mariana-spadini-dos-santos",
@@ -486,7 +564,10 @@
     "bio": "Clínica geral brasileira na North Nowra Medical Practice.",
     "address": "North Nowra, NSW 2541",
     "photo": null,
-    "instagram": null
+    "instagram": null,
+    "states": [
+      "nsw"
+    ]
   },
   {
     "slug": "dra-martiane-bersano",
@@ -504,7 +585,10 @@
     "bio": "Clínica geral brasileira na Kogarah Family Practice.",
     "address": "Kogarah, NSW",
     "photo": null,
-    "instagram": null
+    "instagram": null,
+    "states": [
+      "nsw"
+    ]
   },
   {
     "slug": "dra-renata-medeiros-burttet",
@@ -522,7 +606,10 @@
     "bio": "Clínica geral brasileira na Dee Why General Practice.",
     "address": "Dee Why, NSW",
     "photo": null,
-    "instagram": null
+    "instagram": null,
+    "states": [
+      "nsw"
+    ]
   },
   {
     "slug": "dra-silvana-sarmento-leite",
@@ -540,7 +627,10 @@
     "bio": "Clínica geral brasileira na Our Family Med em Quakers Hill.",
     "address": "Quakers Hill, NSW",
     "photo": null,
-    "instagram": null
+    "instagram": null,
+    "states": [
+      "nsw"
+    ]
   },
   {
     "slug": "dra-laura-coelho",
@@ -558,7 +648,10 @@
     "bio": "Oftalmologista brasileira.",
     "address": "NSW",
     "photo": null,
-    "instagram": null
+    "instagram": null,
+    "states": [
+      "nsw"
+    ]
   },
   {
     "slug": "dra-virginia-oliveira",
@@ -576,7 +669,10 @@
     "bio": "Pediatra brasileira no Kareena Private Hospital em Miranda.",
     "address": "Miranda, NSW",
     "photo": null,
-    "instagram": null
+    "instagram": null,
+    "states": [
+      "nsw"
+    ]
   },
   {
     "slug": "dr-dorgival-caetano",
@@ -594,7 +690,10 @@
     "bio": "Psiquiatra brasileiro atuando em Mascot.",
     "address": "Mascot, NSW",
     "photo": null,
-    "instagram": null
+    "instagram": null,
+    "states": [
+      "nsw"
+    ]
   },
   {
     "slug": "dr-katia-josua",
@@ -612,7 +711,10 @@
     "bio": "Psiquiatra brasileira atuando em Bronte.",
     "address": "Bronte, NSW",
     "photo": null,
-    "instagram": null
+    "instagram": null,
+    "states": [
+      "nsw"
+    ]
   },
   {
     "slug": "dra-mariana-fernandes-da-rosa",
@@ -630,7 +732,10 @@
     "bio": "Psicóloga brasileira baseada em Melbourne, VIC.",
     "address": "Melbourne, VIC",
     "photo": null,
-    "instagram": null
+    "instagram": null,
+    "states": [
+      "vic"
+    ]
   },
   {
     "slug": "dra-leticia-deveza",
@@ -648,7 +753,10 @@
     "bio": "Reumatologista brasileira na Integrated Specialist Medical Care, atuando em diversos locais.",
     "address": "Vários locais, NSW",
     "photo": null,
-    "instagram": null
+    "instagram": null,
+    "states": [
+      "nsw"
+    ]
   },
   {
     "slug": "may-oliveira",
@@ -666,7 +774,10 @@
     "bio": "Mortgage broker na @growwealthsolutions ajudando a comunidade brasileira a conquistar o sonho da casa própria na Austrália. Para morar ou investir, bora! 🏘️",
     "address": "Sutherland, NSW / Austrália",
     "photo": null,
-    "instagram": "https://www.instagram.com/casapropriaaustralia"
+    "instagram": "https://www.instagram.com/casapropriaaustralia",
+    "states": [
+      "nsw"
+    ]
   },
   {
     "slug": "nomade-prime-travel",
@@ -684,7 +795,10 @@
     "bio": "A Nômade é uma agência de viagens focada na comunidade brasileira, oferecendo voos, hotéis, seguro viagem e opções de pagamento flexíveis em cartões brasileiros.",
     "address": "Mosman, NSW",
     "photo": null,
-    "instagram": "https://www.instagram.com/nomadeprimetravel"
+    "instagram": "https://www.instagram.com/nomadeprimetravel",
+    "states": [
+      "nsw"
+    ]
   },
   {
     "slug": "grape-digital",
@@ -702,7 +816,10 @@
     "bio": "Somos uma agência de marketing que constrói ecossistemas de alto desempenho totalmente conectados para marcas de qualquer tamanho ou setor. Ansiosos para falar com você!",
     "address": "Sydney CBD, NSW",
     "photo": null,
-    "instagram": null
+    "instagram": null,
+    "states": [
+      "nsw"
+    ]
   },
   {
     "slug": "thiago-shlomo",
@@ -721,7 +838,10 @@
     "bio": "Meu nome é Thiago Shlomo e trabalho com psicologia desde 2015. Atendo adultos, casais e empresários. Antes da minha prática clínica, trabalhei nos contextos forense (criminal), social, empresarial e escolar. Tenho graduação como psicólogo, psicanalista e administrador público. Também possuo duas pós-graduações e diversos cursos de educação continuada. Mas minha maior vocação é ser pai da Valentina, de 10 anos.",
     "address": "Beverly Hills, NSW",
     "photo": null,
-    "instagram": "https://www.instagram.com/shlomo.com.au"
+    "instagram": "https://www.instagram.com/shlomo.com.au",
+    "states": [
+      "nsw"
+    ]
   },
   {
     "slug": "cristina-wildt",
@@ -744,7 +864,10 @@
     "bio": "Cristina Wildt é uma conselheira registrada na ACA com qualificações em Aconselhamento e Psicologia, atualmente realizando uma especialização de pós-graduação em TDAH. Ela apoia indivíduos e casais que navegam por transições de vida, luto, ansiedade, dificuldades de relacionamento e desafios interculturais, oferecendo um espaço seguro e compassivo para reconexão emocional. Seu foco clínico inclui TDAH em adultos, desenvolvimento de identidade, autoaceitação e terapia de casais, ajudando os parceiros a melhorar a comunicação, reconstruir a confiança e aprofundar a conexão emocional. Cristina tem um interesse particular em trabalhar com adultos diagnosticados com TDAH tardiamente na vida, ajudando-os a processar sentimentos de inadequação e a desenvolver um senso de si mais integrado e empoderado. Sua abordagem integra empatia, validação emocional e práticas informadas pela neurociência para promover resiliência, clareza, relacionamentos mais saudáveis e bem-estar geral.",
     "address": "Mona Vale / Dee Why / Sydney CBD, NSW",
     "photo": null,
-    "instagram": "https://www.instagram.com/cristina.counselling?igsh=Z3NtaHYwb2lkZzAx"
+    "instagram": "https://www.instagram.com/cristina.counselling?igsh=Z3NtaHYwb2lkZzAx",
+    "states": [
+      "nsw"
+    ]
   },
   {
     "slug": "paula-sarcinella",
@@ -763,7 +886,10 @@
     "bio": "Paula Sarcinella oferece aconselhamento holístico e cura mente-corpo-alma em Dee Why, combinando cura emocional, Reiki, Constelações Familiares, mindfulness, liberação somática, respiração terapêutica, massagem integrativa e sessões de banho sonoro.",
     "address": "Dee Why, NSW",
     "photo": null,
-    "instagram": "https://www.instagram.com/paula.sacred.healing"
+    "instagram": "https://www.instagram.com/paula.sacred.healing",
+    "states": [
+      "nsw"
+    ]
   },
   {
     "slug": "fernanda-alves",
@@ -781,7 +907,10 @@
     "bio": "Fernanda Alves é psicoterapeuta e psicanalista com graduação em Psicologia, oferecendo sessões de terapia em inglês e português para indivíduos, casais e adolescentes.",
     "address": "Sunshine Coast, QLD",
     "photo": null,
-    "instagram": "https://www.instagram.com/fernanda.alves_psychoanalyst?igsh=bHNjZnU4ZjEwZzhp&utm_source=qr"
+    "instagram": "https://www.instagram.com/fernanda.alves_psychoanalyst?igsh=bHNjZnU4ZjEwZzhp&utm_source=qr",
+    "states": [
+      "qld"
+    ]
   },
   {
     "slug": "felipe-baccan",
@@ -799,7 +928,10 @@
     "bio": "Felipe Baccan é quiropraxista na Chirofix em Wolli Creek, oferecendo consultas em português e inglês.",
     "address": "Wolli Creek, NSW",
     "photo": null,
-    "instagram": "https://instagram.com/chirofix"
+    "instagram": "https://instagram.com/chirofix",
+    "states": [
+      "nsw"
+    ]
   },
   {
     "slug": "lidane-barros",
@@ -817,7 +949,10 @@
     "bio": "Lidane Barros é quiropraxista na Chirofix em Wolli Creek, oferecendo consultas em português e inglês.",
     "address": "Wolli Creek, NSW",
     "photo": null,
-    "instagram": "https://instagram.com/chirofix"
+    "instagram": "https://instagram.com/chirofix",
+    "states": [
+      "nsw"
+    ]
   },
   {
     "slug": "tainan-marchiori",
@@ -835,7 +970,10 @@
     "bio": "Tainan Marchiori é quiropraxista na Chirofix em Wolli Creek, oferecendo consultas em português e inglês.",
     "address": "Wolli Creek, NSW",
     "photo": null,
-    "instagram": "https://instagram.com/chirofix"
+    "instagram": "https://instagram.com/chirofix",
+    "states": [
+      "nsw"
+    ]
   },
   {
     "slug": "bianca-moreno",
@@ -853,7 +991,10 @@
     "bio": "Fisioterapeuta muito experiente, extremamente profissional e um ser humano incrível. Atende em cima do Dee Why Hotel, acesso pelo Dee Why Grand. Atende workers compensation.",
     "address": "Dee Why / Northern Beaches, NSW",
     "photo": null,
-    "instagram": null
+    "instagram": null,
+    "states": [
+      "nsw"
+    ]
   },
   {
     "slug": "bruno-gragnani",
@@ -874,7 +1015,10 @@
     "bio": "Profissional e muito bem recomendado na comunidade brasileira.",
     "address": "Warriewood / Northern Beaches, NSW",
     "photo": null,
-    "instagram": "https://www.instagram.com/bg.physiotherapy"
+    "instagram": "https://www.instagram.com/bg.physiotherapy",
+    "states": [
+      "nsw"
+    ]
   },
   {
     "slug": "mariane-dias",
@@ -896,7 +1040,10 @@
     "bio": "Atende em um studio em Collaroy e também tem seu próprio studio localizado em Central Coast, um lugar muito bonito e rodeado de natureza e paz.",
     "address": "Collaroy / Central Coast, NSW",
     "photo": null,
-    "instagram": "https://www.instagram.com/valleyflows"
+    "instagram": "https://www.instagram.com/valleyflows",
+    "states": [
+      "nsw"
+    ]
   },
   {
     "slug": "monise-sbrissa",
@@ -914,7 +1061,10 @@
     "bio": "Pet Grooming Domiciliar",
     "address": "Ryde, NSW",
     "photo": null,
-    "instagram": "https://www.instagram.com/mon.petgroomer"
+    "instagram": "https://www.instagram.com/mon.petgroomer",
+    "states": [
+      "nsw"
+    ]
   },
   {
     "slug": "fay-theiss",
@@ -932,7 +1082,10 @@
     "bio": "A HR Seekers é uma consultoria de Recursos Humanos sediada em Sydney, Austrália, que apoia pequenas e médias empresas com soluções práticas e estratégicas. Com uma abordagem não tradicional, foca em cultura, desenvolvimento de lideranças e estruturas eficientes, ajudando negócios a crescer de forma sustentável, sem burocracia desnecessária.",
     "address": "Sydney, NSW",
     "photo": null,
-    "instagram": "https://www.instagram.com/hr_seekers"
+    "instagram": "https://www.instagram.com/hr_seekers",
+    "states": [
+      "nsw"
+    ]
   },
   {
     "slug": "carol-de-luca",
@@ -950,7 +1103,10 @@
     "bio": "Eu sou agente de viagem que trabalha para uma companhia brasileira, residente na Austrália e ajudo muitos brasileiros com buscas e valores de passagens. Vai ser um prazer ajudar.",
     "address": "Sydney, Australia",
     "photo": null,
-    "instagram": null
+    "instagram": null,
+    "states": [
+      "nsw"
+    ]
   },
   {
     "slug": "lilian-de-medeiros-araujo",
@@ -968,7 +1124,10 @@
     "bio": "Tenho 17 anos de experiência, também dou treinamento de estética e lasers para clínicas na Austrália. Tenho tratamentos de anti-aging, pigmentação, face lift, Skintag removal, laser para fungus e microneedling para crescimento capilar e muito mais =)",
     "address": "Dee Why, Northern Beaches, NSW",
     "photo": null,
-    "instagram": "https://www.instagram.com/nb_skin_rejuv"
+    "instagram": "https://www.instagram.com/nb_skin_rejuv",
+    "states": [
+      "nsw"
+    ]
   },
   {
     "slug": "daniel-zeolla",
@@ -985,7 +1144,10 @@
     "bio": "Daniel Zeolla é o principal lawyer at Zeolla Law. Zeolla é advogado na Austrália, Brasil e Portugal.",
     "address": "Australia (all states)",
     "photo": null,
-    "instagram": "https://www.instagram.com/zeollalaw"
+    "instagram": "https://www.instagram.com/zeollalaw",
+    "states": [
+      "all"
+    ]
   },
   {
     "slug": "lilaine-manganaro",
@@ -1003,7 +1165,10 @@
     "bio": "Te ensino a se alimentar de acordo com seu objetivo.\n🎓 Nutrição Esportiva, Clínica e Exames laboratoriais\n🎓 Tentantes e Gestantes\nAtendimento: Presencial ou Online",
     "address": "Dee Why, NSW",
     "photo": null,
-    "instagram": "https://www.instagram.com/lilainemanganaronutri/"
+    "instagram": "https://www.instagram.com/lilainemanganaronutri/",
+    "states": [
+      "nsw"
+    ]
   },
   {
     "slug": "inout-signage",
@@ -1021,7 +1186,10 @@
     "bio": "A InOut Signage é uma empresa brasileira que atende toda Sydney, especializada em soluções completas de comunicação visual. Com mais de 20 anos de experiência, oferecemos desde fachadas comerciais e envelopamento de veículos até letreiros iluminados e adesivos personalizados. Trabalhamos com materiais de alta qualidade e tecnologia avançada para transformar a identidade da sua marca em resultados visuais impactantes.",
     "address": "Rockdale, NSW",
     "photo": null,
-    "instagram": "https://www.instagram.com/inoutsignage/"
+    "instagram": "https://www.instagram.com/inoutsignage/",
+    "states": [
+      "nsw"
+    ]
   },
   {
     "slug": "aline-proeti-beauty-care",
@@ -1039,7 +1207,10 @@
     "bio": "Método Renata França, tratamentos faciais e corporais and specialist in Lymphatic Drainage, Drenomodeling, skin cleansing.",
     "address": "Southport, QLD",
     "photo": null,
-    "instagram": "https://www.instagram.com/aproeti.beautycare"
+    "instagram": "https://www.instagram.com/aproeti.beautycare",
+    "states": [
+      "qld"
+    ]
   },
   {
     "slug": "cristina-wulfhorst",
@@ -1061,7 +1232,10 @@
     "bio": "Moro em Sydney desde 2006, onde tive uma bolsa integral de doutorado sobre adaptação, integração e casamentos interculturais de brasileiros na Austrália. Professora na USYD e ACAP em migração e psicologia. Desde 1999 trabalho com pesquisa, clínica e empresas com o tema da migração e saúde mental, incluindo projetos de pesquisa na UAB em Barcelona na Espanha e pós-graduação em Munique na Alemanha.",
     "address": "Randwick / Bondi Junction, NSW",
     "photo": null,
-    "instagram": null
+    "instagram": null,
+    "states": [
+      "nsw"
+    ]
   },
   {
     "slug": "jeniffer-conceicao-lima",
@@ -1079,8 +1253,11 @@
     "email": "terapiashmlu@gmail.com",
     "website": null,
     "bio": "Trabalho com a energia do feminino através da limpeza uterina, guiando mulheres em processos profundos de liberação e reconexão. Também facilito ativações de kundalini para homens e mulheres, auxiliando no despertar energético e expansão da consciência.",
-    "address": "Redcliffe (North Brisbane), QLD",
+    "address": "Redcliffe (North Brisbane)",
     "photo": null,
-    "instagram": "https://www.instagram.com/jeniffer.lima.desperta/"
+    "instagram": "https://www.instagram.com/jeniffer.lima.desperta/",
+    "states": [
+      "qld"
+    ]
   }
 ]

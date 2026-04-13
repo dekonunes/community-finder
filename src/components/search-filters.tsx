@@ -3,7 +3,7 @@
 import { useEffect, useTransition } from "react";
 import { useSearchParams } from "next/navigation";
 import { useTranslations } from "next-intl";
-import { categories, suburbs, getAllLanguages, parentCategories, getCategoriesByParent, getSuburbsForService } from "@/lib/data";
+import { categories, suburbs, getAllLanguages, parentCategories, getCategoriesByParent, getSuburbsForServiceAndState, getStatesWithProviders } from "@/lib/data";
 import { usePathname, useRouter } from "@/i18n/navigation";
 import { trackFilter } from "@/lib/analytics";
 
@@ -12,6 +12,7 @@ export function SearchFilters({ onPendingChange }: { onPendingChange?: (pending:
   const categoriesT = useTranslations("categories");
   const parentCategoriesT = useTranslations("parentCategories");
   const languagesT = useTranslations("languages");
+  const statesT = useTranslations("states");
   const router = useRouter();
   const pathname = usePathname();
   const searchParams = useSearchParams();
@@ -36,7 +37,11 @@ export function SearchFilters({ onPendingChange }: { onPendingChange?: (pending:
   }
 
   const selectedService = searchParams.get("service") ?? "";
-  const availableSuburbs = selectedService ? getSuburbsForService(selectedService) : suburbs;
+  const selectedState = searchParams.get("state") ?? "";
+  const availableSuburbs = getSuburbsForServiceAndState(
+    selectedService || null,
+    selectedState || null,
+  );
 
   const selectedSuburb = searchParams.get("suburb") ?? "";
 
@@ -45,7 +50,7 @@ export function SearchFilters({ onPendingChange }: { onPendingChange?: (pending:
     if (selectedSuburb && !availableSuburbs.some((s) => s.slug === selectedSuburb)) {
       updateFilter("suburb", "");
     }
-  }, [selectedService]);
+  }, [selectedService, selectedState]);
 
   return (
     <div className="grid w-full grid-cols-12 gap-3 sm:flex sm:flex-wrap sm:justify-start">
@@ -74,6 +79,18 @@ export function SearchFilters({ onPendingChange }: { onPendingChange?: (pending:
         {getAllLanguages().map((language) => (
           <option key={language} value={language} className="capitalize">
             {languagesT(language as never)}
+          </option>
+        ))}
+      </select>
+      <select
+        value={selectedState}
+        onChange={(e) => updateFilter("state", e.target.value)}
+        className="col-span-6 w-full min-w-0 rounded-md border border-zinc-700 bg-zinc-800 px-3 py-2 text-sm text-white sm:col-auto sm:w-auto"
+      >
+        <option value="">{t("state")}</option>
+        {getStatesWithProviders().map((state) => (
+          <option key={state.slug} value={state.slug}>
+            {statesT(state.slug as never)}
           </option>
         ))}
       </select>

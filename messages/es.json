@@ -56,6 +56,7 @@
     "filters": {
       "service": "Seleccione el servicio",
       "language": "Seleccione el idioma",
+      "state": "Seleccione el estado",
       "suburb": "Seleccione el suburbio"
     }
   },
@@ -193,6 +194,16 @@
     "spanish": "Español",
     "german": "Aleman",
     "italian": "Italiano"
+  },
+  "states": {
+    "nsw": "Nueva Gales del Sur",
+    "qld": "Queensland",
+    "vic": "Victoria",
+    "act": "Territorio de la Capital Australiana",
+    "sa": "Australia del Sur",
+    "wa": "Australia Occidental",
+    "tas": "Tasmania",
+    "nt": "Territorio del Norte"
   },
   "communities": {
     "brazil": "brasileña"

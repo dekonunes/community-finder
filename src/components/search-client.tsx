@@ -21,10 +21,15 @@ export function SearchClient() {
 
   const service = searchParams.get("service");
   const language = searchParams.get("language");
+  const state = searchParams.get("state");
   const suburb = searchParams.get("suburb");
 
   if (service) filtered = filtered.filter((p) => p.service === service);
   if (language) filtered = filtered.filter((p) => p.languages.includes(language));
+  if (state) filtered = filtered.filter((p) => {
+    const providerStates = p.states ?? [];
+    return providerStates.includes(state) || providerStates.includes("all");
+  });
   if (suburb) filtered = filtered.filter((p) => getProviderSuburbs(p).includes(suburb));
 
   return (

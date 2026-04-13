@@ -1,0 +1,10 @@
+[
+  { "slug": "nsw", "name": "New South Wales" },
+  { "slug": "qld", "name": "Queensland" },
+  { "slug": "vic", "name": "Victoria" },
+  { "slug": "act", "name": "Australian Capital Territory" },
+  { "slug": "sa", "name": "South Australia" },
+  { "slug": "wa", "name": "Western Australia" },
+  { "slug": "tas", "name": "Tasmania" },
+  { "slug": "nt", "name": "Northern Territory" }
+]

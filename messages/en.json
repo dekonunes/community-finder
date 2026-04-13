@@ -56,6 +56,7 @@
     "filters": {
       "service": "Select service",
       "language": "Select language",
+      "state": "Select state",
       "suburb": "Select suburb"
     }
   },
@@ -193,6 +194,16 @@
     "spanish": "Spanish",
     "german": "German",
     "italian": "Italian"
+  },
+  "states": {
+    "nsw": "New South Wales",
+    "qld": "Queensland",
+    "vic": "Victoria",
+    "act": "Australian Capital Territory",
+    "sa": "South Australia",
+    "wa": "Western Australia",
+    "tas": "Tasmania",
+    "nt": "Northern Territory"
   },
   "communities": {
     "brazil": "Brazilian"

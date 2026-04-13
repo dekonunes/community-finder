@@ -1,5 +1,6 @@
 import categoriesData from "../../data/categories.json";
 import communitiesData from "../../data/communities.json";
+import statesData from "../../data/states.json";
 import suburbsData from "../../data/suburbs.json";
 import providersData from "../../data/providers.json";
 import eventsData from "../../data/events.json";
@@ -14,6 +15,7 @@ export type Provider = {
   languages: string[];
   suburb?: string;
   suburbs?: string[];
+  states?: string[];
   phone: string | null;
   email: string | null;
   website: string | null;
@@ -65,9 +67,15 @@ export type Community = {
   languages: string[];
 };
 
+export type State = {
+  slug: string;
+  name: string;
+};
+
 export type Suburb = {
   slug: string;
   name: string;
+  state: string;
 };
 
 export type CommunityEvent = {
@@ -99,6 +107,7 @@ export type ProductCategory = {
 
 export const categories: Category[] = categoriesData;
 export const communities: Community[] = communitiesData;
+export const states: State[] = statesData;
 export const suburbs: Suburb[] = suburbsData;
 export const providers: Provider[] = providersData;
 export const events: CommunityEvent[] = eventsData;
@@ -183,4 +192,31 @@ function getSuburbLabel(slug: string): string {
 export function getProviderSuburbsDisplay(provider: Provider): string {
   const suburbList = getProviderSuburbs(provider);
   return suburbList.map(getSuburbLabel).join(" / ");
+}
+
+export function getStatesWithProviders(): State[] {
+  const stateSlugs = new Set<string>();
+  providers.forEach((p) => (p.states ?? []).forEach((s) => { if (s !== "all") stateSlugs.add(s); }));
+  return states.filter((s) => stateSlugs.has(s.slug));
+}
+
+export function getSuburbsForServiceAndState(
+  serviceSlug: string | null,
+  stateSlug: string | null,
+): Suburb[] {
+  let result = suburbs;
+
+  if (serviceSlug) {
+    const suburbSlugs = new Set<string>();
+    providers
+      .filter((p) => p.service === serviceSlug)
+      .forEach((p) => getProviderSuburbs(p).forEach((s) => suburbSlugs.add(s)));
+    result = result.filter((s) => suburbSlugs.has(s.slug));
+  }
+
+  if (stateSlug) {
+    result = result.filter((s) => s.state === stateSlug || s.state === "all");
+  }
+
+  return result;
 }
