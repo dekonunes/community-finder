@@ -113,6 +113,30 @@
     ]
   },
   {
+    "slug": "inout-signage",
+    "name": "Inout Signage",
+    "service": "signage",
+    "country": "brazil",
+    "languages": [
+      "portuguese",
+      "english"
+    ],
+    "suburb": "rockdale",
+    "phone": [
+      "0424 757 900",
+      "02 9161 4145"
+    ],
+    "email": "sales@inoutsignage.com",
+    "website": "https://www.inoutsignage.com",
+    "bio": "A InOut Signage é uma empresa brasileira que atende toda Sydney, especializada em soluções completas de comunicação visual. Com mais de 20 anos de experiência, oferecemos desde fachadas comerciais e envelopamento de veículos até letreiros iluminados e adesivos personalizados. Trabalhamos com materiais de alta qualidade e tecnologia avançada para transformar a identidade da sua marca em resultados visuais impactantes.",
+    "address": "Rockdale, NSW",
+    "photo": "/providers/inout.webp",
+    "instagram": "https://www.instagram.com/inoutsignage/",
+    "states": [
+      "nsw"
+    ]
+  },
+  {
     "slug": "dr-ricardo-deveza",
     "name": "Dr Ricardo Deveza",
     "service": "cardiologist",
@@ -1204,30 +1228,6 @@
     "address": "Dee Why, NSW",
     "photo": null,
     "instagram": "https://www.instagram.com/lilainemanganaronutri/",
-    "states": [
-      "nsw"
-    ]
-  },
-  {
-    "slug": "inout-signage",
-    "name": "Inout Signage",
-    "service": "signage",
-    "country": "brazil",
-    "languages": [
-      "portuguese",
-      "english"
-    ],
-    "suburb": "rockdale",
-    "phone": [
-      "0424 757 900",
-      "02 9161 4145"
-    ],
-    "email": "sales@inoutsignage.com",
-    "website": "https://www.inoutsignage.com",
-    "bio": "A InOut Signage é uma empresa brasileira que atende toda Sydney, especializada em soluções completas de comunicação visual. Com mais de 20 anos de experiência, oferecemos desde fachadas comerciais e envelopamento de veículos até letreiros iluminados e adesivos personalizados. Trabalhamos com materiais de alta qualidade e tecnologia avançada para transformar a identidade da sua marca em resultados visuais impactantes.",
-    "address": "Rockdale, NSW",
-    "photo": "/providers/inout.webp",
-    "instagram": "https://www.instagram.com/inoutsignage/",
     "states": [
       "nsw"
     ]
