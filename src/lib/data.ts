@@ -95,8 +95,11 @@ export type Product = {
   community: string;
   description: string;
   price: string | null;
-  link: string;
+  link: string | null;
   image: string | null;
+  phone?: string | null;
+  instagram?: string | null;
+  suburb?: string | null;
 };
 
 export type ProductCategory = {

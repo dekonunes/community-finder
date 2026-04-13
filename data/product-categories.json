@@ -1,3 +1,4 @@
 [
-  { "slug": "books", "name": "Books", "icon": "📚" }
+  { "slug": "books", "name": "Books", "icon": "📚" },
+  { "slug": "food-drinks", "name": "Food & Drinks", "icon": "🍰" }
 ]

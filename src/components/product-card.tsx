@@ -1,8 +1,19 @@
 import Image from "next/image";
-import { getProductCategoryBySlug, type Product } from "@/lib/data";
+import { getProductCategoryBySlug, suburbs, type Product } from "@/lib/data";
 import { getSiteConfig, withBasePath } from "@/lib/site-config.mjs";
 
 const { basePath } = getSiteConfig(process.env);
+
+function getSuburbName(slug: string): string {
+  const match = suburbs.find((s) => s.slug === slug);
+  if (match) return match.name;
+  return slug.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
+}
+
+function instagramHandle(url: string): string {
+  const cleaned = url.replace(/^https?:\/\/(www\.)?instagram\.com\//, "").replace(/\/$/, "");
+  return `@${cleaned}`;
+}
 
 export function ProductCard({
   product,
@@ -37,20 +48,53 @@ export function ProductCard({
             {category?.icon} {categoryLabel ?? null}
           </p>
         </div>
-        <p className="mt-2 text-sm text-zinc-300">{product.description}</p>
+        <p className="mt-2 text-sm text-zinc-300 whitespace-pre-line">{product.description}</p>
         {product.price && (
           <p className="mt-2 text-sm font-medium text-emerald-400">
             {product.price}
           </p>
         )}
-        <a
-          href={product.link}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="mt-3 inline-block rounded-md bg-blue-600 px-3 py-2 text-sm font-medium text-white hover:bg-blue-500"
-        >
-          {viewProductLabel}
-        </a>
+        {(product.suburb || product.phone || product.instagram) && (
+          <ul className="mt-3 space-y-1 text-sm text-zinc-300">
+            {product.suburb && (
+              <li>📍 {getSuburbName(product.suburb)}</li>
+            )}
+            {product.phone && (
+              <li>
+                📞{" "}
+                <a
+                  href={`tel:${product.phone.replace(/\s+/g, "")}`}
+                  className="text-zinc-200 hover:text-white"
+                >
+                  {product.phone}
+                </a>
+              </li>
+            )}
+            {product.instagram && (
+              <li>
+                📷{" "}
+                <a
+                  href={product.instagram}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-zinc-200 hover:text-white"
+                >
+                  {instagramHandle(product.instagram)}
+                </a>
+              </li>
+            )}
+          </ul>
+        )}
+        {product.link && (
+          <a
+            href={product.link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-3 inline-block rounded-md bg-blue-600 px-3 py-2 text-sm font-medium text-white hover:bg-blue-500"
+          >
+            {viewProductLabel}
+          </a>
+        )}
       </div>
     </div>
   );

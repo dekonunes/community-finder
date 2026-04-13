@@ -8,5 +8,18 @@
     "price": null,
     "link": "https://www.amazon.com.au/dp/B0F6DW8VZX",
     "image": "/products/curiosidades-incriveis.webp"
+  },
+  {
+    "slug": "divino-sabor",
+    "name": "Divino Sabor",
+    "category": "food-drinks",
+    "community": "brazil",
+    "description": "Aqui a gente não faz só doces — a gente cria momentos felizes em forma de sabor. 🍰✨\nCada bolo, brigadeiro e sobremesa é feito com carinho, ingredientes de qualidade e aquele toque especial que transforma qualquer ocasião em algo inesquecível. Seja pra comemorar, presentear ou simplesmente se dar um mimo, você tá no lugar certo.\nPorque a vida já é doce… mas pode ficar ainda melhor. 💖",
+    "price": null,
+    "link": null,
+    "image": "/products/divino-sabor.webp",
+    "phone": "0426 508 664",
+    "instagram": "https://www.instagram.com/divinino_sabor",
+    "suburb": "monterey"
   }
 ]

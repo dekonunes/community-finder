@@ -30,6 +30,7 @@
   { "slug": "newtown", "name": "Newtown", "state": "nsw" },
   { "slug": "mascot", "name": "Mascot", "state": "nsw" },
   { "slug": "wolli-creek", "name": "Wolli Creek", "state": "nsw" },
+  { "slug": "waterloo", "name": "Waterloo", "state": "nsw" },
   { "slug": "kingsford", "name": "Kingsford", "state": "nsw" },
   { "slug": "randwick", "name": "Randwick", "state": "nsw" },
   { "slug": "zetland", "name": "Zetland", "state": "nsw" },
@@ -66,5 +67,6 @@
   { "slug": "redcliffe", "name": "Redcliffe (North Brisbane)", "state": "qld" },
   { "slug": "melbourne", "name": "Melbourne", "state": "vic" },
   { "slug": "nedlands", "name": "Nedlands", "state": "wa" },
+  { "slug": "monterey", "name": "Monterey", "state": "nsw" },
   { "slug": "australia-wide", "name": "Australia (all states)", "state": "all" }
 ]

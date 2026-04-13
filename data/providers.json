@@ -1073,6 +1073,30 @@
     ]
   },
   {
+    "slug": "ana-karine-moreira",
+    "name": "Ana Karine Moreira",
+    "service": "physiotherapist",
+    "country": "brazil",
+    "languages": [
+      "portuguese",
+      "english",
+      "spanish"
+    ],
+    "suburb": "waterloo",
+    "phone": [
+      "0426 862 606"
+    ],
+    "email": "anakmoreira@hotmail.com",
+    "website": null,
+    "bio": "Fisioterapia com 25 anos de experiência (9 anos em Sydney), especialista em reeducação postural, tratamento de dores na coluna, ATM (bruxismo) e liberação miofascial.",
+    "address": "Waterloo, NSW",
+    "photo": null,
+    "instagram": "https://www.instagram.com/bodyrestoresydney",
+    "states": [
+      "nsw"
+    ]
+  },
+  {
     "slug": "mariane-dias",
     "name": "Mariane Dias",
     "service": "pilates-instructor",
