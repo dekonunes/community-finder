@@ -63,5 +63,6 @@
   { "slug": "surfers-paradise", "name": "Surfers Paradise", "state": "qld" },
   { "slug": "redcliffe", "name": "Redcliffe (North Brisbane)", "state": "qld" },
   { "slug": "melbourne", "name": "Melbourne", "state": "vic" },
+  { "slug": "nedlands", "name": "Nedlands", "state": "wa" },
   { "slug": "australia-wide", "name": "Australia (all states)", "state": "all" }
 ]

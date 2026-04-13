@@ -1226,7 +1226,7 @@
     "website": "https://www.inoutsignage.com",
     "bio": "A InOut Signage é uma empresa brasileira que atende toda Sydney, especializada em soluções completas de comunicação visual. Com mais de 20 anos de experiência, oferecemos desde fachadas comerciais e envelopamento de veículos até letreiros iluminados e adesivos personalizados. Trabalhamos com materiais de alta qualidade e tecnologia avançada para transformar a identidade da sua marca em resultados visuais impactantes.",
     "address": "Rockdale, NSW",
-    "photo": null,
+    "photo": "/providers/inout.webp",
     "instagram": "https://www.instagram.com/inoutsignage/",
     "states": [
       "nsw"
@@ -1405,6 +1405,29 @@
     "instagram": "https://www.instagram.com/cabralaccountingservices",
     "states": [
       "nsw"
+    ]
+  },
+  {
+    "slug": "fernanda-carvalho",
+    "name": "Fernanda Carvalho",
+    "service": "counsellor",
+    "country": "brazil",
+    "languages": [
+      "portuguese",
+      "english"
+    ],
+    "suburb": "nedlands",
+    "phone": [
+      "0466 715 001"
+    ],
+    "email": "fernanda.carvp@gmail.com",
+    "website": "https://www.psychologytoday.com/au/counselling/fernanda-carvalho-nedlands-wa/1719205",
+    "bio": "Olá, sou psicóloga formada no Brasil e atuo como Counsellor registrada na Austrália (ACA 33263, Level 4). Sou especializada em Terapia de Casal e Família e no atendimento clínico de adultos. Realizo atendimentos presenciais em Perth e on-line para toda a Austrália.",
+    "address": "Nedlands, Perth, WA",
+    "photo": null,
+    "instagram": null,
+    "states": [
+      "all"
     ]
   }
 ]
