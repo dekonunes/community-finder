@@ -1498,5 +1498,51 @@
     "states": [
       "nsw"
     ]
+  },
+  {
+    "slug": "fernanda-macedo-occupational-therapy",
+    "name": "Fernanda Macedo",
+    "service": "occupational-therapist",
+    "country": "brazil",
+    "languages": [
+      "portuguese",
+      "english"
+    ],
+    "suburb": "northern-beaches",
+    "phone": [
+      "0426 712 192"
+    ],
+    "email": "femouramacedo@gmail.com",
+    "website": null,
+    "bio": "OT em pediatria na Austrália desde 2020. Apaixonada por ajudar crianças e suas famílias a alcançarem seus objetivos de forma divertida e baseada em evidências. Atendo na Northern Beaches, utilizando DIR/Floortime e estratégias sensoriais como base da terapia.",
+    "address": "Northern Beaches, NSW",
+    "photo": null,
+    "instagram": null,
+    "states": [
+      "nsw"
+    ]
+  },
+  {
+    "slug": "gabriele-sousa-furfriends",
+    "name": "Gabriele Sousa",
+    "service": "pet-grooming",
+    "country": "brazil",
+    "languages": [
+      "portuguese",
+      "english"
+    ],
+    "suburb": "wolli-creek",
+    "phone": [
+      "0451 813 686"
+    ],
+    "email": "furfriends.aus@gmail.com",
+    "website": null,
+    "bio": "Olá, eu sou a Gabi. Dog groomer, apaixonada em cuidar dos nossos melhores AUmigos. ✨🐾🐶",
+    "address": "Wolli Creek, NSW",
+    "photo": null,
+    "instagram": "https://www.instagram.com/furfriends.au/",
+    "states": [
+      "nsw"
+    ]
   }
 ]

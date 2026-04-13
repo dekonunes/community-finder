@@ -19,6 +19,7 @@
   { "slug": "counsellor", "name": "Counsellors", "icon": "🤝", "parentCategory": "mental-health" },
   { "slug": "chiropractor", "name": "Chiropractors", "icon": "🦴", "parentCategory": "body-wellness" },
   { "slug": "physiotherapist", "name": "Physiotherapists", "icon": "🦵", "parentCategory": "body-wellness" },
+  { "slug": "occupational-therapist", "name": "Occupational therapists", "icon": "🧩", "parentCategory": "body-wellness" },
   { "slug": "pilates-instructor", "name": "Pilates Instructors", "icon": "🧘", "parentCategory": "body-wellness" },
   { "slug": "yoga-instructor", "name": "Yoga Instructors", "icon": "🧘‍♀️", "parentCategory": "body-wellness" },
   { "slug": "lawyer", "name": "Lawyers", "icon": "⚖️", "parentCategory": "professional-services" },
