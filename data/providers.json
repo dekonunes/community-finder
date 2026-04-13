@@ -1429,5 +1429,74 @@
     "states": [
       "all"
     ]
+  },
+  {
+    "slug": "yogiclub",
+    "name": "YogiClub",
+    "service": "yoga-instructor",
+    "country": "brazil",
+    "languages": [
+      "portuguese",
+      "english"
+    ],
+    "suburb": "brighton-le-sands",
+    "phone": [
+      "0435 383 181"
+    ],
+    "email": "contact@yogiclub.com.au",
+    "website": "https://yogiclub.com.au",
+    "bio": "Personal yoga and kids yoga for preschool and clubs. Qualified yoga teachers with experience bringing the joy of yoga for childcare, preschools, sports clubs and private groups.",
+    "address": "Brighton Le Sands, NSW",
+    "photo": "/providers/yogiclub.webp",
+    "instagram": "https://www.instagram.com/jobrolese",
+    "states": [
+      "nsw"
+    ]
+  },
+  {
+    "slug": "amanda-machado-mindful-nutrition",
+    "name": "Amanda Machado",
+    "service": "nutritionist",
+    "country": "brazil",
+    "languages": [
+      "portuguese",
+      "english"
+    ],
+    "suburb": "australia-wide",
+    "phone": [
+      "0424 935 951"
+    ],
+    "email": "mindfulnutrition.amanda@gmail.com",
+    "website": "https://amandawellnessnutrition.com/",
+    "bio": "Nutrição comportamental para quem já cansou de dieta. Trabalho mentalidade, comer emocional e hábitos sustentáveis na vida real.\nNutrição além da comida 🧠🍽️",
+    "address": "Online (Australia-wide)",
+    "photo": null,
+    "instagram": "https://www.instagram.com/amanda_mindfulnutrition/",
+    "states": [
+      "all"
+    ]
+  },
+  {
+    "slug": "priscila-lourenco",
+    "name": "Priscila Lourenço",
+    "service": "perinatal-educator",
+    "country": "brazil",
+    "languages": [
+      "portuguese",
+      "english"
+    ],
+    "suburb": "greater-sydney",
+    "phone": [
+      "0412 101 492"
+    ],
+    "email": "doula.priscilalourenco@gmail.com",
+    "website": null,
+    "bio": "Sou doula e educadora perinatal em Sydney, acompanho famílias da gestação ao pós-parto, com suporte contínuo e presença no dia do parto.\nTe preparo para viver o parto com mais confiança, segurança e protagonismo, com um acompanhamento completo e baseado em evidências.",
+    "address": "Greater Sydney & online, NSW",
+    "photo": null,
+    "instagram": "https://www.instagram.com/doula.priscilalourenco/",
+    "states": [
+      "nsw"
+    ]
   }
 ]

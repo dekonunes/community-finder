@@ -1,5 +1,6 @@
 [
   { "slug": "sydney-cbd", "name": "Sydney CBD", "state": "nsw" },
+  { "slug": "greater-sydney", "name": "Greater Sydney", "state": "nsw" },
   { "slug": "parramatta", "name": "Parramatta", "state": "nsw" },
   { "slug": "cabramatta", "name": "Cabramatta", "state": "nsw" },
   { "slug": "bankstown", "name": "Bankstown", "state": "nsw" },
@@ -58,6 +59,7 @@
   { "slug": "mosman", "name": "Mosman", "state": "nsw" },
   { "slug": "beverly-hills", "name": "Beverly Hills", "state": "nsw" },
   { "slug": "bronte", "name": "Bronte", "state": "nsw" },
+  { "slug": "brighton-le-sands", "name": "Brighton Le Sands", "state": "nsw" },
   { "slug": "sunshine-coast", "name": "Sunshine Coast", "state": "qld" },
   { "slug": "southport", "name": "Southport", "state": "qld" },
   { "slug": "surfers-paradise", "name": "Surfers Paradise", "state": "qld" },
