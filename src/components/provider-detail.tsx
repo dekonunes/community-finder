@@ -90,11 +90,11 @@ export async function ProviderDetail({
             <p className="mt-2 text-zinc-300">📍 {provider.address}</p>
           </div>
           <div className="space-y-3">
-            {provider.phone && (
-              <a href={`tel:${provider.phone}`} className="flex w-full items-center justify-center gap-2 rounded-lg bg-blue-600 py-3 font-medium hover:bg-blue-500">
-                <PhoneIcon className="h-5 w-5" /> {provider.phone}
+            {provider.phone && provider.phone.map((phone) => (
+              <a key={phone} href={`tel:${phone}`} className="flex w-full items-center justify-center gap-2 rounded-lg bg-blue-600 py-3 font-medium hover:bg-blue-500">
+                <PhoneIcon className="h-5 w-5" /> {phone}
               </a>
-            )}
+            ))}
             <div className="flex gap-3">
               {provider.email && <EmailButton email={provider.email} variant="icon-button" />}
               {provider.website && (

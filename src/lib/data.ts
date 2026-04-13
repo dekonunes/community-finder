@@ -16,7 +16,7 @@ export type Provider = {
   suburb?: string;
   suburbs?: string[];
   states?: string[];
-  phone: string | null;
+  phone: string[] | null;
   email: string | null;
   website: string | null;
   bio: string;

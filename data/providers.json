@@ -9,7 +9,9 @@
       "english"
     ],
     "suburb": "australia-wide",
-    "phone": "0424 688 763",
+    "phone": [
+      "0424 688 763"
+    ],
     "email": "isa.andrade@newalliancemigration.com",
     "website": "https://newalliance-landpage.vercel.app/",
     "bio": "A New Alliance Migration é liderada por Isa Andrade, uma consultora de leis de imigração dedicada e registrada, com mais de 10 anos de experiência ajudando indivíduos e famílias a navegar pelas complexidades da lei de migração australiana. Isa combina profunda experiência jurídica com uma paixão genuína pelo sucesso de seus clientes - guiando-os em cada etapa de sua jornada de visto com clareza, cuidado e determinação.",
@@ -30,7 +32,9 @@
       "english"
     ],
     "suburb": "rockdale",
-    "phone": "0431 643 360",
+    "phone": [
+      "0431 643 360"
+    ],
     "email": "bianca.chiarelli@hotmail.com",
     "website": null,
     "bio": "Oi! Eu sou a Bianca, psicóloga pós-graduada em TCC. Há quatro anos, ajudo pessoas no mundo todo a lidar com ansiedade, TOC, TDAH e os desafios de ser imigrante. Vamos marcar uma conversa gratuita?",
@@ -72,7 +76,9 @@
       "english"
     ],
     "suburb": "st-leonards",
-    "phone": "0413 523 040",
+    "phone": [
+      "0413 523 040"
+    ],
     "email": "info@lymphaticsaustralia.com.au",
     "website": null,
     "bio": "Meet Nat Peres, founder and therapist at Lymphatics Australia. She specialises in clinical lymphatic therapy and drainage massage to reduce fluid retention, systemic inflammation and support lymphatic flow. Nat also works closely with women living with Lipedema as part of their conservative treatment journey.",
@@ -93,7 +99,9 @@
       "english"
     ],
     "suburb": "potts-point",
-    "phone": "040534139",
+    "phone": [
+      "040534139"
+    ],
     "email": "rogerio.cosmo@outlook.com",
     "website": "https://rogeriocosmo1.gettimely.com/?rwg_token=AFd1xnFjm3woiMeKHEIuwThAPBB1HU1us3p30wAR_PGiFghKGrZMivUScnAM5TyynSCci3PM4iOHSmS4CJhqSrkxJUjWbS6iqg%3D%3D",
     "bio": "Brazilian hairstylist, colourist for blondes & balayage, kids haircut, ladies haircut & men's haircut, curly hair specialist",
@@ -789,7 +797,9 @@
       "english"
     ],
     "suburb": "mosman",
-    "phone": "0414 976 233",
+    "phone": [
+      "0414 976 233"
+    ],
     "email": "contato@nomadeprimetravel.com.br",
     "website": "https://www.nomadeprimetravel.com.br",
     "bio": "A Nômade é uma agência de viagens focada na comunidade brasileira, oferecendo voos, hotéis, seguro viagem e opções de pagamento flexíveis em cartões brasileiros.",
@@ -810,7 +820,9 @@
       "english"
     ],
     "suburb": "sydney-cbd",
-    "phone": "0424 861 552",
+    "phone": [
+      "0424 861 552"
+    ],
     "email": "contact@thegrapedigital.com",
     "website": "https://thegrapedigital.com",
     "bio": "Somos uma agência de marketing que constrói ecossistemas de alto desempenho totalmente conectados para marcas de qualquer tamanho ou setor. Ansiosos para falar com você!",
@@ -832,7 +844,9 @@
       "spanish"
     ],
     "suburb": "beverly-hills",
-    "phone": "0466 224 417",
+    "phone": [
+      "0466 224 417"
+    ],
     "email": "thiago.shlomo@gmail.com",
     "website": "https://www.shlomo.com.br",
     "bio": "Meu nome é Thiago Shlomo e trabalho com psicologia desde 2015. Atendo adultos, casais e empresários. Antes da minha prática clínica, trabalhei nos contextos forense (criminal), social, empresarial e escolar. Tenho graduação como psicólogo, psicanalista e administrador público. Também possuo duas pós-graduações e diversos cursos de educação continuada. Mas minha maior vocação é ser pai da Valentina, de 10 anos.",
@@ -858,7 +872,9 @@
       "dee-why",
       "sydney-cbd"
     ],
-    "phone": "0449 829 931",
+    "phone": [
+      "0449 829 931"
+    ],
     "email": "cristina@cristinawildt.com",
     "website": null,
     "bio": "Cristina Wildt é uma conselheira registrada na ACA com qualificações em Aconselhamento e Psicologia, atualmente realizando uma especialização de pós-graduação em TDAH. Ela apoia indivíduos e casais que navegam por transições de vida, luto, ansiedade, dificuldades de relacionamento e desafios interculturais, oferecendo um espaço seguro e compassivo para reconexão emocional. Seu foco clínico inclui TDAH em adultos, desenvolvimento de identidade, autoaceitação e terapia de casais, ajudando os parceiros a melhorar a comunicação, reconstruir a confiança e aprofundar a conexão emocional. Cristina tem um interesse particular em trabalhar com adultos diagnosticados com TDAH tardiamente na vida, ajudando-os a processar sentimentos de inadequação e a desenvolver um senso de si mais integrado e empoderado. Sua abordagem integra empatia, validação emocional e práticas informadas pela neurociência para promover resiliência, clareza, relacionamentos mais saudáveis e bem-estar geral.",
@@ -901,7 +917,9 @@
       "english"
     ],
     "suburb": "sunshine-coast",
-    "phone": "0422 402 038",
+    "phone": [
+      "0422 402 038"
+    ],
     "email": "fernandaalves@gmail.com",
     "website": "https://www.fernandacounselling.com.au",
     "bio": "Fernanda Alves é psicoterapeuta e psicanalista com graduação em Psicologia, oferecendo sessões de terapia em inglês e português para indivíduos, casais e adolescentes.",
@@ -922,7 +940,9 @@
       "english"
     ],
     "suburb": "wolli-creek",
-    "phone": "0493 510 968",
+    "phone": [
+      "0493 510 968"
+    ],
     "email": "reception@chirofix.com.au",
     "website": "https://chirofix.com.au",
     "bio": "Felipe Baccan é quiropraxista na Chirofix em Wolli Creek, oferecendo consultas em português e inglês.",
@@ -943,7 +963,9 @@
       "english"
     ],
     "suburb": "wolli-creek",
-    "phone": "0493 510 968",
+    "phone": [
+      "0493 510 968"
+    ],
     "email": "reception@chirofix.com.au",
     "website": "https://chirofix.com.au",
     "bio": "Lidane Barros é quiropraxista na Chirofix em Wolli Creek, oferecendo consultas em português e inglês.",
@@ -964,7 +986,9 @@
       "english"
     ],
     "suburb": "wolli-creek",
-    "phone": "0493 510 968",
+    "phone": [
+      "0493 510 968"
+    ],
     "email": "reception@chirofix.com.au",
     "website": "https://chirofix.com.au",
     "bio": "Tainan Marchiori é quiropraxista na Chirofix em Wolli Creek, oferecendo consultas em português e inglês.",
@@ -985,7 +1009,9 @@
       "english"
     ],
     "suburb": "dee-why",
-    "phone": "0451 025 055",
+    "phone": [
+      "0451 025 055"
+    ],
     "email": "bianca@freemotionphysio.com.au",
     "website": "https://freemotionphysio.com.au/",
     "bio": "Fisioterapeuta muito experiente, extremamente profissional e um ser humano incrível. Atende em cima do Dee Why Hotel, acesso pelo Dee Why Grand. Atende workers compensation.",
@@ -1009,7 +1035,9 @@
       "warriewood",
       "northern-beaches"
     ],
-    "phone": "0415 875 470",
+    "phone": [
+      "0415 875 470"
+    ],
     "email": null,
     "website": "https://bgphysio.com.au/",
     "bio": "Profissional e muito bem recomendado na comunidade brasileira.",
@@ -1034,7 +1062,9 @@
       "central-coast",
       "northern-beaches"
     ],
-    "phone": "0481 901 872",
+    "phone": [
+      "0481 901 872"
+    ],
     "email": null,
     "website": "https://www.valleyflows.com",
     "bio": "Atende em um studio em Collaroy e também tem seu próprio studio localizado em Central Coast, um lugar muito bonito e rodeado de natureza e paz.",
@@ -1076,7 +1106,9 @@
       "english"
     ],
     "suburb": "sydney-cbd",
-    "phone": "0451 050 624",
+    "phone": [
+      "0451 050 624"
+    ],
     "email": "info@hrseekers.com",
     "website": "https://hrseekers.com",
     "bio": "A HR Seekers é uma consultoria de Recursos Humanos sediada em Sydney, Austrália, que apoia pequenas e médias empresas com soluções práticas e estratégicas. Com uma abordagem não tradicional, foca em cultura, desenvolvimento de lideranças e estruturas eficientes, ajudando negócios a crescer de forma sustentável, sem burocracia desnecessária.",
@@ -1097,7 +1129,9 @@
       "english"
     ],
     "suburb": "sydney-cbd",
-    "phone": "0477 417 557",
+    "phone": [
+      "0477 417 557"
+    ],
     "email": "anacarolina.luca@hotmail.com",
     "website": null,
     "bio": "Eu sou agente de viagem que trabalha para uma companhia brasileira, residente na Austrália e ajudo muitos brasileiros com buscas e valores de passagens. Vai ser um prazer ajudar.",
@@ -1118,7 +1152,9 @@
       "english"
     ],
     "suburb": "dee-why",
-    "phone": "0404 203 800",
+    "phone": [
+      "0404 203 800"
+    ],
     "email": "hello@nbskinrejuvenation.com.au",
     "website": "https://www.nbskinrejuvenation.com.au",
     "bio": "Tenho 17 anos de experiência, também dou treinamento de estética e lasers para clínicas na Austrália. Tenho tratamentos de anti-aging, pigmentação, face lift, Skintag removal, laser para fungus e microneedling para crescimento capilar e muito mais =)",
@@ -1159,7 +1195,9 @@
       "english"
     ],
     "suburb": "dee-why",
-    "phone": "0416 231 005",
+    "phone": [
+      "0416 231 005"
+    ],
     "email": "lila_manganaro@hotmail.com",
     "website": null,
     "bio": "Te ensino a se alimentar de acordo com seu objetivo.\n🎓 Nutrição Esportiva, Clínica e Exames laboratoriais\n🎓 Tentantes e Gestantes\nAtendimento: Presencial ou Online",
@@ -1180,7 +1218,10 @@
       "english"
     ],
     "suburb": "rockdale",
-    "phone": "02 9161 4145 / 0424 757 900",
+    "phone": [
+      "0424 757 900",
+      "02 9161 4145"
+    ],
     "email": "sales@inoutsignage.com",
     "website": "https://www.inoutsignage.com",
     "bio": "A InOut Signage é uma empresa brasileira que atende toda Sydney, especializada em soluções completas de comunicação visual. Com mais de 20 anos de experiência, oferecemos desde fachadas comerciais e envelopamento de veículos até letreiros iluminados e adesivos personalizados. Trabalhamos com materiais de alta qualidade e tecnologia avançada para transformar a identidade da sua marca em resultados visuais impactantes.",
@@ -1201,7 +1242,9 @@
       "english"
     ],
     "suburb": "southport",
-    "phone": "0416 802 182",
+    "phone": [
+      "0416 802 182"
+    ],
     "email": "aproeti@gmail.com",
     "website": null,
     "bio": "Método Renata França, tratamentos faciais e corporais and specialist in Lymphatic Drainage, Drenomodeling, skin cleansing.",
@@ -1226,7 +1269,9 @@
       "randwick",
       "bondi-junction"
     ],
-    "phone": "0430 461 514",
+    "phone": [
+      "0430 461 514"
+    ],
     "email": "cristina.wulfhorst@hotmail.com",
     "website": "https://www.thehartcentre.com.au/psychologist/cristina/",
     "bio": "Moro em Sydney desde 2006, onde tive uma bolsa integral de doutorado sobre adaptação, integração e casamentos interculturais de brasileiros na Austrália. Professora na USYD e ACAP em migração e psicologia. Desde 1999 trabalho com pesquisa, clínica e empresas com o tema da migração e saúde mental, incluindo projetos de pesquisa na UAB em Barcelona na Espanha e pós-graduação em Munique na Alemanha.",
@@ -1249,7 +1294,9 @@
       "english"
     ],
     "suburb": "redcliffe",
-    "phone": "0467 948 884",
+    "phone": [
+      "0467 948 884"
+    ],
     "email": "terapiashmlu@gmail.com",
     "website": null,
     "bio": "Trabalho com a energia do feminino através da limpeza uterina, guiando mulheres em processos profundos de liberação e reconexão. Também facilito ativações de kundalini para homens e mulheres, auxiliando no despertar energético e expansão da consciência.",
@@ -1273,7 +1320,9 @@
       "zetland",
       "maroubra"
     ],
-    "phone": "0424 499 995",
+    "phone": [
+      "0424 499 995"
+    ],
     "email": "daiana_scherer@hotmail.com",
     "website": null,
     "bio": "Beauty & Massage Therapist com mais de 13 anos de experiência na área estética e terapêutica. Especializada em massagens corporais e tratamentos estéticos avançados, incluindo pós-operatório. Profissional registrada na Austrália, dedicada a promover bem-estar, recuperação e resultados personalizados para cada cliente.",
@@ -1294,7 +1343,9 @@
       "english"
     ],
     "suburb": "australia-wide",
-    "phone": "0420 958 817",
+    "phone": [
+      "0420 958 817"
+    ],
     "email": "psigabrielam@outlook.com",
     "website": "https://www.gabrielamarquespsicoterapia.com/",
     "bio": "Psicoterapeuta registrada na ACA (Member No. 19917) e Counsellor credenciada pelo Victims Services NSW (Provider No. A2909). Oferece apoio a vítimas de violência, trauma e a imigrantes que enfrentam desafios emocionais.",
@@ -1318,7 +1369,9 @@
       "surfers-paradise",
       "sydney-cbd"
     ],
-    "phone": "0424 210 551",
+    "phone": [
+      "0424 210 551"
+    ],
     "email": "study@linkstudy.com.au",
     "website": "https://www.linkstudy.com.br",
     "bio": "A Link Study é uma agência especializada em intercâmbio e educação internacional, há 19 anos no mercado, com agências no Brasil e na Austrália e suporte completo para quem deseja estudar na Austrália e em outros destinos.",
@@ -1340,7 +1393,10 @@
       "english"
     ],
     "suburb": "dee-why",
-    "phone": "0412 906 766 · 02 8529 1909",
+    "phone": [
+      "0412 906 766",
+      "02 8529 1909"
+    ],
     "email": "tax@cabraltax.com.au",
     "website": null,
     "bio": "A Cabral Accounting é uma empresa de contabilidade online fundada pela Suyan Cabral, criada para lhe proporcionar liberdade geográfica.",

@@ -124,13 +124,13 @@ export function ProviderCard({
           📍 {getProviderSuburbsDisplay(provider)}
         </p>
         <div className="mt-3 flex items-center gap-3 text-sm">
-          {provider.phone && (
+          {provider.phone && provider.phone.length > 0 && (
             <a
-              href={`tel:${provider.phone}`}
+              href={`tel:${provider.phone[0]}`}
               className="flex items-center gap-2 text-blue-400 hover:underline"
             >
               <PhoneIcon className="h-4 w-4 shrink-0" />
-              {provider.phone}
+              {provider.phone[0]}
             </a>
           )}
           {provider.email && <EmailButton email={provider.email} />}
