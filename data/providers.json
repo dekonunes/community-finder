@@ -1660,5 +1660,50 @@
     "states": [
       "nsw"
     ]
+  },
+  {
+    "slug": "nanda-fabiane",
+    "name": "Nanda Fabiane",
+    "service": "marketing-service",
+    "country": "brazil",
+    "languages": [
+      "portuguese",
+      "english"
+    ],
+    "suburb": "australia-wide",
+    "phone": [
+      "0491 606 037"
+    ],
+    "email": "nanda_fabiane@hotmail.com",
+    "website": null,
+    "bio": "I'm a writer, storyteller and creative professional specialised in marketing, social media, graphic design and content creation. I help brands and individuals communicate with clarity, emotion and strategy, transforming ideas into content that connects and converts. I also work with ghostwriting and manuscript review, supporting authors in bringing their stories to life. I also collaborate with brands as an influencer, creating authentic content and partnerships. I hold a Bachelor's degree in Marketing and certification in Graphic Design and Writing, and I work remotely with clients across Australia.",
+    "address": "Digital (remote), Australia-wide",
+    "photo": null,
+    "instagram": "https://www.instagram.com/a.jornanda/",
+    "states": [
+      "all"
+    ]
+  },
+  {
+    "slug": "alento",
+    "name": "ALENTO",
+    "service": "counsellor",
+    "country": "brazil",
+    "languages": [
+      "portuguese"
+    ],
+    "suburb": "australia-wide",
+    "phone": [
+      "0420 490 116"
+    ],
+    "email": "alento.counselling@gmail.com",
+    "website": null,
+    "bio": "Lisania Couto | Psicologia Intercultural\nImigrante há 9 anos\nPsicóloga 🇧🇷\nCounsellor & Psychotherapist 🇦🇺\nALENTO Psicoterapia | Brasileiros no exterior 🌎\nEquilíbrio emocional na adaptação cultural.",
+    "address": "Online (Australia-wide)",
+    "photo": "/providers/alento.webp",
+    "instagram": "https://www.instagram.com/lisaniacouto.psi",
+    "states": [
+      "all"
+    ]
   }
 ]
