@@ -1,74 +1,367 @@
 [
-  { "slug": "sydney-cbd", "name": "Sydney CBD", "state": "nsw" },
-  { "slug": "greater-sydney", "name": "Greater Sydney", "state": "nsw" },
-  { "slug": "parramatta", "name": "Parramatta", "state": "nsw" },
-  { "slug": "cabramatta", "name": "Cabramatta", "state": "nsw" },
-  { "slug": "bankstown", "name": "Bankstown", "state": "nsw" },
-  { "slug": "burwood", "name": "Burwood", "state": "nsw" },
-  { "slug": "chatswood", "name": "Chatswood", "state": "nsw" },
-  { "slug": "strathfield", "name": "Strathfield", "state": "nsw" },
-  { "slug": "hurstville", "name": "Hurstville", "state": "nsw" },
-  { "slug": "eastwood", "name": "Eastwood", "state": "nsw" },
-  { "slug": "auburn", "name": "Auburn", "state": "nsw" },
-  { "slug": "liverpool", "name": "Liverpool", "state": "nsw" },
-  { "slug": "blacktown", "name": "Blacktown", "state": "nsw" },
-  { "slug": "penrith", "name": "Penrith", "state": "nsw" },
-  { "slug": "hornsby", "name": "Hornsby", "state": "nsw" },
-  { "slug": "bondi", "name": "Bondi", "state": "nsw" },
-  { "slug": "bondi-junction", "name": "Bondi Junction", "state": "nsw" },
-  { "slug": "marrickville", "name": "Marrickville", "state": "nsw" },
-  { "slug": "annandale", "name": "Annandale", "state": "nsw" },
-  { "slug": "ashfield", "name": "Ashfield", "state": "nsw" },
-  { "slug": "lakemba", "name": "Lakemba", "state": "nsw" },
-  { "slug": "epping", "name": "Epping", "state": "nsw" },
-  { "slug": "rhodes", "name": "Rhodes", "state": "nsw" },
-  { "slug": "campsie", "name": "Campsie", "state": "nsw" },
-  { "slug": "rockdale", "name": "Rockdale", "state": "nsw" },
-  { "slug": "fairfield", "name": "Fairfield", "state": "nsw" },
-  { "slug": "canterbury", "name": "Canterbury", "state": "nsw" },
-  { "slug": "ryde", "name": "Ryde", "state": "nsw" },
-  { "slug": "surry-hills", "name": "Surry Hills", "state": "nsw" },
-  { "slug": "newtown", "name": "Newtown", "state": "nsw" },
-  { "slug": "mascot", "name": "Mascot", "state": "nsw" },
-  { "slug": "wolli-creek", "name": "Wolli Creek", "state": "nsw" },
-  { "slug": "waterloo", "name": "Waterloo", "state": "nsw" },
-  { "slug": "kingsford", "name": "Kingsford", "state": "nsw" },
-  { "slug": "randwick", "name": "Randwick", "state": "nsw" },
-  { "slug": "zetland", "name": "Zetland", "state": "nsw" },
-  { "slug": "maroubra", "name": "Maroubra", "state": "nsw" },
-  { "slug": "kogarah", "name": "Kogarah", "state": "nsw" },
-  { "slug": "st-leonards", "name": "St Leonards", "state": "nsw" },
-  { "slug": "newcastle", "name": "Newcastle", "state": "nsw" },
-  { "slug": "darlinghurst", "name": "Darlinghurst", "state": "nsw" },
-  { "slug": "freshwater", "name": "Freshwater", "state": "nsw" },
-  { "slug": "sutherland", "name": "Sutherland", "state": "nsw" },
-  { "slug": "camperdown", "name": "Camperdown", "state": "nsw" },
-  { "slug": "northbridge", "name": "Northbridge", "state": "nsw" },
-  { "slug": "north-sydney", "name": "North Sydney", "state": "nsw" },
-  { "slug": "petersham", "name": "Petersham", "state": "nsw" },
-  { "slug": "potts-point", "name": "Potts Point", "state": "nsw" },
-  { "slug": "south-west-rocks", "name": "South West Rocks", "state": "nsw" },
-  { "slug": "tahmoor", "name": "Tahmoor", "state": "nsw" },
-  { "slug": "barangaroo", "name": "Barangaroo", "state": "nsw" },
-  { "slug": "north-nowra", "name": "North Nowra", "state": "nsw" },
-  { "slug": "mona-vale", "name": "Mona Vale", "state": "nsw" },
-  { "slug": "collaroy", "name": "Collaroy", "state": "nsw" },
-  { "slug": "central-coast", "name": "Central Coast", "state": "nsw" },
-  { "slug": "northern-beaches", "name": "Northern Beaches", "state": "nsw" },
-  { "slug": "dee-why", "name": "Dee Why", "state": "nsw" },
-  { "slug": "warriewood", "name": "Warriewood", "state": "nsw" },
-  { "slug": "quakers-hill", "name": "Quakers Hill", "state": "nsw" },
-  { "slug": "miranda", "name": "Miranda", "state": "nsw" },
-  { "slug": "mosman", "name": "Mosman", "state": "nsw" },
-  { "slug": "beverly-hills", "name": "Beverly Hills", "state": "nsw" },
-  { "slug": "bronte", "name": "Bronte", "state": "nsw" },
-  { "slug": "brighton-le-sands", "name": "Brighton Le Sands", "state": "nsw" },
-  { "slug": "sunshine-coast", "name": "Sunshine Coast", "state": "qld" },
-  { "slug": "southport", "name": "Southport", "state": "qld" },
-  { "slug": "surfers-paradise", "name": "Surfers Paradise", "state": "qld" },
-  { "slug": "redcliffe", "name": "Redcliffe (North Brisbane)", "state": "qld" },
-  { "slug": "melbourne", "name": "Melbourne", "state": "vic" },
-  { "slug": "nedlands", "name": "Nedlands", "state": "wa" },
-  { "slug": "monterey", "name": "Monterey", "state": "nsw" },
-  { "slug": "australia-wide", "name": "Australia (all states)", "state": "all" }
+  {
+    "slug": "sydney-cbd",
+    "name": "Sydney CBD",
+    "state": "nsw"
+  },
+  {
+    "slug": "greater-sydney",
+    "name": "Greater Sydney",
+    "state": "nsw"
+  },
+  {
+    "slug": "parramatta",
+    "name": "Parramatta",
+    "state": "nsw"
+  },
+  {
+    "slug": "cabramatta",
+    "name": "Cabramatta",
+    "state": "nsw"
+  },
+  {
+    "slug": "bankstown",
+    "name": "Bankstown",
+    "state": "nsw"
+  },
+  {
+    "slug": "burwood",
+    "name": "Burwood",
+    "state": "nsw"
+  },
+  {
+    "slug": "chatswood",
+    "name": "Chatswood",
+    "state": "nsw"
+  },
+  {
+    "slug": "strathfield",
+    "name": "Strathfield",
+    "state": "nsw"
+  },
+  {
+    "slug": "hurstville",
+    "name": "Hurstville",
+    "state": "nsw"
+  },
+  {
+    "slug": "eastwood",
+    "name": "Eastwood",
+    "state": "nsw"
+  },
+  {
+    "slug": "auburn",
+    "name": "Auburn",
+    "state": "nsw"
+  },
+  {
+    "slug": "liverpool",
+    "name": "Liverpool",
+    "state": "nsw"
+  },
+  {
+    "slug": "blacktown",
+    "name": "Blacktown",
+    "state": "nsw"
+  },
+  {
+    "slug": "penrith",
+    "name": "Penrith",
+    "state": "nsw"
+  },
+  {
+    "slug": "hornsby",
+    "name": "Hornsby",
+    "state": "nsw"
+  },
+  {
+    "slug": "bondi",
+    "name": "Bondi",
+    "state": "nsw"
+  },
+  {
+    "slug": "bondi-junction",
+    "name": "Bondi Junction",
+    "state": "nsw"
+  },
+  {
+    "slug": "marrickville",
+    "name": "Marrickville",
+    "state": "nsw"
+  },
+  {
+    "slug": "annandale",
+    "name": "Annandale",
+    "state": "nsw"
+  },
+  {
+    "slug": "ashfield",
+    "name": "Ashfield",
+    "state": "nsw"
+  },
+  {
+    "slug": "lakemba",
+    "name": "Lakemba",
+    "state": "nsw"
+  },
+  {
+    "slug": "epping",
+    "name": "Epping",
+    "state": "nsw"
+  },
+  {
+    "slug": "rhodes",
+    "name": "Rhodes",
+    "state": "nsw"
+  },
+  {
+    "slug": "campsie",
+    "name": "Campsie",
+    "state": "nsw"
+  },
+  {
+    "slug": "rockdale",
+    "name": "Rockdale",
+    "state": "nsw"
+  },
+  {
+    "slug": "fairfield",
+    "name": "Fairfield",
+    "state": "nsw"
+  },
+  {
+    "slug": "canterbury",
+    "name": "Canterbury",
+    "state": "nsw"
+  },
+  {
+    "slug": "ryde",
+    "name": "Ryde",
+    "state": "nsw"
+  },
+  {
+    "slug": "surry-hills",
+    "name": "Surry Hills",
+    "state": "nsw"
+  },
+  {
+    "slug": "newtown",
+    "name": "Newtown",
+    "state": "nsw"
+  },
+  {
+    "slug": "mascot",
+    "name": "Mascot",
+    "state": "nsw"
+  },
+  {
+    "slug": "wolli-creek",
+    "name": "Wolli Creek",
+    "state": "nsw"
+  },
+  {
+    "slug": "waterloo",
+    "name": "Waterloo",
+    "state": "nsw"
+  },
+  {
+    "slug": "kingsford",
+    "name": "Kingsford",
+    "state": "nsw"
+  },
+  {
+    "slug": "randwick",
+    "name": "Randwick",
+    "state": "nsw"
+  },
+  {
+    "slug": "zetland",
+    "name": "Zetland",
+    "state": "nsw"
+  },
+  {
+    "slug": "maroubra",
+    "name": "Maroubra",
+    "state": "nsw"
+  },
+  {
+    "slug": "kogarah",
+    "name": "Kogarah",
+    "state": "nsw"
+  },
+  {
+    "slug": "st-leonards",
+    "name": "St Leonards",
+    "state": "nsw"
+  },
+  {
+    "slug": "newcastle",
+    "name": "Newcastle",
+    "state": "nsw"
+  },
+  {
+    "slug": "darlinghurst",
+    "name": "Darlinghurst",
+    "state": "nsw"
+  },
+  {
+    "slug": "freshwater",
+    "name": "Freshwater",
+    "state": "nsw"
+  },
+  {
+    "slug": "sutherland",
+    "name": "Sutherland",
+    "state": "nsw"
+  },
+  {
+    "slug": "camperdown",
+    "name": "Camperdown",
+    "state": "nsw"
+  },
+  {
+    "slug": "northbridge",
+    "name": "Northbridge",
+    "state": "nsw"
+  },
+  {
+    "slug": "north-sydney",
+    "name": "North Sydney",
+    "state": "nsw"
+  },
+  {
+    "slug": "petersham",
+    "name": "Petersham",
+    "state": "nsw"
+  },
+  {
+    "slug": "potts-point",
+    "name": "Potts Point",
+    "state": "nsw"
+  },
+  {
+    "slug": "south-west-rocks",
+    "name": "South West Rocks",
+    "state": "nsw"
+  },
+  {
+    "slug": "tahmoor",
+    "name": "Tahmoor",
+    "state": "nsw"
+  },
+  {
+    "slug": "barangaroo",
+    "name": "Barangaroo",
+    "state": "nsw"
+  },
+  {
+    "slug": "north-nowra",
+    "name": "North Nowra",
+    "state": "nsw"
+  },
+  {
+    "slug": "mona-vale",
+    "name": "Mona Vale",
+    "state": "nsw"
+  },
+  {
+    "slug": "collaroy",
+    "name": "Collaroy",
+    "state": "nsw"
+  },
+  {
+    "slug": "central-coast",
+    "name": "Central Coast",
+    "state": "nsw"
+  },
+  {
+    "slug": "northern-beaches",
+    "name": "Northern Beaches",
+    "state": "nsw"
+  },
+  {
+    "slug": "dee-why",
+    "name": "Dee Why",
+    "state": "nsw"
+  },
+  {
+    "slug": "warriewood",
+    "name": "Warriewood",
+    "state": "nsw"
+  },
+  {
+    "slug": "quakers-hill",
+    "name": "Quakers Hill",
+    "state": "nsw"
+  },
+  {
+    "slug": "miranda",
+    "name": "Miranda",
+    "state": "nsw"
+  },
+  {
+    "slug": "mosman",
+    "name": "Mosman",
+    "state": "nsw"
+  },
+  {
+    "slug": "beverly-hills",
+    "name": "Beverly Hills",
+    "state": "nsw"
+  },
+  {
+    "slug": "bronte",
+    "name": "Bronte",
+    "state": "nsw"
+  },
+  {
+    "slug": "brighton-le-sands",
+    "name": "Brighton Le Sands",
+    "state": "nsw"
+  },
+  {
+    "slug": "sunshine-coast",
+    "name": "Sunshine Coast",
+    "state": "qld"
+  },
+  {
+    "slug": "southport",
+    "name": "Southport",
+    "state": "qld"
+  },
+  {
+    "slug": "surfers-paradise",
+    "name": "Surfers Paradise",
+    "state": "qld"
+  },
+  {
+    "slug": "redcliffe",
+    "name": "Redcliffe (North Brisbane)",
+    "state": "qld"
+  },
+  {
+    "slug": "teneriffe",
+    "name": "Teneriffe (Brisbane)",
+    "state": "qld"
+  },
+  {
+    "slug": "melbourne",
+    "name": "Melbourne",
+    "state": "vic"
+  },
+  {
+    "slug": "nedlands",
+    "name": "Nedlands",
+    "state": "wa"
+  },
+  {
+    "slug": "monterey",
+    "name": "Monterey",
+    "state": "nsw"
+  },
+  {
+    "slug": "australia-wide",
+    "name": "Australia (all states)",
+    "state": "all"
+  }
 ]

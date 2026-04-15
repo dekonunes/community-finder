@@ -34,5 +34,6 @@
   { "slug": "aesthetic-treatment", "name": "Tratamentos Estéticos", "icon": "✨", "parentCategory": "body-wellness" },
   { "slug": "lymphatic-drainage", "name": "Drenagem Linfática", "icon": "💧", "parentCategory": "body-wellness" },
   { "slug": "holistic-therapist", "name": "Holistic Therapists", "icon": "🌿", "parentCategory": "body-wellness" },
-  { "slug": "hairstylist", "name": "Hairstylists", "icon": "💇", "parentCategory": "body-wellness" }
+  { "slug": "hairstylist", "name": "Hairstylists", "icon": "💇", "parentCategory": "body-wellness" },
+  { "slug": "author", "name": "Authors & Books", "icon": "📚", "parentCategory": "professional-services" }
 ]

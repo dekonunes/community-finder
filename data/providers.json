@@ -1705,5 +1705,74 @@
     "states": [
       "all"
     ]
+  },
+  {
+    "slug": "elevance-marketing-agency",
+    "name": "Elevance Marketing Agency",
+    "service": "marketing-service",
+    "country": "brazil",
+    "languages": [
+      "english",
+      "portuguese"
+    ],
+    "suburb": "teneriffe",
+    "phone": [
+      "0466 096 150"
+    ],
+    "email": "info@elevance.au",
+    "website": "https://www.elevance.au",
+    "bio": "We help businesses build their brand, grow online presence, generate leads and conversations through advanced branding, marketing and tech solutions.",
+    "address": "Teneriffe (Brisbane), QLD",
+    "photo": null,
+    "instagram": "https://www.instagram.com/elevanceagency/",
+    "states": [
+      "qld"
+    ]
+  },
+  {
+    "slug": "barbara-leal-reis",
+    "name": "Bárbara Leal Reis",
+    "service": "counsellor",
+    "country": "brazil",
+    "languages": [
+      "portuguese",
+      "english"
+    ],
+    "suburb": "australia-wide",
+    "phone": [
+      "0450 465 291"
+    ],
+    "email": "barbarareispsi@gmail.com",
+    "website": null,
+    "bio": "Counsellor (ACA) and Provisional Psychologist (AHPRA) based in Australia, offering online sessions tailored to your needs. I have 8 years of experience in Brazil. I work from a Cognitive Behavioural Therapy (CBT) approach, supporting neurodivergent individuals (ADHD and ASD), women navigating abusive relationships, and a range of emotional and psychological challenges. I also provide psychological assessments for ADHD and ASD diagnosis. My work is evidence-based, warm, and focused on helping you build clarity, resilience, and practical strategies for everyday life.",
+    "address": "Online (Australia-wide)",
+    "photo": null,
+    "instagram": "https://www.instagram.com/psi.barbarareis",
+    "states": [
+      "all"
+    ]
+  },
+  {
+    "slug": "gislaine-smith",
+    "name": "Gislaine Smith",
+    "service": "author",
+    "country": "brazil",
+    "languages": [
+      "portuguese",
+      "english"
+    ],
+    "suburb": "australia-wide",
+    "phone": [
+      "0456 382 457"
+    ],
+    "email": "gislaine.sbrito@gmail.com",
+    "website": null,
+    "bio": "Estou criando livros voltados pra brasileiros no exterior, diários, livros de atividades infantis, caça palavras e a publicação é através da Amazon. Gostaria de compartilhar os links para que a comunidade tenha acesso.",
+    "address": "Perth, WA",
+    "photo": null,
+    "instagram": "https://www.instagram.com/cantinho.do.brasil",
+    "states": [
+      "all"
+    ]
   }
 ]
