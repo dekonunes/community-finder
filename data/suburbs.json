@@ -345,6 +345,11 @@
     "state": "qld"
   },
   {
+    "slug": "brisbane-city",
+    "name": "Brisbane City",
+    "state": "qld"
+  },
+  {
     "slug": "melbourne",
     "name": "Melbourne",
     "state": "vic"

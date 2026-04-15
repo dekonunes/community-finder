@@ -1774,5 +1774,50 @@
     "states": [
       "all"
     ]
+  },
+  {
+    "slug": "ebc-removals",
+    "name": "EBC Removals",
+    "service": "removalist",
+    "country": "brazil",
+    "languages": [
+      "english",
+      "portuguese"
+    ],
+    "suburb": "brisbane-city",
+    "phone": [
+      "0423 268 488",
+      "0424 270 609"
+    ],
+    "email": "info@ebcremovals.com",
+    "website": "https://ebcremovals.com",
+    "bio": "Professional removalist and furniture delivery in Brisbane — English and Portuguese spoken. Contact EBC Removals for home moves, deliveries, and careful handling of your belongings.",
+    "address": "Brisbane City, QLD",
+    "photo": null,
+    "instagram": "https://www.instagram.com/ebcremovals",
+    "states": [
+      "qld"
+    ]
+  },
+  {
+    "slug": "nua-wear",
+    "name": "Nua",
+    "service": "lingerie-fashion",
+    "country": "brazil",
+    "languages": [
+      "portuguese",
+      "english"
+    ],
+    "suburb": "australia-wide",
+    "phone": null,
+    "email": "hello@nuawear.com.au",
+    "website": "https://www.nuawear.com.au",
+    "bio": "Nua é uma loja online que representa as marcas brasileiras Lupo e Pantys na Austrália, levando para todo o país o conforto e qualidade que os brasileiros amam. Oferecemos lingeries, cuecas, modeladores, meia-calça e meias feitos no Brasil e que te fazem sentir bem o dia todo! Mais do que vestir, é sobre se sentir confortável na própria pele.",
+    "address": "Online (Australia-wide)",
+    "photo": null,
+    "instagram": "https://www.instagram.com/nuawear.au",
+    "states": [
+      "all"
+    ]
   }
 ]
