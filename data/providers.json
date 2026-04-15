@@ -1819,5 +1819,51 @@
     "states": [
       "all"
     ]
+  },
+  {
+    "slug": "auraprime-cleaning",
+    "name": "Gabrielle e Ana Julia",
+    "service": "house-cleaning",
+    "country": "brazil",
+    "languages": [
+      "portuguese",
+      "english"
+    ],
+    "suburb": "brighton-le-sands",
+    "phone": [
+      "0404 878 174"
+    ],
+    "email": "auraprimecleaning@gmail.com",
+    "website": null,
+    "bio": "Residential • Offices • End of Lease\nPrecision • Discretion • Excellence\nSydney - By appointment only\n\nLimpezas de casa, escritórios e final de contrato.",
+    "address": "Brighton Le Sands, NSW",
+    "photo": null,
+    "instagram": "https://www.instagram.com/auraprimecleaning",
+    "states": [
+      "nsw"
+    ]
+  },
+  {
+    "slug": "lucas-oliveira-77tours",
+    "name": "Lucas Oliveira da Silva",
+    "service": "travel-agent",
+    "country": "brazil",
+    "languages": [
+      "portuguese",
+      "english"
+    ],
+    "suburb": "sutherland-shire",
+    "phone": [
+      "0420 883 550"
+    ],
+    "email": "lucas@77tours.com.au",
+    "website": "https://www.77tours.com.au",
+    "bio": "77Tours Turismo por NSW — empresa que proporciona experiência por NSW com fotos e vídeos!",
+    "address": "Sutherland Shire, NSW",
+    "photo": null,
+    "instagram": "https://www.instagram.com/77tours",
+    "states": [
+      "nsw"
+    ]
   }
 ]

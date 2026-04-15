@@ -37,5 +37,6 @@
   { "slug": "hairstylist", "name": "Hairstylists", "icon": "💇", "parentCategory": "body-wellness" },
   { "slug": "author", "name": "Authors & Books", "icon": "📚", "parentCategory": "professional-services" },
   { "slug": "removalist", "name": "Removalists & Furniture Delivery", "icon": "🚚", "parentCategory": "professional-services" },
+  { "slug": "house-cleaning", "name": "House & Office Cleaning", "icon": "🧹", "parentCategory": "professional-services" },
   { "slug": "lingerie-fashion", "name": "Lingerie & Fashion (Brazilian brands)", "icon": "🛍️", "parentCategory": "professional-services" }
 ]
