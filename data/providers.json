@@ -1865,5 +1865,27 @@
     "states": [
       "nsw"
     ]
+  },
+  {
+    "slug": "dr-lilian-portugues",
+    "name": "Dr Lilian Português",
+    "service": "language-lessons",
+    "country": "brazil",
+    "languages": [
+      "english",
+      "portuguese",
+      "spanish"
+    ],
+    "suburb": "albany-creek",
+    "phone": null,
+    "email": "littlebrazil.brisbane@gmail.com",
+    "website": "https://elportuguese.wixsite.com/raizesbrasileiras",
+    "bio": "Dr. Lilian Fleuri holds a PhD in Linguistics and has over 25 years of experience teaching languages and culture. She has taught thousands of students privately and in groups, and has lectured at UFSC (Brazil), Middlebury College (USA), and the University of Queensland (Australia). She is an instructor at the Institute of Modern Languages at UQ, tutor for the Australian Defence Force, creator of Walk'n Talk Brisbane, and presenter of the workshop series Raising Multilingual Children in Australia. A native Brazilian Portuguese speaker, she teaches Portuguese and Spanish as second languages. She is a community and heritage language advocate, language researcher, lecturer on Latin-American cultures, consultant for multicultural families and community language schools, and speaker on linguistics, cultural awareness, and Latin American studies.",
+    "address": "Albany Creek, Brisbane, QLD",
+    "photo": null,
+    "instagram": "https://www.instagram.com/dr_lilian_portugues",
+    "states": [
+      "qld"
+    ]
   }
 ]

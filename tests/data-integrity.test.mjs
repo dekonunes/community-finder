@@ -32,7 +32,7 @@ test("providers keep the expected language set", () => {
     ...new Set(providers.flatMap((provider) => provider.languages)),
   ].sort();
 
-  assert.deepEqual(languages, ["english", "portuguese", "spanish"]);
+  assert.deepEqual(languages, ["english", "german", "italian", "portuguese", "spanish"]);
 });
 
 test("service categories only include services that have providers", () => {
