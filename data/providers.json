@@ -1887,5 +1887,25 @@
     "states": [
       "qld"
     ]
+  },
+  {
+    "slug": "maithe-mai-therapies",
+    "name": "Maithe",
+    "service": "lymphatic-drainage",
+    "country": "brazil",
+    "languages": [
+      "english"
+    ],
+    "suburb": "ascot",
+    "phone": null,
+    "email": "maitherapistau@gmail.com",
+    "website": "https://www.maitherapies.com",
+    "bio": "I'm Brazilian-born and moved to Australia in 2017, driven by a passion for healthcare. With a Master's degree in Health Sciences, I am a specialist in Brazilian Lymphatic Drainage Massage, with years of experience working in spas across Brazil, Cuba, Canada, Thailand, and Cambodia. Since 2018, the Mai Therapist brand has been offering personalized treatments, including Post-Plastic Operative Care, Brazilian Lymphatic Massage, and Multi Techniques.",
+    "address": "Ascot, Brisbane, QLD",
+    "photo": null,
+    "instagram": "https://www.instagram.com/mai_therapies",
+    "states": [
+      "qld"
+    ]
   }
 ]

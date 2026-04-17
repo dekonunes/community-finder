@@ -360,6 +360,11 @@
     "state": "qld"
   },
   {
+    "slug": "ascot",
+    "name": "Ascot",
+    "state": "qld"
+  },
+  {
     "slug": "melbourne",
     "name": "Melbourne",
     "state": "vic"
