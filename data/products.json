@@ -10,6 +10,16 @@
     "image": "/products/curiosidades-incriveis.webp"
   },
   {
+    "slug": "a-vida-da-minha-mae",
+    "name": "A Vida da Minha Mãe",
+    "category": "books",
+    "community": "brazil",
+    "description": "Algumas histórias merecem ser guardadas para sempre.\n\nA Vida da minha Mãe é um diário guiado criado para ajudar mães a registrarem as memórias, experiências e lições que marcaram sua vida. Por meio de perguntas cuidadosamente organizadas, este livro convida à reflexão e à escrita de forma simples e afetiva, permitindo que histórias, valores e momentos especiais sejam preservados em um só lugar.\n\nCada página é uma oportunidade para recordar a infância, compartilhar aprendizados, reviver conquistas e contar episódios que muitas vezes nunca foram registrados. Com o tempo, essas lembranças se transformam em algo ainda mais valioso: um legado emocional para filhos, netos e futuras gerações.\n\nMais do que um livro, este diário se torna um tesouro familiar — um registro único da trajetória de uma mãe, de suas experiências e de tudo aquilo que ajudou a moldar sua família.\n\nPorque algumas histórias não devem se perder com o tempo.\nElas merecem ser lembradas, compartilhadas e passadas adiante.",
+    "price": null,
+    "link": "https://www.amazon.com.au/dp/B0GS1C7CVC",
+    "image": "/products/vida-minha-mae.webp"
+  },
+  {
     "slug": "divino-sabor",
     "name": "Divino Sabor",
     "category": "food-drinks",

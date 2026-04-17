@@ -188,6 +188,8 @@ export default async function CommunityPage({
                 product={product}
                 categoryLabel={productCategoriesT(product.category as never)}
                 viewProductLabel={productsT("viewProduct")}
+                readMoreLabel={productsT("readMore")}
+                readLessLabel={productsT("readLess")}
               />
             ))}
           </div>

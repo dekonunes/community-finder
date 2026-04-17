@@ -35,6 +35,8 @@ export function ProductsClient() {
                 product={product}
                 categoryLabel={productCategory ? categoriesT(productCategory.slug as never) : null}
                 viewProductLabel={t("viewProduct")}
+                readMoreLabel={t("readMore")}
+                readLessLabel={t("readLess")}
               />
             );
           })}

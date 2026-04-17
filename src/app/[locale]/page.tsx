@@ -174,6 +174,8 @@ export default async function HomePage({
                       product.category as never,
                     )}
                     viewProductLabel={productsT("viewProduct")}
+                    readMoreLabel={productsT("readMore")}
+                    readLessLabel={productsT("readLess")}
                   />
                 ))}
               </div>
