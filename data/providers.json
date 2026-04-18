@@ -1907,5 +1907,28 @@
     "states": [
       "qld"
     ]
+  },
+  {
+    "slug": "canguruber-driving-school",
+    "name": "Canguruber Driving School",
+    "service": "driving-school",
+    "country": "brazil",
+    "languages": [
+      "portuguese",
+      "english"
+    ],
+    "suburb": "australia-wide",
+    "phone": [
+      "0483 951 561"
+    ],
+    "email": "daniel@canguruberds.com.au",
+    "website": "https://canguruberds.com.au/",
+    "bio": "Aulas de direção, preparação para a prova e aluguel do carro para alunos de diferentes níveis.",
+    "address": "Diversas localidades, Austrália",
+    "photo": null,
+    "instagram": "https://www.instagram.com/canguruberds",
+    "states": [
+      "all"
+    ]
   }
 ]
