@@ -1917,18 +1917,18 @@
       "portuguese",
       "english"
     ],
-    "suburb": "australia-wide",
+    "suburb": "greater-sydney",
     "phone": [
       "0483 951 561"
     ],
     "email": "daniel@canguruberds.com.au",
     "website": "https://canguruberds.com.au/",
     "bio": "Aulas de direção, preparação para a prova e aluguel do carro para alunos de diferentes níveis.",
-    "address": "Diversas localidades, Austrália",
-    "photo": null,
+    "address": "Greater Sydney, NSW",
+    "photo": "/providers/canguruber.webp",
     "instagram": "https://www.instagram.com/canguruberds",
     "states": [
-      "all"
+      "nsw"
     ]
   },
   {
