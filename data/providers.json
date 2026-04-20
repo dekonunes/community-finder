@@ -1930,5 +1930,28 @@
     "states": [
       "all"
     ]
+  },
+  {
+    "slug": "mr-cockroach-pest-control",
+    "name": "Mr. Cockroach Pest Control",
+    "service": "pest-control",
+    "country": "brazil",
+    "languages": [
+      "portuguese",
+      "english"
+    ],
+    "suburb": "greater-sydney",
+    "phone": [
+      "0425 321 895"
+    ],
+    "email": "contact@mrcockroach.com.au",
+    "website": "https://www.mrcockroach.com.au",
+    "bio": "With over 6 years of experience in pest control, we are here to help keep your place pest-free. We offer fast and effective solutions at a good price with flexible hours.",
+    "address": "Greater Sydney, NSW",
+    "photo": "/providers/mr-cockroach.webp",
+    "instagram": "https://www.instagram.com/mrcockroach.pestcontrol",
+    "states": [
+      "nsw"
+    ]
   }
 ]
