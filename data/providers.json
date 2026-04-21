@@ -1953,5 +1953,29 @@
     "states": [
       "nsw"
     ]
+  },
+  {
+    "slug": "kr-beauty-brazil",
+    "name": "KR Beauty Brazil PTY LTD",
+    "service": "aesthetic-treatment",
+    "country": "brazil",
+    "languages": [
+      "portuguese",
+      "english",
+      "spanish"
+    ],
+    "suburb": "waterloo",
+    "phone": [
+      "0451 386 700"
+    ],
+    "email": "customerservicekrbeautybrazil@gmail.com",
+    "website": "https://www.krbeautybrazil.com",
+    "bio": "Desde 2019 transformando olhares, realçando belezas e elevando autoestimas em Sydney. O KR Beauty Brazil é referência em beleza, micropigmentação e estética avançada — com mais de 17.000 clientes atendidos e reconhecimento nacional e internacional.",
+    "address": "Waterloo, NSW",
+    "photo": null,
+    "instagram": "https://www.instagram.com/krbeautybrazil",
+    "states": [
+      "nsw"
+    ]
   }
 ]
