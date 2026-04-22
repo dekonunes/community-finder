@@ -1024,6 +1024,29 @@
     ]
   },
   {
+    "slug": "rafael-fabrega-teixeira",
+    "name": "Rafael Fabrega Teixeira",
+    "service": "chiropractor",
+    "country": "brazil",
+    "languages": [
+      "portuguese",
+      "english"
+    ],
+    "suburb": "potts-point",
+    "phone": [
+      "0401 641 204"
+    ],
+    "email": "raf@backupclinic.com.au",
+    "website": "https://www.backupclinic.com.au",
+    "bio": "Formado em 2016 pela Macquarie University de Sydney. Ex-nadador profissional com o trabalho focado na postura, performance e longevidade.",
+    "address": "Potts Point, NSW",
+    "photo": null,
+    "instagram": "https://www.instagram.com/dr.raf.chiro/",
+    "states": [
+      "nsw"
+    ]
+  },
+  {
     "slug": "bianca-moreno",
     "name": "Bianca Moreno",
     "service": "physiotherapist",
