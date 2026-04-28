@@ -2000,5 +2000,32 @@
     "states": [
       "nsw"
     ]
+  },
+  {
+    "slug": "magic-hands-clinic",
+    "name": "Magic Hands Clinic",
+    "service": "lymphatic-drainage",
+    "country": "brazil",
+    "languages": [
+      "portuguese",
+      "english",
+      "spanish"
+    ],
+    "suburbs": [
+      "bondi-junction",
+      "waterloo"
+    ],
+    "phone": [
+      "0426 651 805"
+    ],
+    "email": "hello@magichands.com",
+    "website": "https://magichandsclinic.com",
+    "bio": "Magic Hands Clinic é referência em drenagem linfática e modelagem corporal em Sydney, oferecendo resultados visíveis desde a primeira sessão. Fundada por Sheila Orofino, com mais de 17 anos de experiência, a clínica se destaca pela exclusiva técnica Magic Hands, focada em desinflamação, definição corporal e bem-estar. Atendemos desde clientes que buscam estética avançada até cuidados pós-operatórios, sempre com excelência, atenção e uma experiência personalizada.",
+    "address": "Bondi Junction / Waterloo, NSW",
+    "photo": null,
+    "instagram": "https://www.instagram.com/magichandsclinic",
+    "states": [
+      "nsw"
+    ]
   }
 ]
