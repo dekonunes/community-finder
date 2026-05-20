@@ -41,5 +41,6 @@
   { "slug": "lingerie-fashion", "name": "Lingerie & Fashion (Brazilian brands)", "icon": "🛍️", "parentCategory": "professional-services" },
   { "slug": "language-lessons", "name": "Language lessons & tutors", "icon": "📖", "parentCategory": "professional-services" },
   { "slug": "driving-school", "name": "Driving schools & instructors", "icon": "🚗", "parentCategory": "professional-services" },
-  { "slug": "pest-control", "name": "Pest Control", "icon": "🐜", "parentCategory": "professional-services" }
+  { "slug": "pest-control", "name": "Pest Control", "icon": "🐜", "parentCategory": "professional-services" },
+  { "slug": "painting", "name": "Painting Companies", "icon": "🎨", "parentCategory": "professional-services" }
 ]

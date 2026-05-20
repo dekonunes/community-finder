@@ -2027,5 +2027,34 @@
     "states": [
       "nsw"
     ]
+  },
+  {
+    "slug": "volpainting-solutions",
+    "name": "VOLPainting Solutions",
+    "service": "painting",
+    "country": "brazil",
+    "languages": [
+      "portuguese",
+      "english"
+    ],
+    "suburbs": [
+      "greater-sydney",
+      "surfers-paradise",
+      "brisbane-city",
+      "sunshine-coast"
+    ],
+    "phone": [
+      "0452 067 626"
+    ],
+    "email": "info@volpaintingsolutions.com",
+    "website": "https://www.volpaintingsolutions.com",
+    "bio": "A VOLPainting Solutions é uma empresa de pintura residencial e comercial licenciada, segurada e credenciada pela Dulux, atuando em Sydney, Brisbane, Gold Coast e Sunshine Coast com mais de 1.500 projetos concluídos e mais de 1.000 clientes atendidos. Reconhecida pela qualidade, profissionalismo e acabamento premium, contamos com uma equipe especializada que entrega resultados duradouros com excelência e atenção aos detalhes. Somos uma empresa sólida e confiável, referência em soluções profissionais de pintura na Austrália.",
+    "address": "Sydney, Gold Coast, Brisbane & Sunshine Coast",
+    "photo": "/providers/volp.webp",
+    "instagram": "https://www.instagram.com/volpaintingsolutions",
+    "states": [
+      "nsw",
+      "qld"
+    ]
   }
 ]
