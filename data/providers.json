@@ -2056,5 +2056,28 @@
       "nsw",
       "qld"
     ]
+  },
+  {
+    "slug": "marques-dental",
+    "name": "Marques Dental",
+    "service": "dentist",
+    "country": "brazil",
+    "languages": [
+      "portuguese",
+      "english"
+    ],
+    "suburb": "marrickville",
+    "phone": [
+      "0413 454 242"
+    ],
+    "email": "info@marquesdental.com.au",
+    "website": null,
+    "bio": "Dentista brasileira em Marrickville.",
+    "address": "Marrickville, NSW",
+    "photo": null,
+    "instagram": "https://www.instagram.com/marquesdentalsydney/",
+    "states": [
+      "nsw"
+    ]
   }
 ]
