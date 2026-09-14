@@ -2079,5 +2079,28 @@
     "states": [
       "nsw"
     ]
+  },
+  {
+    "slug": "ag-pilates-studio",
+    "name": "AG Pilates Studio",
+    "service": "pilates-instructor",
+    "country": "brazil",
+    "languages": [
+      "portuguese",
+      "english"
+    ],
+    "suburb": "mascot",
+    "phone": [
+      "0478 720 315"
+    ],
+    "email": "agpilates@outlook.com",
+    "website": "https://www.agpilatesstudio.com",
+    "bio": "Onde o Pilates Clássico ganha vida\n\nSituado no coração de Mascot, o AG Pilates Studio é um estúdio de Pilates Clássico totalmente equipado na região. Oferecemos um ambiente sereno e focado, com no máximo 4 alunos por aula, garantindo que cada sessão seja genuinamente personalizada.\n\nMais de 20 anos de ensino\nMáximo de 4 alunos por aula\nEstúdio completo (equipamentos originais)\nFundado em 2024\n\nNossa abordagem baseia-se nos ensinamentos originais de Joseph Pilates. Sem modismos, sem atalhos: apenas o método autêntico, aplicado com precisão e cuidado.",
+    "address": "Mascot, NSW",
+    "photo": null,
+    "instagram": "https://www.instagram.com/ag.pilates.studio",
+    "states": [
+      "nsw"
+    ]
   }
 ]
