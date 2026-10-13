@@ -4,13 +4,24 @@ import { notFound } from "next/navigation";
 import {
   getCommunityBySlug,
   getProviderBySlug,
+  getProviderSuburbs,
   getProviderSuburbsDisplay,
   providers,
+  type Provider,
 } from "@/lib/data";
 import { getPageAlternates, getPageOpenGraph } from "@/i18n/metadata";
 import { isValidLocale, routing } from "@/i18n/routing";
 import { getSiteConfig, withBasePath } from "@/lib/site-config.mjs";
 import { ProviderDetail } from "@/components/provider-detail";
+
+const schemaTypeByService: Record<string, string> = {
+  dentist: "Dentist",
+  orthodontist: "Dentist",
+};
+
+function isNationalProvider(provider: Provider) {
+  return getProviderSuburbs(provider).includes("australia-wide");
+}
 
 export function generateStaticParams() {
   return routing.locales.flatMap((locale) =>
@@ -39,11 +50,16 @@ export async function generateMetadata({
   const categoriesT = await getTranslations({ locale, namespace: "categories" });
   const t = await getTranslations({ locale, namespace: "provider" });
 
-  const title = `${provider.name} — ${categoriesT(provider.service as never)}`;
+  const category = categoriesT(provider.service as never);
+  const suburb = getProviderSuburbsDisplay(provider);
+  const scope = isNationalProvider(provider) ? "national" : "local";
+
+  const title = t("metadataTitle", { name: provider.name, category, suburb, scope });
   const description = t("metadataDescription", {
     community: communitiesT(provider.country as never),
-    category: categoriesT(provider.service as never).toLowerCase(),
-    suburb: getProviderSuburbsDisplay(provider),
+    category,
+    suburb,
+    scope,
     bio: provider.bio,
   });
 
@@ -80,22 +96,28 @@ export default async function ProviderPage({
   }
 
   const community = getCommunityBySlug(provider.country);
-  const categoriesT = await getTranslations({ locale, namespace: "categories" });
 
   const { siteUrl, basePath } = getSiteConfig(process.env);
   const pageUrl = `${siteUrl}/${locale}/provider/${slug}`;
+  const addressRegion = (provider.states ?? [])
+    .filter((state) => state !== "all")
+    .map((state) => state.toUpperCase())
+    .join(" / ");
 
   const jsonLd: Record<string, unknown> = {
     "@context": "https://schema.org",
-    "@type": "ProfessionalService",
+    "@type": schemaTypeByService[provider.service] ?? "ProfessionalService",
     name: provider.name,
     description: provider.bio,
     url: pageUrl,
     address: {
       "@type": "PostalAddress",
-      addressLocality: provider.address,
+      ...(isNationalProvider(provider)
+        ? {}
+        : { addressLocality: getProviderSuburbsDisplay(provider) }),
+      ...(addressRegion ? { addressRegion } : {}),
+      addressCountry: "AU",
     },
-    additionalType: categoriesT(provider.service as never),
   };
 
   if (provider.photo) {
@@ -110,8 +132,10 @@ export default async function ProviderPage({
     jsonLd.email = provider.email;
   }
 
-  if (provider.website) {
-    jsonLd.sameAs = provider.website;
+  const sameAs = [provider.website, provider.instagram].filter(Boolean);
+
+  if (sameAs.length > 0) {
+    jsonLd.sameAs = sameAs;
   }
 
   return (
