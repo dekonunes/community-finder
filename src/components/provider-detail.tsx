@@ -1,10 +1,11 @@
 import Image from "next/image";
-import { getTranslations } from "next-intl/server";
+import { getLocale, getTranslations } from "next-intl/server";
 import {
   type Community,
   type Provider,
   getProviderSuburbsDisplay,
 } from "@/lib/data";
+import type { AppLocale } from "@/i18n/routing";
 import { getSiteConfig, withBasePath } from "@/lib/site-config.mjs";
 import { Badge } from "@/components/ui/badge";
 import { EmailButton } from "@/components/copy-email-button";
@@ -45,6 +46,7 @@ export async function ProviderDetail({
   provider: Provider;
   community: Community | undefined;
 }) {
+  const locale = (await getLocale()) as AppLocale;
   const t = await getTranslations("provider");
   const categoriesT = await getTranslations("categories");
   const communitiesT = await getTranslations("communities");
@@ -83,7 +85,7 @@ export async function ProviderDetail({
         <div className="space-y-6 p-6">
           <div>
             <h2 className="text-xs font-medium uppercase tracking-wider text-zinc-500">{t("about")}</h2>
-            <p className="mt-2 leading-relaxed text-zinc-300">{provider.bio}</p>
+            <p className="mt-2 leading-relaxed text-zinc-300">{provider.bio[locale]}</p>
           </div>
           <div>
             <h2 className="text-xs font-medium uppercase tracking-wider text-zinc-500">{t("location")}</h2>

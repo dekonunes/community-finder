@@ -380,6 +380,31 @@
     "state": "nsw"
   },
   {
+    "slug": "caringbah",
+    "name": "Caringbah",
+    "state": "nsw"
+  },
+  {
+    "slug": "wahroonga",
+    "name": "Wahroonga",
+    "state": "nsw"
+  },
+  {
+    "slug": "double-bay",
+    "name": "Double Bay",
+    "state": "nsw"
+  },
+  {
+    "slug": "balmain",
+    "name": "Balmain",
+    "state": "nsw"
+  },
+  {
+    "slug": "north-parramatta",
+    "name": "North Parramatta",
+    "state": "nsw"
+  },
+  {
     "slug": "australia-wide",
     "name": "Australia (all states)",
     "state": "all"

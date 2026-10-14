@@ -14,7 +14,11 @@
     ],
     "email": "isa.andrade@newalliancemigration.com",
     "website": "https://newalliance-landpage.vercel.app/",
-    "bio": "A New Alliance Migration é liderada por Isa Andrade, uma consultora de leis de imigração dedicada e registrada, com mais de 10 anos de experiência ajudando indivíduos e famílias a navegar pelas complexidades da lei de migração australiana. Isa combina profunda experiência jurídica com uma paixão genuína pelo sucesso de seus clientes - guiando-os em cada etapa de sua jornada de visto com clareza, cuidado e determinação.",
+    "bio": {
+      "pt-BR": "A New Alliance Migration é liderada por Isa Andrade, uma consultora de leis de imigração dedicada e registrada, com mais de 10 anos de experiência ajudando indivíduos e famílias a navegar pelas complexidades da lei de migração australiana. Isa combina profunda experiência jurídica com uma paixão genuína pelo sucesso de seus clientes - guiando-os em cada etapa de sua jornada de visto com clareza, cuidado e determinação.",
+      "en": "New Alliance Migration is led by Isa Andrade, a dedicated and registered immigration law consultant with more than 10 years of experience helping individuals and families navigate the complexities of Australian migration law. Isa combines deep legal expertise with a genuine passion for her clients' success - guiding them through every step of their visa journey with clarity, care and determination.",
+      "es": "New Alliance Migration está liderada por Isa Andrade, una consultora en leyes de inmigración dedicada y registrada, con más de 10 años de experiencia ayudando a personas y familias a navegar las complejidades de la ley de migración australiana. Isa combina una profunda experiencia jurídica con una pasión genuina por el éxito de sus clientes - guiándolos en cada etapa de su proceso de visa con claridad, cuidado y determinación."
+    },
     "address": "Australia (all states)",
     "photo": "/providers/new-alliance.webp",
     "instagram": null,
@@ -37,7 +41,11 @@
     ],
     "email": "bianca.chiarelli@hotmail.com",
     "website": null,
-    "bio": "Oi! Eu sou a Bianca, psicóloga pós-graduada em TCC. Há quatro anos, ajudo pessoas no mundo todo a lidar com ansiedade, TOC, TDAH e os desafios de ser imigrante. Vamos marcar uma conversa gratuita?",
+    "bio": {
+      "pt-BR": "Bianca Chiarelli Peixoto é psicóloga brasileira, pós-graduada em Terapia Cognitivo-Comportamental (TCC), e atende em português e inglês. Há quatro anos, ela acompanha pessoas de diferentes partes do mundo em questões como ansiedade, TOC, TDAH e os desafios de viver como imigrante. Baseada em Rockdale, NSW, ela oferece sessões em português para quem está construindo a vida fora do Brasil.",
+      "en": "Bianca Chiarelli Peixoto is a Brazilian psychologist with a postgraduate qualification in Cognitive Behavioural Therapy (CBT) who works in Portuguese and English. For four years she has supported people around the world with anxiety, OCD, ADHD and the challenges of life as an immigrant. Based in Rockdale, NSW, she offers sessions in Portuguese for people building a life away from Brazil.",
+      "es": "Bianca Chiarelli Peixoto es psicóloga brasileña, con posgrado en Terapia Cognitivo-Conductual (TCC), y atiende en portugués e inglés. Desde hace cuatro años acompaña a personas de distintas partes del mundo en temas como ansiedad, TOC, TDAH y los desafíos de vivir como inmigrante. Con base en Rockdale, NSW, ofrece sesiones en portugués para quienes están construyendo su vida fuera de Brasil."
+    },
     "address": "Rockdale, NSW",
     "photo": "/providers/bianca-peixoto.webp",
     "instagram": "https://www.instagram.com/psi.biancachiarelli",
@@ -58,7 +66,11 @@
     "phone": null,
     "email": null,
     "website": "https://linktr.ee/mariana.rosa.psic?fbclid=IwY2xjawQ_CXxleHRuA2FlbQIxMABicmlkETF5WDVDVDIyNHZ5VlpnRnBNc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHtVtzKgjcjrTH2z3D2l9sawkQrf7m5va92D8xsU8nnnDFpdKT6EA3gBwBSzF_aem_fBLZShbNDAMuaD3Sedbx1Q",
-    "bio": "Psicóloga registrada (PSY0002658651) oferecendo suporte psicológico a adolescentes e adultos.",
+    "bio": {
+      "pt-BR": "Mariana Rosa é psicóloga registrada na AHPRA (PSY0002658651) e atende em Sydney. Ela oferece suporte psicológico a adolescentes e adultos, com interesse em psicanálise. As sessões podem ser feitas em português ou em inglês, para que cada pessoa escolha o idioma em que se sente mais à vontade para falar sobre as suas questões.",
+      "en": "Mariana Rosa is an AHPRA-registered psychologist (PSY0002658651) based in Sydney. She provides psychological support to adolescents and adults, with an interest in psychoanalysis. Sessions are available in Portuguese or English, so each client can choose the language in which they feel most at ease talking about their thoughts, feelings and concerns.",
+      "es": "Mariana Rosa es psicóloga registrada en la AHPRA (PSY0002658651) y atiende en Sydney. Ofrece apoyo psicológico a adolescentes y adultos, con interés en el psicoanálisis. Las sesiones pueden realizarse en portugués o en inglés, para que cada persona elija el idioma con el que se sienta más a gusto para hablar de sus inquietudes."
+    },
     "address": "Sydney, NSW",
     "photo": "/providers/mariana-rosa.webp",
     "instagram": "https://www.instagram.com/mariana.rosa.psychologist",
@@ -81,7 +93,11 @@
     ],
     "email": "info@lymphaticsaustralia.com.au",
     "website": null,
-    "bio": "Meet Nat Peres, founder and therapist at Lymphatics Australia. She specialises in clinical lymphatic therapy and drainage massage to reduce fluid retention, systemic inflammation and support lymphatic flow. Nat also works closely with women living with Lipedema as part of their conservative treatment journey.",
+    "bio": {
+      "pt-BR": "Conheça Nat Peres, fundadora e terapeuta da Lymphatics Australia. Ela atua com foco em terapia linfática clínica e massagem de drenagem para reduzir a retenção de líquidos e a inflamação sistêmica e apoiar o fluxo linfático. Nat também trabalha de perto com mulheres que convivem com o lipedema, como parte da sua jornada de tratamento conservador.",
+      "en": "Meet Nat Peres, founder and therapist at Lymphatics Australia. She specialises in clinical lymphatic therapy and drainage massage to reduce fluid retention, systemic inflammation and support lymphatic flow. Nat also works closely with women living with Lipedema as part of their conservative treatment journey.",
+      "es": "Conoce a Nat Peres, fundadora y terapeuta de Lymphatics Australia. Su trabajo se centra en la terapia linfática clínica y el masaje de drenaje para reducir la retención de líquidos y la inflamación sistémica y favorecer el flujo linfático. Nat también trabaja de cerca con mujeres que viven con lipedema, como parte de su proceso de tratamiento conservador."
+    },
     "address": "St Leonards, Sydney, NSW",
     "photo": "/providers/lymphatics.webp",
     "instagram": "https://www.instagram.com/lymphaticsaustralia",
@@ -104,7 +120,11 @@
     ],
     "email": "rogerio.cosmo@outlook.com",
     "website": "https://rogeriocosmo1.gettimely.com/?rwg_token=AFd1xnFjm3woiMeKHEIuwThAPBB1HU1us3p30wAR_PGiFghKGrZMivUScnAM5TyynSCci3PM4iOHSmS4CJhqSrkxJUjWbS6iqg%3D%3D",
-    "bio": "Brazilian hairstylist, colourist for blondes & balayage, kids haircut, ladies haircut & men's haircut, curly hair specialist",
+    "bio": {
+      "pt-BR": "Rogério Cosmo é um cabeleireiro brasileiro que atende em Potts Point, na Level 7, Suite 7.10, 2-14 Kings Cross Road. Ele trabalha com coloração, incluindo loiros, balayage e cobertura de fios brancos, e faz cortes femininos, masculinos e infantis, com foco também em cabelos cacheados. Entre os serviços estão queratina brasileira, mega hair com fita (tape), escova, penteados e tratamentos capilares. O atendimento é em português e inglês.",
+      "en": "Rogério Cosmo is a Brazilian hairstylist based in Potts Point, at Level 7, Suite 7.10, 2-14 Kings Cross Road. He works with colour, including blondes, balayage and grey coverage, and offers ladies', men's and children's haircuts, with a focus on curly hair. His services also include Brazilian keratin, tape hair extensions, blow-dries, upstyles and hair treatments. He speaks Portuguese and English.",
+      "es": "Rogério Cosmo es un peluquero brasileño que atiende en Potts Point, en Level 7, Suite 7.10, 2-14 Kings Cross Road. Trabaja con coloración, incluidos rubios, balayage y cobertura de canas, y ofrece cortes para mujeres, hombres y niños, con enfoque en cabello rizado. Sus servicios también incluyen queratina brasileña, extensiones de cabello con cinta (tape), brushing, peinados y tratamientos capilares. Habla portugués e inglés."
+    },
     "address": "Potts Point, NSW",
     "photo": "/providers/rogerio-cosmo.webp",
     "instagram": "https://www.instagram.com/rogerio.cosmo/",
@@ -128,7 +148,11 @@
     ],
     "email": "sales@inoutsignage.com",
     "website": "https://www.inoutsignage.com",
-    "bio": "A InOut Signage é uma empresa brasileira que atende toda Sydney, especializada em soluções completas de comunicação visual. Com mais de 20 anos de experiência, oferecemos desde fachadas comerciais e envelopamento de veículos até letreiros iluminados e adesivos personalizados. Trabalhamos com materiais de alta qualidade e tecnologia avançada para transformar a identidade da sua marca em resultados visuais impactantes.",
+    "bio": {
+      "pt-BR": "A InOut Signage é uma empresa brasileira que atende toda Sydney, especializada em soluções completas de comunicação visual. Com mais de 20 anos de experiência, oferecemos desde fachadas comerciais e envelopamento de veículos até letreiros iluminados e adesivos personalizados. Trabalhamos com materiais de alta qualidade e tecnologia avançada para transformar a identidade da sua marca em resultados visuais impactantes.",
+      "en": "InOut Signage is a Brazilian company serving all of Sydney, specialising in complete visual communication solutions. With more than 20 years of experience, it offers everything from shopfront signage and vehicle wraps to illuminated signs and custom stickers. The company works with high-quality materials and advanced technology to turn a brand's identity into striking visual results.",
+      "es": "InOut Signage es una empresa brasileña que atiende a todo Sydney, especializada en soluciones integrales de comunicación visual. Con más de 20 años de experiencia, ofrece desde fachadas comerciales y rotulación de vehículos hasta letreros iluminados y adhesivos personalizados. Trabaja con materiales de alta calidad y tecnología avanzada para transformar la identidad de cada marca en resultados visuales de impacto."
+    },
     "address": "Rockdale, NSW",
     "photo": "/providers/inout.webp",
     "instagram": "https://www.instagram.com/inoutsignage/",
@@ -152,7 +176,11 @@
     "phone": null,
     "email": null,
     "website": "https://www.healthshare.com.au/profile/professional/387463-dr-leticia-deveza/",
-    "bio": "Cardiologista brasileiro atuando em Kogarah e St Leonards.",
+    "bio": {
+      "pt-BR": "O Dr. Ricardo Deveza é cardiologista brasileiro e atende em dois locais de Sydney: Kogarah, na região de St George, e St Leonards, no Lower North Shore. Ele faz consultas em português e em inglês, então pacientes brasileiros podem tratar da saúde do coração no próprio idioma. É uma opção para a comunidade brasileira em Sydney que procura acompanhamento cardiológico com um médico que fala português.",
+      "en": "Dr Ricardo Deveza is a Brazilian cardiologist who sees patients at two Sydney locations: Kogarah, in the St George area, and St Leonards, on the Lower North Shore. He consults in Portuguese and English, so Brazilian patients can discuss their heart health in their own language. He is an option for Brazilians in Sydney looking for cardiology care from a Portuguese-speaking doctor.",
+      "es": "El Dr. Ricardo Deveza es un cardiólogo brasileño que atiende en dos lugares de Sydney: Kogarah, en la zona de St George, y St Leonards, en el Lower North Shore. Atiende en portugués y en inglés, por lo que los pacientes brasileños pueden hablar de su salud cardíaca en su propio idioma. Es una opción para la comunidad brasileña en Sydney que busca atención cardiológica con un médico que habla portugués."
+    },
     "address": "Kogarah / St Leonards, NSW",
     "photo": null,
     "instagram": null,
@@ -173,7 +201,11 @@
     "phone": null,
     "email": null,
     "website": "https://darlinghurstdental.com.au/dr-thatiana-salomao-dentist/",
-    "bio": "Dentista brasileira na Darlinghurst Dental em Darlinghurst.",
+    "bio": {
+      "pt-BR": "A Dra. Thatiana Salomão é dentista brasileira e atende na Darlinghurst Dental, localizada na 30 Burton St, na divisa entre Darlinghurst e Surry Hills, em Sydney. Ela tem interesse em odontologia biomimética, abordagem que busca imitar a natureza com o mínimo possível de intervenção nos dentes. Atende em português e inglês, e a clínica oferece atendimento odontológico completo, incluindo Invisalign.",
+      "en": "Dr Thatiana Salomão is a Brazilian dentist at Darlinghurst Dental, located at 30 Burton St on the border of Darlinghurst and Surry Hills in Sydney. She has an interest in biomimetic dentistry, an approach that aims to copy nature with the smallest possible adjustment to the teeth. She speaks Portuguese and English, and the practice offers full-service dental care, including Invisalign.",
+      "es": "La Dra. Thatiana Salomão es dentista brasileña y atiende en Darlinghurst Dental, ubicada en 30 Burton St, en el límite entre Darlinghurst y Surry Hills, en Sydney. Tiene interés en la odontología biomimética, un enfoque que busca imitar la naturaleza con la menor intervención posible en los dientes. Habla portugués e inglés, y la clínica ofrece atención odontológica integral, incluido Invisalign."
+    },
     "address": "Darlinghurst, NSW",
     "photo": null,
     "instagram": null,
@@ -194,7 +226,11 @@
     "phone": null,
     "email": null,
     "website": "https://rocketreach.co/maria-julia-corbetta-machado-email_86975338",
-    "bio": "Cirurgiã brasileira baseada em Newcastle, NSW.",
+    "bio": {
+      "pt-BR": "A Dra. Maria Julia Corbetta Machado é cirurgiã brasileira baseada em Newcastle, Nova Gales do Sul. Ela atende em português e inglês, o que facilita a comunicação para brasileiros e outros falantes de português que vivem na região de Newcastle.",
+      "en": "Dr Maria Julia Corbetta Machado is a Brazilian surgeon based in Newcastle, New South Wales. She speaks Portuguese and English, which makes communication easier for Brazilians and other Portuguese speakers living in the Newcastle area.",
+      "es": "La Dra. Maria Julia Corbetta Machado es una cirujana brasileña radicada en Newcastle, Nueva Gales del Sur. Atiende en portugués e inglés, lo que facilita la comunicación para brasileños y otros hablantes de portugués que viven en la zona de Newcastle."
+    },
     "address": "Newcastle, NSW",
     "photo": null,
     "instagram": null,
@@ -209,13 +245,18 @@
     "country": "brazil",
     "languages": [
       "portuguese",
-      "english"
+      "english",
+      "spanish"
     ],
     "suburb": "kogarah",
     "phone": null,
     "email": null,
     "website": "https://www.drmarinacavada.com.au/",
-    "bio": "Cirurgiã de cabeça e pescoço (Otorrinolaringologista) brasileira atuando em Kogarah.",
+    "bio": {
+      "pt-BR": "A Dra. Marina Cavada (MD, FRACS – OHNS) é cirurgiã otorrinolaringologista, com dupla cidadania australiana e brasileira. Formou-se em Medicina pela Universidade Federal de Pelotas, fez a formação em otorrinolaringologia na PUCRS, em Porto Alegre, e um fellowship de pesquisa clínica em rinologia no St Vincent's Centre for Applied Medical Research. Atende adultos e crianças com problemas de ouvido, nariz, seios da face e garganta, como ronco, apneia do sono, refluxo e amigdalite de repetição. Consulta no Sydney ENT Clinic, em Kogarah, e no The ENT Centre, em Hornsby, em português, inglês e espanhol.",
+      "en": "Dr Marina Cavada (MD, FRACS – OHNS) is an ear, nose and throat surgeon with dual Australian and Brazilian citizenship. She graduated in medicine from the Federal University of Pelotas, completed her ENT training at PUCRS in Porto Alegre and undertook a clinical research fellowship in rhinology at St Vincent's Centre for Applied Medical Research. She sees adults and children with ear, nose, sinus and throat conditions, such as snoring, sleep apnoea, reflux and recurrent tonsillitis. She consults at Sydney ENT Clinic in Kogarah and The ENT Centre in Hornsby, in English, Portuguese and Spanish.",
+      "es": "La Dra. Marina Cavada (MD, FRACS – OHNS) es cirujana otorrinolaringóloga, con doble ciudadanía australiana y brasileña. Se graduó en Medicina en la Universidade Federal de Pelotas, se formó en otorrinolaringología en la PUCRS, en Porto Alegre, y realizó un fellowship de investigación clínica en rinología en el St Vincent's Centre for Applied Medical Research. Atiende a adultos y niños con problemas de oído, nariz, senos paranasales y garganta, como ronquidos, apnea del sueño, reflujo y amigdalitis recurrente. Consulta en Sydney ENT Clinic, en Kogarah, y en The ENT Centre, en Hornsby, en español, portugués e inglés."
+    },
     "address": "Kogarah, NSW",
     "photo": null,
     "instagram": null,
@@ -236,7 +277,11 @@
     "phone": null,
     "email": null,
     "website": "https://www.cbddental.com.au/meet-the-team/dr-angela-rigo/",
-    "bio": "Dentista brasileira na CBD Dental em Sydney CBD.",
+    "bio": {
+      "pt-BR": "A Dra. Angela Rigo é dentista na CBD Dental, na 74 Castlereagh St, em Sydney CBD. Formada pela Pontifícia Universidade Católica do Rio Grande do Sul, no Brasil, ela tem mais de uma década de experiência, com foco em prótese dentária, odontologia estética, reabilitação oral e implantes, além de tratamentos com Invisalign. A Dra. Angela dedica tempo para entender os objetivos de cada paciente e oferece um atendimento cuidadoso, inclusive para pacientes ansiosos. Ela atende em português e inglês.",
+      "en": "Dr Angela Rigo is a dentist at CBD Dental, 74 Castlereagh St, in the Sydney CBD. She completed her dental training at the Pontifical Catholic University of Rio Grande do Sul in Brazil and has more than a decade of experience, with a focus on dental prosthetics, cosmetic dentistry, oral rehabilitation and implants, as well as Invisalign treatment. Dr Angela takes time to understand each patient's goals and provides gentle care, including for anxious patients. She consults in Portuguese and English.",
+      "es": "La Dra. Angela Rigo es dentista en CBD Dental, en 74 Castlereagh St, Sydney CBD. Completó su formación en odontología en la Pontificia Universidad Católica de Rio Grande do Sul, en Brasil, y tiene más de una década de experiencia, con enfoque en prótesis dental, odontología estética, rehabilitación oral e implantes, además de tratamientos con Invisalign. La Dra. Angela dedica tiempo a entender los objetivos de cada paciente y brinda una atención cuidadosa, también a pacientes ansiosos. Atiende en portugués e inglés."
+    },
     "address": "Sydney CBD, NSW",
     "photo": null,
     "instagram": null,
@@ -256,8 +301,12 @@
     "suburb": "newtown",
     "phone": null,
     "email": null,
-    "website": "https://endentalstudio.com.au/dr-kayrne-de-agapito/",
-    "bio": "Dentista brasileira na En Dental Studio em Newtown.",
+    "website": "https://endentalstudio.com.au/dr-karyne-de-agapito/",
+    "bio": {
+      "pt-BR": "A Dra. Karyne de Agapito é dentista brasileira, formada em Odontologia pela Universidade de Uberaba e com pós-graduação em estética no Brasil, onde atuou por 7 anos. Na Austrália, fez formação avançada em odontologia restauradora e estética, e hoje atende no enDental Studio, na Shop 1, 12-14 Enmore Road, em Newtown. Seu foco é a odontologia estética com resultados naturais, e a clínica também oferece odontologia geral, implantes, coroas e pontes, facetas, clareamento, Invisalign e atendimento de emergência. Atende em português e inglês.",
+      "en": "Dr Karyne de Agapito is a Brazilian dentist with a Bachelor of Dentistry from the University of Uberaba and a postgraduate qualification in aesthetics from Brazil, where she practised for 7 years. In Australia she completed advanced training in restorative and cosmetic dentistry, and she now practises at enDental Studio, Shop 1, 12-14 Enmore Road, Newtown. She focuses on cosmetic dentistry with natural-looking results, and the clinic also offers general dentistry, implants, crowns and bridges, veneers, teeth whitening, Invisalign and emergency care. She consults in Portuguese and English.",
+      "es": "La Dra. Karyne de Agapito es una dentista brasileña, graduada en Odontología por la Universidad de Uberaba y con un posgrado en estética en Brasil, donde ejerció durante 7 años. En Australia completó formación avanzada en odontología restauradora y estética, y hoy atiende en enDental Studio, Shop 1, 12-14 Enmore Road, Newtown. Tiene enfoque en odontología estética con resultados naturales, y la clínica también ofrece odontología general, implantes, coronas y puentes, carillas, blanqueamiento dental, Invisalign y atención de urgencias. Atiende en portugués e inglés."
+    },
     "address": "Newtown, NSW",
     "photo": null,
     "instagram": null,
@@ -278,7 +327,11 @@
     "phone": null,
     "email": null,
     "website": "https://freshwaterdental.com.au/profile/dr-adria-melo/",
-    "bio": "Dentista brasileira na Freshwater Dental.",
+    "bio": {
+      "pt-BR": "A Dra. Adria Melo é dentista brasileira e atende na Freshwater Dental, na Suite 6-8/1-3 Moore Road, em Freshwater, NSW. Formada em Odontologia no Brasil (BDS, UFSC), ela atuou por mais de oito anos antes de se mudar para a Austrália. Oferece tratamentos de odontologia geral e estética, incluindo Invisalign e restaurações estéticas, com interesse especial em prevenção e na melhora do sorriso. Atende em português e inglês.",
+      "en": "Dr Adria Melo is a Brazilian dentist at Freshwater Dental, Suite 6-8/1-3 Moore Road, Freshwater NSW. She earned her Bachelor of Dental Surgery in Brazil (BDS UFSC) and practised for more than eight years before moving to Australia. She provides general and aesthetic dental care, including Invisalign and cosmetic restorations, with a particular interest in preventive care and smile improvements. She consults in Portuguese and English.",
+      "es": "La Dra. Adria Melo es una dentista brasileña que atiende en Freshwater Dental, Suite 6-8/1-3 Moore Road, Freshwater, NSW. Obtuvo su título de Cirujana Dentista en Brasil (BDS, UFSC) y ejerció durante más de ocho años antes de mudarse a Australia. Ofrece tratamientos de odontología general y estética, incluidos Invisalign y restauraciones estéticas, con especial interés en la prevención y en la mejora de la sonrisa. Atiende en portugués e inglés."
+    },
     "address": "Freshwater, NSW",
     "photo": null,
     "instagram": null,
@@ -295,12 +348,16 @@
       "portuguese",
       "english"
     ],
-    "suburb": "sydney-cbd",
+    "suburb": "mona-vale",
     "phone": null,
     "email": null,
     "website": "https://www.lsfd.com.au/",
-    "bio": "Consultório odontológico familiar com vários dentistas brasileiros em diversos locais.",
-    "address": "Vários locais, NSW",
+    "bio": {
+      "pt-BR": "A Little Smiles Family Dental é um consultório odontológico familiar em Mona Vale, nos Northern Beaches de Sydney, na 6/13 Waratah Street. Liderada pela dentista principal Dra. Carolina Jackson, a equipe reúne profissionais de vários países, incluindo dentistas brasileiros, e atende em português e inglês. A clínica oferece odontologia familiar, estética e de emergência, além de odontopediatria, em um ambiente preparado para crianças, com sala de brinquedos e TVs no teto.",
+      "en": "Little Smiles Family Dental is a family dental practice in Mona Vale on Sydney's Northern Beaches, at 6/13 Waratah Street. Led by Principal Dentist Dr Carolina Jackson, the team brings together practitioners from around the world, including Brazilian dentists, and offers care in Portuguese and English. The practice provides family, cosmetic and emergency dentistry as well as paediatric dentistry, in a child-friendly setting with a kids' room and ceiling-mounted TVs.",
+      "es": "Little Smiles Family Dental es un consultorio odontológico familiar en Mona Vale, en los Northern Beaches de Sydney, en 6/13 Waratah Street. Dirigido por la dentista principal Dra. Carolina Jackson, el equipo reúne profesionales de distintos países, incluidos dentistas brasileños, y atiende en portugués e inglés. La clínica ofrece odontología familiar, estética y de urgencia, además de odontopediatría, en un entorno pensado para niños, con sala de juegos y televisores en el techo."
+    },
+    "address": "Mona Vale, NSW",
     "photo": null,
     "instagram": null,
     "states": [
@@ -320,7 +377,11 @@
     "phone": null,
     "email": null,
     "website": "https://vivaldismiles.com.au/",
-    "bio": "Nosso consultório odontológico boutique em Sydney foi construído sobre essa filosofia, criando sorrisos que são tão duradouros e adaptáveis quanto a música de Vivaldi. Traçando paralelos entre o domínio dos concertos de violino de Vivaldi e nossa experiência em técnicas odontológicas, criamos sorrisos únicos, cada um uma obra-prima adaptada ao indivíduo. Assim como cada estação traz uma melodia diferente nos concertos de Vivaldi, a jornada de cada paciente conosco evoca um sentimento diferente – esperança na Primavera, relaxamento no Verão, realização no Outono e conforto no Inverno.",
+    "bio": {
+      "pt-BR": "Nosso consultório odontológico boutique em Sydney foi construído sobre essa filosofia, criando sorrisos que são tão duradouros e adaptáveis quanto a música de Vivaldi. Traçando paralelos entre o domínio dos concertos de violino de Vivaldi e nossa experiência em técnicas odontológicas, criamos sorrisos únicos, cada um uma obra-prima adaptada ao indivíduo. Assim como cada estação traz uma melodia diferente nos concertos de Vivaldi, a jornada de cada paciente conosco evoca um sentimento diferente – esperança na Primavera, relaxamento no Verão, realização no Outono e conforto no Inverno.",
+      "en": "Our boutique dental practice in Sydney was built on this philosophy, creating smiles that are as enduring and adaptable as Vivaldi's music. Drawing parallels between the mastery of Vivaldi's violin concertos and our experience in dental techniques, we create unique smiles, each one a masterpiece tailored to the individual. Just as each season brings a different melody in Vivaldi's concertos, each patient's journey with us evokes a different feeling – hope in Spring, relaxation in Summer, fulfilment in Autumn and comfort in Winter.",
+      "es": "Nuestro consultorio odontológico boutique en Sydney se construyó sobre esta filosofía, creando sonrisas tan duraderas y adaptables como la música de Vivaldi. Trazando paralelos entre el dominio de los conciertos para violín de Vivaldi y nuestra experiencia en técnicas odontológicas, creamos sonrisas únicas, cada una una obra maestra adaptada a la persona. Así como cada estación trae una melodía diferente en los conciertos de Vivaldi, el recorrido de cada paciente con nosotros evoca un sentimiento distinto: esperanza en Primavera, relajación en Verano, realización en Otoño y confort en Invierno."
+    },
     "address": "Ground floor, 161 Clarence St, Skittle Lane, Sydney, Australia 2000",
     "photo": null,
     "instagram": "https://www.instagram.com/vivaldismiles",
@@ -341,7 +402,11 @@
     "phone": null,
     "email": null,
     "website": "https://vivaldismiles.com.au/",
-    "bio": "Nosso consultório odontológico boutique em Sydney foi construído sobre essa filosofia, criando sorrisos que são tão duradouros e adaptáveis quanto a música de Vivaldi. Traçando paralelos entre o domínio dos concertos de violino de Vivaldi e nossa experiência em técnicas odontológicas, criamos sorrisos únicos, cada um uma obra-prima adaptada ao indivíduo. Assim como cada estação traz uma melodia diferente nos concertos de Vivaldi, a jornada de cada paciente conosco evoca um sentimento diferente – esperança na Primavera, relaxamento no Verão, realização no Outono e conforto no Inverno.",
+    "bio": {
+      "pt-BR": "Nosso consultório odontológico boutique em Sydney foi construído sobre essa filosofia, criando sorrisos que são tão duradouros e adaptáveis quanto a música de Vivaldi. Traçando paralelos entre o domínio dos concertos de violino de Vivaldi e nossa experiência em técnicas odontológicas, criamos sorrisos únicos, cada um uma obra-prima adaptada ao indivíduo. Assim como cada estação traz uma melodia diferente nos concertos de Vivaldi, a jornada de cada paciente conosco evoca um sentimento diferente – esperança na Primavera, relaxamento no Verão, realização no Outono e conforto no Inverno.",
+      "en": "Dr Barbara's boutique dental practice in Sydney is built on a philosophy of creating smiles as enduring and adaptable as Vivaldi's music. Drawing parallels between the mastery of Vivaldi's violin concertos and the practice's experience in dental techniques, the team creates unique smiles, each a masterpiece tailored to the individual. Just as each season brings a different melody in Vivaldi's concertos, each patient's journey with the practice evokes a different feeling: hope in spring, relaxation in summer, fulfilment in autumn and comfort in winter.",
+      "es": "El consultorio odontológico boutique de la Dra. Barbara en Sydney se basa en la filosofía de crear sonrisas tan duraderas y adaptables como la música de Vivaldi. Trazando paralelos entre el dominio de los conciertos para violín de Vivaldi y la experiencia del consultorio en técnicas odontológicas, el equipo crea sonrisas únicas, cada una una obra maestra adaptada a la persona. Así como cada estación trae una melodía diferente en los conciertos de Vivaldi, el recorrido de cada paciente en el consultorio evoca un sentimiento distinto: esperanza en primavera, relajación en verano, realización en otoño y confort en invierno."
+    },
     "address": "Ground floor, 161 Clarence St, Skittle Lane, Sydney, Australia 2000",
     "photo": null,
     "instagram": "https://www.instagram.com/vivaldismiles",
@@ -362,7 +427,11 @@
     "phone": null,
     "email": null,
     "website": "https://vivaldismiles.com.au/",
-    "bio": "Nosso consultório odontológico boutique em Sydney foi construído sobre essa filosofia, criando sorrisos que são tão duradouros e adaptáveis quanto a música de Vivaldi. Traçando paralelos entre o domínio dos concertos de violino de Vivaldi e nossa experiência em técnicas odontológicas, criamos sorrisos únicos, cada um uma obra-prima adaptada ao indivíduo. Assim como cada estação traz uma melodia diferente nos concertos de Vivaldi, a jornada de cada paciente conosco evoca um sentimento diferente – esperança na Primavera, relaxamento no Verão, realização no Outono e conforto no Inverno.",
+    "bio": {
+      "pt-BR": "Nosso consultório odontológico boutique em Sydney foi construído sobre essa filosofia, criando sorrisos que são tão duradouros e adaptáveis quanto a música de Vivaldi. Traçando paralelos entre o domínio dos concertos de violino de Vivaldi e nossa experiência em técnicas odontológicas, criamos sorrisos únicos, cada um uma obra-prima adaptada ao indivíduo. Assim como cada estação traz uma melodia diferente nos concertos de Vivaldi, a jornada de cada paciente conosco evoca um sentimento diferente – esperança na Primavera, relaxamento no Verão, realização no Outono e conforto no Inverno.",
+      "en": "Dr Gustavo Vivaldi's boutique dental practice in Sydney was built on this philosophy, creating smiles that are as enduring and adaptable as Vivaldi's music. Drawing parallels between the mastery of Vivaldi's violin concertos and the practice's experience in dental techniques, the team creates unique smiles, each a masterpiece tailored to the individual. Just as each season brings a different melody in Vivaldi's concertos, each patient's journey with the practice evokes a different feeling: hope in Spring, relaxation in Summer, fulfilment in Autumn and comfort in Winter.",
+      "es": "El consultorio odontológico boutique del Dr. Gustavo Vivaldi en Sydney se construyó sobre esta filosofía, creando sonrisas tan duraderas y adaptables como la música de Vivaldi. Trazando paralelos entre el dominio de los conciertos para violín de Vivaldi y la experiencia del consultorio en técnicas odontológicas, el equipo crea sonrisas únicas, cada una una obra maestra adaptada a la persona. Así como cada estación trae una melodía diferente en los conciertos de Vivaldi, el recorrido de cada paciente en el consultorio evoca un sentimiento distinto: esperanza en primavera, relajación en verano, realización en otoño y confort en invierno."
+    },
     "address": "Ground floor, 161 Clarence St, Skittle Lane, Sydney, Australia 2000",
     "photo": null,
     "instagram": "https://www.instagram.com/vivaldismiles",
@@ -379,12 +448,19 @@
       "portuguese",
       "english"
     ],
-    "suburb": "camperdown",
+    "suburbs": [
+      "darlinghurst",
+      "bondi-junction"
+    ],
     "phone": null,
     "email": null,
     "website": "https://www.healthshare.com.au/profile/professional/496360-dr-amanda-glanz/",
-    "bio": "Dermatologista brasileira atuando em Camperdown e Bondi Junction.",
-    "address": "Camperdown / Bondi Junction, NSW",
+    "bio": {
+      "pt-BR": "A Dra. Amanda Glanz é dermatologista brasileira e atende no The Skin Hospital, na 121 Crown Street, em Darlinghurst, e na Complete Dermatology Bondi, no Level 25, Tower 1, 520 Oxford Street, em Bondi Junction. Seus interesses clínicos incluem melanoma, inclusive no couro cabeludo, lesões pigmentadas, hiperidrose (suor excessivo), microscopia confocal in vivo e diagnóstico de doenças de pele com apoio de tecnologia. Ela atende em português e inglês.",
+      "en": "Dr Amanda Glanz is a Brazilian dermatologist practising at The Skin Hospital, 121 Crown Street, Darlinghurst, and at Complete Dermatology Bondi, Level 25, Tower 1, 520 Oxford Street, Bondi Junction. Her clinical interests include melanoma, including scalp melanoma, pigmented lesions, hyperhidrosis (excessive sweating), in vivo confocal microscopy and technology-aided diagnosis of skin conditions. She consults in Portuguese and English.",
+      "es": "La Dra. Amanda Glanz es una dermatóloga brasileña que atiende en The Skin Hospital, 121 Crown Street, Darlinghurst, y en Complete Dermatology Bondi, Level 25, Tower 1, 520 Oxford Street, Bondi Junction. Sus intereses clínicos incluyen el melanoma, incluido el del cuero cabelludo, las lesiones pigmentadas, la hiperhidrosis (sudoración excesiva), la microscopía confocal in vivo y el diagnóstico de enfermedades de la piel asistido por tecnología. Atiende en portugués e inglés."
+    },
+    "address": "Darlinghurst / Bondi Junction, NSW",
     "photo": null,
     "instagram": null,
     "states": [
@@ -404,7 +480,11 @@
     "phone": null,
     "email": null,
     "website": "https://nsdermatology.com.au/team/dr-bruna-gouveia",
-    "bio": "Dermatologista brasileira na NS Dermatology em Northbridge.",
+    "bio": {
+      "pt-BR": "A Dra. Bruna Gouveia (MD, PhD, FACD) é dermatologista e atende na Northern Sydney Dermatology & Laser, em G01/29 Baringa Road, Northbridge, NSW. Ela se formou em Medicina e fez a formação em dermatologia na Universidade Federal do Rio de Janeiro (UFRJ) e depois concluiu mestrado e doutorado na University of Sydney. Atende dermatologia geral, check-up de pele e manejo de câncer de pele, dermatologia estética e a laser, acne e cicatrizes de acne, rosácea, queda de cabelo e queloides. As consultas são em português e inglês.",
+      "en": "Dr Bruna Gouveia (MD, PhD, FACD) is a dermatologist at Northern Sydney Dermatology & Laser, G01/29 Baringa Road, Northbridge NSW. She completed her medical degree and dermatology training at the Federal University of Rio de Janeiro (UFRJ) in Brazil, followed by a Master's and PhD at the University of Sydney. She sees patients for general dermatology, skin checks and skin cancer management, cosmetic and laser dermatology, acne and acne scarring, rosacea, hair loss and keloid scars. She consults in Portuguese and English.",
+      "es": "La Dra. Bruna Gouveia (MD, PhD, FACD) es dermatóloga y atiende en Northern Sydney Dermatology & Laser, G01/29 Baringa Road, Northbridge, NSW. Estudió Medicina e hizo su formación en dermatología en la Universidad Federal de Río de Janeiro (UFRJ), en Brasil, y luego completó una maestría y un doctorado en la University of Sydney. Atiende dermatología general, revisiones de piel y manejo del cáncer de piel, dermatología estética y láser, acné y cicatrices de acné, rosácea, caída del cabello y queloides. Atiende en portugués e inglés."
+    },
     "address": "Northbridge, NSW",
     "photo": null,
     "instagram": null,
@@ -421,12 +501,21 @@
       "portuguese",
       "english"
     ],
-    "suburb": "sydney-cbd",
+    "suburbs": [
+      "double-bay",
+      "mosman",
+      "balmain",
+      "north-parramatta"
+    ],
     "phone": null,
     "email": null,
     "website": "https://allsaintclinic.com/pages/dr-raquel",
-    "bio": "Dermatologista brasileira na All Saint Clinic em Sydney CBD.",
-    "address": "Sydney CBD, NSW",
+    "bio": {
+      "pt-BR": "A Dra. Raquel Zanetti é médica brasileira com atuação em medicina estética na All Saint Clinic, que tem unidades em Double Bay, Mosman, Balmain e North Parramatta. Formada em Medicina e Cirurgia (MBBS), fez residência em cirurgia geral e é Fellow do Australasian College of Cosmetic Surgery and Medicine (ACCSM), com mais de uma década de experiência. Nos tratamentos de pele, sua proposta é realçar em vez de alterar, e ela também orienta e treina outros médicos em medicina estética. Atende em português e inglês.",
+      "en": "Dr Raquel Zanetti is a Brazilian doctor working in aesthetic medicine at All Saint Clinic, which has locations in Double Bay, Mosman, Balmain and North Parramatta. She holds a Bachelor of Medicine and Bachelor of Surgery (MBBS), completed a General Surgery Residency and is a Fellow of the Australasian College of Cosmetic Surgery and Medicine (ACCSM), with more than a decade of experience. Her approach to skin treatments aims to enhance rather than alter, and she also mentors and trains other doctors in aesthetic medicine. She speaks Portuguese and English.",
+      "es": "La Dra. Raquel Zanetti es médica brasileña dedicada a la medicina estética en All Saint Clinic, que tiene sedes en Double Bay, Mosman, Balmain y North Parramatta. Es graduada en Medicina y Cirugía (MBBS), realizó una residencia en cirugía general y es Fellow del Australasian College of Cosmetic Surgery and Medicine (ACCSM), con más de una década de experiencia. En los tratamientos de piel, su enfoque busca realzar en lugar de alterar, y además orienta y capacita a otros médicos en medicina estética. Atiende en portugués e inglés."
+    },
+    "address": "Double Bay / Mosman / Balmain / North Parramatta, NSW",
     "photo": null,
     "instagram": null,
     "states": [
@@ -442,12 +531,19 @@
       "portuguese",
       "english"
     ],
-    "suburb": "sydney-cbd",
+    "suburbs": [
+      "north-sydney",
+      "wahroonga"
+    ],
     "phone": null,
     "email": null,
     "website": "https://www.sydneyendocrinology.com.au/dr-flavia-bueno",
-    "bio": "Endocrinologista brasileira na Sydney Endocrinology, atuando em diversos locais.",
-    "address": "Vários locais, NSW",
+    "bio": {
+      "pt-BR": "A Dra. Flavia Bueno (BSc, MBBS, MD, FRACP) é endocrinologista brasileira na Sydney Endocrinology, com consultórios em North Sydney (Suite 3, 319 Pacific Highway) e Wahroonga (Parkway San Clinic, 172 Fox Valley Road). Concluiu a formação em endocrinologia no exterior em 2002 e, após se mudar para a Austrália em 2008, fez a formação de especialista em Sydney. Tem foco em saúde da mulher, incluindo menopausa, terapia de reposição hormonal e SOP, além de obesidade, osteoporose, distúrbios adrenais e endocrinologia geral. É Senior Lecturer em Endocrinologia na Western Sydney University e atende em português e inglês.",
+      "en": "Dr Flavia Bueno (BSc, MBBS, MD, FRACP) is a Brazilian endocrinologist at Sydney Endocrinology, consulting in North Sydney (Suite 3, 319 Pacific Highway) and Wahroonga (Parkway San Clinic, 172 Fox Valley Road). She completed endocrinology training overseas in 2002 and, after moving to Australia in 2008, undertook specialist training in Sydney. Her focus includes women's health, such as menopause, hormone replacement therapy and PCOS, as well as obesity, osteoporosis, adrenal disorders and general endocrinology. She is a Senior Lecturer in Endocrinology at Western Sydney University and speaks Portuguese and English.",
+      "es": "La Dra. Flavia Bueno (BSc, MBBS, MD, FRACP) es endocrinóloga brasileña en Sydney Endocrinology, con consultorios en North Sydney (Suite 3, 319 Pacific Highway) y Wahroonga (Parkway San Clinic, 172 Fox Valley Road). Completó su formación en endocrinología en el exterior en 2002 y, tras mudarse a Australia en 2008, realizó la formación de especialista en Sydney. Tiene enfoque en salud de la mujer, como menopausia, terapia de reemplazo hormonal y SOP, además de obesidad, osteoporosis, trastornos suprarrenales y endocrinología general. Es Senior Lecturer en Endocrinología en la Western Sydney University y atiende en portugués e inglés."
+    },
+    "address": "North Sydney / Wahroonga, NSW",
     "photo": null,
     "instagram": null,
     "states": [
@@ -463,12 +559,16 @@
       "portuguese",
       "english"
     ],
-    "suburb": "kogarah",
+    "suburb": "caringbah",
     "phone": null,
     "email": null,
     "website": "https://www.drluizapeculis.com.au/",
-    "bio": "Obstetra e ginecologista brasileira atuando em Kogarah.",
-    "address": "Kogarah, NSW",
+    "bio": {
+      "pt-BR": "A Dra. Luiza Peculis (MBBS, FRANZCOG) é obstetra e ginecologista brasileira, formada em Medicina pela University of Sydney, e atua como especialista desde 2022. Oferece acompanhamento da gestação, da pré-concepção ao pós-parto, e cuidados ginecológicos, com formação avançada em gestações de alto risco, incluindo gêmeos e parto normal após cesárea. Atende no CORA Women's Health Consulting Suites (Suite 3, Ground Floor, 416 Kingsway, Caringbah) e nos hospitais St George Private e Kareena Private. Também é staff specialist no Bankstown-Lidcombe Hospital e atende em português e inglês.",
+      "en": "Dr Luiza Peculis (MBBS, FRANZCOG) is a Brazilian obstetrician and gynaecologist who graduated in medicine from the University of Sydney and has practised as a consultant since 2022. She provides pregnancy care from pre-conception to the postnatal period, plus gynaecological care, with advanced training in high-risk pregnancies, including twins and vaginal birth after caesarean. She consults at CORA Women's Health Consulting Suites, Suite 3, Ground Floor, 416 Kingsway, Caringbah, and works at St George Private and Kareena Private hospitals. She is also a staff specialist at Bankstown-Lidcombe Hospital and speaks Portuguese and English.",
+      "es": "La Dra. Luiza Peculis (MBBS, FRANZCOG) es obstetra y ginecóloga brasileña, graduada en Medicina por la University of Sydney, y ejerce como especialista desde 2022. Ofrece seguimiento del embarazo, desde la preconcepción hasta el posparto, y atención ginecológica, con formación avanzada en embarazos de alto riesgo, incluidos gemelos y parto vaginal después de cesárea. Atiende en CORA Women's Health Consulting Suites (Suite 3, Ground Floor, 416 Kingsway, Caringbah) y en los hospitales St George Private y Kareena Private. También es staff specialist en el Bankstown-Lidcombe Hospital y atiende en portugués e inglés."
+    },
+    "address": "Caringbah, NSW",
     "photo": null,
     "instagram": null,
     "states": [
@@ -488,7 +588,11 @@
     "phone": null,
     "email": null,
     "website": "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/petersham-2049-nsw/dr-yvonne-grandjean-thomsen/gp-general-practice/17e10439-4f95-4e21-81a0-3b17b4cfbad5",
-    "bio": "Clínica geral brasileira atuando em Petersham.",
+    "bio": {
+      "pt-BR": "A Dra. Ivone L. Grandjean é médica clínica geral (GP) brasileira e atende em Petersham, em Sydney. Ela oferece consultas de clínica geral em português e inglês, o que permite que pacientes brasileiros falem sobre a própria saúde no seu idioma.",
+      "en": "Dr Ivone L. Grandjean is a Brazilian general practitioner (GP) who practises in Petersham, Sydney. She offers general practice consultations in Portuguese and English, so Brazilian patients can discuss their health in their own language.",
+      "es": "La Dra. Ivone L. Grandjean es médica general (GP) brasileña y atiende en Petersham, Sydney. Ofrece consultas de medicina general en portugués e inglés, lo que permite a los pacientes brasileños hablar de su salud en su propio idioma."
+    },
     "address": "Petersham, NSW 2049",
     "photo": null,
     "instagram": null,
@@ -509,7 +613,11 @@
     "phone": null,
     "email": null,
     "website": "https://www.halaxy.com/profile/dr-marcelino-dalla-mariga/gp-general-practitioner/322125?clinic=321528",
-    "bio": "Clínico geral brasileiro atuando em South West Rocks.",
+    "bio": {
+      "pt-BR": "O Dr. Marcelino Dalla Mariga é clínico geral (GP) brasileiro e atende na Trial Bay Medical Practice, na 28 Gordon Young Drive, em South West Rocks, Nova Gales do Sul. Ele realiza consultas em português e inglês, o que permite que pacientes brasileiros da região sejam atendidos no próprio idioma. Como GP, oferece consultas de clínica geral para a comunidade local.",
+      "en": "Dr Marcelino Dalla Mariga is a Brazilian general practitioner (GP) working at Trial Bay Medical Practice, 28 Gordon Young Drive, South West Rocks, New South Wales. He consults in Portuguese and English, so Brazilian patients in the area can be seen in their own language. As a GP, he provides general medical consultations for the local community.",
+      "es": "El Dr. Marcelino Dalla Mariga es un médico general (GP) brasileño que atiende en Trial Bay Medical Practice, 28 Gordon Young Drive, South West Rocks, Nueva Gales del Sur. Atiende en portugués e inglés, lo que permite a los pacientes brasileños de la zona consultar en su propio idioma. Como GP, ofrece consultas de medicina general a la comunidad local."
+    },
     "address": "South West Rocks, NSW",
     "photo": null,
     "instagram": null,
@@ -530,7 +638,11 @@
     "phone": null,
     "email": null,
     "website": "https://www.keyhealth.com.au/team/dr-elisa-paulio-w9mj6",
-    "bio": "Clínica geral brasileira na Key Health em CBD South.",
+    "bio": {
+      "pt-BR": "A Dra. Elisa Paulino é médica clínica geral (GP) brasileira e atende na Key Health, na unidade CBD South, no centro de Sydney. Ela faz consultas em português e em inglês, então pacientes brasileiros podem tratar da própria saúde no idioma em que se sentem mais à vontade. É uma opção para a comunidade brasileira que mora ou trabalha no CBD e procura um GP que fala português.",
+      "en": "Dr Elisa Paulino is a Brazilian general practitioner (GP) at Key Health's CBD South clinic in the Sydney CBD. She consults in Portuguese and English, so Brazilian patients can talk about their health in the language they are most comfortable with. She is an option for Brazilians who live or work in the CBD and are looking for a Portuguese-speaking GP.",
+      "es": "La Dra. Elisa Paulino es una médica general (GP) brasileña que atiende en Key Health, en la clínica CBD South, en el centro de Sydney. Atiende en portugués y en inglés, por lo que los pacientes brasileños pueden hablar de su salud en el idioma en que se sienten más cómodos. Es una opción para la comunidad brasileña que vive o trabaja en el CBD y busca un médico general que hable portugués."
+    },
     "address": "CBD South, NSW",
     "photo": null,
     "instagram": null,
@@ -551,7 +663,11 @@
     "phone": null,
     "email": null,
     "website": "https://www.healthshare.com.au/profile/professional/257823-dr-liliane-fernandes-carchedi/",
-    "bio": "Clínica geral brasileira atuando em Tahmoor.",
+    "bio": {
+      "pt-BR": "A Dra. Liliane Fernandes Carchedi é médica clínica geral (GP) brasileira e atende em Tahmoor, NSW. Ela realiza consultas em português e em inglês, o que facilita a comunicação para brasileiros da região que preferem falar sobre a saúde no próprio idioma. Para saber o local de atendimento, os horários e a disponibilidade de consultas, o ideal é entrar em contato diretamente com o consultório.",
+      "en": "Dr Liliane Fernandes Carchedi is a Brazilian general practitioner (GP) who sees patients in Tahmoor, NSW. She consults in both Portuguese and English, which makes communication easier for Brazilians in the area who prefer to discuss their health in their own language. For details on her practice location, consulting hours and appointment availability, contact the practice directly.",
+      "es": "La Dra. Liliane Fernandes Carchedi es médica general (GP) brasileña y atiende en Tahmoor, NSW. Realiza consultas en portugués y en inglés, lo que facilita la comunicación para los brasileños de la zona que prefieren hablar de su salud en su propio idioma. Para conocer el lugar de atención, los horarios y la disponibilidad de citas, conviene contactar directamente al consultorio."
+    },
     "address": "Tahmoor, NSW",
     "photo": null,
     "instagram": null,
@@ -566,13 +682,18 @@
     "country": "brazil",
     "languages": [
       "portuguese",
-      "english"
+      "english",
+      "spanish"
     ],
     "suburb": "barangaroo",
     "phone": null,
     "email": null,
     "website": "https://www.myhealth.net.au/doctors/dr-ludmila-ferreira-de-freitas/",
-    "bio": "Clínica geral brasileira na MyHealth Barangaroo em Sydney.",
+    "bio": {
+      "pt-BR": "A Dra. Ludmila Ferreira de Freitas (MBBS, FRACGP) é clínica geral brasileira na Myhealth Barangaroo, no International Towers Sydney (Tower Three, 300 Barangaroo Ave). Além das consultas de clínica geral, ela oferece consultas de menopausa e perimenopausa. Também atende adultos com TDAH já diagnosticados por psiquiatra, para revisão de medicação não estimulante. Atende em português, inglês e espanhol.",
+      "en": "Dr Ludmila Ferreira de Freitas (MBBS, FRACGP) is a Brazilian GP at Myhealth Barangaroo, in International Towers Sydney (Tower Three, 300 Barangaroo Ave). Alongside general practice consultations, she offers menopause and perimenopause appointments. She also sees adults with ADHD who have already been diagnosed by a psychiatrist, for review of non-stimulant medication. She speaks Portuguese, English and Spanish.",
+      "es": "La Dra. Ludmila Ferreira de Freitas (MBBS, FRACGP) es médica general brasileña en Myhealth Barangaroo, en International Towers Sydney (Tower Three, 300 Barangaroo Ave). Además de las consultas de medicina general, ofrece consultas de menopausia y perimenopausia. También atiende a adultos con TDAH ya diagnosticados por un psiquiatra, para la revisión de medicación no estimulante. Atiende en portugués, inglés y español."
+    },
     "address": "Barangaroo, Sydney, NSW",
     "photo": null,
     "instagram": null,
@@ -593,7 +714,11 @@
     "phone": null,
     "email": null,
     "website": "https://www.hotdoc.com.au/medical-centres/north-nowra-NSW-2541/north-nowra-medical-practice/doctors/dr-mariana-spadini-dos-santos-1",
-    "bio": "Clínica geral brasileira na North Nowra Medical Practice.",
+    "bio": {
+      "pt-BR": "A Dra. Mariana Spadini Dos Santos é médica clínica geral (GP) brasileira e atende na North Nowra Medical Practice, em North Nowra, NSW. Ela realiza consultas em português e em inglês, o que permite que pacientes brasileiros e de língua portuguesa da região sejam atendidos no próprio idioma. As consultas com a Dra. Mariana podem ser agendadas on-line pela plataforma HotDoc.",
+      "en": "Dr Mariana Spadini Dos Santos is a Brazilian general practitioner (GP) at North Nowra Medical Practice in North Nowra, NSW. She consults in Portuguese and English, so Brazilian and Portuguese-speaking patients in the area can be seen in their own language. Appointments with Dr Mariana can be booked online through the HotDoc platform.",
+      "es": "La Dra. Mariana Spadini Dos Santos es médica general (GP) brasileña y atiende en North Nowra Medical Practice, en North Nowra, NSW. Ofrece consultas en portugués e inglés, lo que permite que los pacientes brasileños y de habla portuguesa de la zona sean atendidos en su propio idioma. Las citas con la Dra. Mariana pueden reservarse en línea a través de la plataforma HotDoc."
+    },
     "address": "North Nowra, NSW 2541",
     "photo": null,
     "instagram": null,
@@ -614,7 +739,11 @@
     "phone": null,
     "email": null,
     "website": "https://www.kogarahfamilypractice.com.au/dr-martiane-bersano",
-    "bio": "Clínica geral brasileira na Kogarah Family Practice.",
+    "bio": {
+      "pt-BR": "A Dra. Martiane Bersano é médica clínica geral (GP) brasileira na Kogarah Family Practice, na Shop 3/13-19 Hogben St, em Kogarah. Ela se formou em Medicina na Austrália, foi premiada como registrar do ano durante sua formação e recebeu a fellowship do Royal Australian College of General Practitioners. Além da clínica geral, também atua na área de medicina estética. Ela atende em português e inglês.",
+      "en": "Dr Martiane Bersano is a Brazilian general practitioner (GP) at Kogarah Family Practice, Shop 3/13-19 Hogben St, Kogarah. She obtained her medical degree in Australia, was awarded registrar of the year during her training and holds a fellowship from the Royal Australian College of General Practitioners. Alongside general practice, she also works in cosmetic medicine. She consults in Portuguese and English.",
+      "es": "La Dra. Martiane Bersano es médica general (GP) brasileña en Kogarah Family Practice, en Shop 3/13-19 Hogben St, Kogarah. Obtuvo su título de medicina en Australia, fue premiada como registrar del año durante su formación y recibió la fellowship del Royal Australian College of General Practitioners. Además de la medicina general, también trabaja en medicina estética. Atiende en portugués e inglés."
+    },
     "address": "Kogarah, NSW",
     "photo": null,
     "instagram": null,
@@ -635,7 +764,11 @@
     "phone": null,
     "email": null,
     "website": "https://www.ipn.com.au/gp/nsw-dee-why-dee-why-general-practice/our-doctors/dr-renata-medeiros-burttet/",
-    "bio": "Clínica geral brasileira na Dee Why General Practice.",
+    "bio": {
+      "pt-BR": "A Dra. Renata Medeiros Burttet é clínica geral (GP) brasileira e atende na Dee Why General Practice, na 834 Pittwater Road, em Dee Why, nas Northern Beaches de Sydney. Formou-se em medicina no Brasil em 2007, fez formação em medicina de família e atua como GP há mais de 15 anos. Seus interesses incluem pré-natal, avaliações de saúde e cuidados preventivos, saúde da mulher e consultas sobre perimenopausa e menopausa. Ela atende em português e inglês.",
+      "en": "Dr Renata Medeiros Burttet is a Brazilian general practitioner (GP) at Dee Why General Practice, 834 Pittwater Road, Dee Why, on Sydney's Northern Beaches. She completed her medical degree in Brazil in 2007, went on to train in family medicine and has worked as a GP for more than 15 years. Her interests include antenatal care, health assessments and preventive care, women's health, and perimenopause and menopause consultations. She consults in Portuguese and English.",
+      "es": "La Dra. Renata Medeiros Burttet es una médica general (GP) brasileña que atiende en Dee Why General Practice, 834 Pittwater Road, Dee Why, en las Northern Beaches de Sydney. Se graduó en medicina en Brasil en 2007, luego se formó en medicina familiar y ejerce como GP desde hace más de 15 años. Sus áreas de interés incluyen el control prenatal, las evaluaciones de salud y la atención preventiva, la salud de la mujer y las consultas sobre perimenopausia y menopausia. Atiende en portugués e inglés."
+    },
     "address": "Dee Why, NSW",
     "photo": null,
     "instagram": null,
@@ -656,7 +789,11 @@
     "phone": null,
     "email": null,
     "website": "https://www.ourfamilymed.com.au/",
-    "bio": "Clínica geral brasileira na Our Family Med em Quakers Hill.",
+    "bio": {
+      "pt-BR": "A Dra. Silvana Sarmento-Leite (MBBS, FRACGP) é médica clínica geral (GP) e atende na Our Family Med, em 1 Torbert Avenue, Quakers Hill, NSW. Formada no Brasil em 1984, ela fundou a clínica em 1993 e atua como GP há mais de 30 anos, atendendo pacientes de todas as idades. A clínica oferece pequenos procedimentos, check-up de pele, saúde preventiva, saúde infantil, da mulher, do homem e mental, além de medicina de viagem. Atende em português e inglês.",
+      "en": "Dr Silvana Sarmento-Leite (MBBS, FRACGP) is a general practitioner at Our Family Med, 1 Torbert Avenue, Quakers Hill NSW. She graduated in Brazil in 1984, established the practice in 1993 and has worked as a GP for more than 30 years, caring for patients of all ages. The practice offers minor procedures, skin checks, preventive health, children's, women's, men's and mental health care, and travel medicine. She consults in Portuguese and English.",
+      "es": "La Dra. Silvana Sarmento-Leite (MBBS, FRACGP) es médica general (GP) y atiende en Our Family Med, en 1 Torbert Avenue, Quakers Hill, NSW. Se graduó en Brasil en 1984, fundó la clínica en 1993 y ejerce como médica general desde hace más de 30 años, atendiendo a pacientes de todas las edades. La clínica ofrece procedimientos menores, revisiones de piel, salud preventiva, salud infantil, de la mujer, del hombre y mental, además de medicina del viajero. Atiende en portugués e inglés."
+    },
     "address": "Quakers Hill, NSW",
     "photo": null,
     "instagram": null,
@@ -677,7 +814,11 @@
     "phone": null,
     "email": null,
     "website": null,
-    "bio": "Oftalmologista brasileira.",
+    "bio": {
+      "pt-BR": "A Dra. Laura Coelho é oftalmologista brasileira e atende na região de Sydney CBD, em Nova Gales do Sul. Ela realiza consultas em português e em inglês, o que facilita a comunicação para brasileiros que preferem falar sobre a saúde dos olhos no próprio idioma. Para saber o endereço de atendimento, os serviços oferecidos e a disponibilidade de consultas, o ideal é entrar em contato diretamente com a profissional.",
+      "en": "Dr Laura Coelho is a Brazilian ophthalmologist based in the Sydney CBD area of New South Wales. She consults in both Portuguese and English, which makes communication easier for Brazilians who prefer to discuss their eye health in their own language. For her practice address, services and appointment availability, contact her directly.",
+      "es": "La Dra. Laura Coelho es oftalmóloga brasileña y atiende en la zona de Sydney CBD, en Nueva Gales del Sur. Realiza consultas en portugués y en inglés, lo que facilita la comunicación para los brasileños que prefieren hablar de la salud de sus ojos en su propio idioma. Para conocer la dirección de atención, los servicios ofrecidos y la disponibilidad de citas, conviene contactarla directamente."
+    },
     "address": "NSW",
     "photo": null,
     "instagram": null,
@@ -698,7 +839,11 @@
     "phone": null,
     "email": null,
     "website": "https://www.kareenaprivate.com.au/Our-Doctors/Specialists/kareena-private-hospital/paediatrics/106072/dr-virginia-oliveira",
-    "bio": "Pediatra brasileira no Kareena Private Hospital em Miranda.",
+    "bio": {
+      "pt-BR": "A Dra. Virginia Oliveira (MBBS, FRACP) é pediatra brasileira, com consultório na Suite 2, 83 Kareena Road, em Miranda, e vínculo com o Kareena Private Hospital. Formou-se em 2000, fez a pós-graduação no The Children's Hospital at Westmead e no Sydney Children's Hospital e trabalhou nesses hospitais por 10 anos. Tem foco em sono infantil, comportamento e desenvolvimento, incluindo autismo e TDAH, além de asma, eczema, alergias e dificuldades alimentares, de aprendizagem e de linguagem. Atende em português e inglês.",
+      "en": "Dr Virginia Oliveira (MBBS, FRACP) is a Brazilian paediatrician with rooms at Suite 2, 83 Kareena Road, Miranda, and is affiliated with Kareena Private Hospital. She graduated in 2000, completed postgraduate training at The Children's Hospital at Westmead and Sydney Children's Hospital, and worked at these hospitals for 10 years. Her focus includes paediatric sleep, behaviour and development, including autism and ADHD, as well as asthma, eczema, allergies, and eating, learning and language difficulties. She speaks Portuguese and English.",
+      "es": "La Dra. Virginia Oliveira (MBBS, FRACP) es pediatra brasileña, con consultorio en Suite 2, 83 Kareena Road, Miranda, y vinculada al Kareena Private Hospital. Se graduó en 2000, realizó su formación de posgrado en The Children's Hospital at Westmead y en el Sydney Children's Hospital, y trabajó en esos hospitales durante 10 años. Tiene enfoque en sueño infantil, conducta y desarrollo, incluidos el autismo y el TDAH, además de asma, eccema, alergias y dificultades de alimentación, aprendizaje y lenguaje. Atiende en portugués e inglés."
+    },
     "address": "Miranda, NSW",
     "photo": null,
     "instagram": null,
@@ -719,7 +864,11 @@
     "phone": null,
     "email": null,
     "website": "https://www.yourhealthinmind.org/find-a-psychiatrist/profile/6425/dr-dorgival-caetano",
-    "bio": "Psiquiatra brasileiro atuando em Mascot.",
+    "bio": {
+      "pt-BR": "O Dr. Dorgival Caetano (FRANZCP, MD, PhD) é psiquiatra brasileiro, com doutorado pela Universidade de Cambridge. Atende no Sydney International ADHD Centre / My ADHD Australia (Shop 1B, Building A, 7-9 Kent Rd, Mascot), com foco em TDAH, transtorno de pânico, depressão, ansiedade, TOC, transtorno bipolar, psicose, TEPT e transtornos mentais resistentes ao tratamento, além de oferecer psicoterapia psicodinâmica. As consultas são presenciais ou por telemedicina, em português e inglês. É necessário encaminhamento de um GP.",
+      "en": "Dr Dorgival Caetano (FRANZCP, MD, PhD) is a Brazilian psychiatrist with a PhD from Cambridge. He practises at Sydney International ADHD Centre / My ADHD Australia, Shop 1B, Building A, 7-9 Kent Rd, Mascot, with a focus on ADHD, panic disorder, depression, anxiety, OCD, bipolar disorder, psychosis, PTSD and treatment-resistant mental disorders, and also offers psychodynamic psychotherapy. Consultations are available in person or via telehealth, in Portuguese and English. A GP referral is required.",
+      "es": "El Dr. Dorgival Caetano (FRANZCP, MD, PhD) es psiquiatra brasileño, con doctorado por la Universidad de Cambridge. Atiende en Sydney International ADHD Centre / My ADHD Australia (Shop 1B, Building A, 7-9 Kent Rd, Mascot), con enfoque en TDAH, trastorno de pánico, depresión, ansiedad, TOC, trastorno bipolar, psicosis, TEPT y trastornos mentales resistentes al tratamiento, y también ofrece psicoterapia psicodinámica. Las consultas son presenciales o por telemedicina, en portugués e inglés. Se requiere derivación de un GP (médico de cabecera)."
+    },
     "address": "Mascot, NSW",
     "photo": null,
     "instagram": null,
@@ -740,7 +889,11 @@
     "phone": null,
     "email": null,
     "website": "https://specialists.healthscope.com.au/specialist/-katia-josua-med0001161994",
-    "bio": "Psiquiatra brasileira atuando em Bronte.",
+    "bio": {
+      "pt-BR": "A Dra. Katia Josua é psiquiatra brasileira e Fellow do Royal Australian and New Zealand College of Psychiatrists (FRANZCP), com mais de 29 anos de experiência. Ela atende no The Sydney Clinic, na 22-24 Murray Street, em Bronte, e trabalha com diagnóstico, tratamento e prevenção de transtornos mentais, com ênfase em prática baseada em evidências. Entre as condições que trata estão depressão, ansiedade, transtorno bipolar, esquizofrenia e transtornos de personalidade. Ela atende em português e inglês.",
+      "en": "Dr Katia Josua is a Brazilian psychiatrist and a Fellow of the Royal Australian and New Zealand College of Psychiatrists (FRANZCP), with more than 29 years of experience. She consults at The Sydney Clinic, 22-24 Murray Street, Bronte, and works in the diagnosis, treatment and prevention of mental illness, with an emphasis on evidence-based practice. Conditions she treats include depression, anxiety, bipolar disorder, schizophrenia and personality disorders. She consults in Portuguese and English.",
+      "es": "La Dra. Katia Josua es psiquiatra brasileña y Fellow del Royal Australian and New Zealand College of Psychiatrists (FRANZCP), con más de 29 años de experiencia. Atiende en The Sydney Clinic, en 22-24 Murray Street, Bronte, y trabaja en el diagnóstico, el tratamiento y la prevención de trastornos mentales, con énfasis en la práctica basada en evidencia. Entre las condiciones que trata están la depresión, la ansiedad, el trastorno bipolar, la esquizofrenia y los trastornos de personalidad. Atiende en portugués e inglés."
+    },
     "address": "Bronte, NSW",
     "photo": null,
     "instagram": null,
@@ -761,7 +914,11 @@
     "phone": null,
     "email": null,
     "website": "https://www.healthshare.com.au/profile/professional/532810-mariana-fernandes-da-rosa/",
-    "bio": "Psicóloga brasileira baseada em Melbourne, VIC.",
+    "bio": {
+      "pt-BR": "Mariana Fernandes da Rosa é psicóloga brasileira registrada na AHPRA e membro da Australian Association of Psychologists Inc (AAPI). É bacharel em Psicologia (Honours), com formação de psicóloga pela Universidade Estadual Paulista (UNESP), no Brasil. Baseada em Melbourne, atende apenas por telehealth pela The Talk Shop, em português ou inglês, conforme a preferência do cliente, com foco em ansiedade, depressão, trauma, estresse, luto, burnout, relacionamentos, migração e identidade.",
+      "en": "Mariana Fernandes da Rosa is a Brazilian psychologist registered with AHPRA and a member of the Australian Association of Psychologists Inc (AAPI). She holds a Bachelor's Degree in Psychology (Honours) with psychologist training from UNESP – São Paulo State University, Brazil. Based in Melbourne, she works via telehealth only through The Talk Shop, in English or Portuguese as the client prefers, with a focus on anxiety, depression, trauma, stress, grief, burnout, relationships, migration and identity.",
+      "es": "Mariana Fernandes da Rosa es una psicóloga brasileña registrada ante la AHPRA y miembro de la Australian Association of Psychologists Inc (AAPI). Tiene una licenciatura en Psicología (Honours) con formación como psicóloga por la Universidade Estadual Paulista (UNESP), Brasil. Con base en Melbourne, atiende solo por teleconsulta a través de The Talk Shop, en portugués o inglés según la preferencia del cliente, con enfoque en ansiedad, depresión, trauma, estrés, duelo, burnout, relaciones, migración e identidad."
+    },
     "address": "Melbourne, VIC",
     "photo": null,
     "instagram": null,
@@ -782,7 +939,11 @@
     "phone": null,
     "email": null,
     "website": "https://www.integratedspecialistmedicalcare.com.au/about/meet-our-doctors/dr-leticia-deveza/",
-    "bio": "Reumatologista brasileira na Integrated Specialist Medical Care, atuando em diversos locais.",
+    "bio": {
+      "pt-BR": "A Dra. Leticia Deveza é reumatologista brasileira na Integrated Specialist Medical Care, clínica com unidades em Kogarah, Randwick e Macquarie Park, em Sydney. Ela atende em diversos locais, incluindo Kogarah, onde fica a sede da clínica, no Blue Shield Building, na 19 Kensington Street. As consultas são em português e em inglês, então pacientes brasileiros podem tratar de questões reumatológicas no próprio idioma.",
+      "en": "Dr Leticia Deveza is a Brazilian rheumatologist with Integrated Specialist Medical Care, a practice with rooms in Kogarah, Randwick and Macquarie Park in Sydney. She sees patients across several locations, including Kogarah, where the practice's head office is in the Blue Shield Building, 19 Kensington Street. She consults in Portuguese and English, so Brazilian patients can discuss rheumatology concerns in their own language.",
+      "es": "La Dra. Leticia Deveza es una reumatóloga brasileña de Integrated Specialist Medical Care, clínica con consultorios en Kogarah, Randwick y Macquarie Park, en Sydney. Atiende en varios lugares, entre ellos Kogarah, donde está la sede de la clínica, en el Blue Shield Building, 19 Kensington Street. Las consultas son en portugués y en inglés, por lo que los pacientes brasileños pueden tratar sus problemas reumatológicos en su propio idioma."
+    },
     "address": "Vários locais, NSW",
     "photo": null,
     "instagram": null,
@@ -803,7 +964,11 @@
     "phone": null,
     "email": null,
     "website": null,
-    "bio": "Mortgage broker na @growwealthsolutions ajudando a comunidade brasileira a conquistar o sonho da casa própria na Austrália. Para morar ou investir, bora! 🏘️",
+    "bio": {
+      "pt-BR": "May Oliveira é mortgage broker (corretora de crédito imobiliário) na Grow Wealth Solutions e ajuda a comunidade brasileira a conquistar o sonho da casa própria na Austrália. Ela atende tanto quem quer comprar um imóvel para morar quanto quem busca investir. Baseada em Sutherland, NSW, May atende em português e inglês, o que ajuda brasileiros a entender o processo de financiamento imobiliário no país.",
+      "en": "May Oliveira is a mortgage broker at Grow Wealth Solutions who helps the Brazilian community achieve the dream of owning a home in Australia. She works with clients buying a property to live in as well as those looking to invest. Based in Sutherland, NSW, May works in Portuguese and English, helping Brazilians understand the home loan process in Australia.",
+      "es": "May Oliveira es mortgage broker (asesora de créditos hipotecarios) en Grow Wealth Solutions y ayuda a la comunidad brasileña a cumplir el sueño de la casa propia en Australia. Atiende tanto a quienes quieren comprar una propiedad para vivir como a quienes buscan invertir. Con base en Sutherland, NSW, May atiende en portugués e inglés, lo que ayuda a los brasileños a entender el proceso de financiamiento hipotecario en el país."
+    },
     "address": "Sutherland, NSW / Austrália",
     "photo": null,
     "instagram": "https://www.instagram.com/casapropriaaustralia",
@@ -826,7 +991,11 @@
     ],
     "email": "contato@nomadeprimetravel.com.br",
     "website": "https://www.nomadeprimetravel.com.br",
-    "bio": "A Nômade é uma agência de viagens focada na comunidade brasileira, oferecendo voos, hotéis, seguro viagem e opções de pagamento flexíveis em cartões brasileiros.",
+    "bio": {
+      "pt-BR": "A Nômade Prime Travel é uma agência de viagens brasileira, registrada no Cadastur, voltada para a comunidade brasileira e com atendimento em Sydney (Mosman). Oferece passagens aéreas, hotéis, cruzeiros, pacotes, seguro viagem e roteiros sob medida, com destinos no Brasil, na Europa, nos Estados Unidos, na América Latina e na Ásia. Também oferece opções de pagamento flexíveis em cartões brasileiros, com atendimento em português e inglês.",
+      "en": "Nômade Prime Travel is a Brazilian travel agency registered with Cadastur, Brazil's tourism register, focused on the Brazilian community and serving clients in Sydney (Mosman). It offers flights, hotels, cruises, packages, travel insurance and tailor-made itineraries, with destinations in Brazil, Europe, the United States, Latin America and Asia. It also offers flexible payment options on Brazilian cards, with service in Portuguese and English.",
+      "es": "Nômade Prime Travel es una agencia de viajes brasileña registrada en Cadastur, el registro turístico de Brasil, enfocada en la comunidad brasileña y con atención en Sydney (Mosman). Ofrece pasajes aéreos, hoteles, cruceros, paquetes, seguro de viaje e itinerarios a medida, con destinos en Brasil, Europa, Estados Unidos, América Latina y Asia. También ofrece opciones de pago flexibles con tarjetas brasileñas, con atención en portugués e inglés."
+    },
     "address": "Mosman, NSW",
     "photo": null,
     "instagram": "https://www.instagram.com/nomadeprimetravel",
@@ -849,7 +1018,11 @@
     ],
     "email": "contact@thegrapedigital.com",
     "website": "https://thegrapedigital.com",
-    "bio": "Somos uma agência de marketing que constrói ecossistemas de alto desempenho totalmente conectados para marcas de qualquer tamanho ou setor. Ansiosos para falar com você!",
+    "bio": {
+      "pt-BR": "A Grape Digital é uma agência de marketing com escritórios em Sydney e em São Paulo, que constrói ecossistemas de marketing conectados para marcas de qualquer porte ou setor. Oferece SEM, SEO, marketing de conteúdo, criação visual, mídia paga e desenvolvimento web. Atende setores como e-commerce, educação, jurídico, imobiliário e serviços profissionais, com estratégias adaptadas ao orçamento de cada cliente, em português e inglês.",
+      "en": "Grape Digital is a marketing agency with offices in Sydney and São Paulo that builds connected marketing ecosystems for brands of any size or industry. Its services include SEM, SEO, content marketing, creative visuals, paid advertising and web development. The agency works with sectors such as e-commerce, education, legal, real estate and professional services, with strategies tailored to each client's budget, in Portuguese and English.",
+      "es": "Grape Digital es una agencia de marketing con oficinas en Sydney y São Paulo que construye ecosistemas de marketing conectados para marcas de cualquier tamaño o sector. Ofrece SEM, SEO, marketing de contenidos, creatividad visual, publicidad pagada y desarrollo web. Trabaja con sectores como e-commerce, educación, legal, inmobiliario y servicios profesionales, con estrategias adaptadas al presupuesto de cada cliente, en portugués e inglés."
+    },
     "address": "Sydney CBD, NSW",
     "photo": null,
     "instagram": null,
@@ -873,7 +1046,11 @@
     ],
     "email": "thiago.shlomo@gmail.com",
     "website": "https://www.shlomo.com.br",
-    "bio": "Meu nome é Thiago Shlomo e trabalho com psicologia desde 2015. Atendo adultos, casais e empresários. Antes da minha prática clínica, trabalhei nos contextos forense (criminal), social, empresarial e escolar. Tenho graduação como psicólogo, psicanalista e administrador público. Também possuo duas pós-graduações e diversos cursos de educação continuada. Mas minha maior vocação é ser pai da Valentina, de 10 anos.",
+    "bio": {
+      "pt-BR": "Meu nome é Thiago Shlomo e trabalho com psicologia desde 2015. Atendo adultos, casais e empresários. Antes da minha prática clínica, trabalhei nos contextos forense (criminal), social, empresarial e escolar. Tenho graduação como psicólogo, psicanalista e administrador público. Também possuo duas pós-graduações e diversos cursos de educação continuada. Mas minha maior vocação é ser pai da Valentina, de 10 anos.",
+      "en": "Thiago Shlomo has worked in psychology since 2015 and sees adults, couples and business owners. Before his clinical practice, he worked in forensic (criminal), social, business and school settings. He holds degrees as a psychologist, psychoanalyst and public administrator, as well as two postgraduate qualifications and various continuing education courses. But, in his words, his greatest calling is being father to 10-year-old Valentina.",
+      "es": "Thiago Shlomo trabaja en psicología desde 2015 y atiende a adultos, parejas y empresarios. Antes de su práctica clínica, trabajó en los contextos forense (criminal), social, empresarial y escolar. Tiene formación como psicólogo, psicoanalista y administrador público, además de dos posgrados y diversos cursos de educación continua. Pero, según sus palabras, su mayor vocación es ser padre de Valentina, de 10 años."
+    },
     "address": "Beverly Hills, NSW",
     "photo": null,
     "instagram": "https://www.instagram.com/shlomo.com.au",
@@ -901,7 +1078,11 @@
     ],
     "email": "cristina@cristinawildt.com",
     "website": null,
-    "bio": "Cristina Wildt é uma conselheira registrada na ACA com qualificações em Aconselhamento e Psicologia, atualmente realizando uma especialização de pós-graduação em TDAH. Ela apoia indivíduos e casais que navegam por transições de vida, luto, ansiedade, dificuldades de relacionamento e desafios interculturais, oferecendo um espaço seguro e compassivo para reconexão emocional. Seu foco clínico inclui TDAH em adultos, desenvolvimento de identidade, autoaceitação e terapia de casais, ajudando os parceiros a melhorar a comunicação, reconstruir a confiança e aprofundar a conexão emocional. Cristina tem um interesse particular em trabalhar com adultos diagnosticados com TDAH tardiamente na vida, ajudando-os a processar sentimentos de inadequação e a desenvolver um senso de si mais integrado e empoderado. Sua abordagem integra empatia, validação emocional e práticas informadas pela neurociência para promover resiliência, clareza, relacionamentos mais saudáveis e bem-estar geral.",
+    "bio": {
+      "pt-BR": "Cristina Wildt é uma conselheira registrada na ACA com qualificações em Aconselhamento e Psicologia, atualmente realizando uma especialização de pós-graduação em TDAH. Ela apoia indivíduos e casais que navegam por transições de vida, luto, ansiedade, dificuldades de relacionamento e desafios interculturais, oferecendo um espaço seguro e compassivo para reconexão emocional. Seu foco clínico inclui TDAH em adultos, desenvolvimento de identidade, autoaceitação e terapia de casais, ajudando os parceiros a melhorar a comunicação, reconstruir a confiança e aprofundar a conexão emocional. Cristina tem um interesse particular em trabalhar com adultos diagnosticados com TDAH tardiamente na vida, ajudando-os a processar sentimentos de inadequação e a desenvolver um senso de si mais integrado e empoderado. Sua abordagem integra empatia, validação emocional e práticas informadas pela neurociência para promover resiliência, clareza, relacionamentos mais saudáveis e bem-estar geral.",
+      "en": "Cristina Wildt is an ACA-registered counsellor with qualifications in Counselling and Psychology and is currently undertaking a postgraduate qualification in ADHD. She supports individuals and couples navigating life transitions, grief, anxiety, relationship difficulties and cross-cultural challenges, offering a safe and compassionate space for emotional reconnection. Her clinical focus includes adult ADHD, identity development, self-acceptance and couples therapy, helping partners improve communication, rebuild trust and deepen their emotional connection. Cristina has a particular interest in working with adults diagnosed with ADHD later in life, helping them process feelings of inadequacy and develop a more integrated and empowered sense of self. Her approach integrates empathy, emotional validation and neuroscience-informed practices to promote resilience, clarity, healthier relationships and overall wellbeing.",
+      "es": "Cristina Wildt es una consejera registrada en la ACA con formación en Consejería y Psicología, y actualmente cursa un posgrado en TDAH. Acompaña a personas y parejas que atraviesan transiciones de vida, duelo, ansiedad, dificultades de relación y desafíos interculturales, y ofrece un espacio seguro y compasivo para la reconexión emocional. Su enfoque clínico incluye el TDAH en adultos, el desarrollo de la identidad, la autoaceptación y la terapia de pareja, y ayuda a las parejas a mejorar la comunicación, reconstruir la confianza y profundizar la conexión emocional. Cristina tiene un interés particular en trabajar con adultos diagnosticados con TDAH en etapas tardías de la vida, ayudándolos a procesar sentimientos de insuficiencia y a desarrollar un sentido de sí mismos más integrado y fortalecido. Su enfoque integra empatía, validación emocional y prácticas informadas por la neurociencia para promover la resiliencia, la claridad, relaciones más sanas y el bienestar general."
+    },
     "address": "Mona Vale / Dee Why / Sydney CBD, NSW",
     "photo": null,
     "instagram": "https://www.instagram.com/cristina.counselling?igsh=Z3NtaHYwb2lkZzAx",
@@ -923,7 +1104,11 @@
     "phone": null,
     "email": "PaulaSarcinella@gmail.com",
     "website": "https://sacredhealing.com.au",
-    "bio": "Paula Sarcinella oferece aconselhamento holístico e cura mente-corpo-alma em Dee Why, combinando cura emocional, Reiki, Constelações Familiares, mindfulness, liberação somática, respiração terapêutica, massagem integrativa e sessões de banho sonoro.",
+    "bio": {
+      "pt-BR": "Paula Sarcinella é terapeuta integrativa e fundadora da Sacred Healing Holistic Therapies, em Dee Why, onde oferece aconselhamento holístico e cura mente-corpo-alma. Ex-jornalista, ela tem diplomas em psicoterapia sistêmica e constelações familiares, aconselhamento e psicoterapia integrativa, PNL e psicologia positiva, hipnoterapia clínica e cinesiologia aplicada, e é Reiki Master Teacher. Suas sessões combinam cura emocional, Reiki, Constelações Familiares, mindfulness, liberação somática, respiração terapêutica, massagem integrativa, banho sonoro e cura do útero. Atende em português, inglês e espanhol.",
+      "en": "Paula Sarcinella is an integrative therapist and the founder of Sacred Healing Holistic Therapies in Dee Why, offering holistic counselling and mind-body-soul healing. A former journalist, she holds diplomas in systemic psychotherapy and family constellations, integrative counselling and psychotherapy, NLP and positive psychology, clinical hypnotherapy and applied kinesiology, and is a Reiki Master Teacher. Her sessions combine emotional healing, Reiki, Family Constellations, mindfulness, somatic release, therapeutic breathwork, integrative massage, sound baths and womb healing. She works in Portuguese, English and Spanish.",
+      "es": "Paula Sarcinella es terapeuta integrativa y fundadora de Sacred Healing Holistic Therapies, en Dee Why, donde ofrece consejería holística y sanación mente-cuerpo-alma. Ex periodista, tiene diplomas en psicoterapia sistémica y constelaciones familiares, consejería y psicoterapia integrativa, PNL y psicología positiva, hipnoterapia clínica y kinesiología aplicada, y es Reiki Master Teacher. Sus sesiones combinan sanación emocional, Reiki, Constelaciones Familiares, mindfulness, liberación somática, respiración terapéutica, masaje integrativo, baños de sonido y sanación del útero. Atiende en portugués, inglés y español."
+    },
     "address": "Dee Why, NSW",
     "photo": null,
     "instagram": "https://www.instagram.com/paula.sacred.healing",
@@ -946,7 +1131,11 @@
     ],
     "email": "fernandaalves@gmail.com",
     "website": "https://www.fernandacounselling.com.au",
-    "bio": "Fernanda Alves é psicoterapeuta e psicanalista com graduação em Psicologia, oferecendo sessões de terapia em inglês e português para indivíduos, casais e adolescentes.",
+    "bio": {
+      "pt-BR": "Fernanda Alves é psicoterapeuta e psicanalista brasileira baseada em Maroochydore, na Sunshine Coast (QLD). É graduada com honours em Psicologia, membro nível 4 da Australian Counselling Association e oferece terapia em português e inglês para indivíduos, casais e adolescentes, de forma presencial e por telehealth. Sua abordagem tem base psicodinâmica e combina teoria psicanalítica, terapia centrada no cliente e práticas informadas por trauma, para questões como ansiedade, depressão, luto, relacionamentos, saúde mental perinatal e adaptação à imigração. Natural do Brasil, vive na Austrália há mais de 12 anos.",
+      "en": "Fernanda Alves is a Brazilian psychotherapist and psychoanalyst based in Maroochydore on the Sunshine Coast, QLD. She holds an Honours Degree in Psychology, is a Level 4 member of the Australian Counselling Association and offers therapy in English and Portuguese for individuals, couples and adolescents, face to face and via telehealth. Her approach has a psychodynamic base, combining psychoanalytic theory, client-centred therapy and trauma-informed practice, for concerns such as anxiety, depression, grief, relationships, perinatal mental health and immigration-related adjustment. Originally from Brazil, she has lived in Australia for over 12 years.",
+      "es": "Fernanda Alves es psicoterapeuta y psicoanalista brasileña con base en Maroochydore, en la Sunshine Coast (QLD). Tiene un título con honores (Honours) en Psicología, es miembro de nivel 4 de la Australian Counselling Association y ofrece terapia en inglés y portugués para individuos, parejas y adolescentes, de forma presencial y por telehealth. Su enfoque tiene una base psicodinámica que combina teoría psicoanalítica, terapia centrada en el cliente y prácticas informadas sobre el trauma, para temas como ansiedad, depresión, duelo, relaciones, salud mental perinatal y adaptación a la inmigración. Originaria de Brasil, vive en Australia desde hace más de 12 años."
+    },
     "address": "Sunshine Coast, QLD",
     "photo": null,
     "instagram": "https://www.instagram.com/fernanda.alves_psychoanalyst?igsh=bHNjZnU4ZjEwZzhp&utm_source=qr",
@@ -969,7 +1158,11 @@
     ],
     "email": "reception@chirofix.com.au",
     "website": "https://chirofix.com.au",
-    "bio": "Felipe Baccan é quiropraxista na Chirofix em Wolli Creek, oferecendo consultas em português e inglês.",
+    "bio": {
+      "pt-BR": "Felipe Baccan é quiropraxista, diretor e fundador da Chirofix, clínica que abriu em 2015 na Shop 5/6 Princes Hwy, em Wolli Creek. Tem Bachelor of Health Science (PD/H/PE) pela UWS e Master of Chiropractic pela Macquarie University, e imigrou do Brasil para a Austrália com a família nos anos 1990. O atendimento combina ajustes quiropráticos, liberação de tecidos moles, dry needling, bandagem e reabilitação com exercícios para dores lombares e cervicais e lesões de ombro, joelho, tornozelo, pé, punho e cotovelo. Atende em português e inglês.",
+      "en": "Felipe Baccan is a chiropractor and the director and founder of Chirofix, which he opened in 2015 at Shop 5/6 Princes Hwy, Wolli Creek. He holds a Bachelor of Health Science (PD/H/PE) from UWS and a Master of Chiropractic from Macquarie University, and moved to Australia from Brazil with his family in the 1990s. Care combines chiropractic adjustments, soft tissue release, dry needling, taping and exercise rehabilitation for lower back and neck pain and shoulder, knee, ankle, foot, wrist and elbow conditions. He consults in Portuguese and English.",
+      "es": "Felipe Baccan es quiropráctico, director y fundador de Chirofix, clínica que abrió en 2015 en Shop 5/6 Princes Hwy, Wolli Creek. Tiene un Bachelor of Health Science (PD/H/PE) de la UWS y un Master of Chiropractic de la Macquarie University, y emigró de Brasil a Australia con su familia en los años noventa. La atención combina ajustes quiroprácticos, liberación de tejidos blandos, punción seca, vendaje y rehabilitación con ejercicios para dolor lumbar y cervical y lesiones de hombro, rodilla, tobillo, pie, muñeca y codo. Atiende en portugués e inglés."
+    },
     "address": "Wolli Creek, NSW",
     "photo": null,
     "instagram": "https://instagram.com/chirofix",
@@ -979,12 +1172,13 @@
   },
   {
     "slug": "lidane-barros",
-    "name": "Lidane Barros",
+    "name": "Lidiane Barros",
     "service": "chiropractor",
     "country": "brazil",
     "languages": [
       "portuguese",
-      "english"
+      "english",
+      "spanish"
     ],
     "suburb": "wolli-creek",
     "phone": [
@@ -992,7 +1186,11 @@
     ],
     "email": "reception@chirofix.com.au",
     "website": "https://chirofix.com.au",
-    "bio": "Lidane Barros é quiropraxista na Chirofix em Wolli Creek, oferecendo consultas em português e inglês.",
+    "bio": {
+      "pt-BR": "Lidiane Barros é quiropraxista na Chirofix, em Wolli Creek (shop 5/6 Princes Hwy), com mais de 18 anos de experiência clínica. É bacharel em Quiropraxia pela Universidade Feevale, no Brasil, mestre em Quiropraxia pelo Madrid College of Chiropractic, na Espanha, e tem MBA em Gestão em Saúde pela FGV. Atende queixas como dor lombar, dor no pescoço, ciática, dor de cabeça e dor no ombro, com ajustes quiropráticos, técnicas de liberação muscular, agulhamento a seco e exercícios de reabilitação personalizados. Atende em português, inglês e espanhol.",
+      "en": "Lidiane Barros is a chiropractor at Chirofix in Wolli Creek (shop 5/6 Princes Hwy), with more than 18 years of clinical experience. She holds a Bachelor of Chiropractic from Feevale University in Brazil, a Master of Chiropractic from Madrid College of Chiropractic in Spain and an MBA in Health Management from FGV. She treats concerns such as lower back pain, neck pain, sciatica, headaches and shoulder pain, using chiropractic adjustments, muscle release techniques, dry needling and tailored rehabilitation exercises. She consults in English, Portuguese and Spanish.",
+      "es": "Lidiane Barros es quiropráctica en Chirofix, en Wolli Creek (shop 5/6 Princes Hwy), con más de 18 años de experiencia clínica. Es licenciada en Quiropráctica por la Universidade Feevale, en Brasil, tiene una maestría en Quiropráctica por el Madrid College of Chiropractic, en España, y un MBA en Gestión de la Salud por la FGV. Atiende molestias como dolor lumbar, dolor de cuello, ciática, dolor de cabeza y dolor de hombro, con ajustes quiroprácticos, técnicas de liberación muscular, punción seca y ejercicios de rehabilitación personalizados. Atiende en español, portugués e inglés."
+    },
     "address": "Wolli Creek, NSW",
     "photo": null,
     "instagram": "https://instagram.com/chirofix",
@@ -1015,7 +1213,11 @@
     ],
     "email": "reception@chirofix.com.au",
     "website": "https://chirofix.com.au",
-    "bio": "Tainan Marchiori é quiropraxista na Chirofix em Wolli Creek, oferecendo consultas em português e inglês.",
+    "bio": {
+      "pt-BR": "Tainan Marchiori é quiropraxista na Chirofix, clínica fundada em 2015 por Felipe Baccan, que imigrou do Brasil, e localizada desde março de 2026 na Shop 5/6 Princes Hwy, em Wolli Creek. A clínica oferece ajustes quiropráticos, liberação de tecidos moles, agulhamento a seco, bandagem esportiva e kinesio, palmilhas Foot Levelers sob medida e reabilitação com exercícios. As consultas com Tainan Marchiori são feitas em português e inglês.",
+      "en": "Tainan Marchiori is a chiropractor at Chirofix, a clinic founded in 2015 by Felipe Baccan, who immigrated from Brazil, and located at Shop 5/6 Princes Hwy, Wolli Creek, since March 2026. The clinic offers chiropractic adjustments, soft tissue release, dry needling, sports and Kinesio taping, custom-made Foot Levelers orthotics and exercise rehabilitation. Consultations with Tainan Marchiori are available in Portuguese and English.",
+      "es": "Tainan Marchiori es profesional de quiropráctica en Chirofix, una clínica fundada en 2015 por Felipe Baccan, que emigró de Brasil, y ubicada desde marzo de 2026 en Shop 5/6 Princes Hwy, Wolli Creek. La clínica ofrece ajustes quiroprácticos, liberación de tejidos blandos, punción seca, vendaje deportivo y kinesiológico, plantillas Foot Levelers a medida y rehabilitación con ejercicios. Las consultas con Tainan Marchiori se realizan en portugués e inglés."
+    },
     "address": "Wolli Creek, NSW",
     "photo": null,
     "instagram": "https://instagram.com/chirofix",
@@ -1038,7 +1240,11 @@
     ],
     "email": "raf@backupclinic.com.au",
     "website": "https://www.backupclinic.com.au",
-    "bio": "Formado em 2016 pela Macquarie University de Sydney. Ex-nadador profissional com o trabalho focado na postura, performance e longevidade.",
+    "bio": {
+      "pt-BR": "Rafael Fabrega Teixeira é quiropraxista brasileiro e atende na Backup Clinic, na Suite 7.04, Level 7, 2-14 Kings Cross Road, em Potts Point. Formou-se em 2016 pela Macquarie University, em Sydney, com Bachelor of Chiropractic Science e Master of Chiropractic, é membro da Chiropractic Australia desde 2015 e é credenciado em dry needling e SFMA (Selective Functional Movement Assessment). Ex-integrante da seleção brasileira de natação por uma década, trabalha com foco em postura, performance e longevidade, combinando quiropraxia, liberação miofascial, dry needling e exercícios. Atende em português e inglês.",
+      "en": "Rafael Fabrega Teixeira is a Brazilian chiropractor practising at Backup Clinic, Suite 7.04, Level 7, 2-14 Kings Cross Road, Potts Point. He graduated from Macquarie University in Sydney in 2016 with a Bachelor of Chiropractic Science and a Master of Chiropractic, has been a member of Chiropractic Australia since 2015 and is an accredited dry needling and SFMA (Selective Functional Movement Assessment) practitioner. A former member of the Brazilian national swim team for a decade, he focuses on posture, performance and longevity, combining chiropractic care, myofascial release, dry needling and exercise programs. He consults in Portuguese and English.",
+      "es": "Rafael Fabrega Teixeira es un quiropráctico brasileño que atiende en Backup Clinic, Suite 7.04, Level 7, 2-14 Kings Cross Road, Potts Point. Se graduó en 2016 en la Macquarie University de Sydney con un Bachelor of Chiropractic Science y un Master of Chiropractic, es miembro de Chiropractic Australia desde 2015 y está acreditado en punción seca (dry needling) y SFMA (Selective Functional Movement Assessment). Exintegrante de la selección brasileña de natación durante una década, trabaja con enfoque en postura, rendimiento y longevidad, combinando quiropráctica, liberación miofascial, punción seca y programas de ejercicio. Atiende en portugués e inglés."
+    },
     "address": "Potts Point, NSW",
     "photo": null,
     "instagram": "https://www.instagram.com/dr.raf.chiro/",
@@ -1055,14 +1261,18 @@
       "portuguese",
       "english"
     ],
-    "suburb": "dee-why",
+    "suburb": "warriewood",
     "phone": [
       "0451 025 055"
     ],
     "email": "bianca@freemotionphysio.com.au",
     "website": "https://freemotionphysio.com.au/",
-    "bio": "Fisioterapeuta muito experiente, extremamente profissional e um ser humano incrível. Atende em cima do Dee Why Hotel, acesso pelo Dee Why Grand. Atende workers compensation.",
-    "address": "Dee Why / Northern Beaches, NSW",
+    "bio": {
+      "pt-BR": "Bianca Moreno é fisioterapeuta brasileira na Free Motion Physiotherapy, nas Northern Beaches, com mais de 20 anos de experiência e pós-graduação em trauma e distúrbios ortopédicos. Com foco em fisioterapia manual, ela trata dor nas costas, lesões esportivas, reabilitação pós-cirúrgica e condições crônicas, e oferece aulas de Strength & Balance e o programa GLA:D para artrose de quadril e joelho. Atende na Suite 38/90 Mona Vale Rd, em Warriewood. Aceita workers compensation e atende em português e inglês.",
+      "en": "Bianca Moreno is a Brazilian physiotherapist at Free Motion Physiotherapy on the Northern Beaches, with more than 20 years of experience and postgraduate training in trauma and orthopaedic disorders. Focused on manual physiotherapy, she treats back pain, sports injuries, post-surgical rehabilitation and chronic conditions, and runs Strength & Balance Classes and the GLA:D program for hip and knee osteoarthritis. She sees patients at Suite 38/90 Mona Vale Rd, Warriewood. She accepts workers compensation and consults in Portuguese and English.",
+      "es": "Bianca Moreno es fisioterapeuta brasileña en Free Motion Physiotherapy, en las Northern Beaches, con más de 20 años de experiencia y posgrado en traumatología y trastornos ortopédicos. Con enfoque en fisioterapia manual, atiende dolor de espalda, lesiones deportivas, rehabilitación posquirúrgica y condiciones crónicas, y ofrece clases de Strength & Balance y el programa GLA:D para artrosis de cadera y rodilla. Atiende en la Suite 38/90 Mona Vale Rd, en Warriewood. Acepta workers compensation y atiende en portugués e inglés."
+    },
+    "address": "Warriewood, NSW",
     "photo": null,
     "instagram": null,
     "states": [
@@ -1087,7 +1297,11 @@
     ],
     "email": null,
     "website": "https://bgphysio.com.au/",
-    "bio": "Profissional e muito bem recomendado na comunidade brasileira.",
+    "bio": {
+      "pt-BR": "Bruno Gragnani é fisioterapeuta brasileiro formado pela Universidade Metodista de São Paulo em 2011, com registro geral de fisioterapeuta na Austrália desde 2019 e membro da Australian Physiotherapy Association (APA). Na BG Physiotherapy, na 38/90 Mona Vale Road, em Warriewood, nos Northern Beaches, ele atende com foco em reabilitação de lesões esportivas e ortopédicas, dor no joelho, fisioterapia para Brazilian Jiu-Jitsu e NDIS, além de visitas domiciliares e telehealth. Ele cursou o Master of Applied Science (Research) na La Trobe University, com pesquisa sobre dor patelofemoral, e atende em português e inglês.",
+      "en": "Bruno Gragnani is a Brazilian physiotherapist who graduated from the Methodist University of São Paulo in 2011, gained general physiotherapy registration in Australia in 2019 and is a member of the Australian Physiotherapy Association (APA). At BG Physiotherapy, 38/90 Mona Vale Road, Warriewood, on the Northern Beaches, he focuses on sports and orthopaedic injury rehabilitation, knee pain, Brazilian Jiu-Jitsu physiotherapy and NDIS physiotherapy, with home visits and telehealth also available. He undertook a Master of Applied Science (Research) at La Trobe University on patellofemoral pain and speaks Portuguese and English.",
+      "es": "Bruno Gragnani es fisioterapeuta brasileño, graduado en la Universidade Metodista de São Paulo en 2011, con registro general como fisioterapeuta en Australia desde 2019 y miembro de la Australian Physiotherapy Association (APA). En BG Physiotherapy, en 38/90 Mona Vale Road, Warriewood, en los Northern Beaches, atiende con enfoque en rehabilitación de lesiones deportivas y ortopédicas, dolor de rodilla, fisioterapia para Brazilian Jiu-Jitsu y NDIS, además de visitas a domicilio y telehealth. Cursó el Master of Applied Science (Research) en La Trobe University, con una investigación sobre dolor patelofemoral, y atiende en portugués e inglés."
+    },
     "address": "Warriewood / Northern Beaches, NSW",
     "photo": null,
     "instagram": "https://www.instagram.com/bg.physiotherapy",
@@ -1111,7 +1325,11 @@
     ],
     "email": "anakmoreira@hotmail.com",
     "website": null,
-    "bio": "Fisioterapia com 25 anos de experiência (9 anos em Sydney), especialista em reeducação postural, tratamento de dores na coluna, ATM (bruxismo) e liberação miofascial.",
+    "bio": {
+      "pt-BR": "Ana Karine Moreira tem 25 anos de experiência em fisioterapia, 9 deles em Sydney, e atende em Waterloo. O seu trabalho tem foco em reeducação postural, dores na coluna, ATM e bruxismo, liberação miofascial e mobilidade, com massagem terapêutica, Pilates, ventosaterapia e bandagem. Ela atende em português, inglês e espanhol, o que permite que pacientes de diferentes origens sejam atendidos no idioma de sua preferência.",
+      "en": "Ana Karine Moreira has 25 years of experience in physiotherapy, nine of them in Sydney, and works in Waterloo. Her work focuses on postural re-education, spinal pain, TMJ and bruxism, myofascial release and mobility, using hands-on massage, Pilates, cupping and taping. She works in Portuguese, English and Spanish, so clients from different backgrounds can be seen in the language they prefer.",
+      "es": "Ana Karine Moreira tiene 25 años de experiencia en fisioterapia, nueve de ellos en Sydney, y atiende en Waterloo. Su trabajo tiene enfoque en reeducación postural, dolor de columna, ATM y bruxismo, liberación miofascial y movilidad, con masaje terapéutico, Pilates, ventosaterapia y vendaje. Atiende en portugués, inglés y español, para que pacientes de distintos orígenes puedan ser atendidos en el idioma que prefieran."
+    },
     "address": "Waterloo, NSW",
     "photo": null,
     "instagram": "https://www.instagram.com/bodyrestoresydney",
@@ -1138,7 +1356,11 @@
     ],
     "email": null,
     "website": "https://www.valleyflows.com",
-    "bio": "Atende em um studio em Collaroy e também tem seu próprio studio localizado em Central Coast, um lugar muito bonito e rodeado de natureza e paz.",
+    "bio": {
+      "pt-BR": "Mariane Dias é instrutora de Pilates formada pela Polestar Pilates, com formação em fisioterapia no Brasil e pós-graduação em Geriatria e Gerontologia e em Fisioterapia Esportiva. Atende em um studio em Collaroy e tem seu próprio studio, o Valley Flows, na 51 Gregory St, em Wyoming, na Central Coast. No Valley Flows, oferece aulas particulares e em grupos de até 4 pessoas, com Reformer, Wunda Chair e Ladder Barrel, incluindo aulas para atletas, gestação e pós-parto, reabilitação e longevidade. Atende em português e inglês.",
+      "en": "Mariane Dias is a Pilates instructor trained by Polestar Pilates, with a physiotherapy background from Brazil and postgraduate studies in Geriatrics and Gerontology and in Sports Physiotherapy. She teaches at a studio in Collaroy and runs her own studio, Valley Flows, at 51 Gregory St, Wyoming, on the Central Coast. At Valley Flows she offers private sessions and small groups of up to four, using the Reformer, Wunda Chair and Ladder Barrel, with classes for athletes, pregnancy and postpartum, rehabilitation and longevity. She speaks Portuguese and English.",
+      "es": "Mariane Dias es instructora de Pilates formada por Polestar Pilates, con formación en fisioterapia en Brasil y posgrados en Geriatría y Gerontología y en Fisioterapia Deportiva. Da clases en un estudio en Collaroy y tiene su propio estudio, Valley Flows, en 51 Gregory St, Wyoming, en la Central Coast. En Valley Flows ofrece sesiones privadas y en grupos de hasta 4 personas, con Reformer, Wunda Chair y Ladder Barrel, e incluye clases para atletas, embarazo y posparto, rehabilitación y longevidad. Atiende en portugués e inglés."
+    },
     "address": "Collaroy / Central Coast, NSW",
     "photo": null,
     "instagram": "https://www.instagram.com/valleyflows",
@@ -1159,7 +1381,11 @@
     "phone": null,
     "email": null,
     "website": null,
-    "bio": "Pet Grooming Domiciliar",
+    "bio": {
+      "pt-BR": "Monise Sbrissa é pet groomer com base em Ryde e oferece grooming a domicílio, atendendo os pets na casa dos tutores. Além do grooming, ela trabalha com cuidados com a pele dos animais e dá atenção especial a pets idosos ou com problemas de saúde ou limitações físicas. Seu perfil também divulga serviços de pet sitting. Ela atende em português e inglês.",
+      "en": "Monise Sbrissa is a pet groomer based in Ryde who offers at-home grooming, visiting pets in their owners' homes. Alongside grooming, she works with pet skin care and gives special attention to older pets and pets with health issues or physical conditions. Her profile also promotes pet sitting services. She speaks Portuguese and English.",
+      "es": "Monise Sbrissa es peluquera de mascotas (pet groomer) con base en Ryde y ofrece grooming a domicilio, atendiendo a las mascotas en la casa de sus dueños. Además del grooming, trabaja con el cuidado de la piel de los animales y presta atención especial a mascotas mayores o con problemas de salud o limitaciones físicas. Su perfil también promociona servicios de cuidado de mascotas (pet sitting). Habla portugués e inglés."
+    },
     "address": "Ryde, NSW",
     "photo": null,
     "instagram": "https://www.instagram.com/mon.petgroomer",
@@ -1182,7 +1408,11 @@
     ],
     "email": "info@hrseekers.com",
     "website": "https://hrseekers.com",
-    "bio": "A HR Seekers é uma consultoria de Recursos Humanos sediada em Sydney, Austrália, que apoia pequenas e médias empresas com soluções práticas e estratégicas. Com uma abordagem não tradicional, foca em cultura, desenvolvimento de lideranças e estruturas eficientes, ajudando negócios a crescer de forma sustentável, sem burocracia desnecessária.",
+    "bio": {
+      "pt-BR": "A HR Seekers é uma consultoria de Recursos Humanos sediada em Sydney, Austrália, que apoia pequenas e médias empresas com soluções práticas e estratégicas. Com uma abordagem não tradicional, foca em cultura, desenvolvimento de lideranças e estruturas eficientes, ajudando negócios a crescer de forma sustentável, sem burocracia desnecessária.",
+      "en": "HR Seekers is a Human Resources consultancy based in Sydney, Australia, that supports small and medium-sized businesses with practical and strategic solutions. With a non-traditional approach, it focuses on culture, leadership development and efficient structures, helping businesses grow sustainably without unnecessary bureaucracy.",
+      "es": "HR Seekers es una consultora de Recursos Humanos con sede en Sydney, Australia, que apoya a pequeñas y medianas empresas con soluciones prácticas y estratégicas. Con un enfoque no tradicional, se centra en la cultura, el desarrollo de liderazgo y estructuras eficientes, y ayuda a los negocios a crecer de forma sostenible, sin burocracia innecesaria."
+    },
     "address": "Sydney, NSW",
     "photo": null,
     "instagram": "https://www.instagram.com/hr_seekers",
@@ -1205,7 +1435,11 @@
     ],
     "email": "anacarolina.luca@hotmail.com",
     "website": null,
-    "bio": "Eu sou agente de viagem que trabalha para uma companhia brasileira, residente na Austrália e ajudo muitos brasileiros com buscas e valores de passagens. Vai ser um prazer ajudar.",
+    "bio": {
+      "pt-BR": "Carol de Luca é agente de viagens brasileira, mora em Sydney e trabalha para uma companhia brasileira. Ela ajuda muitos brasileiros que vivem na Austrália com a busca de passagens e a comparação de valores. Atende em português e em inglês, então os clientes podem tirar dúvidas e organizar a compra das passagens no próprio idioma, com uma agente que também mora na Austrália.",
+      "en": "Carol de Luca is a Brazilian travel agent who lives in Sydney and works for a Brazilian company. She helps many Brazilians living in Australia search for flights and compare fares. She works in Portuguese and English, so clients can ask questions and arrange their ticket purchases in their own language, with an agent who also lives in Australia.",
+      "es": "Carol de Luca es una agente de viajes brasileña que vive en Sydney y trabaja para una empresa brasileña. Ayuda a muchos brasileños que viven en Australia a buscar pasajes y comparar precios. Atiende en portugués y en inglés, por lo que los clientes pueden resolver sus dudas y organizar la compra de sus pasajes en su propio idioma, con una agente que también vive en Australia."
+    },
     "address": "Sydney, Australia",
     "photo": null,
     "instagram": null,
@@ -1228,7 +1462,11 @@
     ],
     "email": "hello@nbskinrejuvenation.com.au",
     "website": "https://www.nbskinrejuvenation.com.au",
-    "bio": "Tenho 17 anos de experiência, também dou treinamento de estética e lasers para clínicas na Austrália. Tenho tratamentos de anti-aging, pigmentação, face lift, Skintag removal, laser para fungus e microneedling para crescimento capilar e muito mais =)",
+    "bio": {
+      "pt-BR": "Lilian de Medeiros Araujo é a fundadora brasileira e terapeuta principal da NB Skin Rejuvenation, clínica de estética na Pacific Parade, em Dee Why, nos Northern Beaches. Nutricionista de formação, tem 17 anos de experiência, certificações em segurança a laser, depilação a laser e laser e luz intensa pulsada (IPL), e também oferece treinamento em estética e lasers para clínicas na Austrália. Entre os tratamentos estão anti-aging, pigmentação, remoção de skin tags, laser para fungos nas unhas, microagulhamento (inclusive para crescimento capilar), HIFU e radiofrequência fracionada, com atendimento em português e inglês.",
+      "en": "Lilian de Medeiros Araujo is the Brazilian founder and head therapist of NB Skin Rejuvenation, an aesthetics clinic on Pacific Parade in Dee Why on the Northern Beaches. A qualified nutritionist, she has 17 years of experience, holds certificates in laser safety, laser hair removal, and laser and intense pulsed light (IPL), and also provides aesthetics and laser training to clinics in Australia. Treatments include anti-ageing, pigmentation, skin tag removal, laser for nail fungus, microneedling (including for hair growth), HIFU and fractional RF, with services in Portuguese and English.",
+      "es": "Lilian de Medeiros Araujo es la fundadora brasileña y terapeuta principal de NB Skin Rejuvenation, una clínica estética en Pacific Parade, Dee Why, en los Northern Beaches. Nutricionista de formación, tiene 17 años de experiencia, certificaciones en seguridad láser, depilación láser y láser y luz pulsada intensa (IPL), y además ofrece capacitación en estética y láseres para clínicas en Australia. Entre sus tratamientos están antienvejecimiento, pigmentación, eliminación de acrocordones (skin tags), láser para hongos en las uñas, microagujas (incluso para el crecimiento del cabello), HIFU y radiofrecuencia fraccionada, con atención en portugués e inglés."
+    },
     "address": "Dee Why, Northern Beaches, NSW",
     "photo": null,
     "instagram": "https://www.instagram.com/nb_skin_rejuv",
@@ -1242,13 +1480,19 @@
     "service": "lawyer",
     "country": "brazil",
     "languages": [
-      "portuguese"
+      "portuguese",
+      "english",
+      "italian"
     ],
     "suburb": "australia-wide",
     "phone": null,
     "email": "contact@zeollalaw.com",
     "website": "https://www.zeollalaw.com",
-    "bio": "Daniel Zeolla é o principal lawyer at Zeolla Law. Zeolla é advogado na Austrália, Brasil e Portugal.",
+    "bio": {
+      "pt-BR": "Daniel Zeolla é fundador e principal lawyer da Zeolla Law, com escritórios em Broadbeach Waters (Queensland), Leiria (Portugal) e Itaim Bibi, em São Paulo. É Australian Legal Practitioner, Barrister & Solicitor na Nova Zelândia e advogado inscrito na Ordem dos Advogados de Portugal e na OAB. Atua em imigração e vistos, cancelamento de visto (s501), revisão administrativa e judicial, direito societário e comercial, investimento estrangeiro, litígios civis, Golden Visa em Portugal e questões de família e sucessão entre países. Atende em português, inglês e italiano, por vídeo ou presencialmente.",
+      "en": "Daniel Zeolla is the founder and principal lawyer of Zeolla Law, with offices in Broadbeach Waters (Queensland), Leiria (Portugal) and Itaim Bibi, São Paulo. He is an Australian Legal Practitioner, a Barrister & Solicitor in New Zealand and an advogado admitted to the Ordem dos Advogados in Portugal and the OAB in Brazil. His practice covers immigration and visas, visa cancellation (s501), merits and judicial review, corporate and commercial law, foreign investment, civil litigation, the Portugal Golden Visa and cross-border family and succession matters. He consults in Portuguese, English and Italian, by video or in person.",
+      "es": "Daniel Zeolla es fundador y principal lawyer de Zeolla Law, con oficinas en Broadbeach Waters (Queensland), Leiria (Portugal) e Itaim Bibi, São Paulo. Es Australian Legal Practitioner, Barrister & Solicitor en Nueva Zelanda y abogado inscrito en la Ordem dos Advogados de Portugal y en la OAB de Brasil. Su práctica abarca inmigración y visas, cancelación de visas (s501), revisión administrativa y judicial, derecho societario y comercial, inversión extranjera, litigios civiles, Golden Visa en Portugal y asuntos de familia y sucesión entre países. Atiende en portugués, inglés e italiano, por video o en persona."
+    },
     "address": "Australia (all states)",
     "photo": null,
     "instagram": "https://www.instagram.com/zeollalaw",
@@ -1271,7 +1515,11 @@
     ],
     "email": "lila_manganaro@hotmail.com",
     "website": null,
-    "bio": "Te ensino a se alimentar de acordo com seu objetivo.\n🎓 Nutrição Esportiva, Clínica e Exames laboratoriais\n🎓 Tentantes e Gestantes\nAtendimento: Presencial ou Online",
+    "bio": {
+      "pt-BR": "Lilaine Manganaro é nutricionista e atende em Dee Why, com consultas presenciais ou on-line. Ela ensina cada paciente a se alimentar de acordo com o próprio objetivo, com foco em nutrição esportiva, nutrição clínica e interpretação de exames laboratoriais. Também acompanha mulheres tentantes e gestantes. As consultas são realizadas em português e em inglês.",
+      "en": "Lilaine Manganaro is a nutritionist based in Dee Why who offers consultations in person or online. She teaches clients to eat according to their own goals, with a focus on sports nutrition, clinical nutrition and lab test interpretation. She also supports women who are trying to conceive and pregnant women. Consultations are available in Portuguese and English.",
+      "es": "Lilaine Manganaro es nutricionista y atiende en Dee Why, con consultas presenciales o en línea. Enseña a cada paciente a alimentarse de acuerdo con su propio objetivo, con enfoque en nutrición deportiva, nutrición clínica e interpretación de exámenes de laboratorio. También acompaña a mujeres que buscan un embarazo y a gestantes. Las consultas se realizan en portugués e inglés."
+    },
     "address": "Dee Why, NSW",
     "photo": null,
     "instagram": "https://www.instagram.com/lilainemanganaronutri/",
@@ -1294,7 +1542,11 @@
     ],
     "email": "aproeti@gmail.com",
     "website": null,
-    "bio": "Método Renata França, tratamentos faciais e corporais and specialist in Lymphatic Drainage, Drenomodeling, skin cleansing.",
+    "bio": {
+      "pt-BR": "Aline Proeti Beauty Care é o negócio de estética de Aline Proeti, que atende em Southport. Ela trabalha com o Método Renata França e oferece tratamentos faciais e corporais, com foco em drenagem linfática, Drenomodeling, massagem modeladora e limpeza de pele. Em seu perfil, ela descreve sua abordagem como um jeito brasileiro de cuidar do corpo. O atendimento é em português e inglês.",
+      "en": "Aline Proeti Beauty Care is the beauty business of Aline Proeti, based in Southport. She works with the Método Renata França and offers facial and body treatments, focused on lymphatic drainage, Drenomodeling, sculpting massage and skin cleansing. Her profile describes her approach as a Brazilian way of caring for the body. She speaks Portuguese and English.",
+      "es": "Aline Proeti Beauty Care es el negocio de estética de Aline Proeti, que atiende en Southport. Trabaja con el Método Renata França y ofrece tratamientos faciales y corporales, con enfoque en drenaje linfático, Drenomodeling, masaje modelador y limpieza de piel. En su perfil describe su enfoque como una forma brasileña de cuidar el cuerpo. Atiende en portugués e inglés."
+    },
     "address": "Southport, QLD",
     "photo": null,
     "instagram": "https://www.instagram.com/aproeti.beautycare",
@@ -1321,7 +1573,11 @@
     ],
     "email": "cristina.wulfhorst@hotmail.com",
     "website": "https://www.thehartcentre.com.au/psychologist/cristina/",
-    "bio": "Moro em Sydney desde 2006, onde tive uma bolsa integral de doutorado sobre adaptação, integração e casamentos interculturais de brasileiros na Austrália. Professora na USYD e ACAP em migração e psicologia. Desde 1999 trabalho com pesquisa, clínica e empresas com o tema da migração e saúde mental, incluindo projetos de pesquisa na UAB em Barcelona na Espanha e pós-graduação em Munique na Alemanha.",
+    "bio": {
+      "pt-BR": "Moro em Sydney desde 2006, onde tive uma bolsa integral de doutorado sobre adaptação, integração e casamentos interculturais de brasileiros na Austrália. Professora na USYD e ACAP em migração e psicologia. Desde 1999 trabalho com pesquisa, clínica e empresas com o tema da migração e saúde mental, incluindo projetos de pesquisa na UAB em Barcelona na Espanha e pós-graduação em Munique na Alemanha.",
+      "en": "Cristina Wulfhorst, PhD, has lived in Sydney since 2006, where she held a full doctoral scholarship researching the adaptation, integration and intercultural marriages of Brazilians in Australia. She lectures in migration and psychology at USYD and ACAP. Since 1999 she has worked in research, clinical practice and with businesses on migration and mental health, including research projects at UAB in Barcelona, Spain, and postgraduate studies in Munich, Germany.",
+      "es": "Cristina Wulfhorst, PhD, vive en Sydney desde 2006, donde obtuvo una beca completa de doctorado para investigar la adaptación, la integración y los matrimonios interculturales de brasileños en Australia. Es docente de migración y psicología en USYD y ACAP. Desde 1999 trabaja en investigación, en la práctica clínica y con empresas en temas de migración y salud mental, incluidos proyectos de investigación en la UAB de Barcelona, España, y estudios de posgrado en Múnich, Alemania."
+    },
     "address": "Randwick / Bondi Junction, NSW",
     "photo": null,
     "instagram": null,
@@ -1346,7 +1602,11 @@
     ],
     "email": "terapiashmlu@gmail.com",
     "website": null,
-    "bio": "Trabalho com a energia do feminino através da limpeza uterina, guiando mulheres em processos profundos de liberação e reconexão. Também facilito ativações de kundalini para homens e mulheres, auxiliando no despertar energético e expansão da consciência.",
+    "bio": {
+      "pt-BR": "Jeniffer Conceição Lima é terapeuta holística brasileira em Redcliffe, no norte de Brisbane, e trabalha com a energia do feminino e o despertar espiritual. Por meio da limpeza uterina, ela guia mulheres em processos profundos de liberação e reconexão, e também facilita ativações de kundalini para homens e mulheres, voltadas ao despertar energético e à expansão da consciência. Atende em português, italiano, espanhol e inglês.",
+      "en": "Jeniffer Conceição Lima is a Brazilian holistic therapist in Redcliffe, North Brisbane, whose work centres on feminine energy and spiritual awakening. Through womb cleansing, she guides women through deep processes of release and reconnection, and she also facilitates kundalini activations for men and women, focused on energetic awakening and the expansion of consciousness. She works in Portuguese, Italian, Spanish and English.",
+      "es": "Jeniffer Conceição Lima es una terapeuta holística brasileña en Redcliffe, en el norte de Brisbane, que trabaja con la energía de lo femenino y el despertar espiritual. A través de la limpieza uterina, guía a mujeres en procesos profundos de liberación y reconexión, y también facilita activaciones de kundalini para hombres y mujeres, orientadas al despertar energético y a la expansión de la conciencia. Atiende en portugués, italiano, español e inglés."
+    },
     "address": "Redcliffe (North Brisbane)",
     "photo": null,
     "instagram": "https://www.instagram.com/jeniffer.lima.desperta/",
@@ -1372,7 +1632,11 @@
     ],
     "email": "daiana_scherer@hotmail.com",
     "website": null,
-    "bio": "Beauty & Massage Therapist com mais de 13 anos de experiência na área estética e terapêutica. Especializada em massagens corporais e tratamentos estéticos avançados, incluindo pós-operatório. Profissional registrada na Austrália, dedicada a promover bem-estar, recuperação e resultados personalizados para cada cliente.",
+    "bio": {
+      "pt-BR": "Beauty & Massage Therapist com mais de 13 anos de experiência na área estética e terapêutica. Especializada em massagens corporais e tratamentos estéticos avançados, incluindo pós-operatório. Profissional registrada na Austrália, dedicada a promover bem-estar, recuperação e resultados personalizados para cada cliente.",
+      "en": "Beauty & Massage Therapist with more than 13 years of experience in aesthetic and therapeutic work. Specialising in body massage and advanced aesthetic treatments, including post-operative care. A registered professional in Australia, dedicated to promoting wellbeing, recovery and personalised results for each client.",
+      "es": "Beauty & Massage Therapist con más de 13 años de experiencia en el área estética y terapéutica. Especializada en masajes corporales y tratamientos estéticos avanzados, incluido el posoperatorio. Profesional registrada en Australia, dedicada a promover el bienestar, la recuperación y resultados personalizados para cada cliente."
+    },
     "address": "Zetland / Maroubra, NSW",
     "photo": null,
     "instagram": "https://www.instagram.com/masdagebydai/",
@@ -1395,7 +1659,11 @@
     ],
     "email": "psigabrielam@outlook.com",
     "website": "https://www.gabrielamarquespsicoterapia.com/",
-    "bio": "Psicoterapeuta registrada na ACA (Member No. 19917) e Counsellor credenciada pelo Victims Services NSW (Provider No. A2909). Oferece apoio a vítimas de violência, trauma e a imigrantes que enfrentam desafios emocionais.",
+    "bio": {
+      "pt-BR": "Gabriela Marques é psicoterapeuta brasileira registrada na ACA (Australian Counselling Association, Level 4, Member No. 19917) e Counsellor credenciada pelo Victims Services NSW (Provider No. A2909). Formada em Psicologia (2015) e com pós-graduação em Direitos Humanos (2019), atende online, em português e inglês, brasileiros que vivem na Austrália e em outros países. Seu trabalho tem foco em violência e trauma, além de ansiedade, autoestima, padrões de relacionamento, identidade, pertencimento e adaptação cultural, com base em TCC e cuidado informado pelo trauma.",
+      "en": "Gabriela Marques is a Brazilian psychotherapist registered with the ACA (Australian Counselling Association, Level 4, Member No. 19917) and a Counsellor accredited by Victims Services NSW (Provider No. A2909). She holds a degree in Psychology (2015) and a postgraduate qualification in Human Rights (2019), and works online with Brazilians living in Australia and other countries, in Portuguese and English. Her work focuses on violence and trauma, as well as anxiety, self-esteem, relationship patterns, identity, belonging and cultural adaptation, drawing on CBT and trauma-informed care.",
+      "es": "Gabriela Marques es psicoterapeuta brasileña registrada en la ACA (Australian Counselling Association, Level 4, Member No. 19917) y Counsellor acreditada por Victims Services NSW (Provider No. A2909). Es licenciada en Psicología (2015), tiene un posgrado en Derechos Humanos (2019) y atiende en línea, en portugués e inglés, a brasileños que viven en Australia y en otros países. Su trabajo tiene enfoque en violencia y trauma, además de ansiedad, autoestima, patrones de relación, identidad, pertenencia y adaptación cultural, con base en la TCC y la atención informada por el trauma."
+    },
     "address": "Online (Australia-wide)",
     "photo": null,
     "instagram": "https://www.instagram.com/psigabrielamarques/",
@@ -1421,7 +1689,11 @@
     ],
     "email": "study@linkstudy.com.au",
     "website": "https://www.linkstudy.com.br",
-    "bio": "A Link Study é uma agência especializada em intercâmbio e educação internacional, há 19 anos no mercado, com agências no Brasil e na Austrália e suporte completo para quem deseja estudar na Austrália e em outros destinos.",
+    "bio": {
+      "pt-BR": "A Link Study é uma agência de intercâmbio e educação internacional com 19 anos de mercado e agências no Brasil (São Paulo e Curitiba) e na Austrália (Gold Coast, Sydney e Brisbane). Atende quem deseja estudar na Austrália, no Canadá e na Irlanda, com cursos de idiomas, cursos técnicos, graduação, pós-graduação, programas de estudo e trabalho, Job Help Austrália e Demi Pair. A agência faz a aplicação do visto e ajuda com passagens, acomodação, seguro saúde e orientação pré-embarque, com suporte antes, durante e depois do intercâmbio. O atendimento é em português e inglês.",
+      "en": "Link Study is a study abroad and international education agency with 19 years in the market and offices in Brazil (São Paulo and Curitiba) and Australia (Gold Coast, Sydney and Brisbane). It helps students go to Australia, Canada and Ireland, with language courses, vocational courses, undergraduate and postgraduate study, study and work programs, Job Help Austrália and Demi Pair. The agency handles visa applications and assists with flights, accommodation, health insurance and pre-departure guidance, with support before, during and after the exchange. Services are offered in Portuguese and English.",
+      "es": "Link Study es una agencia de intercambio y educación internacional con 19 años en el mercado y oficinas en Brasil (São Paulo y Curitiba) y en Australia (Gold Coast, Sydney y Brisbane). Atiende a quienes desean estudiar en Australia, Canadá e Irlanda, con cursos de idiomas, cursos técnicos, grado, posgrado, programas de estudio y trabajo, Job Help Austrália y Demi Pair. La agencia gestiona la solicitud de visa y ayuda con pasajes, alojamiento, seguro de salud y orientación previa al viaje, con apoyo antes, durante y después del intercambio. La atención es en portugués e inglés."
+    },
     "address": "Surfers Paradise, QLD / Sydney CBD, NSW",
     "photo": null,
     "instagram": "https://www.instagram.com/linkstudy_intercambio/",
@@ -1446,7 +1718,11 @@
     ],
     "email": "tax@cabraltax.com.au",
     "website": null,
-    "bio": "A Cabral Accounting é uma empresa de contabilidade online fundada pela Suyan Cabral, criada para lhe proporcionar liberdade geográfica.",
+    "bio": {
+      "pt-BR": "A Cabral Accounting é uma empresa de contabilidade online fundada por Suyan Cabral, criada para oferecer liberdade geográfica aos clientes e com base em Dee Why. Atende pessoas físicas e empresas com declaração de imposto (tax return), planejamento tributário, abertura de empresas com registro na ASIC e no ATO, BAS e GST, imposto de empresas, bookkeeping e consultoria empresarial. As reuniões podem ser agendadas online, e o atendimento é em português e inglês.",
+      "en": "Cabral Accounting is an online accounting firm founded by Suyan Cabral, set up to give clients geographic freedom and based in Dee Why. It serves individuals and businesses with tax returns, tax planning, business set-up including ASIC and ATO registration, BAS and GST, company tax, bookkeeping and business consultancy. Meetings can be booked online, and services are available in Portuguese and English.",
+      "es": "Cabral Accounting es una empresa de contabilidad online fundada por Suyan Cabral, creada para ofrecer libertad geográfica a sus clientes y con base en Dee Why. Atiende a personas y empresas con declaraciones de impuestos (tax return), planificación fiscal, apertura de empresas con registro ante ASIC y ATO, BAS y GST, impuesto de sociedades, contabilidad (bookkeeping) y consultoría empresarial. Las reuniones se pueden reservar online y la atención es en portugués e inglés."
+    },
     "address": "Dee Why, NSW",
     "photo": null,
     "instagram": "https://www.instagram.com/cabralaccountingservices",
@@ -1469,7 +1745,11 @@
     ],
     "email": "fernanda.carvp@gmail.com",
     "website": "https://www.psychologytoday.com/au/counselling/fernanda-carvalho-nedlands-wa/1719205",
-    "bio": "Olá, sou psicóloga formada no Brasil e atuo como Counsellor registrada na Austrália (ACA 33263, Level 4). Sou especializada em Terapia de Casal e Família e no atendimento clínico de adultos. Realizo atendimentos presenciais em Perth e on-line para toda a Austrália.",
+    "bio": {
+      "pt-BR": "Fernanda Carvalho é counsellor brasileira, formada em Psicologia no Brasil e membro Level 4 da Australian Counselling Association (ACA 33263), com 7 anos de prática. Atende adultos, casais e famílias, com foco em terapia de casal e família e em temas como ansiedade, depressão, conflitos familiares, transições de vida, parentalidade, autoestima e os desafios da imigração. Oferece sessões presenciais na 18 Stirling Highway, em Nedlands (Perth), e on-line para toda a Austrália, em português e inglês.",
+      "en": "Fernanda Carvalho is a Brazilian counsellor with a psychology degree from Brazil and Level 4 membership of the Australian Counselling Association (ACA 33263), with 7 years in practice. She works with adults, couples and families, focusing on couples and family therapy and on anxiety, depression, family conflict, life transitions, parenting, self-esteem and the challenges of migration. She offers in-person sessions at 18 Stirling Highway, Nedlands (Perth), and online sessions across Australia, in Portuguese and English.",
+      "es": "Fernanda Carvalho es consejera (counsellor) brasileña, graduada en Psicología en Brasil y miembro Level 4 de la Australian Counselling Association (ACA 33263), con 7 años de práctica. Atiende a adultos, parejas y familias, con enfoque en terapia de pareja y familia y en temas como ansiedad, depresión, conflictos familiares, transiciones de vida, crianza, autoestima y los desafíos de la migración. Ofrece sesiones presenciales en 18 Stirling Highway, Nedlands (Perth), y en línea para toda Australia, en portugués e inglés."
+    },
     "address": "Nedlands, Perth, WA",
     "photo": null,
     "instagram": null,
@@ -1492,7 +1772,11 @@
     ],
     "email": "contact@yogiclub.com.au",
     "website": "https://yogiclub.com.au",
-    "bio": "Personal yoga and kids yoga for preschool and clubs. Qualified yoga teachers with experience bringing the joy of yoga for childcare, preschools, sports clubs and private groups.",
+    "bio": {
+      "pt-BR": "A YogiClub, em Brighton-Le-Sands, foi fundada pela instrutora de yoga Giovana Brolese, que traz sua formação científica em neurociência para o ensino de meditação e pranayama. Com professores de yoga qualificados, a YogiClub leva yoga infantil a creches, pré-escolas, escolas, clubes esportivos e grupos privados, com turmas para bebês (1–2 anos), crianças pequenas (2–3 anos) e de 3 a 6 anos. Para adultos, oferece aulas particulares e aulas de Vinyasa, Yoga Flow e Restorative no estúdio, online e ao ar livre, além de yoga corporativo e retiros em NSW. A equipe fala português e inglês.",
+      "en": "YogiClub in Brighton-Le-Sands was founded by yoga instructor Giovana Brolese, who brings her scientific background in neuroscience to her teaching of meditation and pranayama. With qualified yoga teachers, YogiClub brings kids yoga to childcare centres, preschools, schools, sports clubs and private groups, with classes for babies (1–2 years), toddlers (2–3 years) and children aged 3 to 6. For adults, it offers personal yoga and Vinyasa, Yoga Flow and Restorative classes in the studio, online and outdoors, as well as corporate yoga and retreats in NSW. The team speaks Portuguese and English.",
+      "es": "YogiClub, en Brighton-Le-Sands, fue fundado por la instructora de yoga Giovana Brolese, quien aplica su formación científica en neurociencia a la enseñanza de meditación y pranayama. Con profesores de yoga calificados, YogiClub lleva el yoga infantil a guarderías, preescolares, escuelas, clubes deportivos y grupos privados, con clases para bebés (1–2 años), niños pequeños (2–3 años) y niños de 3 a 6 años. Para adultos, ofrece clases personalizadas y clases de Vinyasa, Yoga Flow y Restorative en el estudio, en línea y al aire libre, además de yoga corporativo y retiros en NSW. El equipo habla portugués e inglés."
+    },
     "address": "Brighton Le Sands, NSW",
     "photo": "/providers/yogiclub.webp",
     "instagram": "https://www.instagram.com/jobrolese",
@@ -1515,7 +1799,11 @@
     ],
     "email": "mindfulnutrition.amanda@gmail.com",
     "website": "https://amandawellnessnutrition.com/",
-    "bio": "Nutrição comportamental para quem já cansou de dieta. Trabalho mentalidade, comer emocional e hábitos sustentáveis na vida real.\nNutrição além da comida 🧠🍽️",
+    "bio": {
+      "pt-BR": "Amanda Machado é nutricionista brasileira que mora na Austrália, com experiência em nutrição comportamental e health coaching, e com foco no atendimento de mulheres brasileiras que vivem no exterior. Seu trabalho é voltado para quem já cansou de dieta e aborda mentalidade, comer emocional, sinais de fome e saciedade e hábitos sustentáveis na vida real. O acompanhamento é online, em português e inglês, com consultas mensais por vídeo, check-ins semanais por WhatsApp, planos alimentares personalizados e acesso a uma plataforma de conteúdos sobre alimentação consciente, organização e ansiedade.",
+      "en": "Amanda Machado is a Brazilian nutritionist living in Australia with experience in behavioural nutrition and health coaching, focused on Brazilian women living abroad. Her work is for people who are tired of dieting and covers mindset, emotional eating, hunger and fullness cues, and sustainable habits for real life. Support is online, in Portuguese and English, with monthly video consultations, weekly WhatsApp check-ins, personalised meal plans and access to a content platform on mindful eating, organisation and anxiety.",
+      "es": "Amanda Machado es nutricionista brasileña que vive en Australia, con experiencia en nutrición conductual y health coaching, y con enfoque en mujeres brasileñas que viven en el exterior. Su trabajo está dirigido a quienes ya se cansaron de las dietas y aborda la mentalidad, la alimentación emocional, las señales de hambre y saciedad y los hábitos sostenibles en la vida real. El acompañamiento es en línea, en portugués e inglés, con consultas mensuales por video, check-ins semanales por WhatsApp, planes alimentarios personalizados y acceso a una plataforma de contenidos sobre alimentación consciente, organización y ansiedad."
+    },
     "address": "Online (Australia-wide)",
     "photo": null,
     "instagram": "https://www.instagram.com/amanda_mindfulnutrition/",
@@ -1538,7 +1826,11 @@
     ],
     "email": "doula.priscilalourenco@gmail.com",
     "website": null,
-    "bio": "Sou doula e educadora perinatal em Sydney, acompanho famílias da gestação ao pós-parto, com suporte contínuo e presença no dia do parto.\nTe preparo para viver o parto com mais confiança, segurança e protagonismo, com um acompanhamento completo e baseado em evidências.",
+    "bio": {
+      "pt-BR": "Sou doula e educadora perinatal em Sydney, acompanho famílias da gestação ao pós-parto, com suporte contínuo e presença no dia do parto.\nTe preparo para viver o parto com mais confiança, segurança e protagonismo, com um acompanhamento completo e baseado em evidências.",
+      "en": "I am a doula and perinatal educator in Sydney, accompanying families from pregnancy through to postpartum, with continuous support and presence on the day of the birth.\nI prepare you to experience birth with more confidence, security and agency, with complete, evidence-based support.",
+      "es": "Soy doula y educadora perinatal en Sydney, acompaño a familias desde la gestación hasta el posparto, con apoyo continuo y presencia el día del parto.\nTe preparo para vivir el parto con más confianza, seguridad y protagonismo, con un acompañamiento completo y basado en evidencia."
+    },
     "address": "Greater Sydney & online, NSW",
     "photo": null,
     "instagram": "https://www.instagram.com/doula.priscilalourenco/",
@@ -1561,7 +1853,11 @@
     ],
     "email": "femouramacedo@gmail.com",
     "website": null,
-    "bio": "OT em pediatria na Austrália desde 2020. Apaixonada por ajudar crianças e suas famílias a alcançarem seus objetivos de forma divertida e baseada em evidências. Atendo na Northern Beaches, utilizando DIR/Floortime e estratégias sensoriais como base da terapia.",
+    "bio": {
+      "pt-BR": "Fernanda Macedo é terapeuta ocupacional com foco em pediatria e atua na Austrália desde 2020. Ela ajuda crianças e suas famílias a alcançarem seus objetivos de forma divertida e baseada em evidências. Atende na região de Northern Beaches, usando o modelo DIR/Floortime e estratégias sensoriais como base da terapia, com atendimento em português e inglês.",
+      "en": "Fernanda Macedo is an occupational therapist focused on paediatrics who has worked in Australia since 2020. She helps children and their families reach their goals in a fun, evidence-based way. She works across the Northern Beaches, using DIR/Floortime and sensory strategies as the foundation of therapy, and consults in both Portuguese and English.",
+      "es": "Fernanda Macedo es terapeuta ocupacional con enfoque en pediatría y trabaja en Australia desde 2020. Ayuda a niños y a sus familias a alcanzar sus objetivos de forma divertida y basada en evidencia. Atiende en la región de Northern Beaches, con el modelo DIR/Floortime y estrategias sensoriales como base de la terapia, y ofrece atención en portugués e inglés."
+    },
     "address": "Northern Beaches, NSW",
     "photo": null,
     "instagram": null,
@@ -1584,7 +1880,11 @@
     ],
     "email": "furfriends.aus@gmail.com",
     "website": null,
-    "bio": "Olá, eu sou a Gabi. Dog groomer, apaixonada em cuidar dos nossos melhores AUmigos. ✨🐾🐶",
+    "bio": {
+      "pt-BR": "Gabriele Sousa, conhecida como Gabi, é dog groomer e atende cães e seus tutores em Wolli Creek. Ela se descreve como apaixonada por cuidar dos cães e divulga seu trabalho de grooming no perfil Furfriends. Gabi atende em português e inglês, o que facilita a comunicação com tutores brasileiros que vivem na região e preferem falar no próprio idioma.",
+      "en": "Gabriele Sousa, known as Gabi, is a dog groomer working with dogs and their owners in Wolli Creek. She describes herself as passionate about caring for dogs and shares her grooming work through her Furfriends profile. Gabi speaks Portuguese and English, which makes communication easier for Brazilian dog owners in the area who prefer their own language.",
+      "es": "Gabriele Sousa, conocida como Gabi, es peluquera canina (dog groomer) y atiende a perros y sus dueños en Wolli Creek. Se describe como apasionada por el cuidado de los perros y comparte su trabajo de grooming en su perfil Furfriends. Gabi habla portugués e inglés, lo que facilita la comunicación con los dueños brasileños de perros en la zona que prefieren hablar en su propio idioma."
+    },
     "address": "Wolli Creek, NSW",
     "photo": null,
     "instagram": "https://www.instagram.com/furfriends.au/",
@@ -1607,7 +1907,11 @@
     ],
     "email": "relax@boothtooth.com.au",
     "website": "https://www.boothtooth.com.au",
-    "bio": "Dentista brasileiro na Booth Tooth Dental em Annandale.",
+    "bio": {
+      "pt-BR": "O Dr. Mauricio Barbosa é dentista clínico geral brasileiro e atende na Booth Tooth Dental, na 94 Booth Street, em Annandale. Formado em Odontologia em 2010, atuou como clínico geral no Brasil por seis anos antes de se mudar para a Austrália. Tem foco em odontologia preventiva e restauradora e no cuidado da saúde bucal a longo prazo, com ênfase na orientação do paciente e em planos de tratamento personalizados. Atende em português e inglês.",
+      "en": "Dr Mauricio Barbosa is a Brazilian general dentist at Booth Tooth Dental, 94 Booth Street, Annandale. After graduating in dentistry in 2010, he practised as a general dentist in Brazil for six years before moving to Australia. He focuses on preventive and restorative dentistry and long-term oral health management, with an emphasis on patient education and personalised care plans. He sees patients in Portuguese and English.",
+      "es": "El Dr. Mauricio Barbosa es un odontólogo general brasileño que atiende en Booth Tooth Dental, 94 Booth Street, Annandale. Tras graduarse en Odontología en 2010, ejerció como odontólogo general en Brasil durante seis años antes de mudarse a Australia. Tiene enfoque en odontología preventiva y restauradora y en el cuidado de la salud bucal a largo plazo, con énfasis en la educación del paciente y en planes de tratamiento personalizados. Atiende en portugués e inglés."
+    },
     "address": "Annandale, NSW",
     "photo": null,
     "instagram": "https://www.instagram.com/boothtoothdental",
@@ -1630,7 +1934,11 @@
     ],
     "email": "mariana.sharpe@longtonlaw.au",
     "website": null,
-    "bio": "Olá! Sou advogada qualificada no Brasil e na Austrália, atuando em Sydney com Personal Injury, ajudando pessoas a buscarem indenização por lesões físicas ou psicológicas decorrentes de acidentes de carro e de trabalho. Ofereço um atendimento próximo e focado em resultados, com o modelo 'no win, no fee', você só paga se ganharmos o seu caso.",
+    "bio": {
+      "pt-BR": "Olá! Sou advogada qualificada no Brasil e na Austrália, atuando em Sydney com Personal Injury, ajudando pessoas a buscarem indenização por lesões físicas ou psicológicas decorrentes de acidentes de carro e de trabalho. Ofereço um atendimento próximo e focado em resultados, com o modelo 'no win, no fee', você só paga se ganharmos o seu caso.",
+      "en": "Hello! I am a lawyer qualified in Brazil and Australia, working in Sydney in Personal Injury, helping people seek compensation for physical or psychological injuries resulting from car and workplace accidents. I offer close, results-focused service with a 'no win, no fee' model: you only pay if we win your case.",
+      "es": "¡Hola! Soy abogada calificada en Brasil y en Australia, y trabajo en Sydney en Personal Injury, ayudando a las personas a buscar indemnización por lesiones físicas o psicológicas derivadas de accidentes automovilísticos y de trabajo. Ofrezco una atención cercana y enfocada en resultados, con el modelo 'no win, no fee': solo paga si ganamos su caso."
+    },
     "address": "Sydney, NSW",
     "photo": null,
     "instagram": null,
@@ -1653,7 +1961,11 @@
     ],
     "email": "contact@alelasas.com",
     "website": "https://www.alelasas.com",
-    "bio": "Neuroscience-Informed Mentor | Mental Health Advocate | Trauma-Informed Healing | Nervous System Regulation",
+    "bio": {
+      "pt-BR": "Ale Lasas é mentora baseada em Maroubra, NSW, e descreve seu trabalho como mentoria informada pela neurociência, cura informada por trauma e regulação do sistema nervoso, além de atuar como defensora da saúde mental. Com ascendência que inclui raízes indígenas brasileiras e avós benzedeiras, ela deixou uma carreira corporativa no setor financeiro e hoje combina sabedoria ancestral, práticas de embodiment e ciência moderna. Oferece sessões individuais de Energy Healing e Soul Mapping, a mentoria privada de 12 semanas The Crossing, breathwork mensal em grupo, workshops, cerimônias e programas de bem-estar corporativo, em português e inglês.",
+      "en": "Ale Lasas is a mentor based in Maroubra, NSW, who describes her work as neuroscience-informed mentoring, trauma-informed healing and nervous system regulation, and is a mental health advocate. With ancestry that includes Indigenous Brazilian roots and grandmothers who were benzedeiras (traditional healers), she left a corporate career in finance and now combines ancestral wisdom, embodiment practices and modern science. She offers one-to-one Energy Healing and Soul Mapping sessions, The Crossing 12-week private mentorship, monthly group breathwork, workshops, ceremonies and corporate wellness programs, in Portuguese and English.",
+      "es": "Ale Lasas es mentora con base en Maroubra, NSW, y describe su trabajo como mentoría basada en la neurociencia, sanación informada sobre el trauma y regulación del sistema nervioso, y es defensora de la salud mental. Con una ascendencia que incluye raíces indígenas brasileñas y abuelas benzedeiras (curanderas tradicionales), dejó una carrera corporativa en el sector financiero y hoy combina sabiduría ancestral, prácticas de embodiment y ciencia moderna. Ofrece sesiones individuales de Energy Healing y Soul Mapping, la mentoría privada de 12 semanas The Crossing, breathwork mensual en grupo, talleres, ceremonias y programas de bienestar corporativo, en portugués e inglés."
+    },
     "address": "Maroubra, NSW",
     "photo": "/providers/ale.webp",
     "instagram": "https://www.instagram.com/ale.lasas/",
@@ -1676,7 +1988,11 @@
     ],
     "email": "marketingprotax@gmail.com",
     "website": "https://protaxreturns.com.au",
-    "bio": "Contabilidade especializada para brasileiros na Austrália, com atendimento em português e inglês.",
+    "bio": {
+      "pt-BR": "A Protax Returns é um escritório de contabilidade em North Sydney (Level 7, 75 Miller St), com uma equipe de tax agents, contadores e empreendedores. Voltada para brasileiros e empresas na Austrália, oferece declaração de imposto (tax return), bookkeeping e abertura de empresas, além de conteúdos educativos. A equipe tem 10 anos de experiência em contabilidade e impostos e atende em português e inglês.",
+      "en": "Protax Returns is an accounting firm in North Sydney (Level 7, 75 Miller St), with a team of tax agents, accountants and entrepreneurs. Focused on Brazilians and businesses in Australia, it offers tax returns, bookkeeping and company set-up, as well as educational content. The team has 10 years of experience in accounting and tax and provides service in Portuguese and English.",
+      "es": "Protax Returns es una firma de contabilidad en North Sydney (Level 7, 75 Miller St), con un equipo de tax agents, contadores y emprendedores. Enfocada en brasileños y empresas en Australia, ofrece declaraciones de impuestos (tax return), bookkeeping y apertura de empresas, además de contenidos educativos. El equipo tiene 10 años de experiencia en contabilidad e impuestos y atiende en portugués e inglés."
+    },
     "address": "North Sydney, NSW",
     "photo": null,
     "instagram": "https://www.instagram.com/protax_returns",
@@ -1699,7 +2015,11 @@
     ],
     "email": "nanda_fabiane@hotmail.com",
     "website": null,
-    "bio": "I'm a writer, storyteller and creative professional specialised in marketing, social media, graphic design and content creation. I help brands and individuals communicate with clarity, emotion and strategy, transforming ideas into content that connects and converts. I also work with ghostwriting and manuscript review, supporting authors in bringing their stories to life. I also collaborate with brands as an influencer, creating authentic content and partnerships. I hold a Bachelor's degree in Marketing and certification in Graphic Design and Writing, and I work remotely with clients across Australia.",
+    "bio": {
+      "pt-BR": "Nanda Fabiane é escritora, contadora de histórias e profissional criativa especializada em marketing, redes sociais, design gráfico e criação de conteúdo. Ela ajuda marcas e pessoas a se comunicarem com clareza, emoção e estratégia, transformando ideias em conteúdo que conecta e converte. Também trabalha com ghostwriting e revisão de manuscritos, apoiando autores a dar vida às suas histórias, e colabora com marcas como influenciadora, criando conteúdo e parcerias autênticas. É bacharel em Marketing, tem certificação em Design Gráfico e Escrita e trabalha remotamente com clientes em toda a Austrália.",
+      "en": "I'm a writer, storyteller and creative professional specialised in marketing, social media, graphic design and content creation. I help brands and individuals communicate with clarity, emotion and strategy, transforming ideas into content that connects and converts. I also work with ghostwriting and manuscript review, supporting authors in bringing their stories to life. I also collaborate with brands as an influencer, creating authentic content and partnerships. I hold a Bachelor's degree in Marketing and certification in Graphic Design and Writing, and I work remotely with clients across Australia.",
+      "es": "Nanda Fabiane es escritora, narradora y profesional creativa especializada en marketing, redes sociales, diseño gráfico y creación de contenido. Ayuda a marcas y personas a comunicarse con claridad, emoción y estrategia, transformando ideas en contenido que conecta y convierte. También trabaja en ghostwriting y revisión de manuscritos, apoyando a autores a dar vida a sus historias, y colabora con marcas como influencer, creando contenido y alianzas auténticas. Es licenciada en Marketing, tiene certificación en Diseño Gráfico y Escritura, y trabaja de forma remota con clientes en toda Australia."
+    },
     "address": "Digital (remote), Australia-wide",
     "photo": null,
     "instagram": "https://www.instagram.com/a.jornanda/",
@@ -1721,7 +2041,11 @@
     ],
     "email": "alento.counselling@gmail.com",
     "website": null,
-    "bio": "Lisania Couto | Psicologia Intercultural\nImigrante há 9 anos\nPsicóloga 🇧🇷\nCounsellor & Psychotherapist 🇦🇺\nALENTO Psicoterapia | Brasileiros no exterior 🌎\nEquilíbrio emocional na adaptação cultural.",
+    "bio": {
+      "pt-BR": "A ALENTO Psicoterapia é o serviço de Lisania Couto, psicóloga formada no Brasil que atua na Austrália como counsellor e psicoterapeuta, voltado para brasileiros que vivem no exterior. Com foco em psicologia intercultural, ela trabalha o equilíbrio emocional na adaptação cultural, e ela mesma é imigrante. O atendimento é em português e está disponível para brasileiros em toda a Austrália.",
+      "en": "ALENTO Psicoterapia is the practice of Lisania Couto, a Brazilian-qualified psychologist who works in Australia as a counsellor and psychotherapist, and it is aimed at Brazilians living abroad. With a focus on intercultural psychology, she works on emotional balance during cultural adaptation, and she is an immigrant herself. Sessions are in Portuguese and available to Brazilians across Australia.",
+      "es": "ALENTO Psicoterapia es el servicio de Lisania Couto, psicóloga formada en Brasil que trabaja en Australia como counsellor y psicoterapeuta, dirigido a brasileños que viven en el exterior. Con enfoque en psicología intercultural, trabaja el equilibrio emocional en la adaptación cultural, y ella misma es inmigrante. La atención es en portugués y está disponible para brasileños en toda Australia."
+    },
     "address": "Online (Australia-wide)",
     "photo": "/providers/alento.webp",
     "instagram": "https://www.instagram.com/lisaniacouto.psi",
@@ -1744,7 +2068,11 @@
     ],
     "email": "info@elevance.au",
     "website": "https://www.elevance.au",
-    "bio": "We help businesses build their brand, grow online presence, generate leads and conversations through advanced branding, marketing and tech solutions.",
+    "bio": {
+      "pt-BR": "A Elevance (antiga Qualiart) é uma agência de marketing full-service em Teneriffe, Brisbane, que atende pequenas e médias empresas em toda a Austrália. A agência ajuda negócios a construir a marca, ampliar a presença online e gerar leads com branding e logotipo, marketing digital (Google Ads, SEO, e-mail e anúncios pagos), redes sociais, sites e serviços criativos como design gráfico, vídeo e copywriting. É liderada por Ricardo Apolinario, diretor-geral e estrategista criativo, e Luciana Apolinario, gerente de projetos, CFO e responsável por RH, e atende em inglês e português.",
+      "en": "Elevance (formerly Qualiart) is a full-service marketing agency in Teneriffe, Brisbane, working with small and medium businesses across Australia. It helps businesses build their brand, grow their online presence and generate leads through branding and logo design, digital marketing (Google Ads, SEO, email and paid advertising), social media, websites and creative services such as graphic design, video and copywriting. The agency is led by Ricardo Apolinario, Managing Director and Creative Strategist, and Luciana Apolinario, Project Manager, CFO and Head of HR, and works in English and Portuguese.",
+      "es": "Elevance (antes Qualiart) es una agencia de marketing integral en Teneriffe, Brisbane, que trabaja con pequeñas y medianas empresas de toda Australia. Ayuda a los negocios a construir su marca, ampliar su presencia en línea y generar clientes potenciales con branding y logotipos, marketing digital (Google Ads, SEO, email y publicidad pagada), redes sociales, sitios web y servicios creativos como diseño gráfico, video y redacción publicitaria. Está dirigida por Ricardo Apolinario, director general y estratega creativo, y Luciana Apolinario, gerente de proyectos, CFO y responsable de RR. HH., y atiende en inglés y portugués."
+    },
     "address": "Teneriffe (Brisbane), QLD",
     "photo": null,
     "instagram": "https://www.instagram.com/elevanceagency/",
@@ -1767,7 +2095,11 @@
     ],
     "email": "barbarareispsi@gmail.com",
     "website": null,
-    "bio": "Counsellor (ACA) and Provisional Psychologist (AHPRA) based in Australia, offering online sessions tailored to your needs. I have 8 years of experience in Brazil. I work from a Cognitive Behavioural Therapy (CBT) approach, supporting neurodivergent individuals (ADHD and ASD), women navigating abusive relationships, and a range of emotional and psychological challenges. I also provide psychological assessments for ADHD and ASD diagnosis. My work is evidence-based, warm, and focused on helping you build clarity, resilience, and practical strategies for everyday life.",
+    "bio": {
+      "pt-BR": "Counsellor (ACA) e psicóloga com registro provisório (Provisional Psychologist, AHPRA) baseada na Austrália, ofereço sessões online adaptadas às suas necessidades. Tenho 8 anos de experiência no Brasil. Trabalho com a abordagem da Terapia Cognitivo-Comportamental (TCC), apoiando pessoas neurodivergentes (TDAH e TEA), mulheres que enfrentam relacionamentos abusivos e uma variedade de desafios emocionais e psicológicos. Também realizo avaliações psicológicas para diagnóstico de TDAH e TEA. Meu trabalho é baseado em evidências, acolhedor e focado em ajudar você a construir clareza, resiliência e estratégias práticas para o dia a dia.",
+      "en": "Counsellor (ACA) and Provisional Psychologist (AHPRA) based in Australia, offering online sessions tailored to your needs. I have 8 years of experience in Brazil. I work from a Cognitive Behavioural Therapy (CBT) approach, supporting neurodivergent individuals (ADHD and ASD), women navigating abusive relationships, and a range of emotional and psychological challenges. I also provide psychological assessments for ADHD and ASD diagnosis. My work is evidence-based, warm, and focused on helping you build clarity, resilience, and practical strategies for everyday life.",
+      "es": "Counsellor (ACA) y psicóloga con registro provisional (Provisional Psychologist, AHPRA) radicada en Australia, ofrezco sesiones en línea adaptadas a sus necesidades. Tengo 8 años de experiencia en Brasil. Trabajo con el enfoque de la Terapia Cognitivo-Conductual (TCC), acompañando a personas neurodivergentes (TDAH y TEA), mujeres que atraviesan relaciones abusivas y una variedad de desafíos emocionales y psicológicos. También realizo evaluaciones psicológicas para el diagnóstico de TDAH y TEA. Mi trabajo se basa en la evidencia, es cálido y está enfocado en ayudarle a construir claridad, resiliencia y estrategias prácticas para la vida diaria."
+    },
     "address": "Online (Australia-wide)",
     "photo": null,
     "instagram": "https://www.instagram.com/psi.barbarareis",
@@ -1790,7 +2122,11 @@
     ],
     "email": "gislaine.sbrito@gmail.com",
     "website": null,
-    "bio": "Estou criando livros voltados pra brasileiros no exterior, diários, livros de atividades infantis, caça palavras e a publicação é através da Amazon. Gostaria de compartilhar os links para que a comunidade tenha acesso.",
+    "bio": {
+      "pt-BR": "Gislaine Smith é autora brasileira baseada em Perth, WA, e cria livros pensados para brasileiros que vivem no exterior. Seu trabalho inclui diários, livros de atividades infantis e livros de caça-palavras, todos publicados pela Amazon. Ela quer compartilhar esses títulos com a comunidade brasileira em toda a Austrália e fala português e inglês.",
+      "en": "Gislaine Smith is a Brazilian author based in Perth, WA, who creates books designed for Brazilians living abroad. Her work includes journals, children's activity books and word search books, all published through Amazon. She wants to share these titles with the Brazilian community across Australia, and she speaks both Portuguese and English.",
+      "es": "Gislaine Smith es autora brasileña con base en Perth, WA, y crea libros pensados para brasileños que viven en el exterior. Su trabajo incluye diarios, libros de actividades infantiles y libros de sopas de letras, todos publicados a través de Amazon. Quiere compartir estos títulos con la comunidad brasileña en toda Australia y habla portugués e inglés."
+    },
     "address": "Perth, WA",
     "photo": null,
     "instagram": "https://www.instagram.com/cantinho.do.brasil",
@@ -1814,7 +2150,11 @@
     ],
     "email": "info@ebcremovals.com",
     "website": "https://ebcremovals.com",
-    "bio": "Professional removalist and furniture delivery in Brisbane — English and Portuguese spoken. Contact EBC Removals for home moves, deliveries, and careful handling of your belongings.",
+    "bio": {
+      "pt-BR": "A EBC Removals é uma empresa de mudanças em Brisbane que faz mudanças residenciais e de apartamentos, mudanças de pequenos escritórios e entregas de móveis. A equipe também fornece materiais de embalagem, como caixas e plástico-bolha, oferece pacotes com duas ou três pessoas e caminhão para mudanças locais e tem opções de seguro para os pertences durante a mudança. Atende Brisbane e o Sudeste de Queensland, incluindo Gold Coast, Sunshine Coast, Toowoomba, Logan, Ipswich, Bayside e Moreton Bay, em inglês e português.",
+      "en": "EBC Removals is a Brisbane removalist providing house and apartment moves, small office removals and furniture deliveries. The team also supplies packing materials such as boxes and bubble wrap, offers two- and three-person moving packages with a truck for local moves, and has insurance options to cover belongings during the move. EBC Removals services Brisbane and South East Queensland, including the Gold Coast, Sunshine Coast, Toowoomba, Logan, Ipswich, Bayside and Moreton Bay, with service in English and Portuguese.",
+      "es": "EBC Removals es una empresa de mudanzas en Brisbane que realiza mudanzas de casas y apartamentos, mudanzas de oficinas pequeñas y entregas de muebles. El equipo también suministra materiales de embalaje, como cajas y plástico de burbujas, ofrece paquetes con dos o tres personas y camión para mudanzas locales, y tiene opciones de seguro para las pertenencias durante la mudanza. Atiende Brisbane y el sureste de Queensland, incluidos Gold Coast, Sunshine Coast, Toowoomba, Logan, Ipswich, Bayside y Moreton Bay, en inglés y portugués."
+    },
     "address": "Brisbane City, QLD",
     "photo": null,
     "instagram": "https://www.instagram.com/ebcremovals",
@@ -1835,7 +2175,11 @@
     "phone": null,
     "email": "hello@nuawear.com.au",
     "website": "https://www.nuawear.com.au",
-    "bio": "Nua é uma loja online que representa as marcas brasileiras Lupo e Pantys na Austrália, levando para todo o país o conforto e qualidade que os brasileiros amam. Oferecemos lingeries, cuecas, modeladores, meia-calça e meias feitos no Brasil e que te fazem sentir bem o dia todo! Mais do que vestir, é sobre se sentir confortável na própria pele.",
+    "bio": {
+      "pt-BR": "Nua é uma loja online que representa as marcas brasileiras Lupo e Pantys na Austrália, levando para todo o país o conforto e qualidade que os brasileiros amam. Oferecemos lingeries, cuecas, modeladores, meia-calça e meias feitos no Brasil e que te fazem sentir bem o dia todo! Mais do que vestir, é sobre se sentir confortável na própria pele.",
+      "en": "Nua is an online store that represents the Brazilian brands Lupo and Pantys in Australia, bringing the comfort and quality Brazilians love to the whole country. It offers lingerie, men's underwear, shapewear, tights and socks made in Brazil that help customers feel good all day. More than clothing, it is about feeling comfortable in your own skin.",
+      "es": "Nua es una tienda en línea que representa a las marcas brasileñas Lupo y Pantys en Australia y lleva a todo el país la comodidad y la calidad que los brasileños aman. Ofrece lencería, ropa interior masculina, prendas moldeadoras, pantimedias y calcetines fabricados en Brasil que hacen sentir bien todo el día. Más que vestir, se trata de sentirse cómodo en la propia piel."
+    },
     "address": "Online (Australia-wide)",
     "photo": null,
     "instagram": "https://www.instagram.com/nuawear.au",
@@ -1858,7 +2202,11 @@
     ],
     "email": "auraprimecleaning@gmail.com",
     "website": null,
-    "bio": "Residential • Offices • End of Lease\nPrecision • Discretion • Excellence\nSydney - By appointment only\n\nLimpezas de casa, escritórios e final de contrato.",
+    "bio": {
+      "pt-BR": "A Aura Prime Cleaning é a empresa de limpeza de Gabrielle e Ana Julia, com base em Brighton-Le-Sands e atendendo clientes em Sydney. Elas fazem limpeza residencial e comercial, incluindo casas e escritórios, além de limpeza de final de contrato (end of lease) para inquilinos que estão saindo do imóvel. Todos os serviços são feitos somente com agendamento prévio, e Gabrielle e Ana Julia atendem em português e inglês.",
+      "en": "Aura Prime Cleaning is a cleaning business run by Gabrielle and Ana Julia, based in Brighton-Le-Sands and serving clients in Sydney. They provide residential and commercial cleaning, covering houses and offices, as well as end-of-lease cleans for tenants moving out. All services are by appointment only, and Gabrielle and Ana Julia speak Portuguese and English with their clients.",
+      "es": "Aura Prime Cleaning es la empresa de limpieza de Gabrielle y Ana Julia, con base en Brighton-Le-Sands y que atiende a clientes en Sydney. Realizan limpieza residencial y comercial, incluidas casas y oficinas, además de limpiezas de fin de contrato (end of lease) para inquilinos que dejan la vivienda. Todos los servicios se realizan solo con cita previa, y Gabrielle y Ana Julia atienden en portugués e inglés."
+    },
     "address": "Brighton Le Sands, NSW",
     "photo": null,
     "instagram": "https://www.instagram.com/auraprimecleaning",
@@ -1881,7 +2229,11 @@
     ],
     "email": "lucas@77tours.com.au",
     "website": "https://www.77tours.com.au",
-    "bio": "77Tours Turismo por NSW — empresa que proporciona experiência por NSW com fotos e vídeos!",
+    "bio": {
+      "pt-BR": "Lucas Oliveira da Silva atua na 77 Tours, empresa de Sydney que organiza passeios de um dia por NSW em pequenos grupos de até 11 pessoas, com saída do centro de Sydney. Os roteiros incluem Jervis Bay, Hunter Valley, Anna Bay e Port Stephens, Blue Mountains e, no inverno, um passeio para a neve. Os passeios têm guia bilíngue em português e inglês e incluem fotos profissionais, com imagens de drone onde é permitido voar, e a empresa é operadora licenciada do Parks Eco Pass.",
+      "en": "Lucas Oliveira da Silva works with 77 Tours, a Sydney company running small-group day tours across NSW for up to 11 people, departing from the Sydney CBD. Destinations include Jervis Bay, the Hunter Valley, Anna Bay and Port Stephens, the Blue Mountains and, in winter, a snow trip. Tours have a bilingual guide in Portuguese and English and include professional photos, with drone shots where flying is permitted, and the company is a licensed Parks Eco Pass operator.",
+      "es": "Lucas Oliveira da Silva trabaja en 77 Tours, una empresa de Sydney que organiza excursiones de un día por NSW en grupos pequeños de hasta 11 personas, con salida desde el centro de Sydney. Los destinos incluyen Jervis Bay, Hunter Valley, Anna Bay y Port Stephens, las Blue Mountains y, en invierno, una excursión a la nieve. Las excursiones cuentan con guía bilingüe en portugués e inglés e incluyen fotos profesionales, con tomas de dron donde está permitido volar, y la empresa es operadora con licencia del Parks Eco Pass."
+    },
     "address": "Sutherland Shire, NSW",
     "photo": null,
     "instagram": "https://www.instagram.com/77tours",
@@ -1903,7 +2255,11 @@
     "phone": null,
     "email": "littlebrazil.brisbane@gmail.com",
     "website": "https://elportuguese.wixsite.com/raizesbrasileiras",
-    "bio": "Dr. Lilian Fleuri holds a PhD in Linguistics and has over 25 years of experience teaching languages and culture. She has taught thousands of students privately and in groups, and has lectured at UFSC (Brazil), Middlebury College (USA), and the University of Queensland (Australia). She is an instructor at the Institute of Modern Languages at UQ, tutor for the Australian Defence Force, creator of Walk'n Talk Brisbane, and presenter of the workshop series Raising Multilingual Children in Australia. A native Brazilian Portuguese speaker, she teaches Portuguese and Spanish as second languages. She is a community and heritage language advocate, language researcher, lecturer on Latin-American cultures, consultant for multicultural families and community language schools, and speaker on linguistics, cultural awareness, and Latin American studies.",
+    "bio": {
+      "pt-BR": "A Dra. Lilian Fleuri é doutora em Linguística e tem mais de 25 anos de experiência no ensino de línguas e cultura. Ela já ensinou milhares de alunos em aulas particulares e em grupo, e lecionou na UFSC (Brasil), no Middlebury College (EUA) e na University of Queensland (Austrália). É instrutora no Institute of Modern Languages da UQ, tutora da Australian Defence Force, criadora do Walk'n Talk Brisbane e apresentadora da série de workshops Raising Multilingual Children in Australia. Falante nativa de português brasileiro, ela ensina português e espanhol como segundas línguas. É defensora das línguas comunitárias e de herança, pesquisadora de línguas, docente de culturas latino-americanas, consultora para famílias multiculturais e escolas de línguas comunitárias, e palestrante sobre linguística, consciência cultural e estudos latino-americanos.",
+      "en": "Dr. Lilian Fleuri holds a PhD in Linguistics and has over 25 years of experience teaching languages and culture. She has taught thousands of students privately and in groups, and has lectured at UFSC (Brazil), Middlebury College (USA), and the University of Queensland (Australia). She is an instructor at the Institute of Modern Languages at UQ, tutor for the Australian Defence Force, creator of Walk'n Talk Brisbane, and presenter of the workshop series Raising Multilingual Children in Australia. A native Brazilian Portuguese speaker, she teaches Portuguese and Spanish as second languages. She is a community and heritage language advocate, language researcher, lecturer on Latin-American cultures, consultant for multicultural families and community language schools, and speaker on linguistics, cultural awareness, and Latin American studies.",
+      "es": "La Dra. Lilian Fleuri tiene un doctorado en Lingüística y más de 25 años de experiencia en la enseñanza de idiomas y cultura. Ha enseñado a miles de estudiantes en clases particulares y grupales, y ha dado clases en la UFSC (Brasil), el Middlebury College (EE. UU.) y la University of Queensland (Australia). Es instructora en el Institute of Modern Languages de la UQ, tutora de la Australian Defence Force, creadora de Walk'n Talk Brisbane y presentadora de la serie de talleres Raising Multilingual Children in Australia. Hablante nativa de portugués brasileño, enseña portugués y español como segundas lenguas. Es defensora de las lenguas comunitarias y de herencia, investigadora de idiomas, docente de culturas latinoamericanas, consultora para familias multiculturales y escuelas de lenguas comunitarias, y conferencista sobre lingüística, conciencia cultural y estudios latinoamericanos."
+    },
     "address": "Albany Creek, Brisbane, QLD",
     "photo": null,
     "instagram": "https://www.instagram.com/dr_lilian_portugues",
@@ -1923,7 +2279,11 @@
     "phone": null,
     "email": "maitherapistau@gmail.com",
     "website": "https://www.maitherapies.com",
-    "bio": "I'm Brazilian-born and moved to Australia in 2017, driven by a passion for healthcare. With a Master's degree in Health Sciences, I am a specialist in Brazilian Lymphatic Drainage Massage, with years of experience working in spas across Brazil, Cuba, Canada, Thailand, and Cambodia. Since 2018, the Mai Therapist brand has been offering personalized treatments, including Post-Plastic Operative Care, Brazilian Lymphatic Massage, and Multi Techniques.",
+    "bio": {
+      "pt-BR": "Sou brasileira e me mudei para a Austrália em 2017, movida pela paixão pela área da saúde. Com mestrado em Ciências da Saúde, sou especialista em Massagem de Drenagem Linfática Brasileira, com anos de experiência trabalhando em spas no Brasil, em Cuba, no Canadá, na Tailândia e no Camboja. Desde 2018, a marca Mai Therapist oferece tratamentos personalizados, incluindo cuidados pós-operatórios de cirurgia plástica, Massagem Linfática Brasileira e Multi Techniques.",
+      "en": "I'm Brazilian-born and moved to Australia in 2017, driven by a passion for healthcare. With a Master's degree in Health Sciences, I am a specialist in Brazilian Lymphatic Drainage Massage, with years of experience working in spas across Brazil, Cuba, Canada, Thailand, and Cambodia. Since 2018, the Mai Therapist brand has been offering personalized treatments, including Post-Plastic Operative Care, Brazilian Lymphatic Massage, and Multi Techniques.",
+      "es": "Nací en Brasil y me mudé a Australia en 2017, impulsada por mi pasión por la salud. Con una maestría en Ciencias de la Salud, soy especialista en Masaje de Drenaje Linfático Brasileño, con años de experiencia trabajando en spas de Brasil, Cuba, Canadá, Tailandia y Camboya. Desde 2018, la marca Mai Therapist ofrece tratamientos personalizados, como cuidados postoperatorios de cirugía plástica, Masaje Linfático Brasileño y Multi Techniques."
+    },
     "address": "Ascot, Brisbane, QLD",
     "photo": null,
     "instagram": "https://www.instagram.com/mai_therapies",
@@ -1946,7 +2306,11 @@
     ],
     "email": "daniel@canguruberds.com.au",
     "website": "https://canguruberds.com.au/",
-    "bio": "Aulas de direção, preparação para a prova e aluguel do carro para alunos de diferentes níveis.",
+    "bio": {
+      "pt-BR": "A Canguruber Driving School oferece aulas de direção em Sydney com instrutor licenciado e autorizado a ensinar em NSW, tanto para iniciantes quanto para quem está se preparando para a prova prática. Também aluga o carro para o dia da prova, um Corolla Hatch Hybrid 2024 automático, e oferece o pacote aula + prova. Atende regiões como Bondi Junction, Botany, Eastgardens, Marrickville, Rockdale, Miranda, Bankstown, Chatswood, Brookvale e North Ryde, em português e inglês, com material de apoio e grupo de WhatsApp em português, além de uma playlist no YouTube.",
+      "en": "Canguruber Driving School provides driving lessons in Sydney with a licensed instructor authorised to teach in NSW, for both beginners and those preparing for the practical driving test. It also hires out its car for the test, an automatic 2024 Corolla Hatch Hybrid, and offers a combined lesson and test package. It covers areas such as Bondi Junction, Botany, Eastgardens, Marrickville, Rockdale, Miranda, Bankstown, Chatswood, Brookvale and North Ryde, in Portuguese and English, with study material and a WhatsApp group in Portuguese, plus a YouTube playlist.",
+      "es": "Canguruber Driving School ofrece clases de manejo en Sydney con un instructor con licencia y autorizado para enseñar en NSW, tanto para principiantes como para quienes se preparan para el examen práctico. También alquila su auto para el día del examen, un Corolla Hatch Hybrid 2024 automático, y ofrece el paquete clase + examen. Atiende zonas como Bondi Junction, Botany, Eastgardens, Marrickville, Rockdale, Miranda, Bankstown, Chatswood, Brookvale y North Ryde, en portugués e inglés, con material de apoyo y un grupo de WhatsApp en portugués, además de una lista de reproducción en YouTube."
+    },
     "address": "Greater Sydney, NSW",
     "photo": "/providers/canguruber.webp",
     "instagram": "https://www.instagram.com/canguruberds",
@@ -1969,7 +2333,11 @@
     ],
     "email": "contact@mrcockroach.com.au",
     "website": "https://www.mrcockroach.com.au",
-    "bio": "With over 6 years of experience in pest control, we are here to help keep your place pest-free. We offer fast and effective solutions at a good price with flexible hours.",
+    "bio": {
+      "pt-BR": "A Mr. Cockroach Pest Control oferece controle de pragas para imóveis residenciais e comerciais na Grande Sydney, com mais de 6 anos de experiência. Os serviços incluem controle de baratas, inclusive da barata-alemã em cozinhas comerciais, vedação e remoção de ratos e camundongos, tratamentos contra formigas e aranhas, controle de pragas de despensa, controle de pragas no fim do contrato de aluguel e auditorias de pragas para empresas. A empresa é licenciada e segurada, e o atendimento é em português e inglês.",
+      "en": "Mr. Cockroach Pest Control provides pest control for homes and businesses across Greater Sydney, with more than 6 years of experience. Services include cockroach control, including German cockroaches in commercial kitchens, rodent proofing and removal, ant and spider treatments, pantry pest control, end of lease pest control and commercial pest audits. The business is licensed and insured, and offers service in Portuguese and English.",
+      "es": "Mr. Cockroach Pest Control ofrece control de plagas para viviendas y negocios en el Gran Sydney, con más de 6 años de experiencia. Los servicios incluyen control de cucarachas, incluida la cucaracha alemana en cocinas comerciales, sellado y eliminación de ratas y ratones, tratamientos contra hormigas y arañas, control de plagas de despensa, control de plagas al final del contrato de alquiler y auditorías de plagas para empresas. La empresa cuenta con licencia y seguro, y atiende en portugués e inglés."
+    },
     "address": "Greater Sydney, NSW",
     "photo": "/providers/mr-cockroach.webp",
     "instagram": "https://www.instagram.com/mrcockroach.pestcontrol",
@@ -1993,7 +2361,11 @@
     ],
     "email": "customerservicekrbeautybrazil@gmail.com",
     "website": "https://www.krbeautybrazil.com",
-    "bio": "Desde 2019 transformando olhares, realçando belezas e elevando autoestimas em Sydney. O KR Beauty Brazil é referência em beleza, micropigmentação e estética avançada — com mais de 17.000 clientes atendidos e reconhecimento nacional e internacional.",
+    "bio": {
+      "pt-BR": "O KR Beauty Brazil foi criado por Katia Ribeiro Büttenbender, que nasceu no sul do Brasil e vive em Sydney desde 2019. O estúdio fica na Suite 104, 11A Lachlan St, em Waterloo, e oferece micropigmentação de sobrancelhas e lábios, microblading, micropigmentação corretiva e paramédica, laminação de sobrancelhas, lash lifting, extensão de cílios, limpeza de pele profunda, dermaplaning e remoção de tatuagem a laser, além de cursos e workshops. O atendimento é em português, inglês e espanhol.",
+      "en": "KR Beauty Brazil was created by Katia Ribeiro Büttenbender, who was born in southern Brazil and has been based in Sydney since 2019. The studio is at Suite 104, 11A Lachlan St, Waterloo, and offers eyebrow and lip blush tattooing, microblading, corrective and paramedical micropigmentation, brow lamination, lash lifts, eyelash extensions, deep cleansing facials, dermaplaning and laser tattoo removal, as well as courses and workshops. Services are available in Portuguese, English and Spanish.",
+      "es": "KR Beauty Brazil fue creado por Katia Ribeiro Büttenbender, nacida en el sur de Brasil y radicada en Sydney desde 2019. El estudio está en Suite 104, 11A Lachlan St, Waterloo, y ofrece micropigmentación de cejas y labios, microblading, micropigmentación correctiva y paramédica, laminado de cejas, lifting de pestañas, extensiones de pestañas, limpieza facial profunda, dermaplaning y eliminación de tatuajes con láser, además de cursos y talleres. Atiende en portugués, inglés y español."
+    },
     "address": "Waterloo, NSW",
     "photo": "/providers/kr.webp",
     "instagram": "https://www.instagram.com/krbeautybrazil",
@@ -2020,7 +2392,11 @@
     ],
     "email": "hello@magichands.com",
     "website": "https://magichandsclinic.com",
-    "bio": "Magic Hands Clinic é referência em drenagem linfática e modelagem corporal em Sydney, oferecendo resultados visíveis desde a primeira sessão. Fundada por Sheila Orofino, com mais de 17 anos de experiência, a clínica se destaca pela exclusiva técnica Magic Hands, focada em desinflamação, definição corporal e bem-estar. Atendemos desde clientes que buscam estética avançada até cuidados pós-operatórios, sempre com excelência, atenção e uma experiência personalizada.",
+    "bio": {
+      "pt-BR": "Magic Hands Clinic é referência em drenagem linfática e modelagem corporal em Sydney, oferecendo resultados visíveis desde a primeira sessão. Fundada por Sheila Orofino, com mais de 17 anos de experiência, a clínica se destaca pela exclusiva técnica Magic Hands, focada em desinflamação, definição corporal e bem-estar. Atendemos desde clientes que buscam estética avançada até cuidados pós-operatórios, sempre com excelência, atenção e uma experiência personalizada.",
+      "en": "Magic Hands Clinic is a reference for lymphatic drainage and body contouring in Sydney, offering visible results from the first session. Founded by Sheila Orofino, who has more than 17 years of experience, the clinic stands out for its exclusive Magic Hands technique, focused on reducing inflammation, body definition and wellbeing. It caters to everyone from clients seeking advanced aesthetics to those needing post-operative care, always with excellence, attention and a personalised experience.",
+      "es": "Magic Hands Clinic es una referencia en drenaje linfático y modelado corporal en Sydney, y ofrece resultados visibles desde la primera sesión. Fundada por Sheila Orofino, con más de 17 años de experiencia, la clínica se destaca por su exclusiva técnica Magic Hands, enfocada en la desinflamación, la definición corporal y el bienestar. Atiende desde clientes que buscan estética avanzada hasta cuidados postoperatorios, siempre con excelencia, atención y una experiencia personalizada."
+    },
     "address": "Bondi Junction / Waterloo, NSW",
     "photo": null,
     "instagram": "https://www.instagram.com/magichandsclinic",
@@ -2048,7 +2424,11 @@
     ],
     "email": "info@volpaintingsolutions.com",
     "website": "https://www.volpaintingsolutions.com",
-    "bio": "A VOLPainting Solutions é uma empresa de pintura residencial e comercial licenciada, segurada e credenciada pela Dulux, atuando em Sydney, Brisbane, Gold Coast e Sunshine Coast com mais de 1.500 projetos concluídos e mais de 1.000 clientes atendidos. Reconhecida pela qualidade, profissionalismo e acabamento premium, contamos com uma equipe especializada que entrega resultados duradouros com excelência e atenção aos detalhes. Somos uma empresa sólida e confiável, referência em soluções profissionais de pintura na Austrália.",
+    "bio": {
+      "pt-BR": "A VOLPainting Solutions é uma empresa de pintura residencial e comercial licenciada, segurada e credenciada pela Dulux, atuando em Sydney, Brisbane, Gold Coast e Sunshine Coast com mais de 1.500 projetos concluídos e mais de 1.000 clientes atendidos. Reconhecida pela qualidade, profissionalismo e acabamento premium, contamos com uma equipe especializada que entrega resultados duradouros com excelência e atenção aos detalhes. Somos uma empresa sólida e confiável, referência em soluções profissionais de pintura na Austrália.",
+      "en": "VOLPainting Solutions is a licensed, insured and Dulux-accredited residential and commercial painting company operating in Sydney, Brisbane, the Gold Coast and the Sunshine Coast, with more than 1,500 projects completed and more than 1,000 clients served. Recognised for quality, professionalism and premium finishes, we have a specialised team that delivers long-lasting results with excellence and attention to detail. We are a solid and reliable company, a benchmark for professional painting solutions in Australia.",
+      "es": "VOLPainting Solutions es una empresa de pintura residencial y comercial con licencia, asegurada y acreditada por Dulux, que opera en Sydney, Brisbane, Gold Coast y Sunshine Coast, con más de 1.500 proyectos concluidos y más de 1.000 clientes atendidos. Reconocida por su calidad, profesionalismo y acabado premium, contamos con un equipo especializado que entrega resultados duraderos con excelencia y atención al detalle. Somos una empresa sólida y confiable, referente en soluciones profesionales de pintura en Australia."
+    },
     "address": "Sydney, Gold Coast, Brisbane & Sunshine Coast",
     "photo": "/providers/volp.webp",
     "instagram": "https://www.instagram.com/volpaintingsolutions",
@@ -2064,7 +2444,8 @@
     "country": "brazil",
     "languages": [
       "portuguese",
-      "english"
+      "english",
+      "spanish"
     ],
     "suburb": "marrickville",
     "phone": [
@@ -2072,7 +2453,11 @@
     ],
     "email": "info@marquesdental.com.au",
     "website": "https://www.marquesdental.com.au/",
-    "bio": "A Marques Dental é a clínica da Dra. Regina Marques, dentista brasileira formada pela UFRGS e registrada em NSW desde 1993, com mais de 30 anos atendendo famílias do Inner West. Oferece clínica geral, limpeza, tratamento de canal, implantes, coroas e pontes, próteses, clareamento, odontopediatria e atendimento de emergência, com sedação por óxido nitroso. Atendimento em português, inglês e espanhol na Suite 5, 394 Marrickville Rd, Marrickville NSW 2204.",
+    "bio": {
+      "pt-BR": "A Marques Dental é a clínica da Dra. Regina Marques, dentista brasileira formada pela UFRGS e registrada em NSW desde 1993, com mais de 30 anos atendendo famílias do Inner West. Oferece clínica geral, limpeza, tratamento de canal, implantes, coroas e pontes, próteses, clareamento, odontopediatria e atendimento de emergência, com sedação por óxido nitroso. Atendimento em português, inglês e espanhol na Suite 5, 394 Marrickville Rd, Marrickville NSW 2204.",
+      "en": "Marques Dental is the practice of Dr Regina Marques, a Brazilian dentist who graduated from UFRGS and has been registered in NSW since 1993, with more than 30 years caring for families in the Inner West. It offers general dentistry, cleaning, root canal treatment, implants, crowns and bridges, dentures, whitening, paediatric dentistry and emergency care, with nitrous oxide sedation. Care is available in Portuguese, English and Spanish at Suite 5, 394 Marrickville Rd, Marrickville NSW 2204.",
+      "es": "Marques Dental es la clínica de la Dra. Regina Marques, dentista brasileña egresada de la UFRGS y registrada en NSW desde 1993, con más de 30 años atendiendo a familias del Inner West. Ofrece odontología general, limpieza, tratamiento de conducto, implantes, coronas y puentes, prótesis, blanqueamiento, odontopediatría y atención de urgencias, con sedación con óxido nitroso. Atiende en portugués, inglés y español en Suite 5, 394 Marrickville Rd, Marrickville NSW 2204."
+    },
     "address": "Marrickville, NSW",
     "photo": null,
     "instagram": "https://www.instagram.com/marquesdentalsydney/",
@@ -2095,7 +2480,11 @@
     ],
     "email": "agpilates@outlook.com",
     "website": "https://www.agpilatesstudio.com",
-    "bio": "Onde o Pilates Clássico ganha vida\n\nSituado no coração de Mascot, o AG Pilates Studio é um estúdio de Pilates Clássico totalmente equipado na região. Oferecemos um ambiente sereno e focado, com no máximo 4 alunos por aula, garantindo que cada sessão seja genuinamente personalizada.\n\nMais de 20 anos de ensino\nMáximo de 4 alunos por aula\nEstúdio completo (equipamentos originais)\nFundado em 2024\n\nNossa abordagem baseia-se nos ensinamentos originais de Joseph Pilates. Sem modismos, sem atalhos: apenas o método autêntico, aplicado com precisão e cuidado.",
+    "bio": {
+      "pt-BR": "Onde o Pilates Clássico ganha vida\n\nSituado no coração de Mascot, o AG Pilates Studio é um estúdio de Pilates Clássico totalmente equipado na região. Oferecemos um ambiente sereno e focado, com no máximo 4 alunos por aula, garantindo que cada sessão seja genuinamente personalizada.\n\nMais de 20 anos de ensino\nMáximo de 4 alunos por aula\nEstúdio completo (equipamentos originais)\nFundado em 2024\n\nNossa abordagem baseia-se nos ensinamentos originais de Joseph Pilates. Sem modismos, sem atalhos: apenas o método autêntico, aplicado com precisão e cuidado.",
+      "en": "Where Classical Pilates comes to life\n\nLocated in the heart of Mascot, AG Pilates Studio is a fully equipped Classical Pilates studio in the area. We offer a serene, focused environment with a maximum of 4 students per class, ensuring that each session is genuinely personalised.\n\nMore than 20 years of teaching\nMaximum of 4 students per class\nFully equipped studio (original equipment)\nFounded in 2024\n\nOur approach is based on the original teachings of Joseph Pilates. No fads, no shortcuts: just the authentic method, applied with precision and care.",
+      "es": "Donde el Pilates Clásico cobra vida\n\nUbicado en el corazón de Mascot, AG Pilates Studio es un estudio de Pilates Clásico totalmente equipado en la zona. Ofrecemos un ambiente sereno y enfocado, con un máximo de 4 alumnos por clase, garantizando que cada sesión sea genuinamente personalizada.\n\nMás de 20 años de enseñanza\nMáximo de 4 alumnos por clase\nEstudio completo (equipos originales)\nFundado en 2024\n\nNuestro enfoque se basa en las enseñanzas originales de Joseph Pilates. Sin modas, sin atajos: solo el método auténtico, aplicado con precisión y cuidado."
+    },
     "address": "Mascot, NSW",
     "photo": null,
     "instagram": "https://www.instagram.com/ag.pilates.studio",

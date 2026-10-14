@@ -60,7 +60,7 @@ export async function generateMetadata({
     category,
     suburb,
     scope,
-    bio: provider.bio,
+    bio: provider.bio[locale],
   });
 
   return {
@@ -108,7 +108,7 @@ export default async function ProviderPage({
     "@context": "https://schema.org",
     "@type": schemaTypeByService[provider.service] ?? "ProfessionalService",
     name: provider.name,
-    description: provider.bio,
+    description: provider.bio[locale],
     url: pageUrl,
     address: {
       "@type": "PostalAddress",

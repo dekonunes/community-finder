@@ -35,6 +35,16 @@ test("providers keep the expected language set", () => {
   assert.deepEqual(languages, ["english", "german", "italian", "portuguese", "spanish"]);
 });
 
+test("every provider has a bio in every locale", () => {
+  for (const locale of Object.keys(localeMessages)) {
+    const missingBios = providers
+      .filter((provider) => !provider.bio?.[locale]?.trim())
+      .map((provider) => provider.slug);
+
+    assert.deepEqual(missingBios, [], `Missing ${locale} bios: ${missingBios.join(", ")}`);
+  }
+});
+
 test("service categories only include services that have providers", () => {
   const providerServiceSlugs = new Set(
     providers.map((provider) => provider.service),

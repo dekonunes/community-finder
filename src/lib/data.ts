@@ -6,6 +6,7 @@ import providersData from "../../data/providers.json";
 import eventsData from "../../data/events.json";
 import productsData from "../../data/products.json";
 import productCategoriesData from "../../data/product-categories.json";
+import type { AppLocale } from "@/i18n/routing";
 
 export type Provider = {
   slug: string;
@@ -19,7 +20,7 @@ export type Provider = {
   phone: string[] | null;
   email: string | null;
   website: string | null;
-  bio: string;
+  bio: Record<AppLocale, string>;
   address: string;
   photo: string | null;
   instagram: string | null;
